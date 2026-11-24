@@ -1,0 +1,2774 @@
+[
+  {
+    "id": "ca-pol-01",
+    "date": "2026-11-23",
+    "pillar": "Polity",
+    "title": "Supreme Court Ruling on Governor's Assent to State Bills under Article 200",
+    "source": "The Hindu / PIB",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "The Governor cannot sit indefinitely on bills passed by the State Legislature; withholding assent requires returning the bill 'as soon as possible' with a message for reconsideration.",
+      "If the State Assembly passes the bill again with or without amendments, the Governor has NO discretion and MUST grant assent as per the proviso to Article 200.",
+      "Governors cannot invoke pocket vetoes to paralyze elected state legislatures, reaffirming constitutional federalism and the Sarkaria and Punchhi Commission recommendations."
+    ],
+    "gs_connection": "Directly links to GS-2 Indian Polity: Executive vs Legislature, Governor's Discretionary Powers (Article 163 vs 200), Reservation of Bills for Presidential Consideration (Article 201), and Federal Friction.",
+    "mcqs": [
+      {
+        "id": "ca-pol-01-q1",
+        "q": "With reference to the Governor's powers regarding Bills passed by the State Legislature under Article 200 of the Constitution, consider the following statements:\n1. The Governor may declare that he assents to the Bill, or that he withholds assent therefrom, or that he reserves the Bill for the consideration of the President.\n2. The Constitution specifies a strict time limit of six weeks within which the Governor must return a Bill for reconsideration.\n3. If a Money Bill is returned by the Governor and passed again by the Legislature, the Governor cannot withhold assent.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "(a) 1 only",
+          "(b) 1 and 3 only",
+          "(c) 2 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(a)",
+        "explanation": "Statement 1 is correct (Article 200). Statement 2 is incorrect because the Constitution uses the phrase 'as soon as possible' and DOES NOT specify a numerical deadline. Statement 3 is incorrect because a Governor CANNOT return a Money Bill for reconsideration in the first place."
+      },
+      {
+        "id": "ca-pol-01-q2",
+        "q": "Consider the following statements regarding the reservation of State Bills for the President's consideration under Article 201:\n1. When a Bill is reserved by a Governor for the President, the President must declare assent within 6 months.\n2. The President may direct the Governor to return the Bill (unless it is a Money Bill) to the State Legislature.\n3. If the State Legislature passes the Bill again within six months, it is obligatory for the President to give his assent.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 2 only",
+          "(c) 2 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(b)",
+        "explanation": "Statement 1 is incorrect (no constitutional time limit on President). Statement 2 is correct (Article 201 proviso). Statement 3 is incorrect: Unlike the Governor, the President is NOT obligated to give assent even if the State Legislature repasses the bill."
+      },
+      {
+        "id": "ca-pol-01-q3",
+        "q": "Which of the following bodies/commissions recommended that the Governor should be appointed after effective consultation with the Chief Minister of the State?\n1. Administrative Reforms Commission (1969)\n2. Sarkaria Commission (1988)\n3. Punchhi Commission (2010)\nSelect the correct answer using the code given below:",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 2 and 3 only",
+          "(c) 1 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(b)",
+        "explanation": "Both Sarkaria Commission (1988) and Punchhi Commission (2010) explicitly recommended mandatory consultation with the State Chief Minister during the appointment of the Governor to prevent partisan appointments."
+      },
+      {
+        "id": "ca-pol-01-q4",
+        "q": "Under Article 163 of the Constitution, the Governor is aided and advised by the Council of Ministers except in matters where he is required to act in his discretion. In this context, consider the following:\n1. If any question arises whether a matter falls within the Governor's discretion or not, the decision of the Governor in his discretion shall be final.\n2. The validity of anything done by the Governor cannot be called in question on the ground that he ought or ought not to have acted in his discretion.\n3. The advice tendered by Ministers to the Governor can be inquired into by the High Court under Article 226.\nWhich of the statements given above are correct?",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 2 and 3 only",
+          "(c) 1 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(a)",
+        "explanation": "Statements 1 and 2 are direct provisions of Article 163(2). Statement 3 is incorrect: Article 163(3) expressly bars all courts from inquiring into what advice was tendered by Ministers to the Governor."
+      },
+      {
+        "id": "ca-pol-01-q5",
+        "q": "In which of the following landmark judgements did the Supreme Court rule that the Governor's exercise of constitutional power, including the dismissal of a state government under Article 356, is subject to judicial review?\n(a) Kesavananda Bharati case (1973)\n(b) S.R. Bommai case (1994)\n(c) Minerva Mills case (1980)\n(d) Golaknath case (1967)",
+        "options": [
+          "(a) Kesavananda Bharati case (1973)",
+          "(b) S.R. Bommai case (1994)",
+          "(c) Minerva Mills case (1980)",
+          "(d) Golaknath case (1967)"
+        ],
+        "answer": "(b)",
+        "explanation": "In S.R. Bommai v. Union of India (1994), a 9-judge bench ruled that presidential proclamation under Article 356 is subject to judicial review, floor test in the assembly is the only litmus test of majority, and secularism is a basic feature of the Constitution."
+      }
+    ]
+  },
+  {
+    "id": "ca-pol-02",
+    "date": "2026-11-20",
+    "pillar": "Polity",
+    "title": "Delimitation Commission & Post-2026 Lok Sabha Seat Freeze Reassessment",
+    "source": "PIB / Indian Express",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "The 84th Constitutional Amendment Act (2001) froze the total number of Lok Sabha and State Legislative Assembly seats based on the 1971 Census until the first census taken after 2026.",
+      "Delimitation readjusts the boundaries of territorial constituencies and allocates seats according to demographic changes, raising concerns over southern states losing proportional representation due to successful population control.",
+      "Orders of the Delimitation Commission have the force of law and CANNOT be questioned in any court of law under Article 329(a) of the Constitution."
+    ],
+    "gs_connection": "Links to GS-2 Representation of People, Delimitation (Article 82 & 170), Federalism, Demographic Transition, and Constitutional Amendments (42nd, 84th, 87th).",
+    "mcqs": [
+      {
+        "id": "ca-pol-02-q1",
+        "q": "Consider the following statements regarding the Delimitation Commission in India:\n1. The Delimitation Commission is appointed by the President of India and works in collaboration with the Election Commission of India.\n2. The orders issued by the Delimitation Commission can be challenged in the Supreme Court on grounds of constitutional violation.\n3. When the orders of the Delimitation Commission are laid before the Lok Sabha, the House can modify or reject them by a simple majority.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "(a) 1 only",
+          "(b) 1 and 2 only",
+          "(c) 2 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(a)",
+        "explanation": "Statement 1 is correct. Statements 2 and 3 are incorrect: Under Article 329(a) and the Delimitation Act, the orders of the Commission have the full force of law, CANNOT be called in question in any court, and CANNOT be modified by Parliament or state legislatures."
+      },
+      {
+        "id": "ca-pol-02-q2",
+        "q": "The freeze on the total number of seats in the Lok Sabha as per the 1971 Census was first effected by which Constitutional Amendment Act?\n(a) 42nd Amendment Act, 1976\n(b) 44th Amendment Act, 1978\n(c) 84th Amendment Act, 2001\n(d) 91st Amendment Act, 2003",
+        "options": [
+          "(a) 42nd Amendment Act, 1976",
+          "(b) 44th Amendment Act, 1978",
+          "(c) 84th Amendment Act, 2001",
+          "(d) 91st Amendment Act, 2003"
+        ],
+        "answer": "(a)",
+        "explanation": "The 42nd Amendment Act (1976) first froze the total number of seats in Lok Sabha and Assemblies until the year 2000 based on the 1971 census. The 84th Amendment Act (2001) extended this freeze for another 25 years until after 2026."
+      },
+      {
+        "id": "ca-pol-02-q3",
+        "q": "Under the 87th Constitutional Amendment Act, 2003, the internal delimitation of parliamentary and assembly constituencies (without changing the total number of seats) was permitted on the basis of which Census?\n(a) 1971 Census\n(b) 1981 Census\n(c) 1991 Census\n(d) 2001 Census",
+        "options": [
+          "(a) 1971 Census",
+          "(b) 1981 Census",
+          "(c) 1991 Census",
+          "(d) 2001 Census"
+        ],
+        "answer": "(d)",
+        "explanation": "The 84th Amendment initially allowed internal delimitation based on the 1991 census, but the 87th Amendment Act of 2003 substituted the 2001 census for internal constituency adjustments."
+      },
+      {
+        "id": "ca-pol-02-q4",
+        "q": "Which Article of the Indian Constitution mandates the readjustment of allocation of seats to the states in the Lok Sabha after each Census by such authority as Parliament may by law provide?\n(a) Article 80\n(b) Article 81\n(c) Article 82\n(d) Article 83",
+        "options": [
+          "(a) Article 80",
+          "(b) Article 81",
+          "(c) Article 82",
+          "(d) Article 83"
+        ],
+        "answer": "(c)",
+        "explanation": "Article 82 provides for the readjustment of seats and boundaries after each census through an enactment of a Delimitation Act by Parliament."
+      },
+      {
+        "id": "ca-pol-02-q5",
+        "q": "The Delimitation Commission consists of which of the following members?\n1. A retired Judge of the Supreme Court of India\n2. Chief Election Commissioner or an Election Commissioner nominated by CEC\n3. State Election Commissioner of the concerned state\n4. Five MPs and five MLAs of the respective state as associate members without voting rights\nSelect the correct answer using the code given below:",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 1, 2 and 3 only",
+          "(c) 2, 3 and 4 only",
+          "(d) 1, 2, 3 and 4"
+        ],
+        "answer": "(d)",
+        "explanation": "All four are part of the Delimitation Commission composition. Associate members (MPs/MLAs) attend proceedings to provide local ground knowledge but do NOT possess voting rights."
+      }
+    ]
+  },
+  {
+    "id": "ca-pol-03",
+    "date": "2026-11-15",
+    "pillar": "Polity",
+    "title": "Supreme Court Verdict on Electoral Bonds Scheme & Right to Information (Art 19(1)(a))",
+    "source": "Supreme Court of India / PIB",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "The 5-judge Constitution Bench unanimously held that anonymous electoral bonds violate the voters' fundamental Right to Information under Article 19(1)(a).",
+      "Struck down amendments to Section 182 of the Companies Act, 2013 that permitted unlimited corporate political donations without disclosing corporate identity.",
+      "Reaffirmed that financial contributions to political parties directly influence electoral outcomes and policy-making, creating quid-pro-quo corruption risks."
+    ],
+    "gs_connection": "Links to GS-2 Indian Polity: Fundamental Rights (Art 19(1)(a) Free Speech & Right to Know), Electoral Reforms, Representation of the People Act 1951 (Section 29C), and Judicial Review.",
+    "mcqs": [
+      {
+        "id": "ca-pol-03-q1",
+        "q": "In Association for Democratic Reforms (2024), the Supreme Court struck down the Electoral Bonds Scheme primarily on the grounds of violating which Fundamental Right?\n(a) Article 14 (Equality before Law)\n(b) Article 19(1)(a) (Freedom of Speech and Expression, including Right to Information)\n(c) Article 21 (Right to Personal Liberty)\n(d) Article 25 (Freedom of Conscience)",
+        "options": [
+          "(a) Article 14 (Equality before Law)",
+          "(b) Article 19(1)(a) (Freedom of Speech and Expression, including Right to Information)",
+          "(c) Article 21 (Right to Personal Liberty)",
+          "(d) Article 25 (Freedom of Conscience)"
+        ],
+        "answer": "(b)",
+        "explanation": "The Supreme Court held that the voter's right to know about candidates and the financial sources backing political parties is an integral facet of Article 19(1)(a) required for meaningful exercise of the franchise."
+      },
+      {
+        "id": "ca-pol-03-q2",
+        "q": "Prior to the 2017 amendments, Section 182 of the Companies Act, 2013 capped a company's political contributions at what percentage of its average net profits during the three immediately preceding financial years?\n(a) 5%\n(b) 7.5%\n(c) 10%\n(d) 15%",
+        "options": [
+          "(a) 5%",
+          "(b) 7.5%",
+          "(c) 10%",
+          "(d) 15%"
+        ],
+        "answer": "(b)",
+        "explanation": "Before the Finance Act 2017 removed the cap, companies could only donate up to 7.5% of their average net profits over the prior three financial years. The Supreme Court struck down the unlimited corporate funding amendment."
+      },
+      {
+        "id": "ca-pol-03-q3",
+        "q": "Under Section 29C of the Representation of the People Act, 1951, political parties are required to declare donations exceeding what threshold amount to the Election Commission of India?\n(a) \u20b92,000\n(b) \u20b910,000\n(c) \u20b920,000\n(d) \u20b950,000",
+        "options": [
+          "(a) \u20b92,000",
+          "(b) \u20b910,000",
+          "(c) \u20b920,000",
+          "(d) \u20b950,000"
+        ],
+        "answer": "(c)",
+        "explanation": "Under Section 29C of the RPA 1951, the treasurer of every political party must submit an annual report to the ECI detailing all contributions received from individuals and companies exceeding \u20b920,000."
+      },
+      {
+        "id": "ca-pol-03-q4",
+        "q": "Which committee on electoral reforms recommended that there should be complete state funding of elections in kind (facilities and airtime) rather than cash subsidies?\n(a) Indrajit Gupta Committee (1998)\n(b) Tarkunde Committee (1975)\n(c) Dinesh Goswami Committee (1990)\n(d) Santhanam Committee (1964)",
+        "options": [
+          "(a) Indrajit Gupta Committee (1998)",
+          "(b) Tarkunde Committee (1975)",
+          "(c) Dinesh Goswami Committee (1990)",
+          "(d) Santhanam Committee (1964)"
+        ],
+        "answer": "(a)",
+        "explanation": "The Indrajit Gupta Committee on State Funding of Elections (1998) endorsed partial state funding in kind (paper, fuel, transport, airtime on state media) for recognized political parties to create a level playing field."
+      },
+      {
+        "id": "ca-pol-03-q5",
+        "q": "Which of the following bodies is empowered to register political parties in India under Section 29A of the Representation of the People Act, 1951?\n(a) Law Commission of India\n(b) Supreme Court of India\n(c) Election Commission of India\n(d) Ministry of Parliamentary Affairs",
+        "options": [
+          "(a) Law Commission of India",
+          "(b) Supreme Court of India",
+          "(c) Election Commission of India",
+          "(d) Ministry of Parliamentary Affairs"
+        ],
+        "answer": "(c)",
+        "explanation": "The Election Commission of India registers political parties under Section 29A of the RPA 1951. (Note: Under current law, ECI does NOT have statutory power to de-register a political party once registered, except on limited fraud grounds)."
+      }
+    ]
+  },
+  {
+    "id": "ca-pol-04",
+    "date": "2026-10-18",
+    "pillar": "Polity",
+    "title": "Sub-classification of Scheduled Castes & Creamy Layer: 7-Judge Bench Verdict",
+    "source": "The Hindu / Indian Express",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Supreme Court held that State legislatures have constitutional power under Article 341 to sub-classify Scheduled Castes to provide preferential reservation to more backward among them.",
+      "Overruled 2004 E.V. Chinnaiah judgment, ruling that SCs do not form an indivisible, homogeneous class.",
+      "Clarified that sub-classification must be based on empirical data and cannot result in 100% reservation for any sub-group, preserving merit and equal opportunity."
+    ],
+    "gs_connection": "GS-2: Social Justice & Indian Constitution (Article 14, 15, 16, 341, Indra Sawhney, affirmative action).",
+    "mcqs": [
+      {
+        "id": "ca-pol-04-q1",
+        "q": "In the 2024 landmark verdict on sub-classification of Scheduled Castes, the Supreme Court overruled which previous judgment?\n(a) Indra Sawhney v. Union of India (1992)\n(b) E.V. Chinnaiah v. State of Andhra Pradesh (2004)\n(c) M. Nagaraj v. Union of India (2006)\n(d) Jarnail Singh v. Lachhmi Narain Gupta (2018)",
+        "options": [
+          "(a) Indra Sawhney v. Union of India (1992)",
+          "(b) E.V. Chinnaiah v. State of Andhra Pradesh (2004)",
+          "(c) M. Nagaraj v. Union of India (2006)",
+          "(d) Jarnail Singh v. Lachhmi Narain Gupta (2018)"
+        ],
+        "answer": "(b)",
+        "explanation": "The 7-judge Constitution bench explicitly overruled E.V. Chinnaiah (2004) which had held that the SC list constitutes a single homogenous group that states cannot subdivide."
+      },
+      {
+        "id": "ca-pol-04-q2",
+        "q": "With reference to Article 341 of the Constitution, consider the following statements:\n1. The President may with respect to any State or UT specify the castes deemed to be Scheduled Castes.\n2. Parliament may by law include in or exclude from the list of Scheduled Castes specified in a notification.\n3. State Legislatures have the sole power to include new castes into the Presidential list.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "(a) 1 only",
+          "(b) 1 and 2 only",
+          "(c) 2 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(b)",
+        "explanation": "Statement 3 is incorrect. Only Parliament by law can include or exclude castes from the Presidential list. State legislatures have no power to alter the list itself."
+      },
+      {
+        "id": "ca-pol-04-q3",
+        "q": "Consider the following statements regarding the 'Creamy Layer' principle:\n1. It was first introduced for OBC reservations in the Indra Sawhney (1992) case.\n2. In the 2024 SC sub-classification ruling, observations were made regarding extending the creamy layer concept to SCs.\n3. The creamy layer criteria apply automatically to SC/ST reservations across all central recruitments currently.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "(a) 1 only",
+          "(b) 1 and 2 only",
+          "(c) 2 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(b)",
+        "explanation": "Statement 3 is incorrect. The creamy layer does not officially apply to SC/ST reservations under existing statutory rules; the SC bench only made observations advocating its identification."
+      },
+      {
+        "id": "ca-pol-04-q4",
+        "q": "Which constitutional provision guarantees equality of opportunity in matters of public employment?\n(a) Article 14\n(b) Article 15(4)\n(c) Article 16\n(d) Article 19",
+        "options": [
+          "(a) Article 14",
+          "(b) Article 15(4)",
+          "(c) Article 16",
+          "(d) Article 19"
+        ],
+        "answer": "(c)",
+        "explanation": "Article 16 specifically guarantees equality of opportunity in public employment and empowers the State to make reservations under clauses (4), (4A), and (4B)."
+      },
+      {
+        "id": "ca-pol-04-q5",
+        "q": "What standard of evidence did the Supreme Court mandate for States intending to sub-classify SC groups?\n(a) Discretionary cabinet decision\n(b) Quantifiable, empirical data showing inadequate representation\n(c) Simple census population proportion\n(d) District collector's recommendation",
+        "options": [
+          "(a) Discretionary cabinet decision",
+          "(b) Quantifiable, empirical data showing inadequate representation",
+          "(c) Simple census population proportion",
+          "(d) District collector's recommendation"
+        ],
+        "answer": "(b)",
+        "explanation": "The SC held that states cannot act whimsically; sub-classification must be justified on quantifiable, objective empirical data showing inter-se backwardness."
+      }
+    ]
+  },
+  {
+    "id": "ca-pol-05",
+    "date": "2026-09-14",
+    "pillar": "Polity",
+    "title": "Simultaneous Elections: High-Level Committee on 'One Nation, One Election'",
+    "source": "PIB / Ministry of Law",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "The High-Level Committee chaired by former President Ram Nath Kovind recommended simultaneous elections to Lok Sabha and State Assemblies in Phase 1.",
+      "Phase 2 proposes synchronizing local body (Panchayat and Municipality) elections within 100 days of the national/state polls.",
+      "Requires constitutional amendments to Article 83 (duration of Houses of Parliament) and Article 172 (duration of State Assemblies), without requiring state ratification under Article 368(2)."
+    ],
+    "gs_connection": "GS-2: Elections, Representation of the People Act, Federalism, Constitutional Amendments.",
+    "mcqs": [
+      {
+        "id": "ca-pol-05-q1",
+        "q": "The High-Level Committee on Simultaneous Elections was headed by:\n(a) Justice B.S. Chauhan\n(b) Ram Nath Kovind\n(c) N.K. Singh\n(d) Justice A.P. Shah",
+        "options": [
+          "(a) Justice B.S. Chauhan",
+          "(b) Ram Nath Kovind",
+          "(c) N.K. Singh",
+          "(d) Justice A.P. Shah"
+        ],
+        "answer": "(b)",
+        "explanation": "The Committee was constituted in September 2023 under the chairmanship of former President Ram Nath Kovind."
+      },
+      {
+        "id": "ca-pol-05-q2",
+        "q": "Which Articles of the Constitution govern the duration of Lok Sabha and State Legislative Assemblies respectively?\n(a) Article 74 and Article 163\n(b) Article 83 and Article 172\n(c) Article 85 and Article 174\n(d) Article 324 and Article 326",
+        "options": [
+          "(a) Article 74 and Article 163",
+          "(b) Article 83 and Article 172",
+          "(c) Article 85 and Article 174",
+          "(d) Article 324 and Article 326"
+        ],
+        "answer": "(b)",
+        "explanation": "Article 83 provides for the duration of Houses of Parliament. Article 172 provides the duration of State Legislative Assemblies."
+      },
+      {
+        "id": "ca-pol-05-q3",
+        "q": "In the Kovind Committee recommendations, what mechanism is suggested if a hung Assembly occurs prematurely?\n(a) Immediate fresh 5-year term for the new assembly\n(b) Fresh election only for the unexpired remainder of the common term\n(c) Indefinite President's Rule\n(d) Automatic merger with the neighboring state",
+        "options": [
+          "(a) Immediate fresh 5-year term for the new assembly",
+          "(b) Fresh election only for the unexpired remainder of the common term",
+          "(c) Indefinite President's Rule",
+          "(d) Automatic merger with the neighboring state"
+        ],
+        "answer": "(b)",
+        "explanation": "The committee proposed that any mid-term assembly formed after dissolution will serve only for the unexpired portion of the common 5-year cycle."
+      },
+      {
+        "id": "ca-pol-05-q4",
+        "q": "Which amendment to synchronize local body elections with Lok Sabha requires ratification by at least half the states?\n(a) Article 83 amendment\n(b) Article 172 amendment\n(c) Article 324A (Single Electoral Roll and Common Election for Local Bodies)\n(d) Article 356 amendment",
+        "options": [
+          "(a) Article 83 amendment",
+          "(b) Article 172 amendment",
+          "(c) Article 324A (Single Electoral Roll and Common Election for Local Bodies)",
+          "(d) Article 356 amendment"
+        ],
+        "answer": "(c)",
+        "explanation": "Because local bodies fall under the State List (List II), constitutional amendments impacting local bodies require ratification by not less than half the State Legislatures."
+      },
+      {
+        "id": "ca-pol-05-q5",
+        "q": "Until which general election were simultaneous elections the default practice in post-independence India?\n(a) 1952\n(b) 1962\n(c) 1967\n(d) 1977",
+        "options": [
+          "(a) 1952",
+          "(b) 1962",
+          "(c) 1967",
+          "(d) 1977"
+        ],
+        "answer": "(c)",
+        "explanation": "Simultaneous elections were held in 1952, 1957, 1962, and 1967 before being disrupted due to premature dissolutions in 1968-1970."
+      }
+    ]
+  },
+  {
+    "id": "ca-pol-06",
+    "date": "2026-08-25",
+    "pillar": "Polity",
+    "title": "Chief Election Commissioner & Other ECs (Appointment & Conditions of Service) Act",
+    "source": "The Hindu / PRS",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "The Act established a statutory Selection Committee consisting of the Prime Minister (Chairperson), a Union Cabinet Minister, and the Leader of the Opposition in Lok Sabha.",
+      "Replaces the Supreme Court's Anoop Baranwal (2023) stop-gap arrangement which had included the Chief Justice of India in the selection panel.",
+      "Equated the salary, allowances, and service conditions of the CEC and ECs with those of a Judge of the Supreme Court."
+    ],
+    "gs_connection": "GS-2: Constitutional Bodies, Independence of Election Commission, Separation of Powers, Judicial Review.",
+    "mcqs": [
+      {
+        "id": "ca-pol-06-q1",
+        "q": "Under the Chief Election Commissioner and other ECs Act 2023, who constitutes the Selection Committee?\n1. Prime Minister\n2. Chief Justice of India\n3. Leader of Opposition or single largest opposition party leader in Lok Sabha\n4. A Union Cabinet Minister nominated by the PM\nSelect the correct code:",
+        "options": [
+          "(a) 1, 2 and 3 only",
+          "(b) 1, 3 and 4 only",
+          "(c) 1, 2, 3 and 4",
+          "(d) 2, 3 and 4 only"
+        ],
+        "answer": "(b)",
+        "explanation": "The selection committee consists of the PM, a Union Cabinet Minister nominated by the PM, and the Leader of Opposition/single largest opposition party leader. The CJI was excluded."
+      },
+      {
+        "id": "ca-pol-06-q2",
+        "q": "Consider the following statements regarding the removal of Election Commissioners under Article 324(5):\n1. The CEC can be removed from office only in like manner and on like grounds as a Judge of the Supreme Court.\n2. Any other Election Commissioner can be removed from office on the recommendation of the CEC.\n3. Both CEC and ECs enjoy equal constitutional protection against arbitrary removal.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 1 only",
+          "(c) 2 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(a)",
+        "explanation": "Statement 3 is incorrect. Only the CEC enjoys the tenure protection equivalent to a Supreme Court judge. Other ECs can be removed on the recommendation of the CEC."
+      },
+      {
+        "id": "ca-pol-06-q3",
+        "q": "In which landmark judgment did a Constitution Bench direct the inclusion of the CJI in the EC selection panel until Parliament enacted a law?\n(a) T.N. Seshan v. Union of India (1995)\n(b) Anoop Baranwal v. Union of India (2023)\n(c) S.S. Dhanoa v. Union of India (1991)\n(d) Mohinder Singh Gill v. CEC (1978)",
+        "options": [
+          "(a) T.N. Seshan v. Union of India (1995)",
+          "(b) Anoop Baranwal v. Union of India (2023)",
+          "(c) S.S. Dhanoa v. Union of India (1991)",
+          "(d) Mohinder Singh Gill v. CEC (1978)"
+        ],
+        "answer": "(b)",
+        "explanation": "In Anoop Baranwal (March 2023), the 5-judge bench ordered a committee of PM, CJI, and LoP until Parliament legislated on Article 324(2)."
+      },
+      {
+        "id": "ca-pol-06-q4",
+        "q": "What is the Search Committee structure established under the new Act?\n(a) Headed by Cabinet Secretary with two experts\n(b) Headed by Home Minister\n(c) Headed by Law Minister with two other members\n(d) Headed by UPSC Chairman",
+        "options": [
+          "(a) Headed by Cabinet Secretary with two experts",
+          "(b) Headed by Home Minister",
+          "(c) Headed by Law Minister with two other members",
+          "(d) Headed by UPSC Chairman"
+        ],
+        "answer": "(c)",
+        "explanation": "The Search Committee is headed by the Minister of Law and Justice and includes two other members not below the rank of Secretary to the Government of India."
+      },
+      {
+        "id": "ca-pol-06-q5",
+        "q": "Under Article 324(1), the superintendence, direction, and control of elections are vested in the ECI for elections to:\n1. Parliament\n2. State Legislatures\n3. Offices of President and Vice-President\n4. Panchayats and Municipalities\nSelect the correct answer:",
+        "options": [
+          "(a) 1, 2 and 3 only",
+          "(b) 1 and 2 only",
+          "(c) 1, 2, 3 and 4",
+          "(d) 3 and 4 only"
+        ],
+        "answer": "(a)",
+        "explanation": "Item 4 is incorrect. Elections to Panchayats and Municipalities are conducted by State Election Commissions under Articles 243K and 243ZA."
+      }
+    ]
+  },
+  {
+    "id": "ca-pol-07",
+    "date": "2026-07-30",
+    "pillar": "Polity",
+    "title": "Speaker's Powers & 10th Schedule: Nabam Rebia & Keisham Meghachandra Precedents",
+    "source": "The Hindu / Indian Express",
+    "is_top100": true,
+    "is_pt365": false,
+    "summary_points": [
+      "Supreme Court's 5-judge bench in Subhash Desai (2023) reconsidered the Nabam Rebia (2016) rule regarding whether a Speaker facing a removal notice can decide disqualification petitions.",
+      "Affirmed that the Speaker continues to function as a constitutional tribunal under the Tenth Schedule unless removed by the House under Article 179(c).",
+      "Reiterated the Keisham Meghachandra (2020) guideline that Speakers should decide anti-defection petitions within a reasonable period, ideally three months."
+    ],
+    "gs_connection": "GS-2: Tenth Schedule, Anti-Defection, Parliamentary Privilege, Separation of Powers, Kihoto Hollohan.",
+    "mcqs": [
+      {
+        "id": "ca-pol-07-q1",
+        "q": "Which constitutional amendment inserted the Tenth Schedule into the Indian Constitution?\n(a) 42nd Amendment Act 1976\n(b) 44th Amendment Act 1978\n(c) 52nd Amendment Act 1985\n(d) 91st Amendment Act 2003",
+        "options": [
+          "(a) 42nd Amendment Act 1976",
+          "(b) 44th Amendment Act 1978",
+          "(c) 52nd Amendment Act 1985",
+          "(d) 91st Amendment Act 2003"
+        ],
+        "answer": "(c)",
+        "explanation": "The 52nd Amendment Act of 1985 introduced the Tenth Schedule to curb political defections."
+      },
+      {
+        "id": "ca-pol-07-q2",
+        "q": "In Kihoto Hollohan v. Zachillhu (1992), what did the Supreme Court hold regarding the Speaker's decisions under the Tenth Schedule?\n(a) Completely immune from judicial review\n(b) Subject to judicial review only after the Speaker makes a final order\n(c) Courts can intervene at the interlocutory stage before the Speaker decides\n(d) The Speaker's role is merely administrative",
+        "options": [
+          "(a) Completely immune from judicial review",
+          "(b) Subject to judicial review only after the Speaker makes a final order",
+          "(c) Courts can intervene at the interlocutory stage before the Speaker decides",
+          "(d) The Speaker's role is merely administrative"
+        ],
+        "answer": "(b)",
+        "explanation": "The SC held that the Speaker functions as a Tribunal, and judicial review is available after a final decision on grounds of mala fide, perversity, or breach of natural justice."
+      },
+      {
+        "id": "ca-pol-07-q3",
+        "q": "Under the 91st Constitutional Amendment Act 2003, which provision was omitted from the Tenth Schedule?\n(a) Disqualification on voluntary giving up of membership\n(b) Protection for split by one-third of the legislature party members\n(c) Disqualification on voting against party whip\n(d) Exemption for the Speaker upon resigning party affiliation",
+        "options": [
+          "(a) Disqualification on voluntary giving up of membership",
+          "(b) Protection for split by one-third of the legislature party members",
+          "(c) Disqualification on voting against party whip",
+          "(d) Exemption for the Speaker upon resigning party affiliation"
+        ],
+        "answer": "(b)",
+        "explanation": "The 91st Amendment deleted Paragraph 3 of the Tenth Schedule, which had previously protected splits involving one-third members from disqualification."
+      },
+      {
+        "id": "ca-pol-07-q4",
+        "q": "A nominated member of a House becomes disqualified from membership under the Tenth Schedule if:\n(a) They join a political party within six months of taking their seat\n(b) They join a political party after the expiry of six months from taking their seat\n(c) They do not join any political party\n(d) They vote against the ruling coalition",
+        "options": [
+          "(a) They join a political party within six months of taking their seat",
+          "(b) They join a political party after the expiry of six months from taking their seat",
+          "(c) They do not join any political party",
+          "(d) They vote against the ruling coalition"
+        ],
+        "answer": "(b)",
+        "explanation": "Under Para 2(3) of the Tenth Schedule, a nominated member is disqualified if they join any political party after the expiry of six months from taking their seat."
+      },
+      {
+        "id": "ca-pol-07-q5",
+        "q": "Under Article 179(c), a resolution for the removal of the Speaker requires:\n(a) Simple majority of members present and voting\n(b) Majority of all the then members of the Assembly (Effective Majority)\n(c) Two-thirds majority of members present and voting\n(d) Absolute majority of total sanctioned strength",
+        "options": [
+          "(a) Simple majority of members present and voting",
+          "(b) Majority of all the then members of the Assembly (Effective Majority)",
+          "(c) Two-thirds majority of members present and voting",
+          "(d) Absolute majority of total sanctioned strength"
+        ],
+        "answer": "(b)",
+        "explanation": "Article 179(c) requires a resolution passed by a majority of all the then members of the Assembly (effective majority, excluding vacancies)."
+      }
+    ]
+  },
+  {
+    "id": "ca-pol-08",
+    "date": "2026-06-20",
+    "pillar": "Polity",
+    "title": "Digital Personal Data Protection (DPDP) Act 2023 & Rules Framework",
+    "source": "MeitY / PIB",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Establishes Data Protection Board of India (DPBI) as an adjudicatory body for data breaches with penalties up to Rs 250 crore.",
+      "Requires explicit, informed, and unambiguous consent from 'Data Principals' with reasonable security safeguards by 'Data Fiduciaries'.",
+      "Section 17 provides broad exemptions to government agencies on national security, public order, and sovereignty grounds."
+    ],
+    "gs_connection": "GS-2: Fundamental Rights (Article 21 Right to Privacy, Puttaswamy), Regulatory Governance, State vs Citizen Privacy.",
+    "mcqs": [
+      {
+        "id": "ca-pol-08-q1",
+        "q": "The term 'Data Principal' under the DPDP Act 2023 refers to:\n(a) The entity determining the purpose of data processing\n(b) The individual to whom the personal data relates\n(c) The telecom service provider\n(d) The Data Protection Officer",
+        "options": [
+          "(a) The entity determining the purpose of data processing",
+          "(b) The individual to whom the personal data relates",
+          "(c) The telecom service provider",
+          "(d) The Data Protection Officer"
+        ],
+        "answer": "(b)",
+        "explanation": "The DPDP Act defines 'Data Principal' as the individual to whom the personal data relates (and includes parents/legal guardians for children)."
+      },
+      {
+        "id": "ca-pol-08-q2",
+        "q": "In K.S. Puttaswamy (2017), the Supreme Court ruled that the Right to Privacy is protected under which Article of the Constitution?\n(a) Article 14\n(b) Article 19\n(c) Article 21\n(d) Article 32",
+        "options": [
+          "(a) Article 14",
+          "(b) Article 19",
+          "(c) Article 21",
+          "(d) Article 32"
+        ],
+        "answer": "(c)",
+        "explanation": "The 9-judge bench unanimously held that privacy is a fundamental right emanating primarily from Article 21 (life and personal liberty) and Part III freedoms."
+      },
+      {
+        "id": "ca-pol-08-q3",
+        "q": "What is the maximum monetary penalty prescribed under the DPDP Act 2023 for significant data breach failures?\n(a) Rs 50 crore\n(b) Rs 100 crore\n(c) Rs 250 crore\n(d) Rs 500 crore",
+        "options": [
+          "(a) Rs 50 crore",
+          "(b) Rs 100 crore",
+          "(c) Rs 250 crore",
+          "(d) Rs 500 crore"
+        ],
+        "answer": "(c)",
+        "explanation": "The Act prescribes penalties up to Rs 250 crore for failure to take reasonable security safeguards to prevent personal data breach."
+      },
+      {
+        "id": "ca-pol-08-q4",
+        "q": "Consider the following statements regarding the Data Protection Board of India (DPBI):\n1. It is an independent digital office functioning as a civil court.\n2. Appeals against the orders of the DPBI lie before the Telecom Disputes Settlement and Appellate Tribunal (TDSAT).\n3. It can initiate criminal prosecution and imprisonment directly.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 2 only",
+          "(c) 1 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(a)",
+        "explanation": "Statement 3 is incorrect. The DPBI handles civil penalties and inquiry; appeals go to TDSAT and then to the Supreme Court. It cannot order criminal imprisonment."
+      },
+      {
+        "id": "ca-pol-08-q5",
+        "q": "Under the DPDP Act, cross-border transfer of personal data is:\n(a) Prohibited to all countries outside India\n(b) Allowed to all countries except those explicitly blacklisted by the Central Government\n(c) Allowed only to SAARC countries\n(d) Permitted only upon UN approval",
+        "options": [
+          "(a) Prohibited to all countries outside India",
+          "(b) Allowed to all countries except those explicitly blacklisted by the Central Government",
+          "(c) Allowed only to SAARC countries",
+          "(d) Permitted only upon UN approval"
+        ],
+        "answer": "(b)",
+        "explanation": "The Act adopts a negative-list approach: transfers are permitted to all countries except those restricted or notified by the Central Government."
+      }
+    ]
+  },
+  {
+    "id": "ca-pol-09",
+    "date": "2026-09-02",
+    "pillar": "Polity",
+    "title": "National Commission for Backward Classes (NCBC): Powers under Article 338B",
+    "source": "PIB / Ministry of Social Justice",
+    "is_top100": false,
+    "is_pt365": true,
+    "summary_points": [
+      "102nd Constitutional Amendment Act 2018 granted constitutional status to NCBC by inserting Article 338B.",
+      "NCBC is vested with powers of a civil court while investigating complaints of deprivation of rights of socially and educationally backward classes.",
+      "Union and State governments must consult the Commission on all major policy matters affecting the SEBCs."
+    ],
+    "gs_connection": "GS-2: Constitutional & Statutory Bodies, Article 338, 338A, 338B, Welfare of Vulnerable Sections.",
+    "mcqs": [
+      {
+        "id": "ca-pol-09-q1",
+        "q": "Which Constitutional Amendment conferred constitutional status on the National Commission for Backward Classes?\n(a) 100th Amendment\n(b) 101st Amendment\n(c) 102nd Amendment\n(d) 103rd Amendment",
+        "options": [
+          "(a) 100th Amendment",
+          "(b) 101st Amendment",
+          "(c) 102nd Amendment",
+          "(d) 103rd Amendment"
+        ],
+        "answer": "(c)",
+        "explanation": "The 102nd Amendment Act 2018 inserted Article 338B giving constitutional status to the NCBC."
+      },
+      {
+        "id": "ca-pol-09-q2",
+        "q": "Match the following Constitutional Commissions with their corresponding Articles:\n1. NCSC \u2014 A. Article 338B\n2. NCST \u2014 B. Article 338\n3. NCBC \u2014 C. Article 338A\nSelect the correct matching:",
+        "options": [
+          "(a) 1-B, 2-C, 3-A",
+          "(b) 1-A, 2-B, 3-C",
+          "(c) 1-C, 2-B, 3-A",
+          "(d) 1-B, 2-A, 3-C"
+        ],
+        "answer": "(a)",
+        "explanation": "NCSC is under Article 338; NCST is under Article 338A (89th Amendment 2003); NCBC is under Article 338B (102nd Amendment 2018)."
+      },
+      {
+        "id": "ca-pol-09-q3",
+        "q": "Consider the following statements regarding the NCBC:\n1. It consists of a Chairperson, Vice-Chairperson, and three other members.\n2. The conditions of service and tenure of office of members are determined by the President.\n3. Recommendations of the NCBC are legally binding on State Governments.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 2 only",
+          "(c) 1 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(a)",
+        "explanation": "Statement 3 is incorrect. The recommendations of the NCBC are advisory, not legally binding, though governments must place an explanatory memorandum if recommendations are rejected."
+      },
+      {
+        "id": "ca-pol-09-q4",
+        "q": "Which amendment restored the power of State governments to identify and maintain their own list of SEBCs after the Maratha reservation verdict?\n(a) 103rd Amendment Act\n(b) 104th Amendment Act\n(c) 105th Amendment Act\n(d) 106th Amendment Act",
+        "options": [
+          "(a) 103rd Amendment Act",
+          "(b) 104th Amendment Act",
+          "(c) 105th Amendment Act",
+          "(d) 106th Amendment Act"
+        ],
+        "answer": "(c)",
+        "explanation": "The 105th Amendment Act 2021 amended Article 338B and Article 342A to clarify that States maintain the authority to prepare their own state OBC lists."
+      },
+      {
+        "id": "ca-pol-09-q5",
+        "q": "While investigating any matter, the NCBC has all the powers of a:\n(a) Criminal Court\n(b) High Court\n(c) Civil Court trying a suit\n(d) Supreme Court",
+        "options": [
+          "(a) Criminal Court",
+          "(b) High Court",
+          "(c) Civil Court trying a suit",
+          "(d) Supreme Court"
+        ],
+        "answer": "(c)",
+        "explanation": "Article 338B(8) vests the Commission with all powers of a civil court, including summoning witnesses, discovery of documents, and receiving evidence on affidavits."
+      }
+    ]
+  },
+  {
+    "id": "ca-pol-10",
+    "date": "2026-05-15",
+    "pillar": "Polity",
+    "title": "Waqf (Amendment) Bill 2024: Central Waqf Council & Survey Commissioner",
+    "source": "PRS / The Hindu",
+    "is_top100": true,
+    "is_pt365": false,
+    "summary_points": [
+      "Proposes omitting Section 40 of the Waqf Act 1995 which had empowered the State Waqf Board to determine whether any property is waqf property.",
+      "Mandates representation of two non-Muslim members in the Central Waqf Council and State Waqf Boards.",
+      "Requires creation of a centralized portal for registration and management of waqf properties across India."
+    ],
+    "gs_connection": "GS-2: Secularism, Freedom of Religion (Article 25, 26), Statutory Bodies, Property Rights.",
+    "mcqs": [
+      {
+        "id": "ca-pol-10-q1",
+        "q": "Which Article of the Constitution guarantees the freedom to manage religious affairs to every religious denomination?\n(a) Article 25\n(b) Article 26\n(c) Article 27\n(d) Article 28",
+        "options": [
+          "(a) Article 25",
+          "(b) Article 26",
+          "(c) Article 27",
+          "(d) Article 28"
+        ],
+        "answer": "(b)",
+        "explanation": "Article 26 guarantees freedom to manage religious affairs, including establishing institutions and acquiring and administering property in accordance with law."
+      },
+      {
+        "id": "ca-pol-10-q2",
+        "q": "Under the existing Waqf Act 1995, who appoints the Survey Commissioner of Waqf in a State?\n(a) High Court Chief Justice\n(b) State Government\n(c) Central Waqf Council\n(d) Governor in his discretion",
+        "options": [
+          "(a) High Court Chief Justice",
+          "(b) State Government",
+          "(c) Central Waqf Council",
+          "(d) Governor in his discretion"
+        ],
+        "answer": "(b)",
+        "explanation": "Section 4 of the Waqf Act empowers the State Government to appoint a Survey Commissioner to survey all waqf properties within the State."
+      },
+      {
+        "id": "ca-pol-10-q3",
+        "q": "What key change does the Waqf Amendment Bill propose regarding property disputed as Government land?\n(a) Automatic ownership to Waqf Board\n(b) Inquiry and final decision by the District Collector\n(c) Automatic auction to the highest bidder\n(d) Referral to the International Court of Justice",
+        "options": [
+          "(a) Automatic ownership to Waqf Board",
+          "(b) Inquiry and final decision by the District Collector",
+          "(c) Automatic auction to the highest bidder",
+          "(d) Referral to the International Court of Justice"
+        ],
+        "answer": "(b)",
+        "explanation": "The amendment proposes that if any question arises whether a property belongs to the Government, the District Collector shall conduct an inquiry and submit a report."
+      },
+      {
+        "id": "ca-pol-10-q4",
+        "q": "Under Article 25, the freedom of conscience and free profession of religion is subject to:\n(a) Public order, morality, and health\n(b) National security only\n(c) Economic growth criteria\n(d) Discretion of the President",
+        "options": [
+          "(a) Public order, morality, and health",
+          "(b) National security only",
+          "(c) Economic growth criteria",
+          "(d) Discretion of the President"
+        ],
+        "answer": "(a)",
+        "explanation": "Article 25(1) subjects the right to profess, practice and propagate religion to public order, morality, health, and other provisions of Part III."
+      },
+      {
+        "id": "ca-pol-10-q5",
+        "q": "The Central Waqf Council is a:\n(a) Constitutional body under Article 339\n(b) Statutory body established under the Waqf Act\n(c) Non-statutory NGO\n(d) Judicial tribunal",
+        "options": [
+          "(a) Constitutional body under Article 339",
+          "(b) Statutory body established under the Waqf Act",
+          "(c) Non-statutory NGO",
+          "(d) Judicial tribunal"
+        ],
+        "answer": "(b)",
+        "explanation": "The Central Waqf Council is a statutory body established under Section 9 of the Waqf Act, 1995 to advise the Central Government."
+      }
+    ]
+  },
+  {
+    "id": "ca-pol-11",
+    "date": "2026-10-05",
+    "pillar": "Polity",
+    "title": "Article 39A & Free Legal Aid: NALSA's Pan-India Mandate",
+    "source": "PIB / Law Commission",
+    "is_top100": false,
+    "is_pt365": true,
+    "summary_points": [
+      "Article 39A (inserted by 42nd Amendment 1976) obligates the State to secure equal justice and free legal aid by suitable legislation.",
+      "National Legal Services Authority (NALSA) was constituted under the Legal Services Authorities Act, 1987 with the Chief Justice of India as Patron-in-Chief.",
+      "Lok Adalats organized by NALSA carry the status of a civil court decree, with finality and no appeal lying before regular courts."
+    ],
+    "gs_connection": "GS-2: Directive Principles of State Policy, Access to Justice, NALSA, Alternative Dispute Resolution (ADR).",
+    "mcqs": [
+      {
+        "id": "ca-pol-11-q1",
+        "q": "Which Constitutional Amendment inserted Article 39A providing for equal justice and free legal aid?\n(a) 24th Amendment Act 1971\n(b) 42nd Amendment Act 1976\n(c) 44th Amendment Act 1978\n(d) 86th Amendment Act 2002",
+        "options": [
+          "(a) 24th Amendment Act 1971",
+          "(b) 42nd Amendment Act 1976",
+          "(c) 44th Amendment Act 1978",
+          "(d) 86th Amendment Act 2002"
+        ],
+        "answer": "(b)",
+        "explanation": "Article 39A was added by the 42nd Constitutional Amendment Act of 1976 under Directive Principles of State Policy."
+      },
+      {
+        "id": "ca-pol-11-q2",
+        "q": "Who serves as the Executive Chairman of the National Legal Services Authority (NALSA)?\n(a) Union Minister of Law and Justice\n(b) Serving or retired Judge of the Supreme Court nominated by the President in consultation with the CJI\n(c) Attorney General of India\n(d) Solicitor General of India",
+        "options": [
+          "(a) Union Minister of Law and Justice",
+          "(b) Serving or retired Judge of the Supreme Court nominated by the President in consultation with the CJI",
+          "(c) Attorney General of India",
+          "(d) Solicitor General of India"
+        ],
+        "answer": "(b)",
+        "explanation": "While the CJI is the Patron-in-Chief, the second senior-most judge of the Supreme Court typically serves as the Executive Chairman of NALSA."
+      },
+      {
+        "id": "ca-pol-11-q3",
+        "q": "Consider the following statements regarding awards made by Lok Adalats:\n1. An award of a Lok Adalat is deemed to be a decree of a civil court.\n2. No appeal lies against the award of a Lok Adalat in any court.\n3. Lok Adalats have no jurisdiction over non-compoundable criminal offenses.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 2 and 3 only",
+          "(c) 1, 2 and 3",
+          "(d) 1 only"
+        ],
+        "answer": "(c)",
+        "explanation": "All three statements are correct under the Legal Services Authorities Act 1987: awards are civil decrees, non-appealable, and cannot entertain non-compoundable offenses."
+      },
+      {
+        "id": "ca-pol-11-q4",
+        "q": "Which of the following categories of persons are entitled to free legal services under Section 12 of the Legal Services Authorities Act?\n1. A member of a Scheduled Caste or Scheduled Tribe\n2. A woman or a child\n3. A person under circumstances of underserved want such as being a victim of a mass disaster\nSelect the correct answer:",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 2 and 3 only",
+          "(c) 1 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(d)",
+        "explanation": "Section 12 covers SC/STs, women, children, persons with disabilities, victims of disasters/violence, and industrial workmen without income ceiling."
+      },
+      {
+        "id": "ca-pol-11-q5",
+        "q": "Permanent Lok Adalats were established under the 2002 amendment specifically to handle disputes relating to:\n(a) Corporate insolvency\n(b) Public utility services\n(c) Election petitions\n(d) Maritime boundaries",
+        "options": [
+          "(a) Corporate insolvency",
+          "(b) Public utility services",
+          "(c) Election petitions",
+          "(d) Maritime boundaries"
+        ],
+        "answer": "(b)",
+        "explanation": "Section 22B establishes Permanent Lok Adalats for pre-litigation conciliation and settlement of disputes concerning Public Utility Services (transport, postal, telegraph, power, water)."
+      }
+    ]
+  },
+  {
+    "id": "ca-pol-12",
+    "date": "2026-04-12",
+    "pillar": "Polity",
+    "title": "Delimitation of Parliamentary Constituencies: Constitutional Bar until Post-2026",
+    "source": "The Hindu / PIB",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Article 82 and Article 170(3) provide for readjustment of Lok Sabha and Assembly seats after each census.",
+      "The 84th Constitutional Amendment Act 2001 froze the total number of Lok Sabha seats based on the 1971 Census until the first census taken after the year 2026.",
+      "The 87th Amendment 2003 permitted intra-state rationalization of constituency boundaries based on 2001 Census data without changing total state seats."
+    ],
+    "gs_connection": "GS-2: Representation of People, Federalism, North-South Demography Divergence, 84th Amendment.",
+    "mcqs": [
+      {
+        "id": "ca-pol-12-q1",
+        "q": "Which constitutional amendment froze the allocation of seats in the Lok Sabha based on the 1971 Census until after 2026?\n(a) 42nd Amendment Act 1976\n(b) 84th Amendment Act 2001\n(c) 87th Amendment Act 2003\n(d) 91st Amendment Act 2003",
+        "options": [
+          "(a) 42nd Amendment Act 1976",
+          "(b) 84th Amendment Act 2001",
+          "(c) 87th Amendment Act 2003",
+          "(d) 91st Amendment Act 2003"
+        ],
+        "answer": "(b)",
+        "explanation": "The 84th Amendment Act 2001 extended the 42nd Amendment freeze for another 25 years (until the first census taken after 2026)."
+      },
+      {
+        "id": "ca-pol-12-q2",
+        "q": "Under Article 82, who is empowered to establish a Delimitation Commission for boundary readjustment?\n(a) Supreme Court\n(b) Parliament by law\n(c) Election Commission of India independently\n(d) President in his sole discretion",
+        "options": [
+          "(a) Supreme Court",
+          "(b) Parliament by law",
+          "(c) Election Commission of India independently",
+          "(d) President in his sole discretion"
+        ],
+        "answer": "(b)",
+        "explanation": "Article 82 provides that Parliament may by law determine the authority and manner of delimitation."
+      },
+      {
+        "id": "ca-pol-12-q3",
+        "q": "Can orders of the Delimitation Commission be challenged before a court of law?\n(a) Yes, in any High Court under Article 226\n(b) Yes, directly in the Supreme Court under Article 32\n(c) No, Article 329(a) bars the questioning of delimitation laws and orders in any court\n(d) Only with prior sanction of the President",
+        "options": [
+          "(a) Yes, in any High Court under Article 226",
+          "(b) Yes, directly in the Supreme Court under Article 32",
+          "(c) No, Article 329(a) bars the questioning of delimitation laws and orders in any court",
+          "(d) Only with prior sanction of the President"
+        ],
+        "answer": "(c)",
+        "explanation": "Article 329(a) bars court interference in electoral matters regarding delimitation and allotment of seats."
+      },
+      {
+        "id": "ca-pol-12-q4",
+        "q": "The Delimitation Commission in India is headed by:\n(a) Chief Election Commissioner\n(b) A retired Supreme Court Judge\n(c) Union Law Minister\n(d) Cabinet Secretary",
+        "options": [
+          "(a) Chief Election Commissioner",
+          "(b) A retired Supreme Court Judge",
+          "(c) Union Law Minister",
+          "(d) Cabinet Secretary"
+        ],
+        "answer": "(b)",
+        "explanation": "The Delimitation Commission is headed by a retired Supreme Court judge, alongside the CEC and respective State Election Commissioners."
+      },
+      {
+        "id": "ca-pol-12-q5",
+        "q": "Which amendment allowed redrawing of internal constituency boundaries within states using the 2001 census without changing state total seats?\n(a) 84th Amendment\n(b) 87th Amendment\n(c) 89th Amendment\n(d) 92nd Amendment",
+        "options": [
+          "(a) 84th Amendment",
+          "(b) 87th Amendment",
+          "(c) 89th Amendment",
+          "(d) 92nd Amendment"
+        ],
+        "answer": "(b)",
+        "explanation": "The 87th Amendment Act 2003 substituted 2001 census for 1991 census for intra-state constituency rationalization."
+      }
+    ]
+  },
+  {
+    "id": "ca-pol-13",
+    "date": "2026-07-01",
+    "pillar": "Polity",
+    "title": "Implementation of New Criminal Laws: BNS, BNSS & BSA 2023",
+    "source": "PIB / Ministry of Home Affairs",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Bharatiya Nyaya Sanhita (BNS) replaced the Indian Penal Code 1860; Bharatiya Nagarik Suraksha Sanhita (BNSS) replaced CrPC 1973; Bharatiya Sakshya Adhiniyam (BSA) replaced Evidence Act 1872.",
+      "Introduced community service as a penal sanction for minor offenses, formalized Zero FIR, and institutionalized audio-video recording during search and seizure.",
+      "Replaced colonial offense of 'sedition' (Section 124A IPC) with Section 152 BNS penalizing acts endangering sovereignty, unity, and integrity of India."
+    ],
+    "gs_connection": "GS-2: Criminal Justice Reforms, Fundamental Rights (Art 20, 21), Police Reforms, Rule of Law.",
+    "mcqs": [
+      {
+        "id": "ca-pol-13-q1",
+        "q": "Which of the following new penal punishments was introduced for the first time in Indian criminal law under the Bharatiya Nyaya Sanhita (BNS)?\n(a) Solitary confinement\n(b) Community service for petty offenses\n(c) Public shaming\n(d) Forfeiture of citizenship",
+        "options": [
+          "(a) Solitary confinement",
+          "(b) Community service for petty offenses",
+          "(c) Public shaming",
+          "(d) Forfeiture of citizenship"
+        ],
+        "answer": "(b)",
+        "explanation": "BNS introduces community service as a distinct punishment for minor offenses such as small theft, defamation, and attempting suicide to compel public servants."
+      },
+      {
+        "id": "ca-pol-13-q2",
+        "q": "Under the Bharatiya Nagarik Suraksha Sanhita (BNSS), a 'Zero FIR' means:\n(a) An FIR that carries no legal validity\n(b) An FIR registered at any police station irrespective of territorial jurisdiction\n(c) An FIR where no suspect is named\n(d) An FIR filed anonymously online",
+        "options": [
+          "(a) An FIR that carries no legal validity",
+          "(b) An FIR registered at any police station irrespective of territorial jurisdiction",
+          "(c) An FIR where no suspect is named",
+          "(d) An FIR filed anonymously online"
+        ],
+        "answer": "(b)",
+        "explanation": "A Zero FIR can be lodged at any police station regardless of where the offense occurred, and is later transferred to the police station with jurisdiction."
+      },
+      {
+        "id": "ca-pol-13-q3",
+        "q": "Consider the following statements regarding the Bharatiya Sakshya Adhiniyam (BSA) 2023:\n1. It treats electronic and digital records as primary evidence on equal footing with paper documents.\n2. Confessions made to a police officer while in custody are now fully admissible as substantive evidence.\n3. It repealed the Indian Evidence Act 1872.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "(a) 1 and 3 only",
+          "(b) 2 only",
+          "(c) 1 and 2 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(a)",
+        "explanation": "Statement 2 is incorrect. Custodial confessions to police officers remain inadmissible to protect against coercive self-incrimination under Article 20(3)."
+      },
+      {
+        "id": "ca-pol-13-q4",
+        "q": "Under Article 20(1) of the Constitution, a person cannot be convicted for an act that was not an offense at the time of its commission. This protects against:\n(a) Double Jeopardy\n(b) Ex-post facto criminal laws\n(c) Self-incrimination\n(d) Preventive detention",
+        "options": [
+          "(a) Double Jeopardy",
+          "(b) Ex-post facto criminal laws",
+          "(c) Self-incrimination",
+          "(d) Preventive detention"
+        ],
+        "answer": "(b)",
+        "explanation": "Article 20(1) guarantees protection against ex-post facto criminal laws. New substantive offenses in BNS apply only prospectively."
+      },
+      {
+        "id": "ca-pol-13-q5",
+        "q": "The committee that submitted recommendations on criminal law reforms leading to the new enactments was chaired by:\n(a) Prof. Ranbir Singh\n(b) Justice V.S. Malimath\n(c) Madhava Menon\n(d) Justice J.S. Verma",
+        "options": [
+          "(a) Prof. Ranbir Singh",
+          "(b) Justice V.S. Malimath",
+          "(c) Madhava Menon",
+          "(d) Justice J.S. Verma"
+        ],
+        "answer": "(a)",
+        "explanation": "The Ministry of Home Affairs constituted a 5-member Committee for Reforms in Criminal Laws headed by Prof. Ranbir Singh (former VC of NLU Delhi)."
+      }
+    ]
+  },
+  {
+    "id": "ca-pol-14",
+    "date": "2026-08-11",
+    "pillar": "Polity",
+    "title": "Judicial Appointments & Collegium System: Memorandum of Procedure (MoP) Deadlock",
+    "source": "The Hindu / Indian Express",
+    "is_top100": false,
+    "is_pt365": true,
+    "summary_points": [
+      "Supreme Court collegium headed by CJI and four senior-most judges recommends appointments to the Supreme Court and transfers of High Court judges.",
+      "Government reiterates need to finalize a revised Memorandum of Procedure (MoP) incorporating search-and-evaluation committees and a national security veto.",
+      "Reaffirmed that under the Third Judges Case (1998), the executive is bound to appoint a candidate if the Collegium reiterates its recommendation unanimously."
+    ],
+    "gs_connection": "GS-2: Judiciary, Independence of Judiciary, Article 124 & 217, NJAC Case (2015), Checks and Balances.",
+    "mcqs": [
+      {
+        "id": "ca-pol-14-q1",
+        "q": "The Collegium system for appointment of judges to the Supreme Court and High Courts was established through which landmark judgments?\n(a) Kesavananda Bharati case\n(b) First, Second, and Third Judges Cases\n(c) Minerva Mills case\n(d) Maneka Gandhi case",
+        "options": [
+          "(a) Kesavananda Bharati case",
+          "(b) First, Second, and Third Judges Cases",
+          "(c) Minerva Mills case",
+          "(d) Maneka Gandhi case"
+        ],
+        "answer": "(b)",
+        "explanation": "The Collegium system evolved through the Three Judges Cases: S.P. Gupta (1981), Supreme Court Advocates-on-Record Association (1993), and In re Special Reference (1998)."
+      },
+      {
+        "id": "ca-pol-14-q2",
+        "q": "Under the 99th Constitutional Amendment Act 2014, what body was sought to be created to replace the Collegium system?\n(a) National Legal Service Commission\n(b) National Judicial Appointments Commission (NJAC)\n(c) All India Judicial Council\n(d) Central Judicial Oversight Committee",
+        "options": [
+          "(a) National Legal Service Commission",
+          "(b) National Judicial Appointments Commission (NJAC)",
+          "(c) All India Judicial Council",
+          "(d) Central Judicial Oversight Committee"
+        ],
+        "answer": "(b)",
+        "explanation": "The NJAC was created by the 99th Amendment and struck down by a 5-judge Constitution Bench in 2015 as violating judicial independence (basic structure)."
+      },
+      {
+        "id": "ca-pol-14-q3",
+        "q": "How many senior-most Supreme Court judges constitute the Collegium for recommending appointments to the Supreme Court?\n(a) CJI + 2 senior-most judges\n(b) CJI + 3 senior-most judges\n(c) CJI + 4 senior-most judges\n(d) CJI + Full Court",
+        "options": [
+          "(a) CJI + 2 senior-most judges",
+          "(b) CJI + 3 senior-most judges",
+          "(c) CJI + 4 senior-most judges",
+          "(d) CJI + Full Court"
+        ],
+        "answer": "(c)",
+        "explanation": "For Supreme Court appointments, the collegium consists of the CJI + 4 senior-most judges. For High Court appointments, it consists of CJI + 2 senior-most judges."
+      },
+      {
+        "id": "ca-pol-14-q4",
+        "q": "Under Article 217 of the Constitution, a High Court judge is appointed by:\n(a) The Chief Justice of the High Court\n(b) The Governor of the State\n(c) The President by warrant under his hand and seal\n(d) The Chief Minister of the State",
+        "options": [
+          "(a) The Chief Justice of the High Court",
+          "(b) The Governor of the State",
+          "(c) The President by warrant under his hand and seal",
+          "(d) The Chief Minister of the State"
+        ],
+        "answer": "(c)",
+        "explanation": "Article 217(1) states every Judge of a High Court shall be appointed by the President by warrant under his hand and seal after consultation with the CJI and the Governor."
+      },
+      {
+        "id": "ca-pol-14-q5",
+        "q": "What happens if the Supreme Court Collegium unanimously reiterates a recommended name that the Union Government had returned for reconsideration?\n(a) The government must accept and appoint the candidate according to constitutional convention\n(b) The candidate is permanently disqualified\n(c) The name must be approved by Parliament\n(d) The President decides in his personal discretion",
+        "options": [
+          "(a) The government must accept and appoint the candidate according to constitutional convention",
+          "(b) The candidate is permanently disqualified",
+          "(c) The name must be approved by Parliament",
+          "(d) The President decides in his personal discretion"
+        ],
+        "answer": "(a)",
+        "explanation": "Under the Second and Third Judges cases, once the Collegium unanimously reiterates a recommendation, the Union Government is bound to issue the appointment warrant."
+      }
+    ]
+  },
+  {
+    "id": "ca-pol-15",
+    "date": "2026-03-04",
+    "pillar": "Polity",
+    "title": "Parliamentary Privileges & Bribery Immunity: Supreme Court Verdict in Sita Soren Case",
+    "source": "The Hindu / Indian Express",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "A 7-judge Constitution Bench overruled the 1998 P.V. Narasimha Rao judgment regarding immunity for lawmakers accepting bribes for speeches or votes.",
+      "Held that parliamentary privileges under Article 105(2) and Article 194(2) do not protect MPs or MLAs from criminal prosecution for bribery.",
+      "Ruled that bribery is an offense complete at the moment money or undue advantage is accepted, and does not depend on whether the vote or speech is actually delivered."
+    ],
+    "gs_connection": "GS-2: Parliament & State Legislatures, Parliamentary Privileges (Article 105 & 194), Corruption, Rule of Law.",
+    "mcqs": [
+      {
+        "id": "ca-pol-15-q1",
+        "q": "In the landmark 7-judge bench ruling in Sita Soren v. Union of India (2024), the Supreme Court overruled which previous 5-judge bench decision?\n(a) Kihoto Hollohan case (1992)\n(b) P.V. Narasimha Rao v. State (1998)\n(c) Rameshwar Prasad v. Union of India (2006)\n(d) Raja Ram Pal v. Hon'ble Speaker (2007)",
+        "options": [
+          "(a) Kihoto Hollohan case (1992)",
+          "(b) P.V. Narasimha Rao v. State (1998)",
+          "(c) Rameshwar Prasad v. Union of India (2006)",
+          "(d) Raja Ram Pal v. Hon'ble Speaker (2007)"
+        ],
+        "answer": "(b)",
+        "explanation": "The SC overruled P.V. Narasimha Rao (1998), which had held by a 3:2 majority that MPs who took bribes and voted as promised were immune from criminal prosecution under Article 105(2)."
+      },
+      {
+        "id": "ca-pol-15-q2",
+        "q": "Which Article of the Constitution deals with the powers, privileges, and immunities of Parliament and its members?\n(a) Article 102\n(b) Article 105\n(c) Article 110\n(d) Article 124",
+        "options": [
+          "(a) Article 102",
+          "(b) Article 105",
+          "(c) Article 110",
+          "(d) Article 124"
+        ],
+        "answer": "(b)",
+        "explanation": "Article 105 defines the powers, privileges, and immunities of the Houses of Parliament, their members and committees. Article 194 does the same for State Legislatures."
+      },
+      {
+        "id": "ca-pol-15-q3",
+        "q": "According to the Supreme Court in the Sita Soren case, when does the offense of bribery become complete?\n(a) Only after the MP casts the vote in the House\n(b) The moment the lawmaker accepts or agrees to accept undue advantage\n(c) Only if the vote changes the government outcome\n(d) When the Speaker gives sanction for prosecution",
+        "options": [
+          "(a) Only after the MP casts the vote in the House",
+          "(b) The moment the lawmaker accepts or agrees to accept undue advantage",
+          "(c) Only if the vote changes the government outcome",
+          "(d) When the Speaker gives sanction for prosecution"
+        ],
+        "answer": "(b)",
+        "explanation": "The bench held that bribery is an independent offense under the Prevention of Corruption Act that crystallizes the moment the bribe is accepted, irrespective of subsequent actions."
+      },
+      {
+        "id": "ca-pol-15-q4",
+        "q": "Consider the following statements regarding Parliamentary Privileges in India:\n1. They are explicitly codified in an Act of Parliament enacted under Article 105(3).\n2. Freedom of speech in Parliament is subject to the rules and standing orders regulating procedure.\n3. No member of Parliament is liable to any proceedings in any court in respect of anything said or any vote given in Parliament.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 2 and 3 only",
+          "(c) 1 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(b)",
+        "explanation": "Statement 1 is incorrect. Parliamentary privileges in India have never been comprehensively codified by Parliament; they still draw from constitutional conventions and UK House of Commons traditions."
+      },
+      {
+        "id": "ca-pol-15-q5",
+        "q": "Under the Code of Civil Procedure (Section 135A), MPs and MLAs enjoy freedom from arrest in civil cases:\n(a) Only on the floor of the House\n(b) During the continuance of a session and 40 days before and after\n(c) For their entire 5-year tenure\n(d) In both civil and criminal cases equally",
+        "options": [
+          "(a) Only on the floor of the House",
+          "(b) During the continuance of a session and 40 days before and after",
+          "(c) For their entire 5-year tenure",
+          "(d) In both civil and criminal cases equally"
+        ],
+        "answer": "(b)",
+        "explanation": "Freedom from arrest applies strictly to civil matters (not criminal cases or preventive detention) during a session and 40 days before and after."
+      }
+    ]
+  },
+  {
+    "id": "ca-pol-16",
+    "date": "2026-06-14",
+    "pillar": "Polity",
+    "title": "Inter-State River Water Disputes: Article 262 & Tribunal Adjudication Architecture",
+    "source": "PIB / Ministry of Jal Shakti",
+    "is_top100": false,
+    "is_pt365": true,
+    "summary_points": [
+      "Article 262 empowers Parliament to provide for the adjudication of any dispute or complaint with respect to the use, distribution or control of waters of any inter-state river or river valley.",
+      "Clause (2) of Article 262 allows Parliament to bar the jurisdiction of the Supreme Court and any other court over such river water disputes.",
+      "Inter-State River Water Disputes (Amendment) Bill proposes a single permanent Inter-State River Water Disputes Tribunal with multiple benches and a Dispute Resolution Committee (DRC)."
+    ],
+    "gs_connection": "GS-2: Federalism, Inter-State Relations, Article 262, River Water Disputes Act 1956, Cooperative Federalism.",
+    "mcqs": [
+      {
+        "id": "ca-pol-16-q1",
+        "q": "Under Article 262 of the Constitution, who has the power to provide for the adjudication of inter-state river water disputes?\n(a) Supreme Court\n(b) Parliament by law\n(c) Inter-State Council\n(d) President of India",
+        "options": [
+          "(a) Supreme Court",
+          "(b) Parliament by law",
+          "(c) Inter-State Council",
+          "(d) President of India"
+        ],
+        "answer": "(b)",
+        "explanation": "Article 262(1) explicitly provides that Parliament may by law provide for the adjudication of disputes relating to inter-state rivers or river valleys."
+      },
+      {
+        "id": "ca-pol-16-q2",
+        "q": "Does the Supreme Court have jurisdiction to entertain a dispute concerning inter-state river waters if an Act under Article 262(2) bars it?\n(a) Yes, under Article 131 original jurisdiction always\n(b) No, Parliament by law can exclude the jurisdiction of the Supreme Court and all other courts\n(c) Yes, under Article 32 fundamental rights jurisdiction\n(d) Only if the Governor of a state requests it",
+        "options": [
+          "(a) Yes, under Article 131 original jurisdiction always",
+          "(b) No, Parliament by law can exclude the jurisdiction of the Supreme Court and all other courts",
+          "(c) Yes, under Article 32 fundamental rights jurisdiction",
+          "(d) Only if the Governor of a state requests it"
+        ],
+        "answer": "(b)",
+        "explanation": "Article 262(2) specifically allows Parliament to enact that neither the Supreme Court nor any other court shall exercise jurisdiction in respect of any such dispute."
+      },
+      {
+        "id": "ca-pol-16-q3",
+        "q": "Under the Inter-State River Water Disputes Act, 1956, the decision of a Water Disputes Tribunal published in the Official Gazette:\n(a) Is purely advisory\n(b) Has the same force as an order or decree of the Supreme Court\n(c) Must be ratified by Parliament\n(d) Can be vetoed by the Central Cabinet",
+        "options": [
+          "(a) Is purely advisory",
+          "(b) Has the same force as an order or decree of the Supreme Court",
+          "(c) Must be ratified by Parliament",
+          "(d) Can be vetoed by the Central Cabinet"
+        ],
+        "answer": "(b)",
+        "explanation": "Section 6 of the Act provides that upon publication in the Official Gazette, the tribunal award has the same force as an order or decree of the Supreme Court."
+      },
+      {
+        "id": "ca-pol-16-q4",
+        "q": "Which of the following inter-state river water disputes involves the states of Goa, Karnataka, and Maharashtra?\n(a) Cauvery dispute\n(b) Mahadayi (Mandovi) dispute\n(c) Krishna dispute\n(d) Vamsadhara dispute",
+        "options": [
+          "(a) Cauvery dispute",
+          "(b) Mahadayi (Mandovi) dispute",
+          "(c) Krishna dispute",
+          "(d) Vamsadhara dispute"
+        ],
+        "answer": "(b)",
+        "explanation": "The Mahadayi (Mhadei/Mandovi) River Water Disputes Tribunal was set up to resolve allocation between Goa, Karnataka, and Maharashtra."
+      },
+      {
+        "id": "ca-pol-16-q5",
+        "q": "What mechanism does the Inter-State River Water Disputes (Amendment) Bill propose to attempt amicable settlement before referring a matter to the Tribunal?\n(a) Dispute Resolution Committee (DRC)\n(b) NITI Aayog Mediation Board\n(c) High Court Chief Justices Panel\n(d) Lok Adalat",
+        "options": [
+          "(a) Dispute Resolution Committee (DRC)",
+          "(b) NITI Aayog Mediation Board",
+          "(c) High Court Chief Justices Panel",
+          "(d) Lok Adalat"
+        ],
+        "answer": "(a)",
+        "explanation": "The bill introduces a Dispute Resolution Committee (DRC) comprising experts and state representatives with a 1-year timeline (extendable by 6 months) for conciliation."
+      }
+    ]
+  },
+  {
+    "id": "ca-pol-17",
+    "date": "2026-09-20",
+    "pillar": "Polity",
+    "title": "Nari Shakti Vandan Adhiniyam: 106th Constitutional Amendment Act",
+    "source": "PIB / Ministry of Law",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "106th Constitutional Amendment Act 2023 reserves one-third of all seats for women in Lok Sabha, State Legislative Assemblies, and the Delhi Legislative Assembly.",
+      "Inserted Article 330A, Article 332A, and Article 239AA(2)(b) with a sunset clause of 15 years from commencement.",
+      "Implementation is constitutionally linked to the completion of the first Census conducted after the commencement of the Act followed by a Delimitation exercise."
+    ],
+    "gs_connection": "GS-2: Women Empowerment, Electoral Reforms, Constitutional Amendments, Article 330A/332A, Delimitation.",
+    "mcqs": [
+      {
+        "id": "ca-pol-17-q1",
+        "q": "Which Constitutional Amendment Act is known as the Nari Shakti Vandan Adhiniyam providing women's reservation in legislatures?\n(a) 103rd Amendment Act\n(b) 104th Amendment Act\n(c) 105th Amendment Act\n(d) 106th Amendment Act",
+        "options": [
+          "(a) 103rd Amendment Act",
+          "(b) 104th Amendment Act",
+          "(c) 105th Amendment Act",
+          "(d) 106th Amendment Act"
+        ],
+        "answer": "(d)",
+        "explanation": "The Constitution (106th Amendment) Act, 2023 introduced 33% reservation for women in Lok Sabha, State Assemblies, and Delhi Assembly."
+      },
+      {
+        "id": "ca-pol-17-q2",
+        "q": "Which new Article was inserted by the 106th Amendment to provide women's reservation in the Lok Sabha?\n(a) Article 330A\n(b) Article 331A\n(c) Article 332A\n(d) Article 334A",
+        "options": [
+          "(a) Article 330A",
+          "(b) Article 331A",
+          "(c) Article 332A",
+          "(d) Article 334A"
+        ],
+        "answer": "(a)",
+        "explanation": "Article 330A provides reservation of seats for women in the House of the People, including sub-reservation for SC/ST women."
+      },
+      {
+        "id": "ca-pol-17-q3",
+        "q": "Does the 106th Constitutional Amendment Act provide reservation for women in the Rajya Sabha or State Legislative Councils?\n(a) Yes, one-third reservation in all Houses\n(b) No, it applies only to directly elected popular houses (Lok Sabha and State Assemblies)\n(c) Only in Rajya Sabha but not Legislative Councils\n(d) Only if State Governors recommend it",
+        "options": [
+          "(a) Yes, one-third reservation in all Houses",
+          "(b) No, it applies only to directly elected popular houses (Lok Sabha and State Assemblies)",
+          "(c) Only in Rajya Sabha but not Legislative Councils",
+          "(d) Only if State Governors recommend it"
+        ],
+        "answer": "(b)",
+        "explanation": "The Act specifically reserves seats only in the Lok Sabha, State Legislative Assemblies, and Legislative Assembly of NCT of Delhi; not in Rajya Sabha or Upper Houses."
+      },
+      {
+        "id": "ca-pol-17-q4",
+        "q": "Under Article 334A inserted by the 106th Amendment, for how many years shall the women's reservation remain in force initially?\n(a) 10 years\n(b) 15 years\n(c) 20 years\n(d) 25 years",
+        "options": [
+          "(a) 10 years",
+          "(b) 15 years",
+          "(c) 20 years",
+          "(d) 25 years"
+        ],
+        "answer": "(b)",
+        "explanation": "Article 334A specifies that the reservation shall cease to have effect on the expiration of a period of 15 years from the date of its commencement, unless extended by Parliament."
+      },
+      {
+        "id": "ca-pol-17-q5",
+        "q": "What constitutional precondition is attached to the operational rollout of women's reservation under Article 334A?\n(a) Conduct of a national referendum\n(b) A census followed by a delimitation exercise\n(c) Ratification by all 28 states unanimously\n(d) Recommendation of the Law Commission",
+        "options": [
+          "(a) Conduct of a national referendum",
+          "(b) A census followed by a delimitation exercise",
+          "(c) Ratification by all 28 states unanimously",
+          "(d) Recommendation of the Law Commission"
+        ],
+        "answer": "(b)",
+        "explanation": "Article 334A states that reservation shall come into effect after an exercise of delimitation is undertaken for this purpose after the relevant figures for the first census taken after commencement are published."
+      }
+    ]
+  },
+  {
+    "id": "ca-pol-18",
+    "date": "2026-01-10",
+    "pillar": "Polity",
+    "title": "16th Finance Commission: Terms of Reference & Horizontal Devolution Formula",
+    "source": "PIB / Ministry of Finance",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Constituted under Article 280 under the chairmanship of Dr. Arvind Panagariya (former Vice-Chairman of NITI Aayog).",
+      "Mandated to recommend vertical devolution of net proceeds of taxes between Union and States, and horizontal distribution among States for 2026-2031.",
+      "Terms of reference encompass reviewing disaster management financing under the Disaster Management Act 2005 and non-tax revenue augmentation."
+    ],
+    "gs_connection": "GS-2: Fiscal Federalism, Constitutional Bodies (Article 280), Center-State Financial Relations, Devolution Criteria.",
+    "mcqs": [
+      {
+        "id": "ca-pol-18-q1",
+        "q": "The 16th Finance Commission has been constituted under the chairmanship of:\n(a) N.K. Singh\n(b) Dr. Arvind Panagariya\n(c) Dr. Y.V. Reddy\n(d) Dr. C. Rangarajan",
+        "options": [
+          "(a) N.K. Singh",
+          "(b) Dr. Arvind Panagariya",
+          "(c) Dr. Y.V. Reddy",
+          "(d) Dr. C. Rangarajan"
+        ],
+        "answer": "(b)",
+        "explanation": "The President constituted the 16th Finance Commission in December 2023 with Dr. Arvind Panagariya as Chairman."
+      },
+      {
+        "id": "ca-pol-18-q2",
+        "q": "Consider the following statements regarding the Finance Commission under Article 280:\n1. It is constituted by the President at the expiration of every fifth year or earlier.\n2. The Chairman must be a serving or retired Judge of the Supreme Court.\n3. Its recommendations are purely advisory and not legally binding on the Government.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "(a) 1 and 3 only",
+          "(b) 2 only",
+          "(c) 1 and 2 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(a)",
+        "explanation": "Statement 2 is incorrect. Qualifications are determined by Parliament; the Chairman must be a person having experience in public affairs (not necessarily a SC judge)."
+      },
+      {
+        "id": "ca-pol-18-q3",
+        "q": "Which criterion carried the highest weightage (45%) in the horizontal devolution formula of the 15th Finance Commission?\n(a) Population (2011)\n(b) Income Distance\n(c) Forest and Ecology\n(d) Demographic Performance",
+        "options": [
+          "(a) Population (2011)",
+          "(b) Income Distance",
+          "(c) Forest and Ecology",
+          "(d) Demographic Performance"
+        ],
+        "answer": "(b)",
+        "explanation": "Income Distance carried 45% weightage in the 15th FC formula, rewarding equity for states with lower per capita gross state domestic product."
+      },
+      {
+        "id": "ca-pol-18-q4",
+        "q": "What was the vertical tax devolution share recommended by the 15th Finance Commission to the States?\n(a) 32%\n(b) 41%\n(c) 42%\n(d) 50%",
+        "options": [
+          "(a) 32%",
+          "(b) 41%",
+          "(c) 42%",
+          "(d) 50%"
+        ],
+        "answer": "(b)",
+        "explanation": "The 15th FC recommended 41% vertical devolution (reduced from 42% under 14th FC to adjust 1% for the newly created Union Territories of J&K and Ladakh)."
+      },
+      {
+        "id": "ca-pol-18-q5",
+        "q": "Under Article 280(3)(bb), the Finance Commission makes recommendations to augment the Consolidated Fund of a State to supplement the resources of:\n(a) Commercial Public Sector Undertakings\n(b) Panchayats and Municipalities in the State\n(c) Regional Rural Banks\n(d) State Police Forces",
+        "options": [
+          "(a) Commercial Public Sector Undertakings",
+          "(b) Panchayats and Municipalities in the State",
+          "(c) Regional Rural Banks",
+          "(d) State Police Forces"
+        ],
+        "answer": "(b)",
+        "explanation": "Inserted by the 73rd and 74th Amendments, Articles 280(3)(bb) and (c) mandate recommendations to augment state consolidated funds for local bodies based on State Finance Commission inputs."
+      }
+    ]
+  },
+  {
+    "id": "ca-eco-01",
+    "date": "2026-11-22",
+    "pillar": "Economy",
+    "title": "RBI Standing Deposit Facility (SDF) vs Reverse Repo & Liquidity Management",
+    "source": "RBI Bulletin / Mint",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "The Standing Deposit Facility (SDF) allows the RBI to absorb surplus liquidity from commercial banks WITHOUT offering government securities (G-Secs) as collateral.",
+      "SDF acts as the floor of the Liquidity Adjustment Facility (LAF) corridor, positioned 25 basis points below the Policy Repo Rate, replacing fixed-rate reverse repo as the operative floor.",
+      "Unlike Reverse Repo which is collateral-constrained, SDF gives RBI unlimited capacity to absorb excess liquidity resulting from massive capital inflows or currency withdrawal."
+    ],
+    "gs_connection": "Directly anchors into GS-3 Indian Economy: Monetary Policy Framework, RBI LAF Corridor (MSF - Repo - SDF), Banking Liquidity, and Money Multiplier.",
+    "mcqs": [
+      {
+        "id": "ca-eco-01-q1",
+        "q": "With reference to the Standing Deposit Facility (SDF) introduced by the Reserve Bank of India, consider the following statements:\n1. Under the SDF, eligible commercial banks can place uncollateralised deposits with the RBI overnight.\n2. The SDF rate is set 25 basis points above the Policy Repo Rate.\n3. The deposits accepted by the RBI under SDF are eligible for maintenance of Cash Reserve Ratio (CRR) by banks.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "(a) 1 only",
+          "(b) 1 and 2 only",
+          "(c) 2 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(a)",
+        "explanation": "Statement 1 is correct: SDF is completely uncollateralized. Statement 2 is incorrect: SDF is 25 bps BELOW the repo rate (floor of corridor; MSF is 25 bps above repo rate, acting as ceiling). Statement 3 is incorrect: Deposits under SDF are eligible for SLR, not CRR."
+      },
+      {
+        "id": "ca-eco-01-q2",
+        "q": "Consider the following statements regarding the Liquidity Adjustment Facility (LAF) corridor of the RBI:\n1. The Marginal Standing Facility (MSF) rate acts as the upper bound (ceiling) of the corridor.\n2. The Standing Deposit Facility (SDF) rate acts as the lower bound (floor) of the corridor.\n3. The width of the LAF corridor is symmetric around the Policy Repo Rate.\nWhich of the statements given above are correct?",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 2 and 3 only",
+          "(c) 1 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(d)",
+        "explanation": "All three statements are correct. The policy repo rate sits in the middle; MSF is Repo + 25 bps (ceiling); SDF is Repo - 25 bps (floor). The corridor width is a symmetric 50 basis points."
+      },
+      {
+        "id": "ca-eco-01-q3",
+        "q": "Why was the Standing Deposit Facility (SDF) recommended by the Urjit Patel Committee (2014) in place of traditional Reverse Repo?\n(a) Because Reverse Repo requires RBI to transfer cash to commercial banks\n(b) Because absorbing massive surplus liquidity via Reverse Repo exhausted RBI's stock of sovereign collateral (G-Secs)\n(c) Because commercial banks refused to earn interest on excess reserves\n(d) Because SDF increases the fiscal deficit of the Union Government",
+        "options": [
+          "(a) Because Reverse Repo requires RBI to transfer cash to commercial banks",
+          "(b) Because absorbing massive surplus liquidity via Reverse Repo exhausted RBI's stock of sovereign collateral (G-Secs)",
+          "(c) Because commercial banks refused to earn interest on excess reserves",
+          "(d) Because SDF increases the fiscal deficit of the Union Government"
+        ],
+        "answer": "(b)",
+        "explanation": "Traditional reverse repo requires RBI to pledge government securities as collateral. In times of extreme liquidity glut (e.g. demonetisation or heavy forex purchases), RBI ran out of G-Secs. SDF solved this collateral constraint."
+      },
+      {
+        "id": "ca-eco-01-q4",
+        "q": "When the Reserve Bank of India increases the Cash Reserve Ratio (CRR), what is the direct impact on the economy?\n(a) Bank lending capacity expands and interest rates fall\n(b) Money multiplier increases significantly\n(c) Commercial banks have less loanable funds, contracting credit and liquidity\n(d) Foreign direct investment automatically surges",
+        "options": [
+          "(a) Bank lending capacity expands and interest rates fall",
+          "(b) Money multiplier increases significantly",
+          "(c) Commercial banks have less loanable funds, contracting credit and liquidity",
+          "(d) Foreign direct investment automatically surges"
+        ],
+        "answer": "(c)",
+        "explanation": "Increasing CRR forces banks to park a higher percentage of their Net Demand and Time Liabilities (NDTL) as idle cash with RBI without interest. This reduces loanable funds, tightening liquidity and increasing borrowing costs."
+      },
+      {
+        "id": "ca-eco-01-q5",
+        "q": "Which of the following components are included in the calculation of Reserve Money (M0) in India?\n1. Currency in circulation\n2. Bankers' deposits with the RBI\n3. 'Other' deposits with the RBI\n4. Time deposits with commercial banks\nSelect the correct answer using the code given below:",
+        "options": [
+          "(a) 1, 2 and 3 only",
+          "(b) 1 and 2 only",
+          "(c) 2, 3 and 4 only",
+          "(d) 1, 2, 3 and 4"
+        ],
+        "answer": "(a)",
+        "explanation": "Reserve Money ($M_0$) = Currency in circulation + Bankers' deposits with RBI + 'Other' deposits with RBI. Time deposits with banks are included in Broad Money ($M_3$), NOT in Reserve Money."
+      }
+    ]
+  },
+  {
+    "id": "ca-eco-02",
+    "date": "2026-11-18",
+    "pillar": "Economy",
+    "title": "Central Bank Digital Currency (CBDC / e-Rupee) Interoperability with UPI",
+    "source": "PIB / Economic Times",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "The RBI has enabled full interoperability between CBDC (e-Rupee) and UPI QR codes, allowing consumers to scan any merchant UPI QR code using their digital rupee wallet.",
+      "CBDC is a sovereign legal tender issued directly on RBI's distributed ledger as a direct liability on RBI's balance sheet (unlike bank deposits or mobile wallet fiat).",
+      "CBDC does NOT yield interest to prevent disintermediation of commercial banks (preventing depositors from fleeing bank deposits during financial panic)."
+    ],
+    "gs_connection": "Links to GS-3 Indian Economy: Digital Financial Infrastructure, FinTech, NPCI, Currency Architecture, and Banking Disintermediation Risks.",
+    "mcqs": [
+      {
+        "id": "ca-eco-02-q1",
+        "q": "With reference to the Central Bank Digital Currency (CBDC / e\u20b9) issued by the Reserve Bank of India, consider the following statements:\n1. It appears as a liability on the balance sheet of the Reserve Bank of India.\n2. It earns a floating interest rate benchmarked to the overnight Repo rate.\n3. It can be converted into physical cash at commercial bank branches.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "(a) 1 and 3 only",
+          "(b) 1 only",
+          "(c) 2 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(a)",
+        "explanation": "Statement 1 is correct (it is sovereign fiat currency). Statement 2 is incorrect: Retail CBDC is non-interest bearing to prevent bank runs and commercial bank disintermediation. Statement 3 is correct (it is 1:1 freely convertible with physical notes)."
+      },
+      {
+        "id": "ca-eco-02-q2",
+        "q": "What is the primary difference between Retail CBDC (e\u20b9-R) and Wholesale CBDC (e\u20b9-W)?\n(a) e\u20b9-R is issued on blockchain while e\u20b9-W is issued on magnetic tapes\n(b) e\u20b9-R is for public consumer transactions, while e\u20b9-W is restricted to financial institutions for interbank settlement and secondary G-Sec transactions\n(c) e\u20b9-R carries sovereign guarantee while e\u20b9-W is guaranteed by SEBI\n(d) e\u20b9-R is legal tender only inside India while e\u20b9-W is used exclusively for IMF quota payments",
+        "options": [
+          "(a) e\u20b9-R is issued on blockchain while e\u20b9-W is issued on magnetic tapes",
+          "(b) e\u20b9-R is for public consumer transactions, while e\u20b9-W is restricted to financial institutions for interbank settlement and secondary G-Sec transactions",
+          "(c) e\u20b9-R carries sovereign guarantee while e\u20b9-W is guaranteed by SEBI",
+          "(d) e\u20b9-R is legal tender only inside India while e\u20b9-W is used exclusively for IMF quota payments"
+        ],
+        "answer": "(b)",
+        "explanation": "e\u20b9-W was launched for interbank settlements and trading in secondary government securities to reduce settlement risks and operational costs, while e\u20b9-R is designed for everyday retail retail consumer and merchant payments."
+      },
+      {
+        "id": "ca-eco-02-q3",
+        "q": "Consider the following statements regarding the National Payments Corporation of India (NPCI):\n1. NPCI is an initiative of the Reserve Bank of India (RBI) and Indian Banks' Association (IBA).\n2. It is incorporated as a 'Not for Profit' company under Section 8 of the Companies Act, 2013.\n3. It operates RuPay, Immediate Payment Service (IMPS), and Unified Payments Interface (UPI).\nWhich of the statements given above is/are correct?",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 2 and 3 only",
+          "(c) 1 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(d)",
+        "explanation": "All three statements are correct. NPCI was established under the Payment and Settlement Systems Act, 2007 by RBI and IBA as a non-profit company and manages India's major retail payment systems."
+      },
+      {
+        "id": "ca-eco-02-q4",
+        "q": "Which of the following enables UPI Lite to process micro-transactions without internet connectivity or PIN authentication?\n(a) Cloud computing nodes at telecom towers\n(b) On-device local wallet with maximum single transaction limit of \u20b9500\n(c) Direct debit from the user's Provident Fund account\n(d) Facial recognition cameras installed at retail counters",
+        "options": [
+          "(a) Cloud computing nodes at telecom towers",
+          "(b) On-device local wallet with maximum single transaction limit of \u20b9500",
+          "(c) Direct debit from the user's Provident Fund account",
+          "(d) Facial recognition cameras installed at retail counters"
+        ],
+        "answer": "(b)",
+        "explanation": "UPI Lite processes low-value transactions (up to \u20b9500 per transaction, cumulative limit \u20b92000) directly from an on-device balance without pinging the core banking system or requiring a UPI PIN, reducing bank server loads."
+      },
+      {
+        "id": "ca-eco-02-q5",
+        "q": "The concept of 'Programmable CBDC' allows the central bank or issuer to:\n(a) Automatically erase money after 10 days if not spent\n(b) Program conditionality so that funds can only be spent for a specified designated purpose, such as school fees or agricultural fertilizers\n(c) Change the face value of the currency based on real-time stock market indices\n(d) Track and publish individual citizen shopping bills on public social media",
+        "options": [
+          "(a) Automatically erase money after 10 days if not spent",
+          "(b) Program conditionality so that funds can only be spent for a specified designated purpose, such as school fees or agricultural fertilizers",
+          "(c) Change the face value of the currency based on real-time stock market indices",
+          "(d) Track and publish individual citizen shopping bills on public social media"
+        ],
+        "answer": "(b)",
+        "explanation": "Programmable digital rupee enables targeted benefits delivery (like e-RUPI vouchers). Smart contracts lock the digital tokens so they can ONLY be redeemed at specified merchant terminals (e.g. PM-KISAN funds for seeds/fertilizers)."
+      }
+    ]
+  },
+  {
+    "id": "ca-eco-03",
+    "date": "2026-11-12",
+    "pillar": "Economy",
+    "title": "Indian Carbon Market (ICM) & Carbon Credit Trading Scheme (CCTS)",
+    "source": "Bureau of Energy Efficiency (BEE) / PIB",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Notified under the Energy Conservation (Amendment) Act, 2022, creating a domestic compliance and voluntary carbon trading mechanism in India.",
+      "Bureau of Energy Efficiency (BEE) serves as the administrator, while the Central Electricity Regulatory Commission (CERC) regulates carbon credit trading on domestic power exchanges.",
+      "Obligated industrial entities failing to meet greenhouse gas emission intensity targets must purchase Carbon Credit Certificates (CCCs), incentivizing clean tech decarbonization."
+    ],
+    "gs_connection": "Links to GS-3 Indian Economy & Environment: Carbon Pricing, Energy Conservation Act, Bureau of Energy Efficiency, Market-based instruments, and Paris Agreement Article 6.",
+    "mcqs": [
+      {
+        "id": "ca-eco-03-q1",
+        "q": "With reference to the Carbon Credit Trading Scheme (CCTS) in India, consider the following statements:\n1. It was established under the provisions of the Environment (Protection) Act, 1986.\n2. The Bureau of Energy Efficiency (BEE) is the administrator for the Indian carbon market.\n3. The Central Electricity Regulatory Commission (CERC) is the regulator for trading of Carbon Credit Certificates.\nWhich of the statements given above are correct?",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 2 and 3 only",
+          "(c) 1 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(b)",
+        "explanation": "Statement 1 is incorrect: CCTS is established under the Energy Conservation (Amendment) Act, 2022 (administered by Ministry of Power), NOT the EPA 1986. Statements 2 and 3 are correct."
+      },
+      {
+        "id": "ca-eco-03-q2",
+        "q": "In the Indian Carbon Market, one Carbon Credit Certificate (CCC) represents what quantity of emission reduction?\n(a) 1 kilogram of sulfur dioxide equivalent\n(b) 1 metric ton of carbon dioxide equivalent ($tCO_2e$)\n(c) 100 kilograms of black carbon\n(d) 10 metric tons of nitrous oxide",
+        "options": [
+          "(a) 1 kilogram of sulfur dioxide equivalent",
+          "(b) 1 metric ton of carbon dioxide equivalent ($tCO_2e$)",
+          "(c) 100 kilograms of black carbon",
+          "(d) 10 metric tons of nitrous oxide"
+        ],
+        "answer": "(b)",
+        "explanation": "Standard global and Indian carbon accounting defines 1 carbon credit certificate as equivalent to 1 metric ton of carbon dioxide equivalent ($tCO_2e$) reduced, avoided, or sequestered."
+      },
+      {
+        "id": "ca-eco-03-q3",
+        "q": "How does the Carbon Credit Trading Scheme (CCTS) transition from the existing Perform, Achieve and Trade (PAT) scheme?\n(a) PAT focused only on agricultural farms, while CCTS focuses on space satellites\n(b) PAT traded Energy Saving Certificates (ESCerts) based on specific energy consumption; CCTS transitions to greenhouse gas (GHG) emission intensity targets\n(c) PAT was a voluntary donation drive, while CCTS imposes a direct import tariff\n(d) PAT was managed by NITI Aayog while CCTS is managed by the Reserve Bank of India",
+        "options": [
+          "(a) PAT focused only on agricultural farms, while CCTS focuses on space satellites",
+          "(b) PAT traded Energy Saving Certificates (ESCerts) based on specific energy consumption; CCTS transitions to greenhouse gas (GHG) emission intensity targets",
+          "(c) PAT was a voluntary donation drive, while CCTS imposes a direct import tariff",
+          "(d) PAT was managed by NITI Aayog while CCTS is managed by the Reserve Bank of India"
+        ],
+        "answer": "(b)",
+        "explanation": "Under PAT, designated industrial consumers were given energy conservation targets measured in metric tons of oil equivalent (mtoe) and traded ESCerts. CCTS directly targets GHG emissions ($tCO_2e$) to establish a formal compliance carbon market."
+      },
+      {
+        "id": "ca-eco-03-q4",
+        "q": "The 'Greenium' in green finance terminology refers to:\n(a) A penal tariff levied on thermal power plants\n(b) The pricing discount or lower borrowing yield that issuers enjoy when issuing Sovereign Green Bonds compared to conventional bonds\n(c) A tax rebate given to buyers of diesel vehicles\n(d) Subsidized fertilizer given to zero-budget natural farmers",
+        "options": [
+          "(a) A penal tariff levied on thermal power plants",
+          "(b) The pricing discount or lower borrowing yield that issuers enjoy when issuing Sovereign Green Bonds compared to conventional bonds",
+          "(c) A tax rebate given to buyers of diesel vehicles",
+          "(d) Subsidized fertilizer given to zero-budget natural farmers"
+        ],
+        "answer": "(b)",
+        "explanation": "'Greenium' (green premium) is the savings in yield that governments and corporations receive because investors are willing to accept slightly lower returns for verified green assets."
+      },
+      {
+        "id": "ca-eco-03-q5",
+        "q": "Which Article of the Paris Agreement provides the legal framework for international transfer of carbon mitigation outcomes between countries (bilateral carbon markets)?\n(a) Article 4\n(b) Article 6.2\n(c) Article 6.4\n(d) Article 8",
+        "options": [
+          "(a) Article 4",
+          "(b) Article 6.2",
+          "(c) Article 6.4",
+          "(d) Article 8"
+        ],
+        "answer": "(b)",
+        "explanation": "Article 6.2 governs bilateral, cooperative approaches and Internationally Transferred Mitigation Outcomes (ITMOs), while Article 6.4 establishes a centralized multilateral UN carbon crediting mechanism (successor to CDM)."
+      }
+    ]
+  },
+  {
+    "id": "ca-eco-04",
+    "date": "2026-09-18",
+    "pillar": "Economy",
+    "title": "Sovereign Green Bonds (SGrBs): RBI Framework & Green Taxonomy",
+    "source": "RBI Bulletin / Ministry of Finance",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Proceeds from Sovereign Green Bonds (SGrBs) are deposited into the Consolidated Fund of India and earmarked for public sector green projects.",
+      "Projects are evaluated by the Green Finance Working Committee (GFWC) chaired by the Chief Economic Adviser (CEA).",
+      "Excludes nuclear power, large hydro projects over 25 MW, extraction of fossil fuels, and direct waste incineration."
+    ],
+    "gs_connection": "GS-3: Indian Economy (Government Budgeting, Green Finance, Sustainable Development, Climate Investments).",
+    "mcqs": [
+      {
+        "id": "ca-eco-04-q1",
+        "q": "Who chairs the Green Finance Working Committee (GFWC) responsible for selecting projects under India's Sovereign Green Bonds Framework?\n(a) Governor of the Reserve Bank of India\n(b) Chief Economic Adviser\n(c) Secretary, Ministry of Environment, Forest and Climate Change\n(d) Chairman, SEBI",
+        "options": [
+          "(a) Governor of the Reserve Bank of India",
+          "(b) Chief Economic Adviser",
+          "(c) Secretary, Ministry of Environment, Forest and Climate Change",
+          "(d) Chairman, SEBI"
+        ],
+        "answer": "(b)",
+        "explanation": "The GFWC is chaired by the Chief Economic Adviser, Government of India, with members from relevant ministries and NITI Aayog."
+      },
+      {
+        "id": "ca-eco-04-q2",
+        "q": "Which of the following sectors is EXCLUDED from receiving funds raised through Sovereign Green Bonds in India?\n1. Renewable energy projects\n2. Nuclear power generation\n3. Hydropower plants of capacity greater than 25 MW\n4. Public mass rapid transit systems\nSelect the correct answer using the code below:",
+        "options": [
+          "(a) 2 and 3 only",
+          "(b) 1 and 4 only",
+          "(c) 2 only",
+          "(d) 1, 2, 3 and 4"
+        ],
+        "answer": "(a)",
+        "explanation": "The framework explicitly excludes nuclear power, large hydro (>25 MW), fossil fuel extraction, and direct waste incineration."
+      },
+      {
+        "id": "ca-eco-04-q3",
+        "q": "Where are the proceeds raised from the issuance of Sovereign Green Bonds initially deposited?\n(a) Directly to green project implementing agencies\n(b) Consolidated Fund of India\n(c) National Clean Energy and Environment Fund (NCEEF)\n(d) Dedicated Escrow Account at SEBI",
+        "options": [
+          "(a) Directly to green project implementing agencies",
+          "(b) Consolidated Fund of India",
+          "(c) National Clean Energy and Environment Fund (NCEEF)",
+          "(d) Dedicated Escrow Account at SEBI"
+        ],
+        "answer": "(b)",
+        "explanation": "Under Article 266, all borrowings including green bonds flow into the Consolidated Fund of India before being allocated to eligible green expenditures."
+      },
+      {
+        "id": "ca-eco-04-q4",
+        "q": "In financial markets, the term 'Greenium' refers to:\n(a) The penalty charged on non-compliant green bond issuers\n(b) The pricing benefit or yield discount where investors accept lower yields on green bonds compared to conventional bonds\n(c) The brokerage commission on ESG mutual funds\n(d) A carbon tax on heavy emitters",
+        "options": [
+          "(a) The penalty charged on non-compliant green bond issuers",
+          "(b) The pricing benefit or yield discount where investors accept lower yields on green bonds compared to conventional bonds",
+          "(c) The brokerage commission on ESG mutual funds",
+          "(d) A carbon tax on heavy emitters"
+        ],
+        "answer": "(b)",
+        "explanation": "Greenium (green premium) is the lower yield (higher price) that investors are willing to pay for green-labelled bonds over regular sovereign bonds."
+      },
+      {
+        "id": "ca-eco-04-q5",
+        "q": "Under RBI guidelines, eligible green projects financed by banks qualify for:\n(a) Priority Sector Lending (PSL) classification up to specified limits\n(b) Complete exemption from Cash Reserve Ratio (CRR)\n(c) Zero capital risk weightage\n(d) Tax exemption for all retail investors",
+        "options": [
+          "(a) Priority Sector Lending (PSL) classification up to specified limits",
+          "(b) Complete exemption from Cash Reserve Ratio (CRR)",
+          "(c) Zero capital risk weightage",
+          "(d) Tax exemption for all retail investors"
+        ],
+        "answer": "(a)",
+        "explanation": "Bank lending for renewable energy and social infrastructure projects qualifies for Priority Sector Lending (PSL) subject to sector caps."
+      }
+    ]
+  },
+  {
+    "id": "ca-eco-05",
+    "date": "2026-08-10",
+    "pillar": "Economy",
+    "title": "Insolvency and Bankruptcy Code (IBC): Pre-Packaged Framework & CIRP Timelines",
+    "source": "IBBI / Economic Survey",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Corporate Insolvency Resolution Process (CIRP) has an outer mandatory time limit of 330 days including legal proceedings under Section 12.",
+      "Pre-packaged insolvency resolution process (PPIRP) is available for MSMEs under Chapter III-A, combining debtor-in-possession with creditor-in-control.",
+      "Committee of Creditors (CoC) exercises commercial wisdom with a 66% voting threshold required to approve a resolution plan."
+    ],
+    "gs_connection": "GS-3: Banking, NPAs, Ease of Doing Business, Corporate Governance, Twin Balance Sheet Problem.",
+    "mcqs": [
+      {
+        "id": "ca-eco-05-q1",
+        "q": "What is the mandatory overall time limit prescribed under the IBC for completing the Corporate Insolvency Resolution Process (CIRP), including legal litigation extensions?\n(a) 180 days\n(b) 270 days\n(c) 330 days\n(d) 365 days",
+        "options": [
+          "(a) 180 days",
+          "(b) 270 days",
+          "(c) 330 days",
+          "(d) 365 days"
+        ],
+        "answer": "(c)",
+        "explanation": "The 2019 amendment added a second proviso to Section 12 specifying that CIRP must mandatorily be completed within 330 days, including time taken in legal proceedings."
+      },
+      {
+        "id": "ca-eco-05-q2",
+        "q": "What voting majority in the Committee of Creditors (CoC) is required to approve a corporate resolution plan under the IBC?\n(a) 51%\n(b) 66%\n(c) 75%\n(d) Unanimous (100%)",
+        "options": [
+          "(a) 51%",
+          "(b) 66%",
+          "(c) 75%",
+          "(d) Unanimous (100%)"
+        ],
+        "answer": "(b)",
+        "explanation": "Under Section 30(4), a resolution plan must be approved by a vote of not less than 66% of voting share of the financial creditors."
+      },
+      {
+        "id": "ca-eco-05-q3",
+        "q": "Who acts as the Adjudicating Authority for corporate insolvency and bankruptcy under the IBC 2016?\n(a) Debt Recovery Tribunal (DRT)\n(b) National Company Law Tribunal (NCLT)\n(c) High Court\n(d) Commercial Courts",
+        "options": [
+          "(a) Debt Recovery Tribunal (DRT)",
+          "(b) National Company Law Tribunal (NCLT)",
+          "(c) High Court",
+          "(d) Commercial Courts"
+        ],
+        "answer": "(b)",
+        "explanation": "The NCLT is the adjudicating authority for corporate persons and LLPs; DRT is the adjudicating authority for individuals and partnership firms."
+      },
+      {
+        "id": "ca-eco-05-q4",
+        "q": "Consider the following statements regarding the Pre-packaged Insolvency Resolution Process (PPIRP):\n1. It is currently available exclusively to Micro, Small, and Medium Enterprises (MSMEs).\n2. During the process, the existing management retains control of the company (debtor-in-possession).\n3. It does not require any approval from the NCLT.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 2 only",
+          "(c) 1 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(a)",
+        "explanation": "Statement 3 is incorrect. PPIRP requires formal filing and final approval by the NCLT to have legal binding force on all stakeholders."
+      },
+      {
+        "id": "ca-eco-05-q5",
+        "q": "Which Section of the IBC bars wilful defaulters and undischarged insolvents from submitting a resolution plan during insolvency proceedings?\n(a) Section 14\n(b) Section 29A\n(c) Section 53\n(d) Section 66",
+        "options": [
+          "(a) Section 14",
+          "(b) Section 29A",
+          "(c) Section 53",
+          "(d) Section 66"
+        ],
+        "answer": "(b)",
+        "explanation": "Section 29A lays down strict disqualification criteria preventing errant promoters and wilful defaulters from re-acquiring stressed assets at discounted valuations."
+      }
+    ]
+  },
+  {
+    "id": "ca-eco-06",
+    "date": "2026-07-22",
+    "pillar": "Economy",
+    "title": "Unified Lending Interface (ULI): RBI's Frictionless Digital Credit Platform",
+    "source": "RBI / Livemint",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "RBI launched the Unified Lending Interface (ULI) to enable frictionless credit flow by standardizing data exchange between lenders and data providers.",
+      "Integrates digital land records from states, satellite imagery, Aadhaar e-KYC, PAN, and milk-pouring data for dairy farmers.",
+      "Aims to achieve for lending what UPI achieved for digital retail payments, dramatically reducing documentation friction for small borrowers."
+    ],
+    "gs_connection": "GS-3: Financial Inclusion, Digital Public Infrastructure (DPI), Credit to MSMEs & Agriculture, RBI Innovations.",
+    "mcqs": [
+      {
+        "id": "ca-eco-06-q1",
+        "q": "The Unified Lending Interface (ULI) launched by the RBI is designed primarily to:\n(a) Regulate international cryptocurrency transfers\n(b) Enable seamless, consent-based digital flow of credit-related data to reduce loan processing time\n(c) Replace credit rating agencies like CRISIL\n(d) Auction sovereign treasury bills to retail participants",
+        "options": [
+          "(a) Regulate international cryptocurrency transfers",
+          "(b) Enable seamless, consent-based digital flow of credit-related data to reduce loan processing time",
+          "(c) Replace credit rating agencies like CRISIL",
+          "(d) Auction sovereign treasury bills to retail participants"
+        ],
+        "answer": "(b)",
+        "explanation": "ULI is a digital public infrastructure that allows plug-and-play consent-based data access (land records, account aggregator data, GST data) to speed up credit evaluation."
+      },
+      {
+        "id": "ca-eco-06-q2",
+        "q": "The Unified Lending Interface (ULI) was developed under the aegis of which specialized subsidiary of the Reserve Bank of India?\n(a) Deposit Insurance and Credit Guarantee Corporation (DICGC)\n(b) Reserve Bank Innovation Hub (RBIH)\n(c) National Payments Corporation of India (NPCI)\n(d) Bharatiya Reserve Bank Note Mudran (BRBNMPL)",
+        "options": [
+          "(a) Deposit Insurance and Credit Guarantee Corporation (DICGC)",
+          "(b) Reserve Bank Innovation Hub (RBIH)",
+          "(c) National Payments Corporation of India (NPCI)",
+          "(d) Bharatiya Reserve Bank Note Mudran (BRBNMPL)"
+        ],
+        "answer": "(b)",
+        "explanation": "ULI was piloted as the Public Tech Platform for Frictionless Credit (PTPFC) developed by the Reserve Bank Innovation Hub (RBIH)."
+      },
+      {
+        "id": "ca-eco-06-q3",
+        "q": "Which component of Digital Public Infrastructure enables customers to share their financial data across regulated entities in a secure, consent-driven manner?\n(a) Fastag Network\n(b) Account Aggregator (AA) framework\n(c) NEFT Protocol\n(d) Bharat BillPay",
+        "options": [
+          "(a) Fastag Network",
+          "(b) Account Aggregator (AA) framework",
+          "(c) NEFT Protocol",
+          "(d) Bharat BillPay"
+        ],
+        "answer": "(b)",
+        "explanation": "The Account Aggregator (AA) framework is an RBI-regulated non-banking financial company enabling granular, consent-based financial data sharing."
+      },
+      {
+        "id": "ca-eco-06-q4",
+        "q": "What is the primary target group benefiting from frictionless credit assessment via ULI?\n(a) Large corporate conglomerates\n(b) Small and marginal farmers and MSMEs with informal credit histories\n(c) Foreign Institutional Investors\n(d) Central Public Sector Enterprises",
+        "options": [
+          "(a) Large corporate conglomerates",
+          "(b) Small and marginal farmers and MSMEs with informal credit histories",
+          "(c) Foreign Institutional Investors",
+          "(d) Central Public Sector Enterprises"
+        ],
+        "answer": "(b)",
+        "explanation": "ULI reduces loan processing times from weeks to minutes, directly benefiting rural borrowers and MSMEs who lack conventional collateral documentation."
+      },
+      {
+        "id": "ca-eco-06-q5",
+        "q": "In the 'India Stack' architecture, which layer does digital credit infrastructure like ULI and Account Aggregator represent?\n(a) Presence-less Layer (Aadhaar)\n(b) Paperless Layer (DigiLocker, e-Sign)\n(c) Cashless Layer (UPI)\n(d) Consent-based Data Empowerment Layer",
+        "options": [
+          "(a) Presence-less Layer (Aadhaar)",
+          "(b) Paperless Layer (DigiLocker, e-Sign)",
+          "(c) Cashless Layer (UPI)",
+          "(d) Consent-based Data Empowerment Layer"
+        ],
+        "answer": "(d)",
+        "explanation": "India Stack has 4 layers: Presenceless, Paperless, Cashless, and Consent (Data Empowerment and Protection Architecture / DEPA)."
+      }
+    ]
+  },
+  {
+    "id": "ca-eco-07",
+    "date": "2026-06-15",
+    "pillar": "Economy",
+    "title": "Abolition of 'Angel Tax' (Section 56(2)(viib)) & Startup Financing",
+    "source": "Ministry of Finance / Budget 2024",
+    "is_top100": false,
+    "is_pt365": true,
+    "summary_points": [
+      "Union Budget abolished Section 56(2)(viib) of the Income Tax Act 1961, commonly known as the 'Angel Tax', for all classes of investors.",
+      "Previously taxed capital raised by unlisted companies from investors exceeding the Fair Market Value (FMV) as 'income from other sources'.",
+      "Removal eliminates tax litigation friction for early-stage startup investments, boosting angel networks and foreign venture capital."
+    ],
+    "gs_connection": "GS-3: Mobilization of Resources, Startup Ecosystem, Taxation Policy, Venture Capital Investments.",
+    "mcqs": [
+      {
+        "id": "ca-eco-07-q1",
+        "q": "The term 'Angel Tax' in India specifically referred to the tax levied under which Section of the Income Tax Act, 1961?\n(a) Section 10(23C)\n(b) Section 56(2)(viib)\n(c) Section 80C\n(d) Section 115BAA",
+        "options": [
+          "(a) Section 10(23C)",
+          "(b) Section 56(2)(viib)",
+          "(c) Section 80C",
+          "(d) Section 115BAA"
+        ],
+        "answer": "(b)",
+        "explanation": "Section 56(2)(viib) was introduced in 2012 as an anti-money laundering provision, treating excess premium on share issuance over FMV as taxable income."
+      },
+      {
+        "id": "ca-eco-07-q2",
+        "q": "Why was Angel Tax originally introduced in the Union Budget 2012?\n(a) To encourage high net-worth individuals to invest in startups\n(b) To curb money laundering through high-premium investment in closely held unlisted companies\n(c) To tax dividends paid by tech companies\n(d) To replace the Securities Transaction Tax",
+        "options": [
+          "(a) To encourage high net-worth individuals to invest in startups",
+          "(b) To curb money laundering through high-premium investment in closely held unlisted companies",
+          "(c) To tax dividends paid by tech companies",
+          "(d) To replace the Securities Transaction Tax"
+        ],
+        "answer": "(b)",
+        "explanation": "It was enacted to prevent laundering of unaccounted funds by routing money into unlisted companies through artificially inflated share premiums."
+      },
+      {
+        "id": "ca-eco-07-q3",
+        "q": "An 'Angel Investor' is defined as:\n(a) A venture capital institution backed by the World Bank\n(b) An affluent individual who provides capital for a business startup, usually in exchange for convertible debt or ownership equity\n(c) A commercial bank lending under priority sector quotas\n(d) A sovereign wealth fund manager",
+        "options": [
+          "(a) A venture capital institution backed by the World Bank",
+          "(b) An affluent individual who provides capital for a business startup, usually in exchange for convertible debt or ownership equity",
+          "(c) A commercial bank lending under priority sector quotas",
+          "(d) A sovereign wealth fund manager"
+        ],
+        "answer": "(b)",
+        "explanation": "Angel investors are high-net-worth individuals providing early-stage seed capital when formal venture funds consider risk too high."
+      },
+      {
+        "id": "ca-eco-07-q4",
+        "q": "Which nodal government department coordinates the 'Startup India' initiative and maintains the DPIIT startup recognition registry?\n(a) Department of Economic Affairs\n(b) Department for Promotion of Industry and Internal Trade (DPIIT)\n(c) Department of Revenue\n(d) Department of Financial Services",
+        "options": [
+          "(a) Department of Economic Affairs",
+          "(b) Department for Promotion of Industry and Internal Trade (DPIIT)",
+          "(c) Department of Revenue",
+          "(d) Department of Financial Services"
+        ],
+        "answer": "(b)",
+        "explanation": "DPIIT under the Ministry of Commerce and Industry is the nodal department for Startup India recognition and policy."
+      },
+      {
+        "id": "ca-eco-07-q5",
+        "q": "What constitutes 'Fair Market Value' (FMV) of shares for tax purposes in unlisted entities?\n(a) The historical book value from incorporation\n(b) Valuation determined using Discounted Cash Flow (DCF) or Net Asset Value (NAV) by a registered valuer\n(c) The average market capitalization of peer BSE listed firms\n(d) RBI repo rate adjusted equity valuation",
+        "options": [
+          "(a) The historical book value from incorporation",
+          "(b) Valuation determined using Discounted Cash Flow (DCF) or Net Asset Value (NAV) by a registered valuer",
+          "(c) The average market capitalization of peer BSE listed firms",
+          "(d) RBI repo rate adjusted equity valuation"
+        ],
+        "answer": "(b)",
+        "explanation": "Under Rule 11UA of Income Tax Rules, FMV of unquoted equity shares is calculated either through NAV method or DCF method by a merchant banker."
+      }
+    ]
+  },
+  {
+    "id": "ca-eco-08",
+    "date": "2026-05-30",
+    "pillar": "Economy",
+    "title": "Production Linked Incentive (PLI) Schemes: Assessment across 14 Sectors",
+    "source": "PIB / NITI Aayog",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "PLI scheme provides financial incentives of 4% to 6% on incremental sales of goods manufactured in domestic units across 14 designated sectors.",
+      "Total outlay of Rs 1.97 lakh crore over 5 years targeting electronics, pharma, telecom, auto, medical devices, and advanced chemistry cell batteries.",
+      "Significant success witnessed in mobile phone manufacturing, positioning India as the world's second-largest mobile handset producer."
+    ],
+    "gs_connection": "GS-3: Industrial Policy, Manufacturing Sector, Make in India, Atmanirbhar Bharat, Export Competitiveness.",
+    "mcqs": [
+      {
+        "id": "ca-eco-08-q1",
+        "q": "The Production Linked Incentive (PLI) scheme provides cash incentives based on:\n(a) Capital invested in purchasing land\n(b) Incremental sales of goods manufactured in domestic units over the base year\n(c) Total number of employees hired\n(d) Volume of imports substituted",
+        "options": [
+          "(a) Capital invested in purchasing land",
+          "(b) Incremental sales of goods manufactured in domestic units over the base year",
+          "(c) Total number of employees hired",
+          "(d) Volume of imports substituted"
+        ],
+        "answer": "(b)",
+        "explanation": "PLI directly ties incentives to incremental sales of domestically manufactured goods, rewarding actual production scale rather than initial expenditure."
+      },
+      {
+        "id": "ca-eco-08-q2",
+        "q": "Which of the following sectors is covered under the 14 Champion Sectors of the PLI Scheme?\n1. Advanced Chemistry Cell (ACC) Battery\n2. Electronic/Technology Products & Mobile Manufacturing\n3. High-Efficiency Solar PV Modules\n4. Coal mining equipment\nSelect the correct answer:",
+        "options": [
+          "(a) 1, 2 and 3 only",
+          "(b) 2 and 3 only",
+          "(c) 1 and 4 only",
+          "(d) 1, 2, 3 and 4"
+        ],
+        "answer": "(a)",
+        "explanation": "ACC batteries, mobile/electronics, and solar PV modules are champion PLI sectors; traditional coal mining equipment is not included."
+      },
+      {
+        "id": "ca-eco-08-q3",
+        "q": "What is the primary economic objective of the PLI scheme in relation to global supply chains?\n(a) To impose prohibitive import tariffs on all foreign components\n(b) To integrate domestic manufacturing into Global Value Chains (GVCs) and reduce import dependencies\n(c) To completely nationalize key consumer manufacturing industries\n(d) To restrict exports to neighboring economies",
+        "options": [
+          "(a) To impose prohibitive import tariffs on all foreign components",
+          "(b) To integrate domestic manufacturing into Global Value Chains (GVCs) and reduce import dependencies",
+          "(c) To completely nationalize key consumer manufacturing industries",
+          "(d) To restrict exports to neighboring economies"
+        ],
+        "answer": "(b)",
+        "explanation": "The core objective is building domestic scale, plugging into global value chains, and generating export surplus while lowering supply vulnerability."
+      },
+      {
+        "id": "ca-eco-08-q4",
+        "q": "Which sector was the pioneer and demonstrated the highest early disbursement under the PLI initiative?\n(a) Textile manufacturing\n(b) Large-Scale Electronics and Mobile Manufacturing\n(c) Specialty Steel\n(d) White Goods (ACs and LEDs)",
+        "options": [
+          "(a) Textile manufacturing",
+          "(b) Large-Scale Electronics and Mobile Manufacturing",
+          "(c) Specialty Steel",
+          "(d) White Goods (ACs and LEDs)"
+        ],
+        "answer": "(b)",
+        "explanation": "Large-Scale Electronics and Mobile manufacturing showed rapid scale, making India a net exporter of smartphones within 3 years."
+      },
+      {
+        "id": "ca-eco-08-q5",
+        "q": "Which agency serves as the Project Management Agency (PMA) for appraisal and verification of claims for several PLI sectors?\n(a) Reserve Bank of India\n(b) Industrial Finance Corporation of India (IFCI) and SIDBI\n(c) Central Board of Direct Taxes\n(d) Competition Commission of India",
+        "options": [
+          "(a) Reserve Bank of India",
+          "(b) Industrial Finance Corporation of India (IFCI) and SIDBI",
+          "(c) Central Board of Direct Taxes",
+          "(d) Competition Commission of India"
+        ],
+        "answer": "(b)",
+        "explanation": "Financial institutions like IFCI and SIDBI are designated as Project Management Agencies (PMAs) to verify capital investments and sales thresholds."
+      }
+    ]
+  },
+  {
+    "id": "ca-eco-09",
+    "date": "2026-09-08",
+    "pillar": "Economy",
+    "title": "GIFT City IFSC: Tax Incentives & Global Financial Centre Architecture",
+    "source": "IFSCA / The Hindu",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "GIFT City in Gujarat is India's first operational International Financial Services Centre (IFSC) under the IFSCA Act 2019.",
+      "Units enjoy 100% tax exemption for 10 consecutive years out of 15 years, zero GST on transactions, and exemption from dividend distribution tax.",
+      "Allows Indian entities to access foreign currency funding and permits trading in offshore equity derivatives and bullion."
+    ],
+    "gs_connection": "GS-3: Financial Markets, Foreign Investment, Capital Account Liberalization, Regulatory Arbitrage.",
+    "mcqs": [
+      {
+        "id": "ca-eco-09-q1",
+        "q": "Which statutory body regulates all financial products and institutions in International Financial Services Centres in India?\n(a) Reserve Bank of India\n(b) Securities and Exchange Board of India\n(c) International Financial Services Centres Authority (IFSCA)\n(d) Insurance Regulatory and Development Authority",
+        "options": [
+          "(a) Reserve Bank of India",
+          "(b) Securities and Exchange Board of India",
+          "(c) International Financial Services Centres Authority (IFSCA)",
+          "(d) Insurance Regulatory and Development Authority"
+        ],
+        "answer": "(c)",
+        "explanation": "The IFSCA was established under the IFSCA Act 2019 as a unified regulator for banking, capital markets, and insurance in IFSCs."
+      },
+      {
+        "id": "ca-eco-09-q2",
+        "q": "What is the primary corporate tax incentive provided to units operating within an IFSC in India?\n(a) Complete tax exemption forever\n(b) 100% tax holiday for any 10 consecutive years out of a block of 15 years\n(c) 50% concession on corporate tax rates\n(d) Full exemption from import customs duties on raw materials only",
+        "options": [
+          "(a) Complete tax exemption forever",
+          "(b) 100% tax holiday for any 10 consecutive years out of a block of 15 years",
+          "(c) 50% concession on corporate tax rates",
+          "(d) Full exemption from import customs duties on raw materials only"
+        ],
+        "answer": "(b)",
+        "explanation": "Under Section 80LA of the Income Tax Act, IFSC units are eligible for a 100% tax deduction for 10 consecutive years chosen out of 15 years."
+      },
+      {
+        "id": "ca-eco-09-q3",
+        "q": "The term 'Deemed Foreign Territory' in the context of GIFT City IFSC implies that:\n(a) Indian criminal laws do not apply\n(b) Transactions are treated as offshore foreign exchange transactions for exchange control purposes\n(c) Only foreign citizens can work in the jurisdiction\n(d) India does not possess territorial sovereignty over the zone",
+        "options": [
+          "(a) Indian criminal laws do not apply",
+          "(b) Transactions are treated as offshore foreign exchange transactions for exchange control purposes",
+          "(c) Only foreign citizens can work in the jurisdiction",
+          "(d) India does not possess territorial sovereignty over the zone"
+        ],
+        "answer": "(b)",
+        "explanation": "Under FEMA, an IFSC is considered a non-resident zone / offshore financial center for foreign currency and cross-border transactions."
+      },
+      {
+        "id": "ca-eco-09-q4",
+        "q": "Which exchange in GIFT City launched trading in SGX Nifty derivatives, renaming it GIFT Nifty?\n(a) National Stock Exchange IFSC (NSE IX)\n(b) India INX (BSE subsidiary)\n(c) Multi Commodity Exchange\n(d) Metropolitan Stock Exchange",
+        "options": [
+          "(a) National Stock Exchange IFSC (NSE IX)",
+          "(b) India INX (BSE subsidiary)",
+          "(c) Multi Commodity Exchange",
+          "(d) Metropolitan Stock Exchange"
+        ],
+        "answer": "(a)",
+        "explanation": "GIFT Nifty trades on NSE International Exchange (NSE IX) within GIFT City, repatriating offshore dollar trading from Singapore to India."
+      },
+      {
+        "id": "ca-eco-09-q5",
+        "q": "Can foreign universities set up branch campuses in GIFT City IFSC without complying with domestic UGC regulations?\n(a) Yes, IFSCA regulations allow top foreign universities to set up autonomous offshore campuses\n(b) No, full UGC approval is mandatory\n(c) Only universities from Commonwealth countries are permitted\n(d) Only if 50% seats are reserved for Indian state students",
+        "options": [
+          "(a) Yes, IFSCA regulations allow top foreign universities to set up autonomous offshore campuses",
+          "(b) No, full UGC approval is mandatory",
+          "(c) Only universities from Commonwealth countries are permitted",
+          "(d) Only if 50% seats are reserved for Indian state students"
+        ],
+        "answer": "(a)",
+        "explanation": "IFSCA (Setting up and Operations of International Branch Campuses and Offshore Education Centres) Regulations permit foreign universities ranked in global top 500 to operate free of domestic UGC rules."
+      }
+    ]
+  },
+  {
+    "id": "ca-eco-10",
+    "date": "2026-08-04",
+    "pillar": "Economy",
+    "title": "Expected Credit Loss (ECL) Framework: Transition from Incurred Loss Model",
+    "source": "RBI Bulletin / Mint",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "RBI issued draft guidelines mandating Scheduled Commercial Banks to transition to the Expected Credit Loss (ECL) provisioning model.",
+      "Replaces the legacy 'incurred loss' approach where banks provisioned only after an asset defaulted (NPA recognized).",
+      "Classifies financial assets into three stages based on credit deterioration: Stage 1 (12-month ECL), Stage 2 & 3 (Lifetime ECL)."
+    ],
+    "gs_connection": "GS-3: Banking, NPA Management, Basel III Norms, Financial Systemic Stability.",
+    "mcqs": [
+      {
+        "id": "ca-eco-10-q1",
+        "q": "The Expected Credit Loss (ECL) framework differs from the traditional provisioning model primarily because:\n(a) It relies solely on government guarantees\n(b) It requires banks to estimate future credit defaults prospectively rather than waiting for an actual default to occur\n(c) It eliminates the concept of Non-Performing Assets completely\n(d) It applies only to retail personal loans",
+        "options": [
+          "(a) It relies solely on government guarantees",
+          "(b) It requires banks to estimate future credit defaults prospectively rather than waiting for an actual default to occur",
+          "(c) It eliminates the concept of Non-Performing Assets completely",
+          "(d) It applies only to retail personal loans"
+        ],
+        "answer": "(b)",
+        "explanation": "ECL is forward-looking and requires provisioning based on economic cycles and early credit distress signals rather than post-facto default."
+      },
+      {
+        "id": "ca-eco-10-q2",
+        "q": "Under the ECL approach aligned with IFRS 9 / Ind AS 109, what does Stage 2 classification signify?\n(a) Zero risk of default\n(b) Significant increase in credit risk since initial recognition, requiring lifetime expected loss provisioning\n(c) Actual default / credit-impaired asset\n(d) Sovereign debt asset",
+        "options": [
+          "(a) Zero risk of default",
+          "(b) Significant increase in credit risk since initial recognition, requiring lifetime expected loss provisioning",
+          "(c) Actual default / credit-impaired asset",
+          "(d) Sovereign debt asset"
+        ],
+        "answer": "(b)",
+        "explanation": "Stage 2 represents financial instruments with significant increase in credit risk since origination, requiring lifetime expected credit loss recognition."
+      },
+      {
+        "id": "ca-eco-10-q3",
+        "q": "Which international regulatory framework established the foundation for Expected Credit Loss provisioning following the 2008 global financial crisis?\n(a) Basel I\n(b) Basel II\n(c) Basel III\n(d) Bretton Woods Agreement",
+        "options": [
+          "(a) Basel I",
+          "(b) Basel II",
+          "(c) Basel III",
+          "(d) Bretton Woods Agreement"
+        ],
+        "answer": "(c)",
+        "explanation": "The Basel Committee on Banking Supervision (BCBS) under Basel III reforms mandated ECL models to resolve the procyclicality of incurred loss models."
+      },
+      {
+        "id": "ca-eco-10-q4",
+        "q": "What is the standard regulatory criteria for an asset to be classified as a Non-Performing Asset (NPA) in Indian commercial banks?\n(a) Interest or principal overdue for more than 30 days\n(b) Interest or principal overdue for more than 60 days\n(c) Interest or principal overdue for more than 90 days\n(d) Overdue for more than 180 days",
+        "options": [
+          "(a) Interest or principal overdue for more than 30 days",
+          "(b) Interest or principal overdue for more than 60 days",
+          "(c) Interest or principal overdue for more than 90 days",
+          "(d) Overdue for more than 180 days"
+        ],
+        "answer": "(c)",
+        "explanation": "Under RBI prudential norms, a loan asset is classified as an NPA if interest or installment of principal remains overdue for more than 90 days."
+      },
+      {
+        "id": "ca-eco-10-q5",
+        "q": "How does the transition to the ECL model initially impact a bank's capital adequacy ratio (CRAR)?\n(a) It dramatically increases CRAR\n(b) It leads to higher provisioning requirements, temporarily reducing common equity Tier-1 (CET1) capital\n(c) It has zero impact on capital\n(d) It forces the bank into prompt corrective action automatically",
+        "options": [
+          "(a) It dramatically increases CRAR",
+          "(b) It leads to higher provisioning requirements, temporarily reducing common equity Tier-1 (CET1) capital",
+          "(c) It has zero impact on capital",
+          "(d) It forces the bank into prompt corrective action automatically"
+        ],
+        "answer": "(b)",
+        "explanation": "Transitioning to ECL requires higher upfront provisions, which eat into retained earnings and lower CET-1 capital, leading RBI to offer a glide path of up to 5 years."
+      }
+    ]
+  },
+  {
+    "id": "ca-eco-11",
+    "date": "2026-07-19",
+    "pillar": "Economy",
+    "title": "India's Foreign Exchange Reserves & Import Cover Milestone",
+    "source": "RBI / Economic Survey",
+    "is_top100": false,
+    "is_pt365": true,
+    "summary_points": [
+      "India's forex reserves surpassed $700 billion milestone, consisting of Foreign Currency Assets (FCA), Gold, SDRs, and Reserve Tranche Position (RTP).",
+      "Foreign Currency Assets constitute the largest component (over 85%), held in major global reserve currencies like USD, Euro, GBP, and Yen.",
+      "Reserve Bank of India has actively diversified into physical gold purchases, increasing gold share in reserves to over 9%."
+    ],
+    "gs_connection": "GS-3: External Sector, Balance of Payments, Forex Management, RBI Balance Sheet, Currency Stability.",
+    "mcqs": [
+      {
+        "id": "ca-eco-11-q1",
+        "q": "Which of the following is NOT a component of India's Foreign Exchange Reserves?\n(a) Foreign Currency Assets (FCA)\n(b) Gold holdings of the RBI\n(c) Special Drawing Rights (SDR) with the IMF\n(d) Indian Corporate Rupee Bonds held by domestic mutual funds",
+        "options": [
+          "(a) Foreign Currency Assets (FCA)",
+          "(b) Gold holdings of the RBI",
+          "(c) Special Drawing Rights (SDR) with the IMF",
+          "(d) Indian Corporate Rupee Bonds held by domestic mutual funds"
+        ],
+        "answer": "(d)",
+        "explanation": "Forex reserves comprise 4 components: Foreign Currency Assets, Gold, SDRs, and Reserve Position in the IMF (RTP)."
+      },
+      {
+        "id": "ca-eco-11-q2",
+        "q": "The 'Reserve Tranche Position' (RTP) in the International Monetary Fund refers to:\n(a) The gold deposited by developing nations as penalty\n(b) The portion of a member country's quota paid in reserve currencies that can be withdrawn on demand without conditionality\n(c) The emergency loan extended to member countries under Structural Adjustment Programs\n(d) The interest charged on SDR allocations",
+        "options": [
+          "(a) The gold deposited by developing nations as penalty",
+          "(b) The portion of a member country's quota paid in reserve currencies that can be withdrawn on demand without conditionality",
+          "(c) The emergency loan extended to member countries under Structural Adjustment Programs",
+          "(d) The interest charged on SDR allocations"
+        ],
+        "answer": "(b)",
+        "explanation": "A member country's quota with the IMF includes the Reserve Tranche, which is an unconditional reserve asset that can be drawn without policy obligations."
+      },
+      {
+        "id": "ca-eco-11-q3",
+        "q": "What is the primary currency basket determining the value of the IMF's Special Drawing Rights (SDR)?\n(a) US Dollar, Euro, Chinese Renminbi, Japanese Yen, British Pound\n(b) US Dollar, Euro, Indian Rupee, Russian Rouble\n(c) US Dollar and Euro only\n(d) Gold, Silver, and Platinum bullion prices",
+        "options": [
+          "(a) US Dollar, Euro, Chinese Renminbi, Japanese Yen, British Pound",
+          "(b) US Dollar, Euro, Indian Rupee, Russian Rouble",
+          "(c) US Dollar and Euro only",
+          "(d) Gold, Silver, and Platinum bullion prices"
+        ],
+        "answer": "(a)",
+        "explanation": "The SDR basket consists of five currencies: US Dollar, Euro, Chinese Yuan/Renminbi (added in 2016), Japanese Yen, and British Pound Sterling."
+      },
+      {
+        "id": "ca-eco-11-q4",
+        "q": "What is the economic concept of 'Import Cover' of forex reserves?\n(a) The custom duty levied on imported luxury items\n(b) The number of months of imports that can be sustained by a country's foreign currency reserves\n(c) The insurance policy covering marine transport shipments\n(d) The ratio of exports to total imports",
+        "options": [
+          "(a) The custom duty levied on imported luxury items",
+          "(b) The number of months of imports that can be sustained by a country's foreign currency reserves",
+          "(c) The insurance policy covering marine transport shipments",
+          "(d) The ratio of exports to total imports"
+        ],
+        "answer": "(b)",
+        "explanation": "Import cover measures how many months a nation can finance its projected import bill using its foreign exchange reserves (safe benchmark is 8-10 months)."
+      },
+      {
+        "id": "ca-eco-11-q5",
+        "q": "When the RBI intervenes in the forex market by selling US Dollars to arrest Rupee depreciation, what happens to domestic banking liquidity?\n(a) Domestic liquidity expands\n(b) Domestic liquidity is sucked out (contracts)\n(c) Liquidity remains entirely unaffected\n(d) Commercial banks are mandated to reduce CRR",
+        "options": [
+          "(a) Domestic liquidity expands",
+          "(b) Domestic liquidity is sucked out (contracts)",
+          "(c) Liquidity remains entirely unaffected",
+          "(d) Commercial banks are mandated to reduce CRR"
+        ],
+        "answer": "(b)",
+        "explanation": "Selling dollars absorbs Indian Rupees from the banking system, reducing domestic liquidity and prompting RBI to sterilize via open market purchases."
+      }
+    ]
+  },
+  {
+    "id": "ca-eco-12",
+    "date": "2026-06-08",
+    "pillar": "Economy",
+    "title": "Internationalisation of the Rupee: Special Rupee Vostro Accounts (SRVA)",
+    "source": "RBI / The Hindu",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "RBI introduced mechanisms allowing invoicing, payment, and settlement of international trade in Indian Rupees (INR) via Special Rupee Vostro Accounts (SRVA).",
+      "A Vostro account is an account held by a foreign bank with an Indian bank in domestic currency (INR).",
+      "Surplus INR balances in SRVA can be invested in Indian Government Securities (G-Secs), Treasury Bills, and local bank deposits."
+    ],
+    "gs_connection": "GS-3: External Trade, Currency Risk, De-dollarisation, Bilateral Trade Settlement, Capital Account Convertibility.",
+    "mcqs": [
+      {
+        "id": "ca-eco-12-q1",
+        "q": "In international banking transactions, what does a 'Vostro Account' literally mean in Latin?\n(a) Our account with you\n(b) Your account with us\n(c) Mutual escrow account\n(d) Sovereign foreign exchange account",
+        "options": [
+          "(a) Our account with you",
+          "(b) Your account with us",
+          "(c) Mutual escrow account",
+          "(d) Sovereign foreign exchange account"
+        ],
+        "answer": "(b)",
+        "explanation": "Vostro means 'your account with us' (a foreign bank's account maintained at an Indian bank in INR). Nostro means 'our account with you' (an Indian bank's account maintained abroad in foreign currency)."
+      },
+      {
+        "id": "ca-eco-12-q2",
+        "q": "Under RBI's rupee trade settlement mechanism, how can a foreign exporter be paid for goods shipped to India?\n(a) Through physical currency notes only\n(b) Indian importer pays in INR, which is credited to the foreign bank's Special Rupee Vostro Account (SRVA) in India\n(c) Payment must be cleared through New York CHIPS system in USD\n(d) Via barter arrangement of gold bullion",
+        "options": [
+          "(a) Through physical currency notes only",
+          "(b) Indian importer pays in INR, which is credited to the foreign bank's Special Rupee Vostro Account (SRVA) in India",
+          "(c) Payment must be cleared through New York CHIPS system in USD",
+          "(d) Via barter arrangement of gold bullion"
+        ],
+        "answer": "(b)",
+        "explanation": "The Indian importer pays in Indian Rupees, which is credited into the Special Vostro account of the correspondent bank of the partner country."
+      },
+      {
+        "id": "ca-eco-12-q3",
+        "q": "Which committee set up by the RBI provided the roadmap for Fuller Capital Account Convertibility (FCAC)?\n(a) Tarapore Committee\n(b) Urjit Patel Committee\n(c) Bimal Jalan Committee\n(d) Rangarajan Committee",
+        "options": [
+          "(a) Tarapore Committee",
+          "(b) Urjit Patel Committee",
+          "(c) Bimal Jalan Committee",
+          "(d) Rangarajan Committee"
+        ],
+        "answer": "(a)",
+        "explanation": "The Tarapore Committees on Capital Account Convertibility (1997 and 2006) laid down preconditions including low fiscal deficit, low inflation, and robust banking health."
+      },
+      {
+        "id": "ca-eco-12-q4",
+        "q": "What is the primary strategic benefit of internationalising the Indian Rupee in foreign trade settlements?\n(a) Elimination of exchange rate volatility and dependency on the US Dollar clearing system\n(b) Complete isolation from global inflation trends\n(c) Guaranteed surplus on the current account\n(d) Exemption from WTO tariff bindings",
+        "options": [
+          "(a) Elimination of exchange rate volatility and dependency on the US Dollar clearing system",
+          "(b) Complete isolation from global inflation trends",
+          "(c) Guaranteed surplus on the current account",
+          "(d) Exemption from WTO tariff bindings"
+        ],
+        "answer": "(a)",
+        "explanation": "Invoicing in INR protects domestic traders against dollar exchange risks and mitigates vulnerabilities arising from unilateral Western sanctions on SWIFT."
+      },
+      {
+        "id": "ca-eco-12-q5",
+        "q": "Under the RBI Rupee settlement framework, surplus balances in SRVA accounts can be deployed into:\n(a) Speculative real estate investments\n(b) Government Treasury Bills and G-Secs\n(c) Cryptocurrency tokens\n(d) Unregulated peer-to-peer lending",
+        "options": [
+          "(a) Speculative real estate investments",
+          "(b) Government Treasury Bills and G-Secs",
+          "(c) Cryptocurrency tokens",
+          "(d) Unregulated peer-to-peer lending"
+        ],
+        "answer": "(b)",
+        "explanation": "RBI allows foreign banks to invest surplus rupee funds in Indian Government securities, treasury bills, and bank deposits to earn yield."
+      }
+    ]
+  },
+  {
+    "id": "ca-eco-13",
+    "date": "2026-05-18",
+    "pillar": "Economy",
+    "title": "Current Account Deficit (CAD) Dynamics & Services Export Resilience",
+    "source": "Ministry of Commerce / RBI",
+    "is_top100": false,
+    "is_pt365": true,
+    "summary_points": [
+      "India's Current Account Deficit (CAD) moderated to sustainable levels under 1.5% of GDP despite merchandise trade deficits exceeding $240 billion.",
+      "Resilience is driven by record surplus in services exports ($160B+ surplus) spanning IT software, business consulting, and Global Capability Centres (GCCs).",
+      "Remittance inflows exceeded $120 billion, with India retaining its position as the world's largest recipient of overseas remittances."
+    ],
+    "gs_connection": "GS-3: Balance of Payments, Current vs Capital Account, Services Exports, Inward Remittances, Global Capability Centres.",
+    "mcqs": [
+      {
+        "id": "ca-eco-13-q1",
+        "q": "Which of the following items is included in the Current Account of India's Balance of Payments?\n1. Merchandise trade (exports and imports)\n2. Software services receipts\n3. Remittances by non-resident Indians\n4. Foreign Direct Investment (FDI)\nSelect the correct answer:",
+        "options": [
+          "(a) 1, 2 and 3 only",
+          "(b) 1 and 4 only",
+          "(c) 2, 3 and 4 only",
+          "(d) 1, 2, 3 and 4"
+        ],
+        "answer": "(a)",
+        "explanation": "FDI, FPI, and external commercial borrowings belong to the Capital Account. Trade in goods, services, income, and unilateral transfers (remittances) form the Current Account."
+      },
+      {
+        "id": "ca-eco-13-q2",
+        "q": "In balance of payments accounting, 'Invisibles' comprise:\n(a) Smuggled contraband goods\n(b) Services, transfers (remittances/grants), and factor income (interest/dividends)\n(c) Defense capital expenditure\n(d) Trade conducted through darknet platforms",
+        "options": [
+          "(a) Smuggled contraband goods",
+          "(b) Services, transfers (remittances/grants), and factor income (interest/dividends)",
+          "(c) Defense capital expenditure",
+          "(d) Trade conducted through darknet platforms"
+        ],
+        "answer": "(b)",
+        "explanation": "Invisibles in the current account consist of non-merchandise transactions: services (IT, travel, transport), transfers (gifts, remittances), and income flows."
+      },
+      {
+        "id": "ca-eco-13-q3",
+        "q": "According to the World Bank's Migration and Development Brief, which country is the world's top recipient of external remittances?\n(a) China\n(b) Mexico\n(c) India\n(d) Philippines",
+        "options": [
+          "(a) China",
+          "(b) Mexico",
+          "(c) India",
+          "(d) Philippines"
+        ],
+        "answer": "(c)",
+        "explanation": "India is the world's largest recipient of remittances, surpassing $120 billion annually, with substantial flows from North America, UK, and the Gulf."
+      },
+      {
+        "id": "ca-eco-13-q4",
+        "q": "A country running a persistent Current Account Deficit must finance it through:\n(a) An equivalent surplus on its Capital Account or drawing down forex reserves\n(b) Printing fiat currency exclusively\n(c) Imposing domestic export bans\n(d) Increasing domestic statutory minimum wages",
+        "options": [
+          "(a) An equivalent surplus on its Capital Account or drawing down forex reserves",
+          "(b) Printing fiat currency exclusively",
+          "(c) Imposing domestic export bans",
+          "(d) Increasing domestic statutory minimum wages"
+        ],
+        "answer": "(a)",
+        "explanation": "By BoP identity (Current Account + Capital Account + Changes in Reserves = 0), a CAD must be financed by capital inflows (FDI/FPI/loans) or by drawing down reserves."
+      },
+      {
+        "id": "ca-eco-13-q5",
+        "q": "The phenomenon of 'Twin Deficits' in macroeconomics refers to the simultaneous existence of:\n(a) Trade Deficit and Revenue Deficit\n(b) High Fiscal Deficit and high Current Account Deficit\n(c) Primary Deficit and Monetised Deficit\n(d) Capital Account Deficit and Liquidity Deficit",
+        "options": [
+          "(a) Trade Deficit and Revenue Deficit",
+          "(b) High Fiscal Deficit and high Current Account Deficit",
+          "(c) Primary Deficit and Monetised Deficit",
+          "(d) Capital Account Deficit and Liquidity Deficit"
+        ],
+        "answer": "(b)",
+        "explanation": "The Twin Deficit hypothesis posits that high government fiscal deficits drive up consumption and imports, spilling over into a wide Current Account Deficit."
+      }
+    ]
+  },
+  {
+    "id": "ca-eco-14",
+    "date": "2026-04-28",
+    "pillar": "Economy",
+    "title": "Minimum Support Price (MSP) Formulas: Swaminathan Commission & C2 vs A2+FL",
+    "source": "Ministry of Agriculture / Indian Express",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Government fixes MSP for 22 mandated agricultural crops and Fair & Remunerative Price (FRP) for sugarcane based on CACP recommendations.",
+      "Existing MSP formula guarantees at least 50% profit over 'A2+FL' cost (all paid-out expenses plus imputed value of family labour).",
+      "Farmers' demand centers on statutory guarantee of MSP calculated on 'C2' cost (comprehensive cost including rental value of owned land and interest on capital)."
+    ],
+    "gs_connection": "GS-3: Agriculture, Pricing Policy, CACP, Swaminathan Committee, Farm Income & Subsidies.",
+    "mcqs": [
+      {
+        "id": "ca-eco-14-q1",
+        "q": "Which statutory/advisory body recommends the Minimum Support Prices (MSP) to the Central Government?\n(a) NITI Aayog\n(b) Commission for Agricultural Costs and Prices (CACP)\n(c) National Farmers Commission\n(d) Food Corporation of India",
+        "options": [
+          "(a) NITI Aayog",
+          "(b) Commission for Agricultural Costs and Prices (CACP)",
+          "(c) National Farmers Commission",
+          "(d) Food Corporation of India"
+        ],
+        "answer": "(b)",
+        "explanation": "The Commission for Agricultural Costs and Prices (CACP), an attached office of the Ministry of Agriculture, recommends MSPs. The Cabinet Committee on Economic Affairs (CCEA) approves them."
+      },
+      {
+        "id": "ca-eco-14-q2",
+        "q": "In agricultural cost terminology used by CACP, what does 'A2+FL' cost include?\n(a) Only seeds and chemical fertilizers\n(b) All paid-out costs on inputs, hired labor, fuels, irrigation plus the imputed value of unpaid family labor\n(c) Comprehensive cost including rental value of owned land and interest on owned capital\n(d) Only the market transportation charges to mandis",
+        "options": [
+          "(a) Only seeds and chemical fertilizers",
+          "(b) All paid-out costs on inputs, hired labor, fuels, irrigation plus the imputed value of unpaid family labor",
+          "(c) Comprehensive cost including rental value of owned land and interest on owned capital",
+          "(d) Only the market transportation charges to mandis"
+        ],
+        "answer": "(b)",
+        "explanation": "Cost A2 covers all paid-out expenses incurred by the farmer. A2+FL adds the imputed value of family labor. C2 is comprehensive cost (A2+FL + land rent + capital interest)."
+      },
+      {
+        "id": "ca-eco-14-q3",
+        "q": "The National Commission on Farmers chaired by Prof. M.S. Swaminathan recommended that MSP should be at least:\n(a) 25% above A2 cost\n(b) 50% above the weighted average Cost of Production (C2)\n(c) Equal to international benchmark market prices\n(d) 100% above input expenditure",
+        "options": [
+          "(a) 25% above A2 cost",
+          "(b) 50% above the weighted average Cost of Production (C2)",
+          "(c) Equal to international benchmark market prices",
+          "(d) 100% above input expenditure"
+        ],
+        "answer": "(b)",
+        "explanation": "The Swaminathan Commission report (2006) famously recommended fixing MSP at least 50% more than the comprehensive cost of production (C2)."
+      },
+      {
+        "id": "ca-eco-14-q4",
+        "q": "For sugarcane, instead of MSP, the Central Government announces:\n(a) Minimum Export Price (MEP)\n(b) Fair and Remunerative Price (FRP)\n(c) Statutory Maximum Retail Price\n(d) Procurement Buffer Price",
+        "options": [
+          "(a) Minimum Export Price (MEP)",
+          "(b) Fair and Remunerative Price (FRP)",
+          "(c) Statutory Maximum Retail Price",
+          "(d) Procurement Buffer Price"
+        ],
+        "answer": "(b)",
+        "explanation": "Under the Sugarcane (Control) Order 1966, the Union Government fixes the Fair and Remunerative Price (FRP) that sugar mills are legally obligated to pay cane growers."
+      },
+      {
+        "id": "ca-eco-14-q5",
+        "q": "How many agricultural crops are covered under the formal Minimum Support Price (MSP) announcements each year?\n(a) 15 crops\n(b) 22 mandated crops (plus FRP for sugarcane)\n(c) 50 crops\n(d) All agricultural commodities grown in India",
+        "options": [
+          "(a) 15 crops",
+          "(b) 22 mandated crops (plus FRP for sugarcane)",
+          "(c) 50 crops",
+          "(d) All agricultural commodities grown in India"
+        ],
+        "answer": "(b)",
+        "explanation": "CACP recommends MSPs for 22 mandated crops (7 cereals, 5 pulses, 7 oilseeds, 3 commercial crops) plus FRP for sugarcane."
+      }
+    ]
+  },
+  {
+    "id": "ca-eco-15",
+    "date": "2026-03-12",
+    "pillar": "Economy",
+    "title": "National Monetisation Pipeline (NMP) & Capital Expenditure (Capex) Strategy",
+    "source": "NITI Aayog / MoF",
+    "is_top100": false,
+    "is_pt365": true,
+    "summary_points": [
+      "National Monetisation Pipeline (NMP) seeks to monetize core infrastructure assets worth Rs 6 lakh crore without transferring ownership (lease/concession models).",
+      "Top sectors comprise Roads (NHAI InvITs), Railways, Power Transmission (PowerGrid InvIT), and Oil & Gas pipelines.",
+      "Proceeds are recycled directly to finance new greenfield infrastructure under the National Infrastructure Pipeline (NIP)."
+    ],
+    "gs_connection": "GS-3: Infrastructure Financing, Public-Private Partnerships (PPP), InvITs and REITs, Asset Monetisation.",
+    "mcqs": [
+      {
+        "id": "ca-eco-15-q1",
+        "q": "The core operational philosophy behind the National Monetisation Pipeline (NMP) is:\n(a) Outright sale and privatization of state-owned land assets\n(b) Leasing brownfield, de-risked revenue-generating public infrastructure assets to private operators while retaining public ownership\n(c) Shutting down non-profitable public enterprises\n(d) Sovereign borrowing from foreign commercial banks",
+        "options": [
+          "(a) Outright sale and privatization of state-owned land assets",
+          "(b) Leasing brownfield, de-risked revenue-generating public infrastructure assets to private operators while retaining public ownership",
+          "(c) Shutting down non-profitable public enterprises",
+          "(d) Sovereign borrowing from foreign commercial banks"
+        ],
+        "answer": "(b)",
+        "explanation": "NMP emphasizes monetisation of rights, not ownership. Public assets remain government property and return to the state at the end of concession periods."
+      },
+      {
+        "id": "ca-eco-15-q2",
+        "q": "Which two sectors account for more than 50% of the total target value under the National Monetisation Pipeline?\n(a) Telecom and Civil Aviation\n(b) Roads and Railways\n(c) Power and Mining\n(d) Ports and Warehousing",
+        "options": [
+          "(a) Telecom and Civil Aviation",
+          "(b) Roads and Railways",
+          "(c) Power and Mining",
+          "(d) Ports and Warehousing"
+        ],
+        "answer": "(b)",
+        "explanation": "Roads (27%) and Railways (25%) constitute the bulk of the NMP asset base, followed by Power (15%) and Oil/Gas pipelines (8%)."
+      },
+      {
+        "id": "ca-eco-15-q3",
+        "q": "What financial vehicle enables retail and institutional investors to pool funds and invest directly in income-generating infrastructure projects?\n(a) Infrastructure Investment Trusts (InvITs)\n(b) Credit Default Swaps (CDS)\n(c) Participatory Notes (P-Notes)\n(d) Masala Bonds",
+        "options": [
+          "(a) Infrastructure Investment Trusts (InvITs)",
+          "(b) Credit Default Swaps (CDS)",
+          "(c) Participatory Notes (P-Notes)",
+          "(d) Masala Bonds"
+        ],
+        "answer": "(a)",
+        "explanation": "InvITs are mutual fund-like collective investment vehicles regulated by SEBI that own operational infrastructure assets and pass regular cash flows as dividends/interest."
+      },
+      {
+        "id": "ca-eco-15-q4",
+        "q": "What is the crucial difference between greenfield and brownfield infrastructure investments?\n(a) Greenfield involves high environmental risk, while brownfield involves low environmental risk\n(b) Greenfield involves building entirely new assets from scratch; brownfield involves expanding or monetizing existing operating assets\n(c) Greenfield applies only to agriculture; brownfield applies to heavy manufacturing\n(d) Brownfield is exclusively financed by foreign equity",
+        "options": [
+          "(a) Greenfield involves high environmental risk, while brownfield involves low environmental risk",
+          "(b) Greenfield involves building entirely new assets from scratch; brownfield involves expanding or monetizing existing operating assets",
+          "(c) Greenfield applies only to agriculture; brownfield applies to heavy manufacturing",
+          "(d) Brownfield is exclusively financed by foreign equity"
+        ],
+        "answer": "(b)",
+        "explanation": "Greenfield projects carry land acquisition and construction execution risks; brownfield assets are already built, de-risked, and generating operating cash flows."
+      },
+      {
+        "id": "ca-eco-15-q5",
+        "q": "Which government portal acts as the single-window digital mapping platform integrating multi-modal infrastructure planning across ministries?\n(a) PM Gati Shakti National Master Plan\n(b) PRAGATI Portal\n(c) DARPAN Dashboard\n(d) UMANG Platform",
+        "options": [
+          "(a) PM Gati Shakti National Master Plan",
+          "(b) PRAGATI Portal",
+          "(c) DARPAN Dashboard",
+          "(d) UMANG Platform"
+        ],
+        "answer": "(a)",
+        "explanation": "PM Gati Shakti uses GIS-based spatial planning by Bhaskaracharya National Institute for Space Applications and Geo-informatics (BISAG-N) to coordinate infrastructure projects."
+      }
+    ]
+  },
+  {
+    "id": "ca-eco-16",
+    "date": "2026-02-14",
+    "pillar": "Economy",
+    "title": "SEBI's Regulatory Framework for ESG Ratings & Mutual Fund Greenwashing",
+    "source": "SEBI / Livemint",
+    "is_top100": true,
+    "is_pt365": false,
+    "summary_points": [
+      "SEBI mandated that Environmental, Social, and Governance (ESG) Rating Providers (ERPs) must be registered under SEBI (Credit Rating Agencies) Regulations.",
+      "Introduced 'Core ESG Rating' based on assured parameters under the Business Responsibility and Sustainability Report (BRSR Core).",
+      "Requires ESG mutual fund schemes to invest at least 65% of their AUM in companies reporting comprehensive BRSR Core assurance."
+    ],
+    "gs_connection": "GS-3: Financial Markets, Sustainable Investing, Greenwashing Prevention, Corporate Governance, SEBI Regulations.",
+    "mcqs": [
+      {
+        "id": "ca-eco-16-q1",
+        "q": "The term 'Greenwashing' in corporate finance and investment funds refers to:\n(a) Promoting biological cleaning of wastewater\n(b) Deceptively presenting products, policies, or investments as environmentally friendly when they are not\n(c) Planting trees on industrial premises\n(d) Zero-tariff trade on agricultural goods",
+        "options": [
+          "(a) Promoting biological cleaning of wastewater",
+          "(b) Deceptively presenting products, policies, or investments as environmentally friendly when they are not",
+          "(c) Planting trees on industrial premises",
+          "(d) Zero-tariff trade on agricultural goods"
+        ],
+        "answer": "(b)",
+        "explanation": "Greenwashing involves making misleading or unsubstantiated claims regarding the environmental credentials of a company, bond, or fund."
+      },
+      {
+        "id": "ca-eco-16-q2",
+        "q": "What is the mandatory sustainability reporting framework for top 1000 listed entities by market capitalization in India?\n(a) Corporate Social Responsibility (CSR) Filing\n(b) Business Responsibility and Sustainability Report (BRSR)\n(c) Kyoto Protocol National Disclosure\n(d) ISO 14001 Environmental Audit",
+        "options": [
+          "(a) Corporate Social Responsibility (CSR) Filing",
+          "(b) Business Responsibility and Sustainability Report (BRSR)",
+          "(c) Kyoto Protocol National Disclosure",
+          "(d) ISO 14001 Environmental Audit"
+        ],
+        "answer": "(b)",
+        "explanation": "SEBI mandated the Business Responsibility and Sustainability Report (BRSR) to replace the older Business Responsibility Report (BRR) for ESG disclosures."
+      },
+      {
+        "id": "ca-eco-16-q3",
+        "q": "Under SEBI regulations, ESG Mutual Fund schemes in India are permitted to launch strategies under which of the following categories?\n1. Exclusion strategies\n2. Integration strategies\n3. Impact investing\n4. Transition or transition-related strategies\nSelect the correct answer:",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 3 and 4 only",
+          "(c) 1, 2, 3 and 4",
+          "(d) 2 and 4 only"
+        ],
+        "answer": "(c)",
+        "explanation": "SEBI permits 6 defined ESG strategies: Exclusion, Integration, Best-in-class, Positive Screening, Impact Investing, and Sustainable/Transition."
+      },
+      {
+        "id": "ca-eco-16-q4",
+        "q": "Under Section 135 of the Companies Act 2013, what percentage of average net profits must qualifying companies spend on CSR activities?\n(a) 1%\n(b) 2%\n(c) 3%\n(d) 5%",
+        "options": [
+          "(a) 1%",
+          "(b) 2%",
+          "(c) 3%",
+          "(d) 5%"
+        ],
+        "answer": "(b)",
+        "explanation": "Qualifying companies (net worth Rs 500 cr+, turnover Rs 1000 cr+, or net profit Rs 5 cr+) must spend at least 2% of average net profits of preceding three years on CSR."
+      },
+      {
+        "id": "ca-eco-16-q5",
+        "q": "Who regulates ESG Rating Providers (ERPs) in Indian financial markets?\n(a) Ministry of Environment, Forest and Climate Change\n(b) Securities and Exchange Board of India (SEBI)\n(c) Reserve Bank of India\n(d) Bureau of Energy Efficiency",
+        "options": [
+          "(a) Ministry of Environment, Forest and Climate Change",
+          "(b) Securities and Exchange Board of India (SEBI)",
+          "(c) Reserve Bank of India",
+          "(d) Bureau of Energy Efficiency"
+        ],
+        "answer": "(b)",
+        "explanation": "SEBI amended the Credit Rating Agencies Regulations in 2023 to bring ESG Rating Providers under formal statutory licensing and oversight."
+      }
+    ]
+  },
+  {
+    "id": "ca-eco-17",
+    "date": "2026-01-24",
+    "pillar": "Economy",
+    "title": "Central Bank Monetary Policy Transmission & Bank Lending Benchmarks",
+    "source": "RBI Bulletin",
+    "is_top100": false,
+    "is_pt365": true,
+    "summary_points": [
+      "External Benchmark Lending Rate (EBLR) framework links floating rate loans for retail and MSMEs to external benchmarks like the Repo Rate or T-Bill yields.",
+      "Replaced the Marginal Cost of Funds based Lending Rate (MCLR) system to ensure faster, symmetrical monetary policy transmission.",
+      "RBI observed that lending rates adjust faster during repo rate hiking cycles than deposit rates, prompting scrutiny of NIM spreads."
+    ],
+    "gs_connection": "GS-3: Monetary Policy, Banking Sector Reforms, Repo Rate, Transmission Mechanism, MCLR vs EBLR.",
+    "mcqs": [
+      {
+        "id": "ca-eco-17-q1",
+        "q": "Which external benchmark is most widely adopted by Indian commercial banks for floating-rate personal and housing loans under RBI norms?\n(a) US Federal Reserve Funds Rate\n(b) RBI's Policy Repo Rate\n(c) 10-year Indian Sovereign Bond Yield\n(d) State Bank of India Base Rate",
+        "options": [
+          "(a) US Federal Reserve Funds Rate",
+          "(b) RBI's Policy Repo Rate",
+          "(c) 10-year Indian Sovereign Bond Yield",
+          "(d) State Bank of India Base Rate"
+        ],
+        "answer": "(b)",
+        "explanation": "Most banks adopt the RBI Repo Rate as the external benchmark under the mandatory EBLR framework introduced in October 2019."
+      },
+      {
+        "id": "ca-eco-17-q2",
+        "q": "The Marginal Cost of Funds based Lending Rate (MCLR) was introduced by RBI primarily to replace which older system?\n(a) Prime Lending Rate (BPLR) and Base Rate system\n(b) Reverse Repo Corridor\n(c) Statutory Liquidity Ratio\n(d) Cash Reserve Ratio",
+        "options": [
+          "(a) Prime Lending Rate (BPLR) and Base Rate system",
+          "(b) Reverse Repo Corridor",
+          "(c) Statutory Liquidity Ratio",
+          "(d) Cash Reserve Ratio"
+        ],
+        "answer": "(a)",
+        "explanation": "MCLR was introduced in 2016 to replace the opaque Base Rate system, tying minimum lending rates to marginal funding costs of banks."
+      },
+      {
+        "id": "ca-eco-17-q3",
+        "q": "What does the 'Net Interest Margin' (NIM) of a commercial bank represent?\n(a) The total fee income earned from digital payment transactions\n(b) The difference between interest income earned on loans and interest paid on deposits relative to total interest-earning assets\n(c) The ratio of gross NPAs to net advances\n(d) The statutory tax paid by public sector banks",
+        "options": [
+          "(a) The total fee income earned from digital payment transactions",
+          "(b) The difference between interest income earned on loans and interest paid on deposits relative to total interest-earning assets",
+          "(c) The ratio of gross NPAs to net advances",
+          "(d) The statutory tax paid by public sector banks"
+        ],
+        "answer": "(b)",
+        "explanation": "NIM is a core profitability metric: (Interest Income - Interest Expended) / Total Interest-Earning Assets."
+      },
+      {
+        "id": "ca-eco-17-q4",
+        "q": "In monetary economics, 'Liquidity Trap' refers to a situation where:\n(a) Banks have zero deposits to lend\n(b) Interest rates are so low that people prefer holding cash, making monetary policy ineffective in stimulating investment\n(c) RBI refuses to lend to the Central Government\n(d) Inflation reaches hyperinflation levels above 100%",
+        "options": [
+          "(a) Banks have zero deposits to lend",
+          "(b) Interest rates are so low that people prefer holding cash, making monetary policy ineffective in stimulating investment",
+          "(c) RBI refuses to lend to the Central Government",
+          "(d) Inflation reaches hyperinflation levels above 100%"
+        ],
+        "answer": "(b)",
+        "explanation": "Keynesian liquidity trap occurs when monetary easing fails because interest rates near zero cause cash demand to become infinitely elastic."
+      },
+      {
+        "id": "ca-eco-17-q5",
+        "q": "Which statutory committee determines the policy repo rate under Section 45ZB of the RBI Act 1934?\n(a) Board for Financial Supervision\n(b) Monetary Policy Committee (MPC)\n(c) Financial Stability and Development Council\n(d) Central Board of the RBI",
+        "options": [
+          "(a) Board for Financial Supervision",
+          "(b) Monetary Policy Committee (MPC)",
+          "(c) Financial Stability and Development Council",
+          "(d) Central Board of the RBI"
+        ],
+        "answer": "(b)",
+        "explanation": "The 6-member Monetary Policy Committee (3 internal RBI officials, 3 external government-appointed experts) sets the repo rate to achieve the 4% (+/- 2%) inflation target."
+      }
+    ]
+  },
+  {
+    "id": "ca-eco-18",
+    "date": "2026-10-30",
+    "pillar": "Economy",
+    "title": "Direct Benefit Transfer (DBT) & JAM Trinity: 10-Year Macroeconomic Audit",
+    "source": "DBT Mission / World Bank",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Direct Benefit Transfer (DBT) cumulative transfers crossed Rs 38 lakh crore, eliminating over Rs 3 lakh crore in ghost beneficiaries and leakages.",
+      "Enabled by the JAM Trinity (Jan Dhan accounts, Aadhaar digital identity, Mobile connectivity) and the Aadhaar Payment Bridge System (APBS).",
+      "Covers 310+ schemes across 53 ministries, with major welfare programs including PM-KISAN, PAHAL (LPG), and MGNREGA wages."
+    ],
+    "gs_connection": "GS-3: Financial Inclusion, Welfare Delivery, Subsidy Reforms, Public Finance Management, Anti-Poverty Interventions.",
+    "mcqs": [
+      {
+        "id": "ca-eco-18-q1",
+        "q": "The core technological backbone facilitating wage and welfare payments under the Direct Benefit Transfer (DBT) is:\n(a) SWIFT Messaging System\n(b) Aadhaar Payment Bridge System (APBS) managed by NPCI\n(c) Real Time Gross Settlement (RTGS)\n(d) Hawala Clearance Network",
+        "options": [
+          "(a) SWIFT Messaging System",
+          "(b) Aadhaar Payment Bridge System (APBS) managed by NPCI",
+          "(c) Real Time Gross Settlement (RTGS)",
+          "(d) Hawala Clearance Network"
+        ],
+        "answer": "(b)",
+        "explanation": "NPCI's Aadhaar Payment Bridge System routes subsidies directly into beneficiary bank accounts using the Aadhaar number as a central financial address."
+      },
+      {
+        "id": "ca-eco-18-q2",
+        "q": "Under the Pradhan Mantri Jan Dhan Yojana (PMJDY), what is the key insurance feature provided on RuPay debit cards?\n(a) Comprehensive crop insurance\n(b) Accidental death and disability insurance cover of up to Rs 2 lakh\n(c) Fire insurance for residential premises\n(d) Health insurance for international travel",
+        "options": [
+          "(a) Comprehensive crop insurance",
+          "(b) Accidental death and disability insurance cover of up to Rs 2 lakh",
+          "(c) Fire insurance for residential premises",
+          "(d) Health insurance for international travel"
+        ],
+        "answer": "(b)",
+        "explanation": "PMJDY account holders receive a RuPay debit card with inbuilt accidental insurance cover (raised from Rs 1 lakh to Rs 2 lakh for accounts opened after Aug 2018)."
+      },
+      {
+        "id": "ca-eco-18-q3",
+        "q": "Which scheme was recognized by Guinness World Records as the world's largest direct cash transfer program?\n(a) PM-KISAN\n(b) PAHAL (DBTL) scheme for LPG subsidies\n(c) Ayushman Bharat PM-JAY\n(d) PM Awas Yojana",
+        "options": [
+          "(a) PM-KISAN",
+          "(b) PAHAL (DBTL) scheme for LPG subsidies",
+          "(c) Ayushman Bharat PM-JAY",
+          "(d) PM Awas Yojana"
+        ],
+        "answer": "(b)",
+        "explanation": "PAHAL (Pratyaksh Hanstantrit Labh) for LPG cylinder subsidies was verified by Guinness World Records as the largest cash transfer program."
+      },
+      {
+        "id": "ca-eco-18-q4",
+        "q": "What is the primary statutory basis under which government can mandate Aadhaar authentication for receipt of state subsidies?\n(a) Section 7 of the Aadhaar Act 2016\n(b) Article 370 of the Constitution\n(c) Section 144 of the CrPC\n(d) Information Technology Act 2000",
+        "options": [
+          "(a) Section 7 of the Aadhaar Act 2016",
+          "(b) Article 370 of the Constitution",
+          "(c) Section 144 of the CrPC",
+          "(d) Information Technology Act 2000"
+        ],
+        "answer": "(a)",
+        "explanation": "Section 7 of the Aadhaar Act allows the Central or State government to require Aadhaar authentication for benefits funded out of the Consolidated Fund of India."
+      },
+      {
+        "id": "ca-eco-18-q5",
+        "q": "Which government IT platform integrates all financial flows and accounting of welfare schemes from the Centre to the end vendor?\n(a) Public Financial Management System (PFMS)\n(b) Government e-Marketplace (GeM)\n(c) PRAGATI Platform\n(d) MCA21 Portal",
+        "options": [
+          "(a) Public Financial Management System (PFMS)",
+          "(b) Government e-Marketplace (GeM)",
+          "(c) PRAGATI Platform",
+          "(d) MCA21 Portal"
+        ],
+        "answer": "(a)",
+        "explanation": "PFMS administered by the Controller General of Accounts (CGA) tracks real-time expenditure and integrates banking gateways for DBT disbursement."
+      }
+    ]
+  }
+]

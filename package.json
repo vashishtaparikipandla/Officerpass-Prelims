@@ -1,0 +1,16 @@
+{
+  "name": "officerpass",
+  "version": "1.0.0",
+  "description": "OfficerPass — UPSC Prelims Preparation Engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "localtunnel": "^2.0.2"
+  }
+}

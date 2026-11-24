@@ -1,0 +1,1227 @@
+[
+  {
+    "id": "ca-env-01",
+    "date": "2026-11-21",
+    "pillar": "Environment",
+    "title": "Kunming-Montreal Global Biodiversity Framework (GBF) & India's 30x30 Target",
+    "source": "UNEP / MoEFCC / PIB",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Target 3 of the Kunming-Montreal GBF mandates that at least 30% of global terrestrial, inland water, and coastal/marine areas are effectively conserved by 2030 ('30x30' target).",
+      "Recognizes Other Effective Area-based Conservation Measures (OECMs) alongside formal protected areas, empowering indigenous peoples and traditional forest dwellers.",
+      "Mandates a 50% reduction in the introduction and establishment of invasive alien species and phasing out at least $500 billion per year in harmful environmental subsidies."
+    ],
+    "gs_connection": "Anchors into GS-3 Environment: CBD, Protected Area Networks (OECMs, Biosphere Reserves), Invasive Species Management, and Biodiversity Act 2002.",
+    "mcqs": [
+      {
+        "id": "ca-env-01-q1",
+        "q": "With reference to the Kunming-Montreal Global Biodiversity Framework (GBF) adopted under the Convention on Biological Diversity (CBD), consider the following statements:\n1. It sets four overarching global goals for 2050 and 23 action-oriented global targets for 2030.\n2. Target 3 commits parties to conserve at least 50% of the world's terrestrial land and oceans by 2030.\n3. It calls for reducing the global footprint of consumption in an equitable manner.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "(a) 1 and 3 only",
+          "(b) 1 only",
+          "(c) 2 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(a)",
+        "explanation": "Statement 1 is correct (4 goals for 2050, 23 targets for 2030). Statement 2 is incorrect: Target 3 is popularly called the '30x30' target, committing to conserve at least 30% (not 50%) of degraded ecosystems and protected areas. Statement 3 is correct."
+      },
+      {
+        "id": "ca-env-01-q2",
+        "q": "What are 'Other Effective Area-based Conservation Measures' (OECMs) recognized under the Convention on Biological Diversity?\n(a) Areas exclusively managed by corporate multinational entities for carbon offset generation\n(b) Geographically defined areas, other than Protected Areas, which are governed to achieve positive, sustained long-term biodiversity outcomes\n(c) High-altitude military buffer zones free of civilian population\n(d) Marine areas completely prohibited from maritime navigation under UNCLOS",
+        "options": [
+          "(a) Areas exclusively managed by corporate multinational entities for carbon offset generation",
+          "(b) Geographically defined areas, other than Protected Areas, which are governed to achieve positive, sustained long-term biodiversity outcomes",
+          "(c) High-altitude military buffer zones free of civilian population",
+          "(d) Marine areas completely prohibited from maritime navigation under UNCLOS"
+        ],
+        "answer": "(b)",
+        "explanation": "OECMs are areas outside formal National Parks and Sanctuaries (such as community forests, municipal biodiversity parks, sacred groves) that effectively conserve biodiversity while accommodating sustainable cultural or economic practices."
+      },
+      {
+        "id": "ca-env-01-q3",
+        "q": "Consider the following protocols adopted under the Convention on Biological Diversity (CBD):\n1. Cartagena Protocol on Biosafety (2000) regulates the safe transfer and handling of Living Modified Organisms (LMOs).\n2. Nagoya Protocol (2010) deals with Access to Genetic Resources and the Fair and Equitable Sharing of Benefits Arising from their Utilization.\n3. Kyoto Protocol deals with oceanic plastic pollution.\nWhich of the pairs given above is/are correctly matched?",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 2 and 3 only",
+          "(c) 1 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(a)",
+        "explanation": "Pairs 1 and 2 are correctly matched under CBD. Pair 3 is incorrectly matched: Kyoto Protocol (1997) was adopted under UNFCCC to reduce greenhouse gas emissions, not oceanic plastics."
+      },
+      {
+        "id": "ca-env-01-q4",
+        "q": "The 'High Ambition Coalition (HAC) for Nature and People' is an intergovernmental group co-chaired by France and Costa Rica with the primary objective to:\n(a) Ban coal mining in developing nations by 2025\n(b) Champion the global 30x30 target for protecting 30% of planet's land and oceans\n(c) Establish an international military fleet to intercept illegal fishing vessels\n(d) Provide nuclear reactors to sub-Saharan African countries",
+        "options": [
+          "(a) Ban coal mining in developing nations by 2025",
+          "(b) Champion the global 30x30 target for protecting 30% of planet's land and oceans",
+          "(c) Establish an international military fleet to intercept illegal fishing vessels",
+          "(d) Provide nuclear reactors to sub-Saharan African countries"
+        ],
+        "answer": "(b)",
+        "explanation": "The High Ambition Coalition (HAC) for Nature and People (which India joined in 2021) championed the adoption of the 30x30 target at CBD COP15."
+      },
+      {
+        "id": "ca-env-01-q5",
+        "q": "Which of the following invasive alien flora species have caused extensive ecological displacement of native biodiversity in the wildlife sanctuaries of the Western Ghats and Nilgiri Biosphere Reserve?\n1. Lantana camara\n2. Senna spectabilis\n3. Prosopis juliflora\n4. Eichhornia crassipes\nSelect the correct answer using the code given below:",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 1, 2 and 3 only",
+          "(c) 2 and 4 only",
+          "(d) 1, 2, 3 and 4"
+        ],
+        "answer": "(d)",
+        "explanation": "All four are notorious invasive alien plants in India. Lantana and Senna spectabilis have heavily invaded Wayanad and Mudumalai, Prosopis juliflora has overtaken arid regions, and Eichhornia crassipes (Water Hyacinth) chokes aquatic ecosystems."
+      }
+    ]
+  },
+  {
+    "id": "ca-env-02",
+    "date": "2026-11-10",
+    "pillar": "Environment",
+    "title": "Supreme Court Recognizes Right to be Free from Adverse Effects of Climate Change",
+    "source": "Supreme Court of India / Down to Earth",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "In MK Ranjitsinh v. Union of India (2024), the Supreme Court ruled that citizens have a fundamental right to be free from the adverse effects of climate change, flowing from Articles 14 and 21.",
+      "Balanced conservation of the Critically Endangered Great Indian Bustard (GIB) against India's renewable solar transition, modifying earlier blanket underground power cable mandates.",
+      "GIB is categorized as Critically Endangered on the IUCN Red List, listed in Schedule I of WPA 1972, with fewer than 150 individuals remaining in the wild (primarily in Desert National Park, Rajasthan)."
+    ],
+    "gs_connection": "Links to GS-2 & GS-3: Fundamental Rights (Articles 21 & 14, Environmental Jurisprudence), IUCN Red List Species, Renewable Energy vs Ecology tradeoffs, and WPA 1972.",
+    "mcqs": [
+      {
+        "id": "ca-env-02-q1",
+        "q": "In MK Ranjitsinh v. Union of India (2024), the Supreme Court recognized the right to be free from the adverse effects of climate change under which Articles of the Constitution?\n(a) Article 19 and Article 20\n(b) Article 14 (Equality) and Article 21 (Right to Life)\n(c) Article 25 and Article 26\n(d) Article 32 and Article 226 only",
+        "options": [
+          "(a) Article 19 and Article 20",
+          "(b) Article 14 (Equality) and Article 21 (Right to Life)",
+          "(c) Article 25 and Article 26",
+          "(d) Article 32 and Article 226 only"
+        ],
+        "answer": "(b)",
+        "explanation": "The Supreme Court linked climate change vulnerability to the right to life (Art 21) and the right to equality (Art 14), noting that marginalized groups suffer disproportionate harm from climate disasters without equal protection."
+      },
+      {
+        "id": "ca-env-02-q2",
+        "q": "Consider the following statements regarding the Great Indian Bustard (Ardeotis nigriceps):\n1. It is classified as 'Critically Endangered' on the IUCN Red List.\n2. It has poor frontal vision which makes it highly prone to fatal collisions with overhead power transmission lines.\n3. It is found exclusively in the evergreen forests of the Western Ghats.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 2 and 3 only",
+          "(c) 1 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(a)",
+        "explanation": "Statements 1 and 2 are correct (its lack of frontal binocular vision causes fatal high-tension wire collisions). Statement 3 is incorrect: GIB is an arid and semi-arid grassland bird, primarily found in Desert National Park (Rajasthan) and Kutch (Gujarat), NOT evergreen forests."
+      },
+      {
+        "id": "ca-env-02-q3",
+        "q": "Which of the following National Parks / Sanctuaries harbors the last viable breeding population of the Great Indian Bustard in India?\n(a) Kaziranga National Park (Assam)\n(b) Desert National Park (Rajasthan)\n(c) Dachigam National Park (Jammu and Kashmir)\n(d) Similipal National Park (Odisha)",
+        "options": [
+          "(a) Kaziranga National Park (Assam)",
+          "(b) Desert National Park (Rajasthan)",
+          "(c) Dachigam National Park (Jammu and Kashmir)",
+          "(d) Similipal National Park (Odisha)"
+        ],
+        "answer": "(b)",
+        "explanation": "Desert National Park (Jaisalmer-Barmer, Rajasthan) is the primary stronghold of the Great Indian Bustard, supported by captive breeding centers like Ramdevra."
+      },
+      {
+        "id": "ca-env-02-q4",
+        "q": "The bird diverted devices called 'Bird Diverters' installed on high-voltage power transmission lines work by:\n(a) Emitting ultrasonic sounds that repel all avian species\n(b) Using glowing reflective coils and rotating visual tags to make wires visible to birds from a distance of at least 50 meters\n(c) Electrocuting predatory hawks\n(d) Transmitting radio signals to air traffic control towers",
+        "options": [
+          "(a) Emitting ultrasonic sounds that repel all avian species",
+          "(b) Using glowing reflective coils and rotating visual tags to make wires visible to birds from a distance of at least 50 meters",
+          "(c) Electrocuting predatory hawks\n(d) Transmitting radio signals to air traffic control towers"
+        ],
+        "answer": "(b)",
+        "explanation": "Bird flight diverters are solar-powered or photoluminescent visual reflectors that spin or glow in low light, giving heavy flyers like the bustard sufficient warning time to steer clear of power lines."
+      },
+      {
+        "id": "ca-env-02-q5",
+        "q": "Under the Wildlife (Protection) Act, 1972 (as amended in 2022), the Great Indian Bustard is placed in which Schedule?\n(a) Schedule I (Animal species that will enjoy the highest level of protection)\n(b) Schedule II (Animal species subject to lesser degree of protection)\n(c) Schedule III (Protected plant species)\n(d) Schedule IV (CITES specimens)",
+        "options": [
+          "(a) Schedule I (Animal species that will enjoy the highest level of protection)",
+          "(b) Schedule II (Animal species subject to lesser degree of protection)",
+          "(c) Schedule III (Protected plant species)",
+          "(d) Schedule IV (CITES specimens)"
+        ],
+        "answer": "(a)",
+        "explanation": "Schedule I of the amended WPA 1972 grants highest legal protection with stringent criminal penalties for hunting or habitat encroachment, covering flagship endangered species like Tiger, Elephant, Rhino, and GIB."
+      }
+    ]
+  },
+  {
+    "id": "ca-env-03",
+    "date": "2026-10-12",
+    "pillar": "Environment",
+    "title": "Loss and Damage Fund Operationalisation at COP28 / COP29",
+    "source": "UNFCCC / Down to Earth",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "The Loss and Damage Fund was officially launched to assist developing nations particularly vulnerable to adverse effects of climate change.",
+      "The World Bank acts as interim financial trustee and host of the Fund for an initial period of four years.",
+      "Rooted in the principle of Common But Differentiated Responsibilities and Respective Capabilities (CBDR-RC) under UNFCCC."
+    ],
+    "gs_connection": "GS-3: Climate Change Treaties, COP Negotiations, Climate Justice, Loss & Damage, CBDR-RC.",
+    "mcqs": [
+      {
+        "id": "ca-env-03-q1",
+        "q": "The Loss and Damage Fund for climate-vulnerable developing countries was operationalized at which UNFCCC COP summit?\n(a) COP21 Paris\n(b) COP26 Glasgow\n(c) COP27 Sharm el-Sheikh / COP28 Dubai\n(d) COP15 Copenhagen",
+        "options": [
+          "(a) COP21 Paris",
+          "(b) COP26 Glasgow",
+          "(c) COP27 Sharm el-Sheikh / COP28 Dubai",
+          "(d) COP15 Copenhagen"
+        ],
+        "answer": "(c)",
+        "explanation": "The agreement to establish the Fund was struck at COP27 (2022) in Sharm el-Sheikh and operationalized with funding pledges at COP28 (2023) in Dubai."
+      },
+      {
+        "id": "ca-env-03-q2",
+        "q": "Which international financial institution was selected to host the Loss and Damage Fund on an interim basis for 4 years?\n(a) Asian Development Bank\n(b) World Bank\n(c) New Development Bank\n(d) International Monetary Fund",
+        "options": [
+          "(a) Asian Development Bank",
+          "(b) World Bank",
+          "(c) New Development Bank",
+          "(d) International Monetary Fund"
+        ],
+        "answer": "(b)",
+        "explanation": "The World Bank was designated as the interim trustee and host secretariat for a 4-year term despite initial concerns from developing nations regarding overhead costs."
+      },
+      {
+        "id": "ca-env-03-q3",
+        "q": "What is the core distinction between 'Climate Adaptation' and 'Loss and Damage'?\n(a) Adaptation refers to cutting emissions; Loss and Damage refers to carbon sinks\n(b) Adaptation involves adjustments to anticipate climate impacts; Loss and Damage deals with unavoidable residual climate damages that cannot be adapted to\n(c) There is no distinction in UNFCCC terminology\n(d) Adaptation applies only to developed nations",
+        "options": [
+          "(a) Adaptation refers to cutting emissions; Loss and Damage refers to carbon sinks",
+          "(b) Adaptation involves adjustments to anticipate climate impacts; Loss and Damage deals with unavoidable residual climate damages that cannot be adapted to",
+          "(c) There is no distinction in UNFCCC terminology",
+          "(d) Adaptation applies only to developed nations"
+        ],
+        "answer": "(b)",
+        "explanation": "Mitigation curbs emissions; adaptation builds resilience against future impacts; loss and damage covers residual, irreversible harms (sea level rise, desertification, extreme cyclones)."
+      },
+      {
+        "id": "ca-env-03-q4",
+        "q": "The Warsaw International Mechanism (WIM) established in 2013 under COP19 primarily addresses:\n(a) Nuclear non-proliferation\n(b) Loss and damage associated with climate change impacts in developing countries\n(c) Maritime piracy in the Baltic Sea\n(d) Carbon trading in forestry offsets",
+        "options": [
+          "(a) Nuclear non-proliferation",
+          "(b) Loss and damage associated with climate change impacts in developing countries",
+          "(c) Maritime piracy in the Baltic Sea",
+          "(d) Carbon trading in forestry offsets"
+        ],
+        "answer": "(b)",
+        "explanation": "The WIM was created at COP19 in Warsaw to promote approaches to address loss and damage associated with extreme events and slow-onset events in vulnerable developing nations."
+      },
+      {
+        "id": "ca-env-03-q5",
+        "q": "Are financial contributions to the Loss and Damage Fund legally binding on developed nations under the Paris Agreement?\n(a) Yes, mandatory annual contributions based on GDP quotas\n(b) No, contributions are voluntary and non-compensatory (without legal liability)\n(c) Enforced via UN Security Council sanctions\n(d) Deducted automatically from IMF SDR allocations",
+        "options": [
+          "(a) Yes, mandatory annual contributions based on GDP quotas",
+          "(b) No, contributions are voluntary and non-compensatory (without legal liability)",
+          "(c) Enforced via UN Security Council sanctions",
+          "(d) Deducted automatically from IMF SDR allocations"
+        ],
+        "answer": "(b)",
+        "explanation": "Paragraph 51 of the COP21 Paris Decision explicitly notes that Article 8 does not involve or provide a basis for any liability or compensation, making contributions voluntary."
+      }
+    ]
+  },
+  {
+    "id": "ca-env-04",
+    "date": "2026-09-05",
+    "pillar": "Environment",
+    "title": "India's Ramsar Sites Network & Montreux Record Conservation Status",
+    "source": "MoEFCC / PIB",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "India expanded its network of Ramsar Wetlands of International Importance, taking the national total to 85+ sites across states.",
+      "The Montreux Record is a register of wetland sites on the Ramsar List where changes in ecological character have occurred, are occurring, or are likely to occur.",
+      "Currently, only two Indian wetlands are listed on the Montreux Record: Keoladeo National Park (Rajasthan) and Loktak Lake (Manipur)."
+    ],
+    "gs_connection": "GS-3: Biodiversity, Wetlands Conservation, Ramsar Convention 1971, Montreux Record, Aquatic Ecology.",
+    "mcqs": [
+      {
+        "id": "ca-env-04-q1",
+        "q": "Which of the following wetlands in India are currently placed on the Montreux Record?\n1. Chilika Lake (Odisha)\n2. Keoladeo National Park (Rajasthan)\n3. Loktak Lake (Manipur)\nSelect the correct answer using the code below:",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 2 and 3 only",
+          "(c) 1 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(b)",
+        "explanation": "Chilika Lake was successfully removed from the Montreux Record in 2002 after ecological restoration. Only Keoladeo and Loktak Lake remain on the record."
+      },
+      {
+        "id": "ca-env-04-q2",
+        "q": "What is the primary characteristic feature of Loktak Lake in Manipur?\n(a) Hot volcanic sulfur springs\n(b) Floating vegetative biomass islands known as 'Phumdis'\n(c) Subterranean limestone caves\n(d) Hyper-saline salt flats",
+        "options": [
+          "(a) Hot volcanic sulfur springs",
+          "(b) Floating vegetative biomass islands known as 'Phumdis'",
+          "(c) Subterranean limestone caves",
+          "(d) Hyper-saline salt flats"
+        ],
+        "answer": "(b)",
+        "explanation": "Loktak Lake is famous for its Phumdis (heterogeneous floating masses of vegetation, soil, and organic matter) and hosts Keibul Lamjao, the world's only floating national park."
+      },
+      {
+        "id": "ca-env-04-q3",
+        "q": "Under the Ramsar Convention, which was the first wetland site designated from India in 1981?\n(a) Sundarbans\n(b) Chilika Lake and Keoladeo National Park\n(c) Wular Lake\n(d) Vembanad-Kol wetland",
+        "options": [
+          "(a) Sundarbans",
+          "(b) Chilika Lake and Keoladeo National Park",
+          "(c) Wular Lake",
+          "(d) Vembanad-Kol wetland"
+        ],
+        "answer": "(b)",
+        "explanation": "Chilika Lake (Odisha) and Keoladeo National Park (Rajasthan) were the first two wetlands in India to be designated as Ramsar sites in 1981."
+      },
+      {
+        "id": "ca-env-04-q4",
+        "q": "Which state in India possesses the highest number of Ramsar designated wetlands?\n(a) Uttar Pradesh\n(b) Tamil Nadu\n(c) Kerala\n(d) Odisha",
+        "options": [
+          "(a) Uttar Pradesh",
+          "(b) Tamil Nadu",
+          "(c) Kerala",
+          "(d) Odisha"
+        ],
+        "answer": "(b)",
+        "explanation": "Tamil Nadu leads all Indian states with the largest number of designated Ramsar wetlands (16+ sites), followed closely by Uttar Pradesh."
+      },
+      {
+        "id": "ca-env-04-q5",
+        "q": "What is the theme of World Wetlands Day celebrated annually on February 2nd?\n(a) Commemorates the adoption of the Ramsar Convention in 1971 in Ramsar, Iran\n(b) Marks the signing of the Stockholm Declaration\n(c) Commemorates the Rio Earth Summit\n(d) Celebrates the establishment of the Central Wetland Regulatory Authority",
+        "options": [
+          "(a) Commemorates the adoption of the Ramsar Convention in 1971 in Ramsar, Iran",
+          "(b) Marks the signing of the Stockholm Declaration",
+          "(c) Commemorates the Rio Earth Summit",
+          "(d) Celebrates the establishment of the Central Wetland Regulatory Authority"
+        ],
+        "answer": "(a)",
+        "explanation": "World Wetlands Day marks the date of adoption of the Convention on Wetlands on February 2, 1971 in the Iranian city of Ramsar on the shores of the Caspian Sea."
+      }
+    ]
+  },
+  {
+    "id": "ca-env-05",
+    "date": "2026-08-16",
+    "pillar": "Environment",
+    "title": "Project Cheetah at Kuno National Park & Gandhi Sagar Sanctuary Expansion",
+    "source": "NTCA / PIB",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Cheetah reintroduction under Action Plan for Introduction of Cheetah in India aims to establish free-ranging metapopulation of Asiatic/African cheetahs.",
+      "Gandhi Sagar Wildlife Sanctuary (Madhya Pradesh) and Nauradehi Sanctuary prepared as second and third habitats to mitigate carrying capacity pressure at Kuno.",
+      "Asiatic Cheetah (Acinonyx jubatus venaticus) is critically endangered with surviving wild populations restricted entirely to Iran."
+    ],
+    "gs_connection": "GS-3: Wildlife Conservation, In-situ Conservation, Species Reintroduction, NTCA, WPA 1972.",
+    "mcqs": [
+      {
+        "id": "ca-env-05-q1",
+        "q": "The cheetah was declared officially extinct in India in which year?\n(a) 1947\n(b) 1952\n(c) 1972\n(d) 1985",
+        "options": [
+          "(a) 1947",
+          "(b) 1952",
+          "(c) 1972",
+          "(d) 1985"
+        ],
+        "answer": "(b)",
+        "explanation": "The cheetah was officially declared extinct in India in 1952 following the shooting of the last recorded three Asiatic cheetahs in Korea (Chhattisgarh) in 1947."
+      },
+      {
+        "id": "ca-env-05-q2",
+        "q": "Which wildlife sanctuary in Madhya Pradesh has been developed as the second home for translocated African cheetahs after Kuno National Park?\n(a) Gandhi Sagar Wildlife Sanctuary\n(b) Bandhavgarh National Park\n(c) Kanha National Park\n(d) Satpura Tiger Reserve",
+        "options": [
+          "(a) Gandhi Sagar Wildlife Sanctuary",
+          "(b) Bandhavgarh National Park",
+          "(c) Kanha National Park",
+          "(d) Satpura Tiger Reserve"
+        ],
+        "answer": "(a)",
+        "explanation": "Gandhi Sagar Wildlife Sanctuary in Mandsaur/Neemuch districts of MP has been developed with predator-proof enclosures as the second cheetah site."
+      },
+      {
+        "id": "ca-env-05-q3",
+        "q": "Consider the following statements regarding the Cheetah:\n1. The Asiatic Cheetah is classified as 'Critically Endangered' on the IUCN Red List.\n2. The African Cheetah translocated to India is classified as 'Vulnerable'.\n3. Cheetahs are solitary animals and never form coalitions.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 2 and 3 only",
+          "(c) 1 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(a)",
+        "explanation": "Statement 3 is incorrect. Male cheetahs often form permanent social groups called 'coalitions' (usually brothers) to defend territory."
+      },
+      {
+        "id": "ca-env-05-q4",
+        "q": "Which statutory body under the Ministry of Environment is the nodal implementing agency for Project Cheetah?\n(a) Wildlife Institute of India (WII)\n(b) National Tiger Conservation Authority (NTCA)\n(c) Central Zoo Authority (CZA)\n(d) Animal Welfare Board of India",
+        "options": [
+          "(a) Wildlife Institute of India (WII)",
+          "(b) National Tiger Conservation Authority (NTCA)",
+          "(c) Central Zoo Authority (CZA)",
+          "(d) Animal Welfare Board of India"
+        ],
+        "answer": "(b)",
+        "explanation": "The NTCA (constituted under the Wildlife Protection Act 1972) is the nodal statutory authority overseeing Project Tiger and Project Cheetah."
+      },
+      {
+        "id": "ca-env-05-q5",
+        "q": "Which river flows through Kuno National Park, serving as its primary lifeline?\n(a) Chambal River\n(b) Kuno River\n(c) Betwa River\n(d) Ken River",
+        "options": [
+          "(a) Chambal River",
+          "(b) Kuno River",
+          "(c) Betwa River",
+          "(d) Ken River"
+        ],
+        "answer": "(b)",
+        "explanation": "The Kuno River, a major tributary of the Chambal River, flows north-south through the middle of Kuno National Park."
+      }
+    ]
+  },
+  {
+    "id": "ca-env-06",
+    "date": "2026-07-11",
+    "pillar": "Environment",
+    "title": "Great Indian Bustard (GIB) Conservation & SC Overhead Power Line Mandate",
+    "source": "The Hindu / Down to Earth",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Supreme Court modified its blanket undergrounding order in MK Ranjitsinh (2024), balancing biodiversity with India's international climate commitments.",
+      "Expert committee constituted to demarcate priority and potential GIB habitats across Rajasthan (Thar Desert) and Gujarat (Kutch).",
+      "GIB (Ardeotis nigriceps) is Critically Endangered, listed under Schedule I of WPA 1972 and Appendix I of CMS and CITES, with poor frontal vision causing collisions with power lines."
+    ],
+    "gs_connection": "GS-3: Endangered Species, Renewable Energy vs Wildlife Conflict, Ecological Jurisprudence, WPA 1972.",
+    "mcqs": [
+      {
+        "id": "ca-env-06-q1",
+        "q": "The Great Indian Bustard (Ardeotis nigriceps) is the state bird of which Indian state?\n(a) Gujarat\n(b) Rajasthan\n(c) Madhya Pradesh\n(d) Maharashtra",
+        "options": [
+          "(a) Gujarat",
+          "(b) Rajasthan",
+          "(c) Madhya Pradesh",
+          "(d) Maharashtra"
+        ],
+        "answer": "(b)",
+        "explanation": "The Great Indian Bustard (locally known as Godawan) is the official state bird of Rajasthan."
+      },
+      {
+        "id": "ca-env-06-q2",
+        "q": "What physiological limitation makes the Great Indian Bustard uniquely vulnerable to fatal collisions with overhead electric transmission lines?\n(a) Heavy body weight combined with narrow frontal binocular field of vision\n(b) Complete nocturnal blindness\n(c) Attraction to electromagnetic radiation\n(d) Inability to fly above 10 feet",
+        "options": [
+          "(a) Heavy body weight combined with narrow frontal binocular field of vision",
+          "(b) Complete nocturnal blindness",
+          "(c) Attraction to electromagnetic radiation",
+          "(d) Inability to fly above 10 feet"
+        ],
+        "answer": "(a)",
+        "explanation": "GIBs are heavy fliers with poor frontal vision; they scan downwards while foraging, making it impossible to detect thin overhead power cables until too close to maneuver."
+      },
+      {
+        "id": "ca-env-06-q3",
+        "q": "What mechanical device is installed on power transmission cables to alert and divert approaching bustards?\n(a) Bird diverters / reflective flappers\n(b) High-decibel acoustic sirens\n(c) Infrared laser fences\n(d) Magnetic repellers",
+        "options": [
+          "(a) Bird diverters / reflective flappers",
+          "(b) High-decibel acoustic sirens",
+          "(c) Infrared laser fences",
+          "(d) Magnetic repellers"
+        ],
+        "answer": "(b)",
+        "explanation": "Firefly bird flight diverters are reflective, glow-in-the-dark discs installed on cables that spin in the wind and warn birds from a distance."
+      },
+      {
+        "id": "ca-env-06-q4",
+        "q": "What is the conservation status of the Great Indian Bustard on the IUCN Red List of Threatened Species?\n(a) Vulnerable\n(b) Endangered\n(c) Critically Endangered\n(d) Extinct in the Wild",
+        "options": [
+          "(a) Vulnerable",
+          "(b) Endangered",
+          "(c) Critically Endangered",
+          "(d) Extinct in the Wild"
+        ],
+        "answer": "(c)",
+        "explanation": "The Great Indian Bustard is classified as 'Critically Endangered' with fewer than 150 mature individuals surviving in the wild, primarily in Thar Desert."
+      },
+      {
+        "id": "ca-env-06-q5",
+        "q": "Which National Park in Rajasthan is the premier sanctuary protecting the core breeding population of GIB?\n(a) Ranthambore National Park\n(b) Desert National Park (Jaisalmer/Barmer)\n(c) Keoladeo Ghana National Park\n(d) Sariska National Park",
+        "options": [
+          "(a) Ranthambore National Park",
+          "(b) Desert National Park (Jaisalmer/Barmer)",
+          "(c) Keoladeo Ghana National Park",
+          "(d) Sariska National Park"
+        ],
+        "answer": "(b)",
+        "explanation": "Desert National Park spanning Jaisalmer and Barmer contains the primary breeding enclosure and conservation breeding center for the GIB."
+      }
+    ]
+  },
+  {
+    "id": "ca-env-07",
+    "date": "2026-06-25",
+    "pillar": "Environment",
+    "title": "Glacial Lake Outburst Floods (GLOF) Vulnerability in the Himalayas",
+    "source": "NDMA / ISRO",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "South Lhonak glacial lake breach in Sikkim triggered catastrophic flash floods downstream along the Teesta River basin.",
+      "GLOF occurs when water dammed by loose moraine or ice suddenly breaches due to avalanche, seismic activity, or intense rainfall.",
+      "National Disaster Management Authority (NDMA) identified 188 high-risk glacial lakes across the Indian Himalayan Region for early warning sensor installation."
+    ],
+    "gs_connection": "GS-3: Disaster Management, Climate Change, Glaciology, Himalayan Ecology, Teesta Basin Floods.",
+    "mcqs": [
+      {
+        "id": "ca-env-07-q1",
+        "q": "A Glacial Lake Outburst Flood (GLOF) is caused primarily by the sudden breach of:\n(a) Reinforced concrete dam walls\n(b) Natural moraine dams formed of loose rock, boulders, and ice debris\n(c) Underground karst aquifers\n(d) Man-made reservoir spillways",
+        "options": [
+          "(a) Reinforced concrete dam walls",
+          "(b) Natural moraine dams formed of loose rock, boulders, and ice debris",
+          "(c) Underground karst aquifers",
+          "(d) Man-made reservoir spillways"
+        ],
+        "answer": "(b)",
+        "explanation": "Glacial lakes are impounded by unstable terminal or lateral moraines consisting of unconsolidated glacial till, gravel, and ice that fail easily under hydrostatic pressure."
+      },
+      {
+        "id": "ca-env-07-q2",
+        "q": "The catastrophic GLOF disaster of October 2023 in Sikkim occurred at which high-altitude glacial lake?\n(a) Tsomgo Lake\n(b) Gurudongmar Lake\n(c) South Lhonak Lake\n(d) Khecheopalri Lake",
+        "options": [
+          "(a) Tsomgo Lake",
+          "(b) Gurudongmar Lake",
+          "(c) South Lhonak Lake",
+          "(d) Khecheopalri Lake"
+        ],
+        "answer": "(c)",
+        "explanation": "The South Lhonak lake at ~5,200m in North Sikkim breached, washing away the Chungthang dam (Teesta-III hydro project) and causing massive downstream casualties."
+      },
+      {
+        "id": "ca-env-07-q3",
+        "q": "Which major river basin in eastern India was devastated by the South Lhonak glacial lake breach?\n(a) Brahmaputra River\n(b) Teesta River\n(c) Manas River\n(d) Subansiri River",
+        "options": [
+          "(a) Brahmaputra River",
+          "(b) Teesta River",
+          "(c) Manas River",
+          "(d) Subansiri River"
+        ],
+        "answer": "(b)",
+        "explanation": "The Teesta River basin (a major right-bank tributary of the Brahmaputra) was severely flooded, destroying infrastructure across Sikkim and northern West Bengal."
+      },
+      {
+        "id": "ca-env-07-q4",
+        "q": "Which scientific engineering method is used to mitigate the risk of GLOF in vulnerable glacial lakes?\n(a) Siphoning and controlled pumping of lake water to lower lake depth and hydrostatic pressure\n(b) Chemical freezing of the moraine dam\n(c) Detonating dynamite in the moraine wall\n(d) Dumping plastic boulders in the lake",
+        "options": [
+          "(a) Siphoning and controlled pumping of lake water to lower lake depth and hydrostatic pressure",
+          "(b) Chemical freezing of the moraine dam",
+          "(c) Detonating dynamite in the moraine wall",
+          "(d) Dumping plastic boulders in the lake"
+        ],
+        "answer": "(a)",
+        "explanation": "Controlled siphoning through HDPE pipes, spillway excavation, and structural drainage channels lower the water level, reducing bursting potential."
+      },
+      {
+        "id": "ca-env-07-q5",
+        "q": "Under the Sendai Framework for Disaster Risk Reduction (2015-2030), what is Priority 1?\n(a) Investing in disaster risk reduction for resilience\n(b) Understanding disaster risk\n(c) Strengthening disaster risk governance\n(d) Enhancing disaster preparedness for effective response",
+        "options": [
+          "(a) Investing in disaster risk reduction for resilience",
+          "(b) Understanding disaster risk",
+          "(c) Strengthening disaster risk governance",
+          "(d) Enhancing disaster preparedness for effective response"
+        ],
+        "answer": "(b)",
+        "explanation": "Priority 1 of the Sendai Framework is 'Understanding disaster risk' (including risk mapping and hazard assessment of glaciated basins)."
+      }
+    ]
+  },
+  {
+    "id": "ca-env-08",
+    "date": "2026-05-12",
+    "pillar": "Environment",
+    "title": "Wildlife Protection Amendment Act 2022: Rationalization of Schedules",
+    "source": "MoEFCC / PRS",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "The Amendment reduced the number of schedules from six to four, streamlining regulatory compliance and aligning with CITES appendices.",
+      "Schedule I provides the highest level of protection to endangered animal species; Schedule II protects species requiring lesser protection; Schedule III lists protected plants; Schedule IV lists species protected under CITES.",
+      "Abolished Schedule V (which historically listed 'vermin' species like fruit bats, mice, and crows), empowering Central Government to declare specific animals as vermin by notification."
+    ],
+    "gs_connection": "GS-3: Environmental Law, Wildlife Conservation, CITES, Schedules Rationalization, Invasive Species.",
+    "mcqs": [
+      {
+        "id": "ca-env-08-q1",
+        "q": "How many schedules does the Wildlife (Protection) Act, 1972 contain following the 2022 Amendment?\n(a) Six schedules\n(b) Four schedules\n(c) Three schedules\n(d) Five schedules",
+        "options": [
+          "(a) Six schedules",
+          "(b) Four schedules",
+          "(c) Three schedules",
+          "(d) Five schedules"
+        ],
+        "answer": "(b)",
+        "explanation": "The 2022 amendment rationalized the older 6 schedules into 4 schedules: Schedule I (highest protection animals), Schedule II (other animals), Schedule III (plants), Schedule IV (CITES specimens)."
+      },
+      {
+        "id": "ca-env-08-q2",
+        "q": "Under the amended Wildlife (Protection) Act, which schedule was omitted entirely?\n(a) Schedule I\n(b) Schedule III\n(c) Schedule V (Vermin Schedule)\n(d) Schedule VI",
+        "options": [
+          "(a) Schedule I",
+          "(b) Schedule III",
+          "(c) Schedule V (Vermin Schedule)",
+          "(d) Schedule VI"
+        ],
+        "answer": "(c)",
+        "explanation": "The older Schedule V for vermin was omitted completely. The Central Government now declares vermin for specified areas and periods via notification under Section 62."
+      },
+      {
+        "id": "ca-env-08-q3",
+        "q": "Which international wildlife convention was explicitly operationalized into domestic Indian law through Schedule IV of the 2022 Amendment?\n(a) Bonn Convention (CMS)\n(b) Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES)\n(c) Ramsar Convention\n(d) Convention on Biological Diversity (CBD)",
+        "options": [
+          "(a) Bonn Convention (CMS)",
+          "(b) Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES)",
+          "(c) Ramsar Convention",
+          "(d) Convention on Biological Diversity (CBD)"
+        ],
+        "answer": "(b)",
+        "explanation": "Schedule IV incorporates specimens listed in Appendices I, II, and III of CITES, designating a Management Authority and Scientific Authority in India."
+      },
+      {
+        "id": "ca-env-08-q4",
+        "q": "Under Section 43 of the amended Act, can live captive Asian Elephants be transferred or transported?\n(a) Completely banned under all circumstances\n(b) Permitted for religious or any other purpose under conditions prescribed by the Central Government\n(c) Allowed for commercial circus sales freely\n(d) Only permitted through international auction",
+        "options": [
+          "(a) Completely banned under all circumstances",
+          "(b) Permitted for religious or any other purpose under conditions prescribed by the Central Government",
+          "(c) Allowed for commercial circus sales freely",
+          "(d) Only permitted through international auction"
+        ],
+        "answer": "(b)",
+        "explanation": "Section 43 was amended to provide an exception allowing transfer of captive elephants for religious or other purposes as prescribed by the Centre."
+      },
+      {
+        "id": "ca-env-08-q5",
+        "q": "Which authority is established under the Act to advise the Central Government on policies and programs for conservation of wildlife?\n(a) National Board for Wildlife (NBWL)\n(b) Animal Welfare Council\n(c) Biodiversity Authority of India\n(d) Central Pollution Control Board",
+        "options": [
+          "(a) National Board for Wildlife (NBWL)",
+          "(b) Animal Welfare Council",
+          "(c) Biodiversity Authority of India",
+          "(d) Central Pollution Control Board"
+        ],
+        "answer": "(a)",
+        "explanation": "The National Board for Wildlife (NBWL) is chaired by the Prime Minister and serves as the apex statutory advisory body under Section 5A of the Act."
+      }
+    ]
+  },
+  {
+    "id": "ca-env-09",
+    "date": "2026-04-18",
+    "pillar": "Environment",
+    "title": "Forest (Conservation) Amendment Act 2023 & Godavarman Jurisprudence",
+    "source": "MoEFCC / The Hindu",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Act renamed the legislation as Van (Sanrakshan Evam Samvardhan) Adhiniyam, restricting applicability to notified forest lands and government records.",
+      "Narrowed the broad definition of 'forest' established by the Supreme Court in the landmark 1996 T.N. Godavarman Thirumulpad case (dictionary meaning of forest).",
+      "Exempts forest land within 100 km of international borders from prior forest clearance for strategic national security infrastructure."
+    ],
+    "gs_connection": "GS-3: Forest Conservation, Environmental Governance, Godavarman Precedent, Strategic Border Infrastructure, Tribal Rights.",
+    "mcqs": [
+      {
+        "id": "ca-env-09-q1",
+        "q": "The landmark 1996 Supreme Court ruling in T.N. Godavarman Thirumulpad v. Union of India held that the Forest (Conservation) Act applies to:\n(a) Only reserved forests notified by State Governments\n(b) All forests irrespective of ownership or classification, applying the dictionary meaning of 'forest'\n(c) Only national parks and wildlife sanctuaries\n(d) Private plantations exceeding 1000 hectares",
+        "options": [
+          "(a) Only reserved forests notified by State Governments",
+          "(b) All forests irrespective of ownership or classification, applying the dictionary meaning of 'forest'",
+          "(c) Only national parks and wildlife sanctuaries",
+          "(d) Private plantations exceeding 1000 hectares"
+        ],
+        "answer": "(b)",
+        "explanation": "The Godavarman ruling established that 'forest' must be understood according to its dictionary meaning, covering any area recorded as forest in government records regardless of ownership."
+      },
+      {
+        "id": "ca-env-09-q2",
+        "q": "What major exemption was introduced under the Forest Conservation Amendment Act 2023 for linear infrastructure projects?\n(a) Complete exemption for all private real estate builders\n(b) Exemption for strategic linear projects of national importance within 100 km of international borders or LAC\n(c) Exemption for all mining within tiger reserves\n(d) Exemption for thermal power plants",
+        "options": [
+          "(a) Complete exemption for all private real estate builders",
+          "(b) Exemption for strategic linear projects of national importance within 100 km of international borders or LAC",
+          "(c) Exemption for all mining within tiger reserves",
+          "(d) Exemption for thermal power plants"
+        ],
+        "answer": "(b)",
+        "explanation": "Section 1A exempts strategic security infrastructure (roads, bridges, defense installations) within 100 km of international borders from prior central forest clearance."
+      },
+      {
+        "id": "ca-env-09-q3",
+        "q": "In February 2024, what interim order did the Supreme Court pass regarding the amended Forest Act?\n(a) Fully struck down the entire Act as unconstitutional\n(b) Directed that the broad Godavarman dictionary definition of 'forest' shall continue to apply until state expert committees identify deemed forests\n(c) Permitted unrestricted commercial logging in border states\n(d) Transferred forest jurisdiction to district collectors permanently",
+        "options": [
+          "(a) Fully struck down the entire Act as unconstitutional",
+          "(b) Directed that the broad Godavarman dictionary definition of 'forest' shall continue to apply until state expert committees identify deemed forests",
+          "(c) Permitted unrestricted commercial logging in border states",
+          "(d) Transferred forest jurisdiction to district collectors permanently"
+        ],
+        "answer": "(b)",
+        "explanation": "The Supreme Court mandated that states must adhere to the 1996 Godavarman dictionary definition of forests to protect over 1.97 lakh sq km of unclassed/deemed forests."
+      },
+      {
+        "id": "ca-env-09-q4",
+        "q": "What is the primary function of the Compensatory Afforestation Fund Management and Planning Authority (CAMPA)?\n(a) To auction timber from sacred groves\n(b) To manage funds deposited by user agencies towards compensatory afforestation when forest land is diverted for non-forest purposes\n(c) To conduct tiger census surveys\n(d) To issue international carbon certificates",
+        "options": [
+          "(a) To auction timber from sacred groves",
+          "(b) To manage funds deposited by user agencies towards compensatory afforestation when forest land is diverted for non-forest purposes",
+          "(c) To conduct tiger census surveys",
+          "(d) To issue international carbon certificates"
+        ],
+        "answer": "(b)",
+        "explanation": "Under the Compensatory Afforestation Fund Act 2016, CAMPA holds funds for Net Present Value (NPV) and afforestation when forest land is diverted."
+      },
+      {
+        "id": "ca-env-09-q5",
+        "q": "Under the Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act 2006, who is the authority to initiate the process for determining forest rights?\n(a) Forest Range Officer\n(b) Gram Sabha\n(c) District Magistrate\n(d) Sub-Divisional Committee",
+        "options": [
+          "(a) Forest Range Officer",
+          "(b) Gram Sabha",
+          "(c) District Magistrate",
+          "(d) Sub-Divisional Committee"
+        ],
+        "answer": "(b)",
+        "explanation": "Under FRA 2006, the Gram Sabha is the statutory authority to initiate the process for determining the nature and extent of individual and community forest rights."
+      }
+    ]
+  },
+  {
+    "id": "ca-env-10",
+    "date": "2026-03-24",
+    "pillar": "Environment",
+    "title": "National Green Hydrogen Mission: SIGHT Program & Carbon Offsetting",
+    "source": "MNRE / PIB",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "National Green Hydrogen Mission targets producing at least 5 Million Metric Tonnes (MMT) of green hydrogen per annum by 2030.",
+      "Strategic Interventions for Green Hydrogen Transition (SIGHT) program provides direct financial incentives for domestic electrolyser manufacturing and green hydrogen production.",
+      "Mandates that green hydrogen must be produced through water electrolysis powered entirely by renewable energy or biomass gasification."
+    ],
+    "gs_connection": "GS-3: Renewable Energy, Decarbonisation, Green Hydrogen, SIGHT Scheme, Energy Transition.",
+    "mcqs": [
+      {
+        "id": "ca-env-10-q1",
+        "q": "Green Hydrogen is defined as hydrogen gas produced through which process?\n(a) Steam Methane Reforming (SMR) using natural gas\n(b) Electrolysis of water powered entirely by renewable energy sources\n(c) Coal gasification without carbon capture\n(d) Fractional distillation of crude petroleum",
+        "options": [
+          "(a) Steam Methane Reforming (SMR) using natural gas",
+          "(b) Electrolysis of water powered entirely by renewable energy sources",
+          "(c) Coal gasification without carbon capture",
+          "(d) Fractional distillation of crude petroleum"
+        ],
+        "answer": "(b)",
+        "explanation": "Green hydrogen is split from water via electrolysis using renewable electricity (solar/wind). Grey uses fossil gas without CCS; Blue uses fossil gas with CCS; Black/Brown uses coal."
+      },
+      {
+        "id": "ca-env-10-q2",
+        "q": "What is the annual production target set for Green Hydrogen under India's National Green Hydrogen Mission by 2030?\n(a) 1 MMT\n(b) 5 MMT\n(c) 15 MMT\n(d) 25 MMT",
+        "options": [
+          "(a) 1 MMT",
+          "(b) 5 MMT",
+          "(c) 15 MMT",
+          "(d) 25 MMT"
+        ],
+        "answer": "(b)",
+        "explanation": "The Mission targets at least 5 Million Metric Tonnes (MMT) per annum of green hydrogen capacity by 2030, saving Rs 1 lakh crore in fossil fuel imports."
+      },
+      {
+        "id": "ca-env-10-q3",
+        "q": "Under the SIGHT program, financial incentives are provided for:\n(a) Domestic manufacturing of electrolysers and production of green hydrogen\n(b) Purchasing imported petrol vehicles\n(c) Constructing thermal coal boilers\n(d) Subsidizing urea fertilizer imports",
+        "options": [
+          "(a) Domestic manufacturing of electrolysers and production of green hydrogen",
+          "(b) Purchasing imported petrol vehicles",
+          "(c) Constructing thermal coal boilers",
+          "(d) Subsidizing urea fertilizer imports"
+        ],
+        "answer": "(a)",
+        "explanation": "Strategic Interventions for Green Hydrogen Transition (SIGHT) has two financial incentive sub-programs: Component I (Electrolyser manufacturing) and Component II (Green Hydrogen production)."
+      },
+      {
+        "id": "ca-env-10-q4",
+        "q": "Which of the following heavy industrial sectors is considered a 'hard-to-abate' sector where green hydrogen is essential for decarbonization?\n1. Primary Steel manufacturing\n2. Ammonia / Fertilizer synthesis\n3. Oil Refining\nSelect the correct answer:",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 2 and 3 only",
+          "(c) 1 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(d)",
+        "explanation": "Steel (replacing metallurgical coking coal with direct reduced iron via H2), fertilizers (green ammonia replacing gas-derived hydrogen), and oil refineries are prime hard-to-abate sectors."
+      },
+      {
+        "id": "ca-env-10-q5",
+        "q": "What is the only by-product generated when green hydrogen is combusted or utilized in a fuel cell?\n(a) Carbon dioxide\n(b) Sulfur dioxide\n(c) Pure Water (H2O)\n(d) Nitrous oxide",
+        "options": [
+          "(a) Carbon dioxide",
+          "(b) Sulfur dioxide",
+          "(c) Pure Water (H2O)",
+          "(d) Nitrous oxide"
+        ],
+        "answer": "(c)",
+        "explanation": "The combustion or fuel cell reaction of hydrogen with atmospheric oxygen produces only water vapor (2H2 + O2 -> 2H2O), with zero greenhouse gas emissions."
+      }
+    ]
+  },
+  {
+    "id": "ca-env-11",
+    "date": "2026-02-19",
+    "pillar": "Environment",
+    "title": "Extended Producer Responsibility (EPR) & Plastic Waste Management Rules",
+    "source": "CPCB / PIB",
+    "is_top100": false,
+    "is_pt365": true,
+    "summary_points": [
+      "Plastic Waste Management Rules mandate Extended Producer Responsibility (EPR) for Producers, Importers, and Brand Owners (PIBOs).",
+      "Categorizes plastics into four distinct regimes: Category I (Rigid plastics), Category II (Flexible single/multi-layer), Category III (Multi-layered packaging), and Category IV (Compostable plastics).",
+      "Imposes strict bans on identified single-use plastic (SUP) items having low utility and high littering potential."
+    ],
+    "gs_connection": "GS-3: Waste Management, Circular Economy, Plastic Pollution, EPR Framework, Central Pollution Control Board.",
+    "mcqs": [
+      {
+        "id": "ca-env-11-q1",
+        "q": "The concept of 'Extended Producer Responsibility' (EPR) holds manufacturers responsible for:\n(a) The medical expenses of their retail customers\n(b) The post-consumer environmental end-of-life management of products they introduce into the market\n(c) The market pricing of competitor brands\n(d) Paying customs duties on exported finished products",
+        "options": [
+          "(a) The medical expenses of their retail customers",
+          "(b) The post-consumer environmental end-of-life management of products they introduce into the market",
+          "(c) The market pricing of competitor brands",
+          "(d) Paying customs duties on exported finished products"
+        ],
+        "answer": "(b)",
+        "explanation": "EPR makes producers, importers, and brand-owners legally and financially responsible for collecting, recycling, and safely disposing of post-consumer plastic waste."
+      },
+      {
+        "id": "ca-env-11-q2",
+        "q": "Which central agency manages the centralized online portal for EPR registration and certificate trading for plastic waste in India?\n(a) National Biodiversity Authority\n(b) Central Pollution Control Board (CPCB)\n(c) NITI Aayog\n(d) Bureau of Indian Standards (BIS)",
+        "options": [
+          "(a) National Biodiversity Authority",
+          "(b) Central Pollution Control Board (CPCB)",
+          "(c) NITI Aayog",
+          "(d) Bureau of Indian Standards (BIS)"
+        ],
+        "answer": "(b)",
+        "explanation": "The Central Pollution Control Board (CPCB) operates the centralized EPR portal where producers register, report recycling, and trade EPR certificates."
+      },
+      {
+        "id": "ca-env-11-q3",
+        "q": "Under the Plastic Waste Management Rules, what minimum thickness was mandated for carry bags made of virgin or recycled plastic?\n(a) 50 microns\n(b) 75 microns\n(c) 120 microns\n(d) 200 microns",
+        "options": [
+          "(a) 50 microns",
+          "(b) 75 microns",
+          "(c) 120 microns",
+          "(d) 200 microns"
+        ],
+        "answer": "(c)",
+        "explanation": "The rules increased the minimum thickness of plastic carry bags from 50 to 75 microns, and subsequently to 120 microns to encourage reusability and collection viability."
+      },
+      {
+        "id": "ca-env-11-q4",
+        "q": "What distinguishes 'Oxo-degradable' plastics from genuinely 'Biodegradable' plastics?\n(a) Oxo-degradable plastics completely convert into organic humus\n(b) Oxo-degradable plastics merely fragment into microplastics under heat and UV light rather than being assimilated by microorganisms\n(c) Oxo-degradable plastics are made exclusively from corn starch\n(d) Oxo-degradable plastics are legally certified compostable in India",
+        "options": [
+          "(a) Oxo-degradable plastics completely convert into organic humus",
+          "(b) Oxo-degradable plastics merely fragment into microplastics under heat and UV light rather than being assimilated by microorganisms",
+          "(c) Oxo-degradable plastics are made exclusively from corn starch",
+          "(d) Oxo-degradable plastics are legally certified compostable in India"
+        ],
+        "answer": "(b)",
+        "explanation": "Oxo-degradable plastics contain additives that accelerate mechanical fragmentation into persistent, toxic microplastics, leading to a nationwide ban in India."
+      },
+      {
+        "id": "ca-env-11-q5",
+        "q": "In waste hierarchy and circular economy principles, what is the most preferred environmental option?\n(a) Landfill disposal\n(b) Incineration with energy recovery\n(c) Recycling\n(d) Prevention / Reduction at source",
+        "options": [
+          "(a) Landfill disposal",
+          "(b) Incineration with energy recovery",
+          "(c) Recycling",
+          "(d) Prevention / Reduction at source"
+        ],
+        "answer": "(d)",
+        "explanation": "The waste management hierarchy ranks: 1. Prevention/Reduction, 2. Reuse, 3. Recycling, 4. Recovery (energy), and 5. Disposal (least favored)."
+      }
+    ]
+  },
+  {
+    "id": "ca-env-12",
+    "date": "2026-01-16",
+    "pillar": "Environment",
+    "title": "Global Biofuels Alliance (GBA) & Ethanol Blending (E20) Target",
+    "source": "MoPNG / PIB",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Global Biofuels Alliance (GBA) launched during India's G20 Presidency alongside USA and Brazil (representing 85% of global ethanol production).",
+      "India advanced its national target to achieve 20% ethanol blending in petrol (E20) from 2030 to 2025-26.",
+      "Promotes 2G (Second Generation) ethanol produced from agricultural residues (paddy straw, sugarcane bagasse) to avoid food-versus-fuel conflict."
+    ],
+    "gs_connection": "GS-3: Biofuels, Energy Security, Ethanol Blending Program, G20 Outcomes, Sustainable Agriculture.",
+    "mcqs": [
+      {
+        "id": "ca-env-12-q1",
+        "q": "Which three countries were the primary founding initiators of the Global Biofuels Alliance (GBA) launched at the G20 New Delhi Summit?\n(a) India, Brazil, and the United States\n(b) India, Russia, and China\n(c) India, Germany, and France\n(d) Brazil, Argentina, and South Africa",
+        "options": [
+          "(a) India, Brazil, and the United States",
+          "(b) India, Russia, and China",
+          "(c) India, Germany, and France",
+          "(d) Brazil, Argentina, and South Africa"
+        ],
+        "answer": "(a)",
+        "explanation": "India, the US, and Brazil are the three leading biofuel producers and consumers, driving the launch of the Global Biofuels Alliance in September 2023."
+      },
+      {
+        "id": "ca-env-12-q2",
+        "q": "What is the raw material distinction between 1G and 2G Bioethanol?\n(a) 1G uses sugarcane/food grains; 2G uses non-food lignocellulosic biomass and agricultural crop residues\n(b) 1G is made from algae; 2G is made from animal fat\n(c) 1G is blended with diesel; 2G is blended with aviation fuel\n(d) 1G is synthetic; 2G is natural",
+        "options": [
+          "(a) 1G uses sugarcane/food grains; 2G uses non-food lignocellulosic biomass and agricultural crop residues",
+          "(b) 1G is made from algae; 2G is made from animal fat",
+          "(c) 1G is blended with diesel; 2G is blended with aviation fuel",
+          "(d) 1G is synthetic; 2G is natural"
+        ],
+        "answer": "(a)",
+        "explanation": "First generation (1G) biofuels use food crops (sugarcane juice, corn, broken rice); second generation (2G) uses inedible agricultural residues like rice straw and bagasse."
+      },
+      {
+        "id": "ca-env-12-q3",
+        "q": "India's National Policy on Biofuels set the accelerated deadline for achieving 20% ethanol blending in petrol (E20) as:\n(a) 2030\n(b) 2025-26\n(c) 2035\n(d) 2040",
+        "options": [
+          "(a) 2030",
+          "(b) 2025-26",
+          "(c) 2035",
+          "(d) 2040"
+        ],
+        "answer": "(b)",
+        "explanation": "The Union Cabinet amended the National Biofuels Policy, advancing the E20 blending target from the initial 2030 deadline to ethanol supply year 2025-26."
+      },
+      {
+        "id": "ca-env-12-q4",
+        "q": "Under the SATAT (Sustainable Alternative Towards Affordable Transportation) initiative, the government promotes:\n(a) Electric bullet trains\n(b) Compressed Bio-Gas (CBG) plants using municipal and agricultural biomass\n(c) Nuclear powered coastal ferries\n(d) Hydrogen fuel cell drones",
+        "options": [
+          "(a) Electric bullet trains",
+          "(b) Compressed Bio-Gas (CBG) plants using municipal and agricultural biomass",
+          "(c) Nuclear powered coastal ferries",
+          "(d) Hydrogen fuel cell drones"
+        ],
+        "answer": "(b)",
+        "explanation": "SATAT encourages setting up Compressed Bio-Gas (CBG) production plants from agricultural residue, cattle dung, and municipal solid waste as commercial automotive fuel."
+      },
+      {
+        "id": "ca-env-12-q5",
+        "q": "Third-generation (3G) biofuels are derived primarily from which biomass feedstock?\n(a) Genetically engineered algae and cyanobacteria\n(b) Used cooking oil\n(c) Jatropha seeds\n(d) Timber sawdust",
+        "options": [
+          "(a) Genetically engineered algae and cyanobacteria",
+          "(b) Used cooking oil",
+          "(c) Jatropha seeds",
+          "(d) Timber sawdust"
+        ],
+        "answer": "(a)",
+        "explanation": "Third-generation (3G) biofuels utilize microalgae and aquatic biomass cultivated on non-arable land without competing with food or freshwater resources."
+      }
+    ]
+  },
+  {
+    "id": "ca-env-13",
+    "date": "2026-10-25",
+    "pillar": "Environment",
+    "title": "Mangrove Alliance for Climate (MAC) & MISHTI Scheme Implementation",
+    "source": "MoEFCC / PIB",
+    "is_top100": false,
+    "is_pt365": true,
+    "summary_points": [
+      "India joined the Mangrove Alliance for Climate (MAC) led by UAE and Indonesia at COP27 to accelerate conservation of coastal blue carbon ecosystems.",
+      "Mangrove Initiative for Shoreline Habitats & Tangible Incomes (MISHTI) aims at comprehensively restoring mangrove cover across 540 sq km over 11 states and UTs.",
+      "Mangroves store up to four times more carbon per hectare than terrestrial tropical rainforests, acting as natural storm-surge buffers."
+    ],
+    "gs_connection": "GS-3: Mangrove Ecology, Blue Carbon, Coastal Protection, MISHTI Scheme, Blue Economy.",
+    "mcqs": [
+      {
+        "id": "ca-env-13-q1",
+        "q": "Which two countries spearheaded the launch of the Mangrove Alliance for Climate (MAC) at UNFCCC COP27?\n(a) United Arab Emirates and Indonesia\n(b) India and Bangladesh\n(c) Australia and Japan\n(d) Brazil and Colombia",
+        "options": [
+          "(a) United Arab Emirates and Indonesia",
+          "(b) India and Bangladesh",
+          "(c) Australia and Japan",
+          "(d) Brazil and Colombia"
+        ],
+        "answer": "(a)",
+        "explanation": "The UAE and Indonesia launched the Mangrove Alliance for Climate (MAC) at COP27 in Egypt, which India joined as an active partner."
+      },
+      {
+        "id": "ca-env-13-q2",
+        "q": "What is the primary objective of the MISHTI scheme announced in the Union Budget?\n(a) Developing inland aquaculture ponds for tiger prawns\n(b) Intensive afforestation and restoration of mangrove ecosystems along India's coastline and salt pans\n(c) Deep sea exploratory fishing licenses\n(d) Construction of concrete seawalls along beaches",
+        "options": [
+          "(a) Developing inland aquaculture ponds for tiger prawns",
+          "(b) Intensive afforestation and restoration of mangrove ecosystems along India's coastline and salt pans",
+          "(c) Deep sea exploratory fishing licenses",
+          "(d) Construction of concrete seawalls along beaches"
+        ],
+        "answer": "(b)",
+        "explanation": "MISHTI (Mangrove Initiative for Shoreline Habitats & Tangible Incomes) facilitates mangrove plantation along the coast and on salt pan lands through convergence of CAMPA and MGNREGS."
+      },
+      {
+        "id": "ca-env-13-q3",
+        "q": "In environmental economics, 'Blue Carbon' specifically refers to carbon captured and stored by:\n(a) Oceanic phytoplankton in polar ice\n(b) Coastal and marine vegetated ecosystems including mangroves, tidal marshes, and seagrass meadows\n(c) Carbon stored in deep ocean trenches\n(d) Liquid carbon dioxide injected into subsea oil reservoirs",
+        "options": [
+          "(a) Oceanic phytoplankton in polar ice",
+          "(b) Coastal and marine vegetated ecosystems including mangroves, tidal marshes, and seagrass meadows",
+          "(c) Carbon stored in deep ocean trenches",
+          "(d) Liquid carbon dioxide injected into subsea oil reservoirs"
+        ],
+        "answer": "(b)",
+        "explanation": "Blue carbon is the carbon sequestered by coastal marine ecosystems: mangroves, salt marshes, and seagrasses, which lock carbon in sediment for centuries."
+      },
+      {
+        "id": "ca-env-13-q4",
+        "q": "Which specialized anatomical adaptations enable mangrove species like Rhizophora to thrive in waterlogged, saline tidal soils?\n1. Pneumatophores (blind breathing roots)\n2. Viviparous germination\n3. Salt-secreting foliage glands\nSelect the correct answer:",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 2 and 3 only",
+          "(c) 1 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(d)",
+        "explanation": "Mangroves feature pneumatophores to absorb atmospheric oxygen in anoxic mud, vivipary (seeds germinate while still attached to the tree), and ultra-filtration/salt exclusion."
+      },
+      {
+        "id": "ca-env-13-q5",
+        "q": "Which delta in India contains the world's single largest contiguous block of halophytic mangrove forest?\n(a) Godavari Delta\n(b) Sundarbans Delta\n(c) Pichavaram Delta\n(d) Bhitarkanika Delta",
+        "options": [
+          "(a) Godavari Delta",
+          "(b) Sundarbans Delta",
+          "(c) Pichavaram Delta",
+          "(d) Bhitarkanika Delta"
+        ],
+        "answer": "(b)",
+        "explanation": "The Sundarbans delta spanning India and Bangladesh is the world's largest contiguous mangrove forest, hosting the Royal Bengal Tiger and designated a UNESCO World Heritage site."
+      }
+    ]
+  },
+  {
+    "id": "ca-env-14",
+    "date": "2026-09-28",
+    "pillar": "Environment",
+    "title": "Blue Economy Policy & Coastal Regulation Zone (CRZ) Norms",
+    "source": "MoES / PIB",
+    "is_top100": false,
+    "is_pt365": true,
+    "summary_points": [
+      "India's Blue Economy contributes ~4% to GDP, encompassing marine fisheries, maritime shipping, offshore renewables, coastal tourism, and biotechnology.",
+      "CRZ Notification classifies coastal stretches into four zones: CRZ-I (Ecologically sensitive), CRZ-II (Urban built-up), CRZ-III (Rural coastal), and CRZ-IV (Water area up to 12 nautical miles).",
+      "Deep Ocean Mission approved with Rs 4,077 crore outlay by Ministry of Earth Sciences for deep-sea mining of polymetallic nodules and ocean climate advisory services."
+    ],
+    "gs_connection": "GS-3: Marine Resources, Blue Economy, CRZ Classification, Deep Ocean Mission, Coastal Governance.",
+    "mcqs": [
+      {
+        "id": "ca-env-14-q1",
+        "q": "Under the Coastal Regulation Zone (CRZ) Notification, which zone comprises Ecologically Sensitive Areas (ESAs) such as mangroves, corals, and turtle nesting grounds?\n(a) CRZ-I A\n(b) CRZ-II\n(c) CRZ-III A\n(d) CRZ-IV",
+        "options": [
+          "(a) CRZ-I A",
+          "(b) CRZ-II",
+          "(c) CRZ-III A",
+          "(d) CRZ-IV"
+        ],
+        "answer": "(a)",
+        "explanation": "CRZ-I A covers environmentally sensitive areas (mangroves, corals, sand dunes, national parks). CRZ-I B covers the intertidal zone between Low Tide Line (LTL) and High Tide Line (HTL)."
+      },
+      {
+        "id": "ca-env-14-q2",
+        "q": "Which of the following activities is strictly prohibited in the No Development Zone (NDZ) of rural coastal areas under CRZ-III?\n(a) Traditional fishing by local communities\n(b) Setting up of new commercial industrial plants and disposal of untreated effluents\n(c) Rainwater harvesting structures\n(d) Construction of temporary shacks during tourist season",
+        "options": [
+          "(a) Traditional fishing by local communities",
+          "(b) Setting up of new commercial industrial plants and disposal of untreated effluents",
+          "(c) Rainwater harvesting structures",
+          "(d) Construction of temporary shacks during tourist season"
+        ],
+        "answer": "(b)",
+        "explanation": "Industrial units, hazardous waste disposal, and heavy polluting establishments are strictly prohibited in the NDZ of CRZ-III areas."
+      },
+      {
+        "id": "ca-env-14-q3",
+        "q": "The international eco-label 'Blue Flag' awarded to Indian beaches like Golden Beach (Odisha) and Radhanagar (Andaman) is managed by:\n(a) UNESCO\n(b) Foundation for Environmental Education (FEE), Denmark\n(c) United Nations Environment Programme (UNEP)\n(d) International Maritime Organization (IMO)",
+        "options": [
+          "(a) UNESCO",
+          "(b) Foundation for Environmental Education (FEE), Denmark",
+          "(c) United Nations Environment Programme (UNEP)",
+          "(d) International Maritime Organization (IMO)"
+        ],
+        "answer": "(b)",
+        "explanation": "Blue Flag certification is awarded by the non-profit Foundation for Environmental Education (FEE) based on 33 stringent environmental, bathing water, and safety criteria."
+      },
+      {
+        "id": "ca-env-14-q4",
+        "q": "Under the UN Convention on the Law of the Sea (UNCLOS), an Exclusive Economic Zone (EEZ) extends up to how many nautical miles from the baseline?\n(a) 12 nautical miles\n(b) 24 nautical miles\n(c) 200 nautical miles\n(d) 350 nautical miles",
+        "options": [
+          "(a) 12 nautical miles",
+          "(b) 24 nautical miles",
+          "(c) 200 nautical miles",
+          "(d) 350 nautical miles"
+        ],
+        "answer": "(c)",
+        "explanation": "Territorial waters extend to 12 nautical miles; Contiguous Zone to 24 nm; Exclusive Economic Zone (EEZ) extends up to 200 nautical miles from the territorial baseline."
+      },
+      {
+        "id": "ca-env-14-q5",
+        "q": "Which mission under the Ministry of Earth Sciences includes the development of the manned submersible vehicle 'MATSYA 6000'?\n(a) Sagarmanthan Mission\n(b) Deep Ocean Mission\n(c) Project Mausam\n(d) Samudra Setu",
+        "options": [
+          "(a) Sagarmanthan Mission",
+          "(b) Deep Ocean Mission",
+          "(c) Project Mausam",
+          "(d) Samudra Setu"
+        ],
+        "answer": "(b)",
+        "explanation": "Under the Deep Ocean Mission, the National Institute of Ocean Technology (NIOT) developed MATSYA 6000, designed to carry 3 humans to a depth of 6,000 meters in the Indian Ocean."
+      }
+    ]
+  },
+  {
+    "id": "ca-env-15",
+    "date": "2026-08-30",
+    "pillar": "Environment",
+    "title": "Miyawaki Method of Urban Afforestation & Air Pollution Mitigation",
+    "source": "MoEFCC / CPCB",
+    "is_top100": false,
+    "is_pt365": false,
+    "summary_points": [
+      "The Miyawaki technique, pioneered by Japanese botanist Akira Miyawaki, creates multi-layered, native miniature urban forests in compact spaces.",
+      "Involves planting native species densely (30 times denser than conventional monoculture) with growth rates 10 times faster, becoming self-sustaining in 3 years.",
+      "Adopted by municipal corporations under the National Clean Air Programme (NCAP) as green acoustic and dust-trapping barriers in cities."
+    ],
+    "gs_connection": "GS-3: Urban Ecology, Afforestation Techniques, National Clean Air Programme, Biodiversity in Cities.",
+    "mcqs": [
+      {
+        "id": "ca-env-15-q1",
+        "q": "The Miyawaki method of urban forestry is best described as:\n(a) Creating monoculture eucalyptus plantations for commercial paper pulp\n(b) Developing dense, multi-layered micro-forests using exclusively native species in small urban pockets\n(c) Genetically modifying bamboo for rapid carbon absorption\n(d) Subsidizing chemical fertilizers in city gardens",
+        "options": [
+          "(a) Creating monoculture eucalyptus plantations for commercial paper pulp",
+          "(b) Developing dense, multi-layered micro-forests using exclusively native species in small urban pockets",
+          "(c) Genetically modifying bamboo for rapid carbon absorption",
+          "(d) Subsidizing chemical fertilizers in city gardens"
+        ],
+        "answer": "(b)",
+        "explanation": "Miyawaki forests replicate natural ecological succession by planting diverse local native species (canopy, tree, sub-tree, and shrub layers) at very high density."
+      },
+      {
+        "id": "ca-env-15-q2",
+        "q": "Compared to conventional plantation forestry, Miyawaki forests typically grow:\n(a) At the same rate\n(b) 10 times faster and 30 times denser\n(c) Slower due to root competition\n(d) Only in sub-zero alpine conditions",
+        "options": [
+          "(a) At the same rate",
+          "(b) 10 times faster and 30 times denser",
+          "(c) Slower due to root competition",
+          "(d) Only in sub-zero alpine conditions"
+        ],
+        "answer": "(b)",
+        "explanation": "Close spacing forces saplings to shoot upwards rapidly for sunlight, achieving self-sustaining mature canopy cover within 2-3 years instead of 20-30 years."
+      },
+      {
+        "id": "ca-env-15-q3",
+        "q": "Which national program in India launched in 2019 targets 20-40% reduction in PM2.5 and PM10 concentrations across non-attainment cities?\n(a) National Clean Air Programme (NCAP)\n(b) Green India Mission\n(c) Smart Cities Mission\n(d) AMRUT",
+        "options": [
+          "(a) National Clean Air Programme (NCAP)\n(b) Green India Mission\n(c) Smart Cities Mission\n(d) AMRUT"
+        ],
+        "answer": "(a)",
+        "explanation": "The National Clean Air Programme (NCAP) targets 131 non-attainment cities that persistently fail to meet the National Ambient Air Quality Standards (NAAQS)."
+      },
+      {
+        "id": "ca-env-15-q4",
+        "q": "Which of the following is considered a primary reason why non-native exotic tree species like Eucalyptus and Conocarpus are discouraged in urban forestry?\n(a) They produce excessive edible fruits\n(b) Deep root water depletion, allelopathic suppression of native flora, and pollen allergies\n(c) Inability to survive Indian summer heat\n(d) Their leaves attract locust swarms",
+        "options": [
+          "(a) They produce excessive edible fruits\n(b) Deep root water depletion, allelopathic suppression of native flora, and pollen allergies\n(c) Inability to survive Indian summer heat\n(d) Their leaves attract locust swarms"
+        ],
+        "answer": "(b)",
+        "explanation": "Exotics like Conocarpus and Eucalyptus rapidly deplete urban water tables, damage underground civic sewer infrastructure, and trigger severe respiratory pollen allergies."
+      },
+      {
+        "id": "ca-env-15-q5",
+        "q": "In ecological science, the process where plants absorb and neutralize atmospheric particulate matter on their leaf cuticles is known as:\n(a) Eutrophication\n(b) Phyto-remediation and particulate deposition\n(c) Biomagnification\n(d) Acidification",
+        "options": [
+          "(a) Eutrophication",
+          "(b) Phyto-remediation and particulate deposition",
+          "(c) Biomagnification",
+          "(d) Acidification"
+        ],
+        "answer": "(b)",
+        "explanation": "Vegetative green belts capture airborne dust and PM2.5 on hairy or waxy leaf surfaces, mitigating urban particulate pollution via phytoremediation."
+      }
+    ]
+  },
+  {
+    "id": "ca-env-16",
+    "date": "2026-07-08",
+    "pillar": "Environment",
+    "title": "Coral Reef Bleaching: Fourth Global Mass Bleaching Event & Lakshadweep Crisis",
+    "source": "NOAA / CMFRI",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "NOAA confirmed the fourth global mass coral bleaching event on record, impacting reefs across Atlantic, Pacific, and Indian Ocean basins.",
+      "Coral bleaching is triggered when elevated sea surface temperatures force corals to expel symbiotic algae (zooxanthellae) living in their tissues.",
+      "Severe bleaching confirmed across Lakshadweep atolls and Gulf of Mannar, threatening marine food security and natural breakwaters."
+    ],
+    "gs_connection": "GS-3: Marine Ecosystems, Coral Bleaching, Ocean Warming, Symbiosis, Coastal Resilience.",
+    "mcqs": [
+      {
+        "id": "ca-env-16-q1",
+        "q": "Coral bleaching occurs primarily due to the breakdown of the symbiotic relationship between corals and:\n(a) Cyanobacteria\n(b) Microscopic photosynthetic algae called Zooxanthellae\n(c) Marine nematodes\n(d) Sponges",
+        "options": [
+          "(a) Cyanobacteria",
+          "(b) Microscopic photosynthetic algae called Zooxanthellae",
+          "(c) Marine nematodes",
+          "(d) Sponges"
+        ],
+        "answer": "(b)",
+        "explanation": "Thermal stress causes corals to expel their photosynthetic endosymbionts (zooxanthellae of genus Symbiodinium), stripping corals of their color and primary nutrient source."
+      },
+      {
+        "id": "ca-env-16-q2",
+        "q": "Which of the following marine regions in India possesses coral reefs?\n1. Andaman and Nicobar Islands\n2. Lakshadweep Islands\n3. Gulf of Kutch\n4. Gulf of Mannar\nSelect the correct answer:",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 3 and 4 only",
+          "(c) 1, 2 and 4 only",
+          "(d) 1, 2, 3 and 4"
+        ],
+        "answer": "(d)",
+        "explanation": "India has four major coral reef regions: Andaman & Nicobar (fringing/barrier), Lakshadweep (atolls), Gulf of Mannar (fringing), and Gulf of Kutch (patchy fringing)."
+      },
+      {
+        "id": "ca-env-16-q3",
+        "q": "What chemical compound constitutes the primary structural skeleton secreted by hard reef-building (hermatypic) corals?\n(a) Calcium Carbonate (CaCO3)\n(b) Silicon Dioxide (SiO2)\n(c) Sodium Chloride (NaCl)\n(d) Magnesium Sulfate (MgSO4)",
+        "options": [
+          "(a) Calcium Carbonate (CaCO3)",
+          "(b) Silicon Dioxide (SiO2)",
+          "(c) Sodium Chloride (NaCl)",
+          "(d) Magnesium Sulfate (MgSO4)"
+        ],
+        "answer": "(a)",
+        "explanation": "Hermatypic corals extract calcium and carbonate ions from seawater to build aragonite skeletons (calcium carbonate, CaCO3)."
+      },
+      {
+        "id": "ca-env-16-q4",
+        "q": "How does Ocean Acidification caused by anthropogenic CO2 absorption impair coral reefs?\n(a) It causes water temperatures to drop below freezing\n(b) It lowers ocean pH and reduces the availability of carbonate ions needed for calcification\n(c) It turns coral polyps into predatory jellyfish\n(d) It causes marine salinity to double",
+        "options": [
+          "(a) It causes water temperatures to drop below freezing",
+          "(b) It lowers ocean pH and reduces the availability of carbonate ions needed for calcification",
+          "(c) It turns coral polyps into predatory jellyfish",
+          "(d) It causes marine salinity to double"
+        ],
+        "answer": "(b)",
+        "explanation": "Dissolved CO2 forms carbonic acid, lowering seawater pH and reacting with carbonate ions, which dissolves existing coral skeletons and impedes new calcification."
+      },
+      {
+        "id": "ca-env-16-q5",
+        "q": "The phenomenon of 'Coral Gardening' or 'Biorock' technology refers to:\n(a) Injecting dye into bleached corals\n(b) Using low-voltage electrical currents passed through submerged steel structures to accelerate calcium carbonate precipitation and coral growth\n(c) Dredging sea beds to bury dead corals\n(d) Spraying sunscreen on coastal reefs",
+        "options": [
+          "(a) Injecting dye into bleached corals",
+          "(b) Using low-voltage electrical currents passed through submerged steel structures to accelerate calcium carbonate precipitation and coral growth",
+          "(c) Dredging sea beds to bury dead corals",
+          "(d) Spraying sunscreen on coastal reefs"
+        ],
+        "answer": "(b)",
+        "explanation": "Biorock (mineral accretion technology) uses low-voltage DC electric current in seawater to precipitate calcium carbonate onto steel frames, speeding up coral healing by up to 5 times."
+      }
+    ]
+  }
+]

@@ -1,0 +1,72 @@
+import os
+
+cal_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'calendar', 'officerpass-schedule.ics')
+
+cal_content = """BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OfficerPass//UPSC Prelims 2027 Schedule//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:OfficerPass UPSC 2027
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:IST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:officerpass-morning-static@officerpass
+DTSTAMP:20261123T120000Z
+DTSTART;TZID=Asia/Kolkata:20261124T060000
+DTEND;TZID=Asia/Kolkata:20261124T080000
+RRULE:FREQ=DAILY;UNTIL=20270522T235959Z
+SUMMARY:OfficerPass: Morning Static Foundation Block (06:00 - 08:00 AM)
+DESCRIPTION:2 Hours Deep Static Study. Laxmikanth / NCERT / Ramesh Singh / Shankar IAS. Complete sub-item checkpoints and 12 static MCQs.
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder: OfficerPass Morning Study begins in 15 minutes (06:00 AM).
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:officerpass-evening-session@officerpass
+DTSTAMP:20261123T120000Z
+DTSTART;TZID=Asia/Kolkata:20261124T203000
+DTEND;TZID=Asia/Kolkata:20261124T223000
+RRULE:FREQ=DAILY;UNTIL=20270522T235959Z
+SUMMARY:OfficerPass: Evening Current Affairs & CSAT Block (20:30 - 22:30 PM)
+DESCRIPTION:2 Hours Evening Consolidation. 5 Current Affairs articles + inline MCQs, UNGIST CSAT mastery module, and day practice test.
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder: OfficerPass Evening Study begins in 15 minutes (20:30 PM).
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:officerpass-weekly-mock@officerpass
+DTSTAMP:20261123T120000Z
+DTSTART;TZID=Asia/Kolkata:20261130T060000
+DTEND;TZID=Asia/Kolkata:20261130T080000
+RRULE:FREQ=WEEKLY;UNTIL=20270522T235959Z
+SUMMARY:OfficerPass: Weekly Revision Mode & Sectional Mock Exam
+DESCRIPTION:Day 7 Weekly Consolidation: 100-Question Sectional Simulation Test + Error Notebook Forensic Analysis.
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Weekly Sectional Mock Exam starts in 30 minutes!
+END:VALARM
+END:VEVENT
+END:VCALENDAR"""
+
+with open(cal_path, 'w') as f:
+    f.write(cal_content)
+
+print(f"Successfully generated clean zero-emoji calendar at {cal_path}.")

@@ -1,0 +1,287 @@
+#!/usr/bin/env python3
+"""
+Builds History & Culture articles (ca-hist-01 to ca-hist-11: total 11 articles)
+"""
+import json
+import os
+
+BASE_DIR = '/Users/vashishtaparikipandla/Documents/OfficerPass'
+
+def make_art(aid, dt, pillar, title, src, top100, pt365, sums, gs, qs):
+    mcqs = []
+    for i, (q, opts, ans, exp) in enumerate(qs):
+        mcqs.append({
+            "id": f"{aid}-q{i+1}",
+            "q": q,
+            "options": opts,
+            "answer": ans,
+            "explanation": exp
+        })
+    return {
+        "id": aid, "date": dt, "pillar": pillar, "title": title, "source": src,
+        "is_top100": top100, "is_pt365": pt365, "summary_points": sums, "gs_connection": gs, "mcqs": mcqs
+    }
+
+hist_articles = [
+    ("ca-hist-01", "2026-10-06", "History", "Rakhigarhi DNA Findings & Indus Valley Civilization Genetic Continuity", "ASI / Nature", True, True,
+     ["Ancient DNA extracted from skeletons at Rakhigarhi (Haryana) revealed an absence of Steppe pastoralist or Iranian farmer ancestry in Harappan populations.",
+      "Demonstrates that the Harappan civilization was developed indigenous to South Asia, with farming evolving independently rather than through large-scale demographic displacement.",
+      "Rakhigarhi on the dried Ghaggar-Hakra riverbed is the largest Harappan site in the subcontinent, spanning over 350 hectares."],
+     "GS-1: Ancient Indian History, Indus Valley Civilization, Rakhigarhi Excavations, Genetic Continuity, Archaeological Survey of India.",
+     [
+         ("Rakhigarhi, the largest archaeological site of the Indus Valley Civilization, is located in which state of India?\n(a) Gujarat\n(b) Rajasthan\n(c) Haryana\n(d) Punjab",
+          ["(a) Gujarat", "(b) Rajasthan", "(c) Haryana", "(d) Punjab"],
+          "(c)", "Rakhigarhi is located in Hisar district of Haryana in the Ghaggar-Hakra river plain, surpassing Mohenjo-daro in geographical extent (~350 hectares)."),
+         ("What significant historical conclusion was derived from the ancient genomic DNA analysis of skeletons excavated from Rakhigarhi?\n(a) The Harappans were identical to ancient Mesopotamians\n(b) The Harappan genetic lineage is predominantly ancestral South Asian without Steppe pastoralist ancestry, indicating indigenous development of agriculture and urbanization\n(c) The civilization was wiped out by a meteorite impact\n(d) There was zero trade with outside regions",
+          ["(a) The Harappans were identical to ancient Mesopotamians\n", "(b) The Harappan genetic lineage is predominantly ancestral South Asian without Steppe pastoralist ancestry, indicating indigenous development of agriculture and urbanization", "(c) The civilization was wiped out by a meteorite impact", "(d) There was zero trade with outside regions"],
+          "(b)", "The landmark aDNA study published in Cell confirmed that Harappans formed the primary ancestral component of modern South Asians and developed agriculture locally."),
+         ("Which of the following Harappan sites is famous for an advanced water harvesting system comprising a series of stone-cut reservoirs and dams?\n(a) Kalibangan\n(b) Dholavira\n(c) Lothal\n(d) Banawali",
+          ["(a) Kalibangan", "(b) Dholavira", "(c) Lothal", "(d) Banawali"],
+          "(b)", "Dholavira in the Rann of Kutch (Gujarat) is celebrated for its monumental stone reservoirs and rainwater harvesting cascade (inscribed as a UNESCO World Heritage site)."),
+         ("Which Harappan site provided the earliest archaeological evidence of a ploughed agricultural field?\n(a) Lothal\n(b) Kalibangan\n(c) Chanhudaro\n(d) Surkotada",
+          ["(a) Lothal\n", "(b) Kalibangan", "(c) Chanhudaro", "(d) Surkotada"],
+          "(b)", "Excavations at Kalibangan (Rajasthan) on the banks of the Ghaggar revealed a grid-pattern furrowed ploughed field dating to the pre-Harappan / Early Harappan period."),
+         ("At which Harappan site was an artificial tidal dockyard connected to the Sabarmati-Bhogavo river channels discovered?\n(a) Lothal\n(b) Dholavira\n(c) Rakhigarhi\n(d) Harappa",
+          ["(a) Lothal", "(b) Dholavira", "(c) Rakhigarhi", "(d) Harappa"],
+          "(a)", "Lothal in Gujarat features a rectangular basin made of baked bricks identified as a tidal dockyard engineered to handle overseas maritime trade with Mesopotamia (Dilmun and Magan).")
+     ]),
+
+    ("ca-hist-02", "2026-09-24", "History", "Sacred Ensembles of the Hoysalas: UNESCO World Heritage Inscription", "UNESCO / PIB", True, True,
+     ["The Sacred Ensembles of the Hoysalas comprising 12th-13th century temples at Belur, Halebidu, and Somanathapura in Karnataka were inscribed as India's 42nd UNESCO World Heritage property.",
+      "Exemplifies the unique 'Hoysala Style' or Vesara architecture, featuring stellate (star-shaped) ground plans, stepped raised platforms (jagati), and chloritic schist (soapstone) intricate micro-sculptures.",
+      "The Chennakeshava Temple at Belur was commissioned by King Vishnuvardhana in 1117 CE to commemorate his victory over the Cholas in the Battle of Talakad."],
+     "GS-1: Indian Art & Architecture, Temple Styles (Nagara, Dravida, Vesara), Hoysala Architecture, UNESCO World Heritage.",
+     [
+         ("The 'Sacred Ensembles of the Hoysalas' recently inscribed on the UNESCO World Heritage List comprise temples located in which Indian state?\n(a) Tamil Nadu\n(b) Andhra Pradesh\n(c) Karnataka\n(d) Telangana",
+          ["(a) Tamil Nadu", "(b) Andhra Pradesh", "(c) Karnataka", "(d) Telangana"],
+          "(c)", "The three Hoysala temple complexes are located in Hassan district (Belur and Halebidu) and Mysuru district (Somanathapura) in southern Karnataka."),
+         ("What is the characteristic ground plan geometry distinctive to Hoysala temple architecture?\n(a) Simple square sanctum without projections\n(b) Stellate (star-shaped) plan with multiple projecting and recessed angles\n(c) Octagonal pillared hall only\n(d) Circular Buddhist stupa shape",
+          ["(a) Simple square sanctum without projections", "(b) Stellate (star-shaped) plan with multiple projecting and recessed angles", "(c) Octagonal pillared hall only", "(d) Circular Buddhist stupa shape"],
+          "(b)", "Hoysala temples feature a stellate (star-shaped) ground plan where the sanctum wall is divided into numerous symmetrical projecting facets resting on a raised platform (jagati)."),
+         ("Which soft rock material was predominantly utilized by Hoysala master sculptors to achieve extraordinary, intricate jewelry-like carvings?\n(a) Hard granite\n(b) Sandstone\n(c) Chloritic Schist (Soapstone)\n(d) Marble",
+          ["(a) Hard granite", "(b) Sandstone", "(c) Chloritic Schist (Soapstone)", "(d) Marble"],
+          "(c)", "Hoysala artists shifted from granite to chloritic schist (potstone/soapstone), a soft metamorphic stone that carves smoothly when freshly quarried and hardens upon exposure to air."),
+         ("The Chennakeshava Temple at Belur was built by which prominent Hoysala monarch to commemorate his victory over the Cholas at Talakad?\n(a) Vishnuvardhana\n(b) Veera Ballala II\n(c) Narasimha I\n(d) Someshwara",
+          ["(a) Vishnuvardhana", "(b) Veera Ballala II", "(c) Narasimha I\n", "(d) Someshwara"],
+          "(a)", "King Vishnuvardhana (who converted from Jainism to Vaishnavism under the influence of philosopher Ramanujacharya) built the Chennakeshava Temple in 1117 CE."),
+         ("Hoysala architecture is widely categorized as an exquisite hybrid fusion of which two classical Indian architectural traditions?\n(a) Nagara (Northern) and Dravida (Southern) styles, forming Vesara or Karnata Dravida style\n(b) Gandhara and Mathura styles\n(c) Indo-Islamic and Gothic styles\n(d) Rock-cut cave and monolithic styles",
+          ["(a) Nagara (Northern) and Dravida (Southern) styles, forming Vesara or Karnata Dravida style", "(b) Gandhara and Mathura styles", "(c) Indo-Islamic and Gothic styles", "(d) Rock-cut cave and monolithic styles"],
+          "(a)", "Hoysala temples belong to the Vesara (Karnata Dravida) tradition, combining the tiered shikhara of Dravidian temples with the stepped ornamentation and plan of Nagara styles.")
+     ]),
+
+    ("ca-hist-03", "2026-08-14", "History", "Maratha Military Landscapes: UNESCO Nomination & Fort Architecture", "ASI / Ministry of Culture", True, True,
+     ["India nominated the 'Maratha Military Landscapes' representing 12 strategic hill, coastal, and island forts developed under Chhatrapati Shivaji Maharaj for UNESCO World Heritage recognition.",
+      "The 12 forts include Salher, Shivneri, Lohagad, Khanderi, Raigad, Rajgad, Pratapgad, Suvarnadurg, Panhala, Vijaydurg, Sindhudurg, and Gingee (Tamil Nadu).",
+      "Reflects the military genius of Guerrilla warfare ('Ganimi Kava') integrating the rugged terrain of the Western Ghats (Sahyadris) and the Konkan coast."],
+     "GS-1: Medieval Indian History, Maratha Empire, Chhatrapati Shivaji Maharaj, Fort Architecture, Military Landscapes.",
+     [
+         ("Which island fort along the Konkan coast in Maharashtra was constructed by Chhatrapati Shivaji Maharaj on a rocky islet to counter the naval power of the Siddis of Janjira and European powers?\n(a) Raigad Fort\n(b) Sindhudurg Fort\n(c) Shivneri Fort\n(d) Sinhagad Fort",
+          ["(a) Raigad Fort", "(b) Sindhudurg Fort", "(c) Shivneri Fort", "(d) Sinhagad Fort"],
+          "(b)", "Sindhudurg Fort was built on Kurte island off Malvan between 1664-1667 with massive stone ramparts and lead-cemented foundations to anchor the Maratha Navy."),
+         ("Where did Chhatrapati Shivaji Maharaj's formal coronation (Rajyabhisheka) take place in 1674, where he assumed the title 'Chhatrapati'?\n(a) Shivneri Fort\n(b) Pratapgad Fort\n(c) Raigad Fort\n(d) Torna Fort",
+          ["(a) Shivneri Fort", "(b) Pratapgad Fort", "(c) Raigad Fort", "(d) Torna Fort"],
+          "(c)", "Shivaji Maharaj was formally crowned at Raigad Fort on June 6, 1674 by Pandit Gaga Bhatt, establishing the sovereign Maratha state (Hindavi Swarajya)."),
+         ("Which prominent fort included in the 'Maratha Military Landscapes' nomination is located in the state of Tamil Nadu?\n(a) Gingee Fort (Senji Fort)\n(b) Vellore Fort\n(c) Thanjavur Fort\n(d) Dindigul Fort",
+          ["(a) Gingee Fort (Senji Fort)", "(b) Vellore Fort\n", "(c) Thanjavur Fort", "(d) Dindigul Fort"],
+          "(a)", "Gingee Fort in Tamil Nadu was captured by Shivaji during his Southern Expedition (Dakshin Digvijay) in 1677 and famously described by Mughal Emperor Aurangzeb as the 'Troy of the East'."),
+         ("What was the traditional Maratha guerrilla warfare doctrine devised to defeat larger Mughal and Adil Shahi imperial armies?\n(a) Ganimi Kava\n(b) Chauth System\n(c) Sardeshmukhi\n(d) Mansabdari",
+          ["(a) Ganimi Kava", "(b) Chauth System", "(c) Sardeshmukhi", "(d) Mansabdari"],
+          "(a)", "Ganimi Kava is guerrilla tactics emphasizing speed, surprise, knowledge of hilly terrain, swift cavalry ambush, and retreating to hill fortresses before enemy reinforcements mobilize."),
+         ("Who served as the legendary Grand Admiral (Sarkhel) of the Maratha Navy, remaining undefeated against British, Dutch, and Portuguese fleets in the early 18th century?\n(a) Tanaji Malusare\n(b) Kanhoji Angre\n(c) Baji Rao I\n(d) Santaji Ghorpade",
+          ["(a) Tanaji Malusare\n", "(b) Kanhoji Angre", "(c) Baji Rao I", "(d) Santaji Ghorpade"],
+          "(b)", "Kanhoji Angre (1669-1729) served as the Sarkhel of the Maratha fleet, establishing fortified coastal bases at Vijaydurg and Khanderi and commanding the Arabian Sea.")
+     ]),
+
+    ("ca-hist-04", "2026-07-25", "History", "Chola Maritime Heritage & Rajendra Chola's Southeast Asian Naval Expeditions", "Ministry of Culture / The Hindu", True, True,
+     ["The Chola Empire (9th-13th century CE) represents India's pinnacle of maritime naval supremacy, transforming the Bay of Bengal into a 'Chola Lake'.",
+      "In 1025 CE, Emperor Rajendra Chola I launched a historic overseas naval expedition against the Srivijaya maritime empire (Sumatra and Malayan peninsula).",
+      "Chola maritime power secured international trade routes linking China (Song Dynasty) through the Malacca Strait to the Coromandel Coast and the Mediterranean."],
+     "GS-1: Ancient/Medieval History, Chola Maritime Power, Rajendra Chola, Srivijaya Expedition, Indian Ocean Trade.",
+     [
+         ("Which Chola emperor assumed the title 'Gangaikonda Chola' after conquering territories up to the Ganga River and founded the capital Gangaikondacholapuram?\n(a) Rajaraja Chola I\n(b) Rajendra Chola I\n(c) Kulothunga I\n(d) Parantaka I",
+          ["(a) Rajaraja Chola I", "(b) Rajendra Chola I", "(c) Kulothunga I", "(d) Parantaka I"],
+          "(b)", "Rajendra Chola I (1014-1044 CE) led victorious armies up to the Ganga in Bengal and founded Gangaikondacholapuram, building the Cholaganga water reservoir."),
+         ("In 1025 CE, Rajendra Chola's naval armada launched an overseas military expedition against which powerful Southeast Asian maritime empire?\n(a) Khmer Empire of Cambodia\n(b) Srivijaya Empire (controlling Sumatra and the Strait of Malacca)\n(c) Majapahit Empire\n(d) Ayutthaya Kingdom",
+          ["(a) Khmer Empire of Cambodia", "(b) Srivijaya Empire (controlling Sumatra and the Strait of Malacca)", "(c) Majapahit Empire", "(d) Ayutthaya Kingdom"],
+          "(b)", "Rajendra Chola attacked Srivijaya (ruling Sumatra, the Malay Peninsula, and Western Java) to secure maritime trading rights through the Malacca and Sunda straits to China."),
+         ("What famous inscription from Tamil Nadu provides detailed information regarding the democratic functioning, qualification criteria, and lot-based selection (Kudavolai) of local village assemblies (Sabha) under the Cholas?\n(a) Aihole Inscription\n(b) Uttaramerur Inscription\n(c) Hathigumpha Inscription\n(d) Prayag Prashasti",
+          ["(a) Aihole Inscription", "(b) Uttaramerur Inscription", "(c) Hathigumpha Inscription", "(d) Prayag Prashasti"],
+          "(b)", "The Uttaramerur Inscription of Parantaka I (919 and 921 CE) details village autonomy, qualifications (age, education, land ownership), and disqualifications for Sabha committees via Kudavolai."),
+         ("The Brihadisvara Temple at Thanjavur, celebrated for its 66-meter granite vimana, was commissioned by which Chola monarch?\n(a) Rajaraja Chola I\n(b) Rajendra Chola I\n(c) Aditya I\n(d) Karikala Chola",
+          ["(a) Rajaraja Chola I", "(b) Rajendra Chola I", "(c) Aditya I", "(d) Karikala Chola"],
+          "(a)", "Rajaraja Chola I completed the majestic Brihadisvara (Rajarajeswaram) Temple in Thanjavur in 1010 CE, a UNESCO World Heritage site known as the Great Living Chola Temple."),
+         ("Which prominent medieval south Indian merchant guild was actively involved in maritime overseas trade across Southeast Asia and China?\n(a) Ayyavole 500 (Five Hundred Lords of Ayyavole) and Manigramam\n(b) Sreni of Vaishali\n(c) Jagat Seth\n(d) Mahajanapadas",
+          ["(a) Ayyavole 500 (Five Hundred Lords of Ayyavole) and Manigramam", "(b) Sreni of Vaishali\n", "(c) Jagat Seth", "(d) Mahajanapadas"],
+          "(a)", "Autonomous merchant corporations like the Ayyavole (Ainnurruvar) and Manigramam maintained private armies and financed maritime merchant convoys across the Indian Ocean.")
+     ]),
+
+    ("ca-hist-05", "2026-06-14", "History", "Sant Mirabai 525th Birth Anniversary & Saguna Bhakti Philosophy", "Ministry of Culture / PIB", False, True,
+     ["Commemoration of the 525th birth anniversary of 16th-century mystic poet-saint Sant Mirabai celebrated in Mathura and Rajasthan.",
+      "Mirabai championed Saguna Bhakti (worship of God with form and attributes), dedicated to Lord Krishna in the Madhurya Bhava (lover-beloved relationship).",
+      "Defied rigid caste hierarchies and patriarchal Rajput royal norms of Mewar, authoring soul-stirring Bhajans and Padas in Braj Bhasha and Rajasthani."],
+     "GS-1: Indian Heritage & Culture, Bhakti Movement, Saguna vs Nirguna Bhakti, Medieval Women Saints.",
+     [
+         ("Sant Mirabai practiced which form of Bhakti devotion towards Lord Krishna?\n(a) Vatsalya Bhava (parental love)\n(b) Madhurya Bhava / Kanta Bhava (conjugal devotion / bridal mysticism)\n(c) Dasya Bhava (servant-master devotion)\n(d) Sakhya Bhava (equal friendship)",
+          ["(a) Vatsalya Bhava (parental love)", "(b) Madhurya Bhava / Kanta Bhava (conjugal devotion / bridal mysticism)", "(c) Dasya Bhava (servant-master devotion)", "(d) Sakhya Bhava (equal friendship)"],
+          "(b)", "Mirabai viewed Krishna as her divine husband and eternal lover (Madhurya Bhava), expressing profound spiritual devotion through devotional poetry."),
+         ("In the philosophical classification of the Bhakti movement, what is the core distinction between 'Saguna' and 'Nirguna' traditions?\n(a) Saguna is Buddhist; Nirguna is Jain\n(b) Saguna worships God manifested with specific forms, qualities, and incarnations (avatars); Nirguna conceives God as formless, omnipresent, and beyond human attributes\n(c) Saguna advocates animal sacrifice; Nirguna advocates vegetarianism\n(d) Saguna was confined to North India only",
+          ["(a) Saguna is Buddhist; Nirguna is Jain", "(b) Saguna worships God manifested with specific forms, qualities, and incarnations (avatars); Nirguna conceives God as formless, omnipresent, and beyond human attributes", "(c) Saguna advocates animal sacrifice; Nirguna advocates vegetarianism", "(d) Saguna was confined to North India only"],
+          "(b)", "Saguna Bhakti (Mirabai, Tulsidas, Surdas, Chaitanya) focuses on personal deities (Rama, Krishna); Nirguna Bhakti (Kabir, Guru Nanak, Dadu Dayal) emphasizes a formless divine reality."),
+         ("Which revered Bhakti saint, a leather craftsman (chamar) preaching social equality and dignity of labor, is traditionally revered as Mirabai's spiritual guru?\n(a) Sant Ravidas (Raidas)\n(b) Sant Dnyaneshwar\n(c) Sant Namdev\n(d) Vallabhacharya",
+          ["(a) Sant Ravidas (Raidas)", "(b) Sant Dnyaneshwar", "(c) Sant Namdev", "(d) Vallabhacharya"],
+          "(a)", "Mirabai broke feudal royal protocols by accepting Sant Ravidas (an untouchable leather-worker) as her spiritual preceptor, symbolizing rejection of caste hierarchy."),
+         ("In which dialect of Hindi-Rajasthani are the majority of Sant Mirabai's devotional padas composed?\n(a) Maithili\n(b) Braj Bhasha blended with Rajasthani and Gujarati idioms\n(c) Pure Sanskrit\n(d) Urdu",
+          ["(a) Maithili", "(b) Braj Bhasha blended with Rajasthani and Gujarati idioms", "(c) Pure Sanskrit", "(d) Urdu"],
+          "(b)", "Her poetry is composed in Braj Bhasha with strong Mewari/Marwari and Gujarati influences, reflecting her journey from Merta to Chittor and finally Dwarka."),
+         ("Which of the following women was a prominent female saint of the South Indian Alvar (Vaishnavite) Bhakti tradition, known as the 'Mirabai of the South'?\n(a) Akka Mahadevi\n(b) Andal (Kodhai)\n(c) Karaikkal Ammaiyar\n(d) Lal Ded",
+          ["(a) Akka Mahadevi", "(b) Andal (Kodhai)", "(c) Karaikkal Ammaiyar", "(d) Lal Ded"],
+          "(b)", "Andal is the only female among the 12 Alvar saints of Tamil Nadu, renowned for composing the Tiruppavai and Nachiar Tirumozhi in intense bridal devotion to Vishnu.")
+     ]),
+
+    ("ca-hist-06", "2026-05-28", "History", "Sengol in the New Parliament: Chola Power Transition & Thiruvavaduthurai Adheenam", "PIB / Ministry of Culture", True, True,
+     ["The golden sceptre ('Sengol') was installed adjacent to the Lok Sabha Speaker's chair in the new Parliament building during its inauguration.",
+      "Historically associated with the Chola dynasty, where the royal sceptre was handed over by the Rajguru to a new monarch symbolizing the transfer of sovereign authority and righteousness (Dharma).",
+      "Commissioned by the Thiruvavaduthurai Adheenam (a Shaivite mutt in Tamil Nadu) in August 1947 and handed to Jawaharlal Nehru on the eve of Indian Independence."],
+     "GS-1: Indian Culture, Symbols of Sovereignty, Chola Rajadharma, Transfer of Power 1947, Shaivite Adheenams.",
+     [
+         ("The golden sceptre 'Sengol' installed in the new Parliament building draws its historical symbolism from which classical Indian dynasty?\n(a) Maurya Dynasty\n(b) Chola Dynasty\n(c) Gupta Dynasty\n(d) Vijayanagara Dynasty",
+          ["(a) Maurya Dynasty", "(b) Chola Dynasty", "(c) Gupta Dynasty", "(d) Vijayanagara Dynasty"],
+          "(b)", "In the ancient Chola kingdom, the transfer of the Sengol (sceptre) signified the sanctified transfer of righteous power from one king to his successor."),
+         ("Which ancient Shaivite monastic institution (mutt) in Tamil Nadu prepared and presented the Sengol on the eve of Indian Independence in August 1947?\n(a) Thiruvavaduthurai Adheenam\n(b) Sringeri Sharada Peetham\n(c) Kanchi Kamakoti Peetham\n(d) Belur Math",
+          ["(a) Thiruvavaduthurai Adheenam", "(b) Sringeri Sharada Peetham", "(c) Kanchi Kamakoti Peetham", "(d) Belur Math"],
+          "(a)", "The Thiruvavaduthurai Adheenam (one of the oldest non-Brahmin Saiva Siddhanta mutts) commissioned master jewelers Vummidi Bangaru Chetty to craft the Sengol in 1947."),
+         ("What divine motif is carved at the top of the Sengol, symbolizing justice, steadfastness, and unyielding Dharma?\n(a) The Ashoka Lion Capital\n(b) Nandi (the sacred bull)\n(c) Garuda (the eagle)\n(d) The Lotus flower",
+          ["(a) The Ashoka Lion Capital", "(b) Nandi (the sacred bull)", "(c) Garuda (the eagle)", "(d) The Lotus flower"],
+          "(b)", "The top of the Sengol features a hand-carved Nandi bull, representing righteous governance, justice, and adherence to moral duty (Dharma)."),
+         ("The Tamil word 'Sengol' is etymologically derived from 'Semmai', which literally translates to:\n(a) Wealth and prosperity\n(b) Righteousness, justice, and virtue\n(c) Military conqueror\n(d) Divine grace",
+          ["(a) Wealth and prosperity", "(b) Righteousness, justice, and virtue", "(c) Military conqueror", "(d) Divine grace"],
+          "(b)", "Sengol comes from 'Semmai' meaning righteousness, rectitude, and truth. The king holding it was reminded that his authority was subservient to moral law."),
+         ("Which veteran Indian freedom fighter and the first Indian Governor-General suggested using the Chola Sengol tradition to mark the 1947 transfer of power?\n(a) C. Rajagopalachari (Rajaji)\n(b) Sardar Vallabhbhai Patel\n(c) Sarvepalli Radhakrishnan\n(d) K. Kamaraj",
+          ["(a) C. Rajagopalachari (Rajaji)", "(b) Sardar Vallabhbhai Patel", "(c) Sarvepalli Radhakrishnan", "(d) K. Kamaraj"],
+          "(a)", "When Prime Minister Jawaharlal Nehru consulted Rajaji on an authentic Indian ceremonial symbol for the transfer of power from Lord Mountbatten, Rajaji suggested the Chola Sengol tradition.")
+     ]),
+
+    ("ca-hist-07", "2026-04-18", "History", "Kakatiya Dynasty Architecture & Ramappa Temple's Earthquake-Resistant Sandbox Technique", "UNESCO / ASI", False, True,
+     ["Ramappa Temple (Rudreshwara Temple) in Palampet, Telangana was constructed in 1213 CE under the Kakatiya general Recharla Rudra during Ganapati Deva's reign.",
+      "The temple survived major earthquakes undamaged due to ingenious 'Sandbox Technology' where foundation trenches were filled with sand, lime, jaggery, and karakkaya.",
+      "The superstructure features floating porous bricks manufactured using spongy, lightweight clay that float on water, dramatically reducing structural weight."],
+     "GS-1: Indian Architecture, Kakatiya Dynasty, Ramappa Temple, Earthquake Engineering in Antiquity, UNESCO World Heritage.",
+     [
+         ("The Rudreshwara (Ramappa) Temple, inscribed as a UNESCO World Heritage site, was constructed during the reign of which medieval dynasty?\n(a) Chalukyas of Badami\n(b) Kakatiya Dynasty\n(c) Rashtrakuta Dynasty\n(d) Yadavas of Devagiri",
+          ["(a) Chalukyas of Badami", "(b) Kakatiya Dynasty", "(c) Rashtrakuta Dynasty", "(d) Yadavas of Devagiri"],
+          "(b)", "Ramappa Temple in Mulugu district of Telangana was built in 1213 CE by Recharla Rudra, a general of the Kakatiya ruler Ganapati Deva."),
+         ("What innovative indigenous architectural engineering technique protected the Ramappa Temple from collapsing during historical earthquakes?\n(a) Deep underground hydraulic springs\n(b) 'Sandbox Technology' (filling foundation trenches with a mixture of sand, lime, jaggery, and black myrobalan to cushion seismic shockwaves)\n(c) Interlocking steel girders\n(d) Hollow wooden columns",
+          ["(a) Deep underground hydraulic springs", "(b) 'Sandbox Technology' (filling foundation trenches with a mixture of sand, lime, jaggery, and black myrobalan to cushion seismic shockwaves)", "(c) Interlocking steel girders\n", "(d) Hollow wooden columns"],
+          "(b)", "The Kakatiya engineers dug foundation pits and filled them with sand and binding herbs. During earthquakes, the sandbox acts as an acoustic seismic isolator, absorbing energy."),
+         ("What is the unique scientific property of the roof bricks used in the vimana tower of the Ramappa Temple?\n(a) They are made of solid iron slag\n(b) They are lightweight, porous bricks that float on water, minimizing load on the stone pillars\n(c) They are made of carved soapstone\n(d) They are transparent glass tiles",
+          ["(a) They are made of solid iron slag", "(b) They are lightweight, porous bricks that float on water, minimizing load on the stone pillars", "(c) They are made of carved soapstone", "(d) They are transparent glass tiles"],
+          "(b)", "The bricks used in the temple tower are so porous and lightweight that they float on water, reducing the vertical gravity load on the underlying basalt pillars."),
+         ("Why is the Ramappa Temple historically unique in terms of its naming convention in Indian art history?\n(a) It is named after the presiding Shiva lingam\n(b) It is the only temple in India named after its chief sculptor / architect (Ramappa) rather than the king or deity\n(c) It is named after a British viceroy\n(d) It is named after an ancient river",
+          ["(a) It is named after the presiding Shiva lingam", "(b) It is the only temple in India named after its chief sculptor / architect (Ramappa) rather than the king or deity", "(c) It is named after a British viceroy", "(d) It is named after an ancient river"],
+          "(b)", "While the presiding deity is Ramalingeswara Shiva, the monument is famously named after the sculptor Ramappa who laboured for 40 years to construct it."),
+         ("Which Italian merchant traveler visited the Kakatiya kingdom during the reign of Queen Rudrama Devi and left admiring accounts of its prosperity and textiles?\n(a) Marco Polo\n(b) Nicolo de Conti\n(c) Ibn Battuta\n(d) Duarte Barbosa",
+          ["(a) Marco Polo", "(b) Nicolo de Conti\n", "(c) Ibn Battuta", "(d) Duarte Barbosa"],
+          "(a)", "Marco Polo visited Motupalli port in Andhra around 1293 CE, praising Queen Rudrama Devi's justice and the fine muslin fabrics produced in the Kakatiya kingdom.")
+     ]),
+
+    ("ca-hist-08", "2026-03-15", "History", "Subhash Chandra Bose & Indian National Army (INA) Red Fort Trials (1945)", "National Archives / PIB", True, True,
+     ["The INA trials held at the Red Fort (1945-46) tried Prem Sahgal, Gurbaksh Singh Dhillon, and Shah Nawaz Khan for waging war against the King-Emperor.",
+      "Triggered unprecedented public outrage, uniting Congress, Muslim League, and Akali Dal, and inspiring the Royal Indian Navy (RIN) Mutiny of February 1946.",
+      "The INA Defence Committee organized by the Indian National Congress was led by Bhulabhai Desai, alongside Tej Bahadur Sapru and Jawaharlal Nehru."],
+     "GS-1: Modern Indian History, Indian National Army (Azad Hind Fauj), Red Fort Trials, RIN Mutiny, Decolonization.",
+     [
+         ("Which three prominent officers of the Indian National Army (INA) were tried together in the first historic court-martial at the Red Fort in November 1945?\n(a) Mohan Singh, Rash Behari Bose, and Subhash Chandra Bose\n(b) Prem Kumar Sahgal, Gurbaksh Singh Dhillon, and Shah Nawaz Khan\n(c) Bhagat Singh, Sukhdev, and Rajguru\n(d) Surya Sen, Pritilata Waddedar, and Kalpana Datta",
+          ["(a) Mohan Singh, Rash Behari Bose, and Subhash Chandra Bose", "(b) Prem Kumar Sahgal, Gurbaksh Singh Dhillon, and Shah Nawaz Khan", "(c) Bhagat Singh, Sukhdev, and Rajguru", "(d) Surya Sen, Pritilata Waddedar, and Kalpana Datta"],
+          "(b)", "The British decision to jointly put a Hindu (Sahgal), a Sikh (Dhillon), and a Muslim (Shah Nawaz) on trial in the Red Fort backfired, galvanizing unified mass nationalist fervor."),
+         ("Who served as the chief advocate and lead counsel heading the INA Defence Committee in the Red Fort court-martial proceedings?\n(a) Bhulabhai Desai\n(b) Jawaharlal Nehru\n(c) Tej Bahadur Sapru\n(d) Asaf Ali",
+          ["(a) Bhulabhai Desai", "(b) Jawaharlal Nehru", "(c) Tej Bahadur Sapru", "(d) Asaf Ali"],
+          "(a)", "Bhulabhai Desai was the lead defense counsel, presenting an eloquent international law argument that subject peoples have the right to wage war for national liberation."),
+         ("Where did Netaji Subhash Chandra Bose establish the Provisional Government of Free India (Arzi Hukumat-e-Azad Hind) in October 1943?\n(a) Tokyo, Japan\n(b) Singapore\n(c) Rangoon, Burma\n(d) Bangkok, Thailand",
+          ["(a) Tokyo, Japan", "(b) Singapore", "(c) Rangoon, Burma", "(d) Bangkok, Thailand"],
+          "(b)", "Netaji proclaimed the Arzi Hukumat-e-Azad Hind at the Cathay Cinema Hall in Singapore on October 21, 1943, recognized by nine sovereign nations."),
+         ("The all-female military combat unit established within the Indian National Army was named after which historical Indian icon?\n(a) Rani Padmini\n(b) Rani Chennamma\n(c) Rani of Jhansi (Rani Lakshmi Bai)\n(d) Ahilyabai Holkar",
+          ["(a) Rani Padmini", "(b) Rani Chennamma", "(c) Rani of Jhansi (Rani Lakshmi Bai)", "(d) Ahilyabai Holkar"],
+          "(c)", "The Rani of Jhansi Regiment was commanded by Captain Lakshmi Swaminathan (Sahgal), one of the world's first all-female regular military combat units in modern history."),
+         ("The massive naval insurrection in February 1946 that delivered the final blow to British imperial authority in India began on which HMIS training ship in Bombay?\n(a) HMIS Talwar\n(b) HMIS Vikrant\n(c) HMIS Delhi\n(d) HMIS Rajput",
+          ["(a) HMIS Talwar", "(b) HMIS Vikrant", "(c) HMIS Delhi", "(d) HMIS Rajput"],
+          "(a)", "The Royal Indian Navy (RIN) Mutiny began on February 18, 1946 on HMIS Talwar over racial discrimination and poor food, spreading to 78 ships across Bombay, Karachi, and Calcutta.")
+     ]),
+
+    ("ca-hist-09", "2026-02-18", "History", "Lachit Borphukan 400th Birth Anniversary & Battle of Saraighat (1671)", "Government of Assam / PIB", True, True,
+     ["Celebration of the 400th birth anniversary of Ahom general Lachit Borphukan, celebrated annually as Lachit Diwas on November 24th.",
+      "Commander of the Ahom kingdom who decisively defeated the massive Mughal imperial invasion led by Raja Ram Singh I at the Battle of Saraighat in 1671.",
+      "The Battle of Saraighat was the greatest naval river battle in Indian history, fought on the narrow stretch of the Brahmaputra River near Guwahati."],
+     "GS-1: Medieval Indian History, Ahom Kingdom, Battle of Saraighat, Lachit Borphukan, Riverine Warfare.",
+     [
+         ("The historic Battle of Saraighat (1671) between the Ahom Kingdom and the Mughal Empire was fought on which body of water?\n(a) Ganga River\n(b) Brahmaputra River near Guwahati\n(c) Barak River\n(d) Teesta River",
+          ["(a) Ganga River", "(b) Brahmaputra River near Guwahati", "(c) Barak River", "(d) Teesta River"],
+          "(b)", "The Battle of Saraighat was fought across the narrowest stretch of the Brahmaputra River at Saraighat (near Guwahati), where Ahoms defeated the Mughal armada."),
+         ("Who commanded the Mughal imperial expeditionary forces dispatched by Emperor Aurangzeb against the Ahoms at Saraighat?\n(a) Mir Jumla\n(b) Raja Ram Singh I of Amber\n(c) Shaista Khan\n(d) Jai Singh I",
+          ["(a) Mir Jumla", "(b) Raja Ram Singh I of Amber", "(c) Shaista Khan", "(d) Jai Singh I"],
+          "(b)", "Aurangzeb deputed Raja Ram Singh I of Amber with a vast force of Mughal cavalry and artillery, but they were outmaneuvered in the river channels by Lachit's fleet."),
+         ("In the governance and administrative hierarchy of the Ahom kingdom, what did the title 'Borphukan' represent?\n(a) Chief Priest of the Royal Court\n(b) One of the five councillors of state (Patra Mantris), acting as governor of Lower Assam and military commander-in-chief\n(c) Village revenue tax collector\n(d) Master of the Royal Mint",
+          ["(a) Chief Priest of the Royal Court\n", "(b) One of the five councillors of state (Patra Mantris), acting as governor of Lower Assam and military commander-in-chief", "(c) Village revenue tax collector", "(d) Master of the Royal Mint"],
+          "(b)", "The Borphukan was the royal viceroy governing Lower Assam west of the Kaliabor River, commanding military forces and diplomacy with Bengal."),
+         ("What unique corvée labor and military conscription system was the socioeconomic foundation of the Ahom kingdom?\n(a) Jagirdari system\n(b) Paik system\n(c) Iqtadari system\n(d) Ryotwari system",
+          ["(a) Jagirdari system", "(b) Paik system", "(c) Iqtadari system", "(d) Ryotwari system"],
+          "(b)", "Under the Paik system, every adult male (paik) owed compulsory rotational service to the state in road construction, rice cultivation, and military defense in units of 3 or 4."),
+         ("Who was the visionary founder of the Ahom dynasty who migrated from Mong Mao (Yunnan/Myanmar) into the Brahmaputra Valley in 1228 CE?\n(a) Chaolung Sukapha\n(b) Rudra Singha\n(c) Suhungmung\n(d) Gadadhar Singha",
+          ["(a) Chaolung Sukapha", "(b) Rudra Singha", "(c) Suhungmung", "(d) Gadadhar Singha"],
+          "(a)", "Chaolung Sukapha established the Ahom kingdom in 1228 CE at Charaideo, ruling for nearly 600 years until the British annexed Assam via the Treaty of Yandabo (1826).")
+     ]),
+
+    ("ca-hist-10", "2026-01-20", "History", "Sant Ravidas Teachings & Concept of 'Begumpura' in Medieval India", "Ministry of Culture / PIB", False, True,
+     ["Sant Ravidas (15th-16th century CE) was a foremost saint-poet of the Nirguna Bhakti movement in the Bhakti-Sufi tradition, born in Varanasi.",
+      "Composed the philosophical vision of 'Begumpura' ('city without sorrow')—a utopian egalitarian society free from taxation, caste oppression, poverty, and sorrow.",
+      "Over 40 devotional hymns composed by Sant Ravidas were reverently incorporated into the Sikh holy scripture, the Guru Granth Sahib."],
+     "GS-1: Medieval Social History, Bhakti Movement, Nirguna Tradition, Sant Ravidas, Guru Granth Sahib.",
+     [
+         ("Sant Ravidas articulated his vision of an ideal, egalitarian society free of caste discrimination and suffering under which name?\n(a) Ramrajya\n(b) Begumpura ('City without Sorrow')\n(c) Sarvodaya\n(d) Swaraj",
+          ["(a) Ramrajya", "(b) Begumpura ('City without Sorrow')", "(c) Sarvodaya", "(d) Swaraj"],
+          "(b)", "In his iconic poem 'Begumpura Shahr ko Nao', Sant Ravidas envisions a utopian realm with no grief, no private property greed, no taxes, and no caste hierarchy."),
+         ("Sant Ravidas was a contemporary of which other preeminent Nirguna Bhakti saint in Varanasi?\n(a) Kabir\n(b) Shankaradeva\n(c) Madhvacharya\n(d) Ramanuja",
+          ["(a) Kabir", "(b) Shankaradeva", "(c) Madhvacharya", "(d) Ramanuja"],
+          "(a)", "Sant Ravidas and Kabir were both 15th-century contemporaries in Varanasi, associated in tradition with the reformist guru Swami Ramananda."),
+         ("Hymns authored by Sant Ravidas were reverently compiled into which sacred religious scripture?\n(a) Guru Granth Sahib (Adi Granth)\n(b) Ramcharitmanas\n(c) Dasam Granth\n(d) Bijak",
+          ["(a) Guru Granth Sahib (Adi Granth)", "(b) Ramcharitmanas", "(c) Dasam Granth\n", "(d) Bijak"],
+          "(a)", "Guru Arjan Dev included 41 hymns of Bhagat Ravidas in the Adi Granth in 1604 CE, praising his universal spiritual realization."),
+         ("In social and economic history, which traditional occupational trade did Sant Ravidas belong to?\n(a) Weaver (Julaha)\n(b) Leather-worker / Cobbler (Chamar)\n(c) Blacksmith (Lohar)\n(d) Potter (Kumhar)",
+          ["(a) Weaver (Julaha)", "(b) Leather-worker / Cobbler (Chamar)", "(c) Blacksmith (Lohar)", "(d) Potter (Kumhar)"],
+          "(b)", "Ravidas was a cobbler who proudly continued manual shoe-mending, preaching that ritual purity resides in mental righteousness ('Man changa toh kathoti mein Ganga')."),
+         ("Which religious and social identity movement in Punjab in the 1920s took inspiration from Sant Ravidas to advocate social dignity and education?\n(a) Ad Dharm Movement led by Babu Mangu Ram\n(b) Arya Samaj Shuddhi Movement\n(c) Singh Sabha Movement\n(d) Namdhari Kuka Movement",
+          ["(a) Ad Dharm Movement led by Babu Mangu Ram", "(b) Arya Samaj Shuddhi Movement", "(c) Singh Sabha Movement", "(d) Namdhari Kuka Movement"],
+          "(a)", "The Ad Dharm movement in Punjab mobilized Scheduled Caste communities under the spiritual banner of Guru Ravidas as indigenous original inhabitants of India.")
+     ]),
+
+    ("ca-hist-11", "2026-10-31", "History", "Dandi March & Salt Satyagraha: 100-Year Milestone Paradigm", "National Archives / PIB", True, True,
+     ["Preparations leading to the centenary of the 1930 Salt Satyagraha (Dandi March) from Sabarmati Ashram to the coastal village of Dandi (Navsari, Gujarat).",
+      "Mahatma Gandhi marched 240 miles with 78 chosen satyagrahis from March 12 to April 6, 1930, breaking the British salt monopoly under the Salt Act 1882.",
+      "Sparked nation-wide Civil Disobedience Movement including the Dharasana salt raids led by Sarojini Naidu, C. Rajagopalachari's Vedaranyam march, and K. Kelappan's Payyanur march."],
+     "GS-1: Modern Indian History, Freedom Struggle, Civil Disobedience Movement, Salt Satyagraha, Gandhian Methods.",
+     [
+         ("Mahatma Gandhi's historic Dandi March in 1930 commenced from Sabarmati Ashram on March 12th and concluded at Dandi on which date?\n(a) March 23, 1930\n(b) April 6, 1930\n(c) May 1, 1930\n(d) August 15, 1930",
+          ["(a) March 23, 1930", "(b) April 6, 1930", "(c) May 1, 1930", "(d) August 15, 1930"],
+          "(b)", "The march lasted 24 days across 240 miles, culminating on April 6, 1930 when Gandhi picked up a handful of natural salt at Dandi, breaking the British monopoly law."),
+         ("Why did Mahatma Gandhi select 'Salt' as the central weapon of mass political mobilization for the Civil Disobedience Movement?\n(a) It was the most expensive commodity in India\n(b) Salt was a universal necessity consumed by rich and poor alike, making the state tax and production monopoly a direct, tangible daily oppression\n(c) The British had offered to abolish the salt tax in 1929\n(d) Salt had never been taxed prior to British arrival",
+          ["(a) It was the most expensive commodity in India", "(b) Salt was a universal necessity consumed by rich and poor alike, making the state tax and production monopoly a direct, tangible daily oppression", "(c) The British had offered to abolish the salt tax in 1929", "(d) Salt had never been taxed prior to British arrival"],
+          "(b)", "Salt unified every Indian across caste, religion, and class lines. The salt tax took up an unfair share of a poor laborer's daily wage, creating an emotive symbol of foreign exploitation."),
+         ("Match the regional leaders of the 1930 Salt Satyagraha with their corresponding march locations:\n1. C. Rajagopalachari — A. Vedaranyam (Tamil Nadu coast)\n2. K. Kelappan — B. Calicut to Payyanur (Malabar coast)\n3. Gopabandhu Choudhury — C. Inchudi (Odisha coast)\nSelect the correct matching:",
+          ["(a) 1-A, 2-B, 3-C", "(b) 1-B, 2-A, 3-C", "(c) 1-C, 2-B, 3-A", "(d) 1-A, 2-C, 3-B"],
+          "(a)", "Rajaji led the march from Tiruchirappalli to Vedaranyam; Kelappan (Kerala Gandhi) led from Calicut to Payyanur; Gopabandhu Choudhury led the march in coastal Odisha to Inchudi."),
+         ("Following Gandhi's arrest, who led the non-violent raid on the Dharasana Salt Works in Gujarat, facing brutal police lathi charges reported by American journalist Webb Miller?\n(a) Jawaharlal Nehru\n(b) Sarojini Naidu, Imam Saheb, and Manilal Gandhi\n(c) Subhash Chandra Bose\n(d) Vallabhbhai Patel",
+          ["(a) Jawaharlal Nehru", "(b) Sarojini Naidu, Imam Saheb, and Manilal Gandhi", "(c) Subhash Chandra Bose", "(d) Vallabhbhai Patel"],
+          "(b)", "Sarojini Naidu took command after Abbas Tyabji's arrest. Webb Miller's reports of unarmed satyagrahis unflinchingly taking police baton strikes electrified global opinion."),
+         ("Which political pact signed in March 1931 brought an end to the first phase of the Civil Disobedience Movement, allowing coastal residents to collect salt for domestic consumption?\n(a) Poona Pact\n(b) Gandhi-Irwin Pact (Delhi Pact)\n(c) Lucknow Pact\n(d) Shimla Agreement",
+          ["(a) Poona Pact", "(b) Gandhi-Irwin Pact (Delhi Pact)", "(c) Lucknow Pact\n", "(d) Shimla Agreement"],
+          "(b)", "The Gandhi-Irwin Pact suspended civil disobedience, released political prisoners, permitted peaceful picketing and coastal salt collection, and agreed to Congress participating in the 2nd Round Table Conference.")
+     ])
+]
+
+all_hist = [make_art(aid, dt, pil, tit, src, top, pt, sums, gs, qs) for aid, dt, pil, tit, src, top, pt, sums, gs, qs in hist_articles]
+print(f"Total History articles: {len(all_hist)}")
+assert len(all_hist) == 11, f"Expected 11, got {len(all_hist)}"
+
+with open(os.path.join(BASE_DIR, 'data', 'ca_builders', 'history.json'), 'w') as f:
+    json.dump(all_hist, f, indent=2)
+
+print("Saved history.json successfully!")

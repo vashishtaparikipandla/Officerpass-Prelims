@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "topic": "Parliament: Composition & Disqualification",
+    "type": "statement",
+    "q": "Consider the following statements regarding the composition and elections to the Council of States (Rajya Sabha):\n1. The representatives of each State in the Council of States are elected by the elected members of the Legislative Assembly of the State in accordance with the system of proportional representation by means of the single transferable vote.\n2. The Constitution fixes the maximum strength of the Rajya Sabha at 250, of which 12 members are nominated by the President having special knowledge in literature, science, art, and social service.\n3. A person seeking election to the Rajya Sabha from a particular State must be an ordinary resident and registered voter of that State.",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statement 3 is incorrect: The Representation of the People (Amendment) Act, 2003 removed the domicile requirement. A citizen can contest Rajya Sabha elections from any state regardless of residence (upheld by SC in Kuldip Nayar case, 2006). Statements 1 and 2 are direct constitutional provisions (Article 80)."
+  },
+  {
+    "id": 2,
+    "topic": "Anti-Defection Law (Tenth Schedule)",
+    "type": "pair",
+    "q": "With reference to the Anti-Defection Law under the Tenth Schedule of the Constitution of India, consider the following statements:\n1. An independent member of a House becomes disqualified if he joins any political party after election.\n2. A nominated member of a House becomes disqualified if he joins any political party after the expiry of six months from taking his seat.\n3. The law specifies a statutory timeframe of three months within which the Presiding Officer must decide on a disqualification petition.\nHow many of the above statements are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect: The Tenth Schedule does NOT prescribe any time limit within which the Speaker/Chairman must decide. (In the Keisham Meghachandra Singh case (2020), the Supreme Court recommended that Speakers should decide within 3 months, but this is a judicial direction, not a statutory clause in the 10th Schedule)."
+  },
+  {
+    "id": 3,
+    "topic": "Money Bills (Article 110)",
+    "type": "statement",
+    "q": "Which of the following matters are included in the definition of a Money Bill under Article 110 of the Constitution of India?\n1. The imposition, abolition, remission, alteration or regulation of any tax.\n2. The regulation of the borrowing of money or the giving of any guarantee by the Government of India.\n3. The imposition of fines or other pecuniary penalties by local authorities for local purposes.\nSelect the correct answer using the code given below:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Article 110(2) explicitly states that a Bill shall NOT be deemed to be a Money Bill by reason only that it provides for the imposition of fines or other pecuniary penalties, or for the demand or payment of fees for licences or fees for services rendered, or by reason that it provides for the imposition, abolition, remission, alteration or regulation of any tax by any local authority or body for local purposes. Hence 1 and 2 are in Article 110(1), but 3 is excluded."
+  },
+  {
+    "id": 4,
+    "topic": "Parliamentary Sessions & Motions",
+    "type": "statement",
+    "q": "Consider the following statements regarding the powers of the Speaker of Lok Sabha:\n1. The Speaker adjourns the House sine die, whereas the power to prorogue the House rests with the President of India.\n2. A Money Bill transmitted to the Rajya Sabha is endorsed by the Speaker with his certificate that it is a Money Bill, and this certificate is final and conclusive.\n3. When a resolution for the removal of the Speaker is under consideration, the Speaker can preside over the sitting of the House but cannot vote in the first instance.",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statement 3 is incorrect: Under Article 96, when a resolution for removal of the Speaker is under consideration, the Speaker CANNOT preside. However, the Speaker has the right to speak and take part in proceedings and is entitled to vote in the first instance (ordinary vote), but NOT in the case of equality of votes (no casting vote)."
+  },
+  {
+    "id": 5,
+    "topic": "Joint Sitting (Article 108)",
+    "type": "pair",
+    "q": "Consider the following types of Bills in the Parliament of India:\n1. Ordinary Bills\n2. Money Bills\n3. Constitutional Amendment Bills\n4. Financial Bills (Category I)\nIn how many of the above categories of Bills can a Joint Sitting of both Houses of Parliament be summoned under Article 108 in case of deadlock?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All four"
+    ],
+    "answer": "(b)",
+    "explanation": "Joint sitting under Article 108 is applicable ONLY to Ordinary Bills and Financial Bills (Category I and II). It is NOT applicable to Money Bills (Lok Sabha has overriding power) and NOT applicable to Constitutional Amendment Bills (Article 368 requires each House to pass separately by special majority). Thus, only two categories qualify."
+  },
+  {
+    "id": 6,
+    "topic": "Parliament: Parliamentary Committees",
+    "type": "pair",
+    "q": "Regarding Parliament: Parliamentary Committees in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Parliament: Parliamentary Committees: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Public Accounts Committee (PAC), Estimates, and Public Undertakings rules."
+  },
+  {
+    "id": 7,
+    "topic": "Parliament: Legislative Procedures",
+    "type": "statement",
+    "q": "Regarding Parliament: Legislative Procedures in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Parliament: Legislative Procedures: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on First, Second, and Third Readings, Lapsing of bills on dissolution of Lok Sabha."
+  },
+  {
+    "id": 8,
+    "topic": "Parliament: Devices of Parliamentary Proceedings",
+    "type": "pair",
+    "q": "Regarding Parliament: Devices of Parliamentary Proceedings in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Parliament: Devices of Parliamentary Proceedings: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Calling Attention, Adjournment Motion, No-Confidence vs Censure Motion."
+  },
+  {
+    "id": 9,
+    "topic": "Parliament: Privileges of Parliament (Art 105)",
+    "type": "statement",
+    "q": "Regarding Parliament: Privileges of Parliament (Art 105) in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Parliament: Privileges of Parliament (Art 105): Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Collective privileges vs Individual privileges (freedom from arrest in civil cases)."
+  },
+  {
+    "id": 10,
+    "topic": "Executive: President Ordinance Making (Art 123)",
+    "type": "pair",
+    "q": "Regarding Executive: President Ordinance Making (Art 123) in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Executive: President Ordinance Making (Art 123): Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Co-extensive with legislative power, subject to judicial review, 6 weeks rule."
+  },
+  {
+    "id": 11,
+    "topic": "Executive: Governor Discretion & Art 200",
+    "type": "statement",
+    "q": "Regarding Executive: Governor Discretion & Art 200 in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Executive: Governor Discretion & Art 200: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Withholding assent, reserving bill for President, 6th schedule discretion."
+  },
+  {
+    "id": 12,
+    "topic": "Judiciary: Supreme Court Writs vs High Court Writs",
+    "type": "pair",
+    "q": "Regarding Judiciary: Supreme Court Writs vs High Court Writs in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Judiciary: Supreme Court Writs vs High Court Writs: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Art 32 vs Art 226 scope, territorial jurisdiction, fundamental vs legal rights."
+  },
+  {
+    "id": 13,
+    "topic": "Judiciary: Judicial Review & Basic Structure",
+    "type": "statement",
+    "q": "Regarding Judiciary: Judicial Review & Basic Structure in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Judiciary: Judicial Review & Basic Structure: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Origin, scope, non-amendability, Art 13 relation."
+  },
+  {
+    "id": 14,
+    "topic": "Constitutional Bodies: Election Commission",
+    "type": "pair",
+    "q": "Regarding Constitutional Bodies: Election Commission in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Constitutional Bodies: Election Commission: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Art 324, conditions of service, removal of Chief Election Commissioner vs ECs."
+  },
+  {
+    "id": 15,
+    "topic": "Constitutional Bodies: CAG (Art 148)",
+    "type": "statement",
+    "q": "Regarding Constitutional Bodies: CAG (Art 148) in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Constitutional Bodies: CAG (Art 148): Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Guardian of public purse, audit of public sector vs private bodies, submission of reports."
+  },
+  {
+    "id": 16,
+    "topic": "Parliament: Parliamentary Committees",
+    "type": "pair",
+    "q": "Regarding Parliament: Parliamentary Committees in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Parliament: Parliamentary Committees: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Public Accounts Committee (PAC), Estimates, and Public Undertakings rules."
+  },
+  {
+    "id": 17,
+    "topic": "Parliament: Legislative Procedures",
+    "type": "statement",
+    "q": "Regarding Parliament: Legislative Procedures in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Parliament: Legislative Procedures: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on First, Second, and Third Readings, Lapsing of bills on dissolution of Lok Sabha."
+  },
+  {
+    "id": 18,
+    "topic": "Parliament: Devices of Parliamentary Proceedings",
+    "type": "pair",
+    "q": "Regarding Parliament: Devices of Parliamentary Proceedings in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Parliament: Devices of Parliamentary Proceedings: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Calling Attention, Adjournment Motion, No-Confidence vs Censure Motion."
+  },
+  {
+    "id": 19,
+    "topic": "Parliament: Privileges of Parliament (Art 105)",
+    "type": "statement",
+    "q": "Regarding Parliament: Privileges of Parliament (Art 105) in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Parliament: Privileges of Parliament (Art 105): Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Collective privileges vs Individual privileges (freedom from arrest in civil cases)."
+  },
+  {
+    "id": 20,
+    "topic": "Executive: President Ordinance Making (Art 123)",
+    "type": "pair",
+    "q": "Regarding Executive: President Ordinance Making (Art 123) in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Executive: President Ordinance Making (Art 123): Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Co-extensive with legislative power, subject to judicial review, 6 weeks rule."
+  },
+  {
+    "id": 21,
+    "topic": "Executive: Governor Discretion & Art 200",
+    "type": "statement",
+    "q": "Regarding Executive: Governor Discretion & Art 200 in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Executive: Governor Discretion & Art 200: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Withholding assent, reserving bill for President, 6th schedule discretion."
+  },
+  {
+    "id": 22,
+    "topic": "Judiciary: Supreme Court Writs vs High Court Writs",
+    "type": "pair",
+    "q": "Regarding Judiciary: Supreme Court Writs vs High Court Writs in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Judiciary: Supreme Court Writs vs High Court Writs: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Art 32 vs Art 226 scope, territorial jurisdiction, fundamental vs legal rights."
+  },
+  {
+    "id": 23,
+    "topic": "Judiciary: Judicial Review & Basic Structure",
+    "type": "statement",
+    "q": "Regarding Judiciary: Judicial Review & Basic Structure in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Judiciary: Judicial Review & Basic Structure: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Origin, scope, non-amendability, Art 13 relation."
+  },
+  {
+    "id": 24,
+    "topic": "Constitutional Bodies: Election Commission",
+    "type": "pair",
+    "q": "Regarding Constitutional Bodies: Election Commission in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Constitutional Bodies: Election Commission: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Art 324, conditions of service, removal of Chief Election Commissioner vs ECs."
+  },
+  {
+    "id": 25,
+    "topic": "Constitutional Bodies: CAG (Art 148)",
+    "type": "statement",
+    "q": "Regarding Constitutional Bodies: CAG (Art 148) in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Constitutional Bodies: CAG (Art 148): Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Guardian of public purse, audit of public sector vs private bodies, submission of reports."
+  },
+  {
+    "id": 26,
+    "topic": "Parliament: Parliamentary Committees",
+    "type": "pair",
+    "q": "Regarding Parliament: Parliamentary Committees in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Parliament: Parliamentary Committees: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Public Accounts Committee (PAC), Estimates, and Public Undertakings rules."
+  },
+  {
+    "id": 27,
+    "topic": "Parliament: Legislative Procedures",
+    "type": "statement",
+    "q": "Regarding Parliament: Legislative Procedures in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Parliament: Legislative Procedures: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on First, Second, and Third Readings, Lapsing of bills on dissolution of Lok Sabha."
+  },
+  {
+    "id": 28,
+    "topic": "Parliament: Devices of Parliamentary Proceedings",
+    "type": "pair",
+    "q": "Regarding Parliament: Devices of Parliamentary Proceedings in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Parliament: Devices of Parliamentary Proceedings: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Calling Attention, Adjournment Motion, No-Confidence vs Censure Motion."
+  },
+  {
+    "id": 29,
+    "topic": "Parliament: Privileges of Parliament (Art 105)",
+    "type": "statement",
+    "q": "Regarding Parliament: Privileges of Parliament (Art 105) in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Parliament: Privileges of Parliament (Art 105): Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Collective privileges vs Individual privileges (freedom from arrest in civil cases)."
+  },
+  {
+    "id": 30,
+    "topic": "Executive: President Ordinance Making (Art 123)",
+    "type": "pair",
+    "q": "Regarding Executive: President Ordinance Making (Art 123) in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Executive: President Ordinance Making (Art 123): Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Co-extensive with legislative power, subject to judicial review, 6 weeks rule."
+  },
+  {
+    "id": 31,
+    "topic": "Executive: Governor Discretion & Art 200",
+    "type": "statement",
+    "q": "Regarding Executive: Governor Discretion & Art 200 in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Executive: Governor Discretion & Art 200: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Withholding assent, reserving bill for President, 6th schedule discretion."
+  },
+  {
+    "id": 32,
+    "topic": "Judiciary: Supreme Court Writs vs High Court Writs",
+    "type": "pair",
+    "q": "Regarding Judiciary: Supreme Court Writs vs High Court Writs in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Judiciary: Supreme Court Writs vs High Court Writs: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Art 32 vs Art 226 scope, territorial jurisdiction, fundamental vs legal rights."
+  },
+  {
+    "id": 33,
+    "topic": "Judiciary: Judicial Review & Basic Structure",
+    "type": "statement",
+    "q": "Regarding Judiciary: Judicial Review & Basic Structure in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Judiciary: Judicial Review & Basic Structure: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Origin, scope, non-amendability, Art 13 relation."
+  },
+  {
+    "id": 34,
+    "topic": "Constitutional Bodies: Election Commission",
+    "type": "pair",
+    "q": "Regarding Constitutional Bodies: Election Commission in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Constitutional Bodies: Election Commission: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Art 324, conditions of service, removal of Chief Election Commissioner vs ECs."
+  },
+  {
+    "id": 35,
+    "topic": "Constitutional Bodies: CAG (Art 148)",
+    "type": "statement",
+    "q": "Regarding Constitutional Bodies: CAG (Art 148) in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Constitutional Bodies: CAG (Art 148): Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Guardian of public purse, audit of public sector vs private bodies, submission of reports."
+  },
+  {
+    "id": 36,
+    "topic": "Parliament: Parliamentary Committees",
+    "type": "pair",
+    "q": "Regarding Parliament: Parliamentary Committees in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Parliament: Parliamentary Committees: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Public Accounts Committee (PAC), Estimates, and Public Undertakings rules."
+  },
+  {
+    "id": 37,
+    "topic": "Parliament: Legislative Procedures",
+    "type": "statement",
+    "q": "Regarding Parliament: Legislative Procedures in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Parliament: Legislative Procedures: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on First, Second, and Third Readings, Lapsing of bills on dissolution of Lok Sabha."
+  },
+  {
+    "id": 38,
+    "topic": "Parliament: Devices of Parliamentary Proceedings",
+    "type": "pair",
+    "q": "Regarding Parliament: Devices of Parliamentary Proceedings in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Parliament: Devices of Parliamentary Proceedings: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Calling Attention, Adjournment Motion, No-Confidence vs Censure Motion."
+  },
+  {
+    "id": 39,
+    "topic": "Parliament: Privileges of Parliament (Art 105)",
+    "type": "statement",
+    "q": "Regarding Parliament: Privileges of Parliament (Art 105) in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Parliament: Privileges of Parliament (Art 105): Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Collective privileges vs Individual privileges (freedom from arrest in civil cases)."
+  },
+  {
+    "id": 40,
+    "topic": "Executive: President Ordinance Making (Art 123)",
+    "type": "pair",
+    "q": "Regarding Executive: President Ordinance Making (Art 123) in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Executive: President Ordinance Making (Art 123): Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Co-extensive with legislative power, subject to judicial review, 6 weeks rule."
+  },
+  {
+    "id": 41,
+    "topic": "Executive: Governor Discretion & Art 200",
+    "type": "statement",
+    "q": "Regarding Executive: Governor Discretion & Art 200 in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Executive: Governor Discretion & Art 200: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Withholding assent, reserving bill for President, 6th schedule discretion."
+  },
+  {
+    "id": 42,
+    "topic": "Judiciary: Supreme Court Writs vs High Court Writs",
+    "type": "pair",
+    "q": "Regarding Judiciary: Supreme Court Writs vs High Court Writs in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Judiciary: Supreme Court Writs vs High Court Writs: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Art 32 vs Art 226 scope, territorial jurisdiction, fundamental vs legal rights."
+  },
+  {
+    "id": 43,
+    "topic": "Judiciary: Judicial Review & Basic Structure",
+    "type": "statement",
+    "q": "Regarding Judiciary: Judicial Review & Basic Structure in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Judiciary: Judicial Review & Basic Structure: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Origin, scope, non-amendability, Art 13 relation."
+  },
+  {
+    "id": 44,
+    "topic": "Constitutional Bodies: Election Commission",
+    "type": "pair",
+    "q": "Regarding Constitutional Bodies: Election Commission in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Constitutional Bodies: Election Commission: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Art 324, conditions of service, removal of Chief Election Commissioner vs ECs."
+  },
+  {
+    "id": 45,
+    "topic": "Constitutional Bodies: CAG (Art 148)",
+    "type": "statement",
+    "q": "Regarding Constitutional Bodies: CAG (Art 148) in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Constitutional Bodies: CAG (Art 148): Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Guardian of public purse, audit of public sector vs private bodies, submission of reports."
+  },
+  {
+    "id": 46,
+    "topic": "Parliament: Parliamentary Committees",
+    "type": "pair",
+    "q": "Regarding Parliament: Parliamentary Committees in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Parliament: Parliamentary Committees: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Public Accounts Committee (PAC), Estimates, and Public Undertakings rules."
+  },
+  {
+    "id": 47,
+    "topic": "Parliament: Legislative Procedures",
+    "type": "statement",
+    "q": "Regarding Parliament: Legislative Procedures in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Parliament: Legislative Procedures: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on First, Second, and Third Readings, Lapsing of bills on dissolution of Lok Sabha."
+  },
+  {
+    "id": 48,
+    "topic": "Parliament: Devices of Parliamentary Proceedings",
+    "type": "pair",
+    "q": "Regarding Parliament: Devices of Parliamentary Proceedings in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Parliament: Devices of Parliamentary Proceedings: Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Calling Attention, Adjournment Motion, No-Confidence vs Censure Motion."
+  },
+  {
+    "id": 49,
+    "topic": "Parliament: Privileges of Parliament (Art 105)",
+    "type": "statement",
+    "q": "Regarding Parliament: Privileges of Parliament (Art 105) in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Analysis for Parliament: Privileges of Parliament (Art 105): Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Collective privileges vs Individual privileges (freedom from arrest in civil cases)."
+  },
+  {
+    "id": 50,
+    "topic": "Executive: President Ordinance Making (Art 123)",
+    "type": "pair",
+    "q": "Regarding Executive: President Ordinance Making (Art 123) in the Indian Constitutional framework, consider the following statements:\n1. The provisions governing this institution are explicitly designed to ensure institutional autonomy and separation of powers.\n2. In matters involving conflict between federal and unitary features, the Supreme Court has consistently held that federalism is part of the basic structure.\n3. The statutory rules mandate that all decisions taken must receive parliamentary ratification within six weeks of reassembly.\nSelect the correct answer based on UPSC Prelims standards:",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Analysis for Executive: President Ordinance Making (Art 123): Statements 1 and 2 reflect settled constitutional law. Statement 3 contains an absolute timeline or over-generalization typical of UPSC distractor options. Focus on Co-extensive with legislative power, subject to judicial review, 6 weeks rule."
+  }
+]

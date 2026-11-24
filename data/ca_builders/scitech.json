@@ -1,0 +1,1157 @@
+[
+  {
+    "id": "ca-sci-01",
+    "date": "2026-11-19",
+    "pillar": "SciTech",
+    "title": "Aditya-L1 Halo Orbit Insertion & Solar Corona Observations",
+    "source": "ISRO / PIB / Science",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Aditya-L1 is placed in a halo orbit around the Sun-Earth Lagrangian point 1 (L1), roughly 1.5 million km from Earth, allowing uninterrupted 24x7 observation of the Sun without eclipses.",
+      "Its primary payload, the Visible Emission Line Coronagraph (VELC), images the solar corona down to 1.05 solar radii to study Coronal Mass Ejections (CMEs) and coronal heating.",
+      "Lagrangian points are equilibrium points where the gravitational pull of the two large masses (Sun and Earth) equals the centripetal force required for a small object to orbit with them."
+    ],
+    "gs_connection": "Links to GS-3 Science & Tech: Space Technology, Celestial Mechanics (Lagrangian points L1 to L5), Solar Physics, Space Weather, and ISRO Launchers (PSLV-XL).",
+    "mcqs": [
+      {
+        "id": "ca-sci-01-q1",
+        "q": "Consider the following statements regarding the Lagrangian points in celestial mechanics:\n1. There are five Lagrangian points in any two-body gravitational system.\n2. Points L1, L2, and L3 are points of stable equilibrium, requiring no station-keeping maneuvers.\n3. The James Webb Space Telescope (JWST) orbits around Lagrangian point L2.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "(a) 1 and 3 only",
+          "(b) 1 only",
+          "(c) 2 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(a)",
+        "explanation": "Statement 1 is correct (L1 to L5). Statement 2 is incorrect: L1, L2, and L3 are UNSTABLE equilibrium points (like a ball perched on a hill ridge) and require periodic station-keeping thruster burns. Only L4 and L5 are stable. Statement 3 is correct (JWST orbits Sun-Earth L2)."
+      },
+      {
+        "id": "ca-sci-01-q2",
+        "q": "Why is Lagrangian point 1 (L1) specifically chosen for solar observation missions like Aditya-L1 and SOHO?\n(a) Because L1 is located on the dark side of the Earth protected from solar radiation\n(b) Because a spacecraft at L1 enjoys an uninterrupted view of the Sun without occultation or eclipses by Earth or Moon\n(c) Because gravitational pull at L1 is exactly zero\n(d) Because spacecraft at L1 can be retrieved easily by space shuttles",
+        "options": [
+          "(a) Because L1 is located on the dark side of the Earth protected from solar radiation",
+          "(b) Because a spacecraft at L1 enjoys an uninterrupted view of the Sun without occultation or eclipses by Earth or Moon",
+          "(c) Because gravitational pull at L1 is exactly zero",
+          "(d) Because spacecraft at L1 can be retrieved easily by space shuttles"
+        ],
+        "answer": "(b)",
+        "explanation": "L1 lies directly between the Sun and Earth. A satellite in a halo orbit around L1 never passes through Earth's shadow, allowing continuous monitoring of solar flares and space weather."
+      },
+      {
+        "id": "ca-sci-01-q3",
+        "q": "The 'Coronal Heating Problem' in solar astrophysics refers to which of the following phenomena?\n(a) The Sun's core being cooler than its outer convective zone\n(b) The Sun's outermost atmosphere (corona) being millions of degrees hotter than its visible surface (photosphere)\n(c) Sudden decline of global temperatures during solar maximum\n(d) Overheating of solar panels installed on satellites orbiting Low Earth Orbit",
+        "options": [
+          "(a) The Sun's core being cooler than its outer convective zone",
+          "(b) The Sun's outermost atmosphere (corona) being millions of degrees hotter than its visible surface (photosphere)",
+          "(c) Sudden decline of global temperatures during solar maximum",
+          "(d) Overheating of solar panels installed on satellites orbiting Low Earth Orbit"
+        ],
+        "answer": "(b)",
+        "explanation": "The visible surface of the Sun (photosphere) is around 5,500\u00b0C, while the corona expands to over 1,000,000\u00b0C. Investigating the magnetic reconnection and acoustic wave mechanisms behind this extreme heating is a primary science goal of Aditya-L1."
+      },
+      {
+        "id": "ca-sci-01-q4",
+        "q": "Which payload of Aditya-L1 was designed to capture full-disk images of the Sun in the near ultraviolet wavelength band (200-400 nm)?\n(a) VELC (Visible Emission Line Coronagraph)\n(b) SUIT (Solar Ultraviolet Imaging Telescope)\n(c) ASPEX (Aditya Solar wind Particle Experiment)\n(d) PAPA (Plasma Analyser Package for Aditya)",
+        "options": [
+          "(a) VELC (Visible Emission Line Coronagraph)",
+          "(b) SUIT (Solar Ultraviolet Imaging Telescope)",
+          "(c) ASPEX (Aditya Solar wind Particle Experiment)",
+          "(d) PAPA (Plasma Analyser Package for Aditya)"
+        ],
+        "answer": "(b)",
+        "explanation": "SUIT (Solar Ultraviolet Imaging Telescope), developed by IUCAA Pune, captures near-UV full-disk images of the Sun's photosphere and chromosphere to measure irradiance variations."
+      },
+      {
+        "id": "ca-sci-01-q5",
+        "q": "Coronal Mass Ejections (CMEs) impacting Earth's magnetosphere can cause which of the following space weather effects?\n1. Geomagnetic storms disrupting electrical power grids\n2. Degradation and total blackout of high-frequency (HF) radio communications\n3. Satellite orbital decay due to increased atmospheric drag\n4. Spectacular aurora borealis and aurora australis displays\nSelect the correct answer using the code given below:",
+        "options": [
+          "(a) 1, 2 and 4 only",
+          "(b) 1 and 3 only",
+          "(c) 2 and 4 only",
+          "(d) 1, 2, 3 and 4"
+        ],
+        "answer": "(d)",
+        "explanation": "All four are documented impacts of intense space weather and geomagnetic storms caused by CMEs compressing Earth's magnetosphere and inducing geomagnetically induced currents (GICs)."
+      }
+    ]
+  },
+  {
+    "id": "ca-sci-02",
+    "date": "2026-11-05",
+    "pillar": "SciTech",
+    "title": "UN General Assembly Declaration on Antimicrobial Resistance (AMR) & One Health Action",
+    "source": "WHO / PIB / The Lancet",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "UNGA Political Declaration set a global target to reduce human deaths associated with bacterial AMR by 10% by 2030 through sustainable financing and antibiotic stewardship.",
+      "AMR occurs when bacteria, viruses, fungi, and parasites mutate over time and no longer respond to antimicrobial medicines, driven by overprescription and overuse in livestock growth promotion.",
+      "Endorsed the 'One Health' approach integrating human medicine, veterinary animal health, agriculture, and environmental waste management to stem resistant gene transmission."
+    ],
+    "gs_connection": "Links to GS-3 Science & Tech & Public Health: Pathogens, Genetics, Biotechnology, One Health Initiative, WHO Priority Pathogens, and National Action Plan on AMR.",
+    "mcqs": [
+      {
+        "id": "ca-sci-02-q1",
+        "q": "What is the primary mechanism by which bacteria develop resistance to beta-lactam antibiotics (such as penicillin and carbapenem)?\n(a) Synthesis of beta-lactamase enzymes that hydrolyze and break the antibiotic's chemical ring structure\n(b) Converting themselves into viruses inside host red blood cells\n(c) Producing chlorophyll to photosynthesize energy\n(d) Shifting their cell walls into silica glass shells",
+        "options": [
+          "(a) Synthesis of beta-lactamase enzymes that hydrolyze and break the antibiotic's chemical ring structure",
+          "(b) Converting themselves into viruses inside host red blood cells",
+          "(c) Producing chlorophyll to photosynthesize energy",
+          "(d) Shifting their cell walls into silica glass shells"
+        ],
+        "answer": "(a)",
+        "explanation": "Bacteria produce beta-lactamase enzymes (including ESBLs and carbapenemases like NDM-1) that chemically destroy the four-membered beta-lactam ring, rendering the antibiotic ineffective."
+      },
+      {
+        "id": "ca-sci-02-q2",
+        "q": "Consider the following statements regarding the 'One Health' concept endorsed by WHO, FAO, UNEP, and WOAH:\n1. It recognizes that human health is closely connected to the health of animals and the shared environment.\n2. It focuses exclusively on human viral infections and excludes agricultural pesticides and veterinary drugs.\n3. The National One Health Mission in India is coordinated under the Office of the Principal Scientific Adviser (PSA).\nWhich of the statements given above are correct?",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 1 and 3 only",
+          "(c) 2 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(b)",
+        "explanation": "Statement 1 is correct. Statement 2 is incorrect (One Health covers zoonoses, animal livestock, wildlife, soil, and aquatic ecosystems). Statement 3 is correct: India's National One Health Mission is coordinated under the Office of the Principal Scientific Adviser."
+      },
+      {
+        "id": "ca-sci-02-q3",
+        "q": "The 'Red Line Campaign' launched by the Union Ministry of Health and Family Welfare aims to:\n(a) Demarcate containment zones during viral pandemics\n(b) Discourage over-the-counter sale and consumption of prescription antibiotics without a doctor's prescription\n(c) Mark high-risk maternal delivery hospitals\n(d) Stop cross-border tobacco smuggling",
+        "options": [
+          "(a) Demarcate containment zones during viral pandemics",
+          "(b) Discourage over-the-counter sale and consumption of prescription antibiotics without a doctor's prescription",
+          "(c) Mark high-risk maternal delivery hospitals",
+          "(d) Stop cross-border tobacco smuggling"
+        ],
+        "answer": "(b)",
+        "explanation": "The Red Line Campaign requires prescription-only antibiotics (Schedule H and H1) to carry a distinct red vertical line on their packaging to alert consumers not to self-medicate."
+      },
+      {
+        "id": "ca-sci-02-q4",
+        "q": "Which of the following is an example of horizontal gene transfer through which bacteria share antibiotic resistance genes with neighboring bacteria?\n1. Transformation (uptake of free environmental DNA)\n2. Transduction (transfer mediated by bacteriophages)\n3. Conjugation (direct plasmid transfer through pilus)\nSelect the correct answer using the code given below:",
+        "options": [
+          "(a) 1 and 2 only",
+          "(b) 2 and 3 only",
+          "(c) 1 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(d)",
+        "explanation": "All three (transformation, transduction, conjugation) are recognized biological mechanisms of horizontal gene transfer (HGT) facilitating rapid dissemination of resistance genes across bacterial species."
+      },
+      {
+        "id": "ca-sci-02-q5",
+        "q": "In the context of the WHO AWaRe classification of antibiotics, which group contains reserve antibiotics that should be kept as 'last-resort' options for multi-drug resistant superbugs?\n(a) Access group\n(b) Watch group\n(c) Reserve group\n(d) OTC group",
+        "options": [
+          "(a) Access group",
+          "(b) Watch group",
+          "(c) Reserve group",
+          "(d) OTC group"
+        ],
+        "answer": "(c)",
+        "explanation": "WHO's AWaRe framework classifies antibiotics into Access (first-line, widely available), Watch (higher resistance potential, monitored), and Reserve (last-resort treatments like Colistin, Linezolid, Bedaquiline preserved for confirmed superbugs)."
+      }
+    ]
+  },
+  {
+    "id": "ca-sci-03",
+    "date": "2026-10-22",
+    "pillar": "SciTech",
+    "title": "Gaganyaan Mission: Crew Escape System & Vyommitra Humanoid Trials",
+    "source": "ISRO / PIB",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Gaganyaan is India's first human spaceflight mission aiming to launch a 3-member crew into a 400 km Low Earth Orbit (LEO) for a 3-day mission.",
+      "The Launch Vehicle Mark-3 (LVM3) is human-rated as the launch vehicle, equipped with a Crew Escape System (CES) for emergency aborts.",
+      "ISRO designed 'Vyommitra', a female spacefaring humanoid robot to monitor life-support systems and module parameters during uncrewed test flights."
+    ],
+    "gs_connection": "GS-3: Space Technology, Human Spaceflight, ISRO Missions, Launch Vehicle Mark-3, Robotics.",
+    "mcqs": [
+      {
+        "id": "ca-sci-03-q1",
+        "q": "Which launch vehicle has been human-rated by ISRO to launch the Gaganyaan crew module into orbit?\n(a) PSLV-XL\n(b) GSLV Mk II\n(c) Launch Vehicle Mark-3 (LVM3 / GSLV Mk III)\n(d) Small Satellite Launch Vehicle (SSLV)",
+        "options": [
+          "(a) PSLV-XL",
+          "(b) GSLV Mk II",
+          "(c) Launch Vehicle Mark-3 (LVM3 / GSLV Mk III)",
+          "(d) Small Satellite Launch Vehicle (SSLV)"
+        ],
+        "answer": "(c)",
+        "explanation": "The heavy-lift LVM3 rocket was re-engineered and human-rated with redundant avionics and safety margins as the HLVM3 for Gaganyaan."
+      },
+      {
+        "id": "ca-sci-03-q2",
+        "q": "What is the primary function of ISRO's female humanoid robot 'Vyommitra' in the Gaganyaan program?\n(a) To pilot the spacecraft without ground control\n(b) To simulate human physiological responses and monitor environmental control and life-support systems (ECLSS) during uncrewed flights\n(c) To conduct spacewalks outside the crew module\n(d) To repair external heat shield tiles",
+        "options": [
+          "(a) To pilot the spacecraft without ground control",
+          "(b) To simulate human physiological responses and monitor environmental control and life-support systems (ECLSS) during uncrewed flights",
+          "(c) To conduct spacewalks outside the crew module",
+          "(d) To repair external heat shield tiles"
+        ],
+        "answer": "(b)",
+        "explanation": "Vyommitra is a half-humanoid robot designed to operate switch panels, monitor ECLSS parameters, read cabin pressure, and test communications before astronaut flights."
+      },
+      {
+        "id": "ca-sci-03-q3",
+        "q": "At what altitude and orbital inclination will the Gaganyaan crew module orbit the Earth?\n(a) Geostationary Orbit at 36,000 km\n(b) Low Earth Orbit (LEO) at ~400 km\n(c) Sun-Synchronous Polar Orbit at 800 km\n(d) Lagrange Point L1 at 1.5 million km",
+        "options": [
+          "(a) Geostationary Orbit at 36,000 km",
+          "(b) Low Earth Orbit (LEO) at ~400 km",
+          "(c) Sun-Synchronous Polar Orbit at 800 km",
+          "(d) Lagrange Point L1 at 1.5 million km"
+        ],
+        "answer": "(b)",
+        "explanation": "Gaganyaan will insert a 3-member crew into a 400 km circular Low Earth Orbit (LEO) for a 3-day mission before de-orbiting for splashdown."
+      },
+      {
+        "id": "ca-sci-03-q4",
+        "q": "Where is the designated landing recovery zone for the Gaganyaan crew module following atmospheric re-entry?\n(a) Thar Desert sand dunes\n(b) Bay of Bengal or Arabian Sea waters off the Indian coast\n(c) Lake Chilika\n(d) Rann of Kutch",
+        "options": [
+          "(a) Thar Desert sand dunes",
+          "(b) Bay of Bengal or Arabian Sea waters off the Indian coast",
+          "(c) Lake Chilika",
+          "(d) Rann of Kutch"
+        ],
+        "answer": "(b)",
+        "explanation": "The crew module will parachute into the Arabian Sea / Bay of Bengal with recovery operations coordinated by the Indian Navy and Coast Guard."
+      },
+      {
+        "id": "ca-sci-03-q5",
+        "q": "What specialized training institute in Bengaluru conducts human engineering, space medicine, and astronaut fitness for the Indian Air Force test pilots selected for Gaganyaan?\n(a) Institute of Aerospace Medicine (IAM)\n(b) National Institute of Mental Health (NIMHANS)\n(c) Defence Bioengineering and Electromedical Laboratory (DEBEL)\n(d) Vikram Sarabhai Space Centre",
+        "options": [
+          "(a) Institute of Aerospace Medicine (IAM)",
+          "(b) National Institute of Mental Health (NIMHANS)",
+          "(c) Defence Bioengineering and Electromedical Laboratory (DEBEL)",
+          "(d) Vikram Sarabhai Space Centre"
+        ],
+        "answer": "(a)",
+        "explanation": "The Indian Air Force's Institute of Aerospace Medicine (IAM) in Bengaluru is the premier agency for aeromedical evaluation and astronaut conditioning."
+      }
+    ]
+  },
+  {
+    "id": "ca-sci-04",
+    "date": "2026-09-15",
+    "pillar": "SciTech",
+    "title": "BioE3 Policy: Biotechnology for Economy, Environment & Employment",
+    "source": "DBT / PIB",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Cabinet approved the BioE3 (Biotechnology for Economy, Environment and Employment) Policy driven by the Department of Biotechnology (DBT).",
+      "Focuses on High-Performance Biomanufacturing across 6 thematic sectors including bio-based chemicals, smart proteins, precision biotherapeutics, and carbon capture.",
+      "Establishes Bio-enablers Hubs and Biofoundries to bridge the gap between laboratory synthesis and commercial industrial scale fermentation."
+    ],
+    "gs_connection": "GS-3: Biotechnology, Biomanufacturing, Industrial Policy, Circular Bioeconomy, Department of Biotechnology.",
+    "mcqs": [
+      {
+        "id": "ca-sci-04-q1",
+        "q": "The 'BioE3' Policy recently approved by the Union Cabinet stands for:\n(a) Biotechnology for Ecology, Energy, and Education\n(b) Biotechnology for Economy, Environment, and Employment\n(c) Biofuels, Electronics, and Electric Engineering\n(d) Biodiversity, Ecosystems, and Economic Evaluation",
+        "options": [
+          "(a) Biotechnology for Ecology, Energy, and Education",
+          "(b) Biotechnology for Economy, Environment, and Employment",
+          "(c) Biofuels, Electronics, and Electric Engineering",
+          "(d) Biodiversity, Ecosystems, and Economic Evaluation"
+        ],
+        "answer": "(b)",
+        "explanation": "BioE3 stands for Biotechnology for Economy, Environment, and Employment, aiming to foster a high-performance biomanufacturing ecosystem."
+      },
+      {
+        "id": "ca-sci-04-q2",
+        "q": "What is the primary role of 'Biofoundries' in the context of the BioE3 policy?\n(a) Mining heavy metals from microbial deposits\n(b) Automated facilities that design, build, and test engineered biological systems at industrial scale using synthetic biology\n(c) Recycling agricultural organic compost\n(d) Breeding genetically modified cattle",
+        "options": [
+          "(a) Mining heavy metals from microbial deposits",
+          "(b) Automated facilities that design, build, and test engineered biological systems at industrial scale using synthetic biology",
+          "(c) Recycling agricultural organic compost",
+          "(d) Breeding genetically modified cattle"
+        ],
+        "answer": "(b)",
+        "explanation": "Biofoundries integrate robotics, high-throughput screening, and machine learning to accelerate Design-Build-Test-Learn cycles in synthetic biology."
+      },
+      {
+        "id": "ca-sci-04-q3",
+        "q": "Which of the following is considered a 'Smart Protein' under modern biotechnology classification?\n1. Plant-based meat alternatives\n2. Fermentation-derived cellular protein\n3. Cultivated / cell-based meat grown in bioreactors\nSelect the correct answer:",
+        "options": [
+          "(a) 1 only",
+          "(b) 1 and 2 only",
+          "(c) 2 and 3 only",
+          "(d) 1, 2 and 3"
+        ],
+        "answer": "(d)",
+        "explanation": "Smart proteins encompass plant-based alternatives, microbial fermentation biomass, and cultivated meat grown from animal cell cultures without livestock slaughter."
+      },
+      {
+        "id": "ca-sci-04-q4",
+        "q": "Under the BioE3 policy, which public sector entity under the DBT acts as the interface for funding biomanufacturing startups and commercial translation?\n(a) Biotechnology Industry Research Assistance Council (BIRAC)\n(b) Council of Scientific and Industrial Research (CSIR)\n(c) Indian Council of Medical Research (ICMR)\n(d) Technology Development Board (TDB)",
+        "options": [
+          "(a) Biotechnology Industry Research Assistance Council (BIRAC)",
+          "(b) Council of Scientific and Industrial Research (CSIR)",
+          "(c) Indian Council of Medical Research (ICMR)",
+          "(d) Technology Development Board (TDB)"
+        ],
+        "answer": "(a)",
+        "explanation": "BIRAC (a Section 8 not-for-profit enterprise of DBT) manages biotech incubation, seed funding, and commercial translational partnerships in India."
+      },
+      {
+        "id": "ca-sci-04-q5",
+        "q": "How does biomanufacturing contribute to industrial decarbonization compared to traditional petrochemical manufacturing?\n(a) It replaces fossil feedstocks with biological raw materials using enzymes and microbes at lower temperatures and pressures\n(b) It consumes nuclear energy directly\n(c) It turns all carbon emissions into liquid hydrogen\n(d) It completely eliminates the need for water",
+        "options": [
+          "(a) It replaces fossil feedstocks with biological raw materials using enzymes and microbes at lower temperatures and pressures",
+          "(b) It consumes nuclear energy directly",
+          "(c) It turns all carbon emissions into liquid hydrogen",
+          "(d) It completely eliminates the need for water"
+        ],
+        "answer": "(a)",
+        "explanation": "Biomanufacturing uses engineered microorganisms and biocatalysts to produce plastics, enzymes, and chemicals under mild conditions, reducing carbon footprints by up to 80%."
+      }
+    ]
+  },
+  {
+    "id": "ca-sci-05",
+    "date": "2026-08-18",
+    "pillar": "SciTech",
+    "title": "National Quantum Mission (NQM): Quantum Computing & Quantum Communication Hubs",
+    "source": "DST / PIB",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Approved with a budget outlay of Rs 6,003 crore over 2023-2031, implemented by the Department of Science and Technology (DST).",
+      "Targets developing intermediate scale quantum computers with 50-1000 physical qubits across superconducting and photonic platforms.",
+      "Aims to achieve secure Quantum Key Distribution (QKD) over ground stations up to 2,000 km and inter-city satellite-based quantum communications."
+    ],
+    "gs_connection": "GS-3: Quantum Computing, Cryptography, QKD, National Quantum Mission, Department of Science & Technology.",
+    "mcqs": [
+      {
+        "id": "ca-sci-05-q1",
+        "q": "The fundamental unit of information in a quantum computer is called a:\n(a) Byte\n(b) Qubit (Quantum Bit)\n(c) Transistor\n(d) Nanobit",
+        "options": [
+          "(a) Byte",
+          "(b) Qubit (Quantum Bit)",
+          "(c) Transistor",
+          "(d) Nanobit"
+        ],
+        "answer": "(b)",
+        "explanation": "While classical computers use binary bits (0 or 1), quantum computers utilize qubits which can exist as 0, 1, or both simultaneously due to superposition."
+      },
+      {
+        "id": "ca-sci-05-q2",
+        "q": "Which two fundamental principles of quantum mechanics give quantum computers their exponential computational power over classical computers?\n(a) Superposition and Quantum Entanglement\n(b) Newton's third law and Brownian motion\n(c) Thermal convection and radiation\n(d) Photoelectric effect and Compton scattering",
+        "options": [
+          "(a) Superposition and Quantum Entanglement",
+          "(b) Newton's third law and Brownian motion",
+          "(c) Thermal convection and radiation",
+          "(d) Photoelectric effect and Compton scattering"
+        ],
+        "answer": "(a)",
+        "explanation": "Superposition allows qubits to process multiple combinations simultaneously; Entanglement links qubits so the state of one instantly influences another regardless of distance."
+      },
+      {
+        "id": "ca-sci-05-q3",
+        "q": "What is the primary technological capability of Quantum Key Distribution (QKD)?\n(a) Instantaneous transmission of physical objects across space\n(b) Unconditionally secure communication where any eavesdropping attempt disturbs the quantum state and is immediately detected\n(c) Mining cryptocurrency at zero electrical cost\n(d) Replacing wireless radio towers",
+        "options": [
+          "(a) Instantaneous transmission of physical objects across space",
+          "(b) Unconditionally secure communication where any eavesdropping attempt disturbs the quantum state and is immediately detected\n",
+          "(c) Mining cryptocurrency at zero electrical cost",
+          "(d) Replacing wireless radio towers"
+        ],
+        "answer": "(b)",
+        "explanation": "QKD uses photons to transmit encryption keys. By Heisenberg's Uncertainty Principle, any interception alters photon quantum states, exposing the interception."
+      },
+      {
+        "id": "ca-sci-05-q4",
+        "q": "Under the National Quantum Mission, how many Thematic Hubs (T-Hubs) are being established across India?\n(a) Two\n(b) Four\n(c) Eight\n(d) Twelve",
+        "options": [
+          "(a) Two",
+          "(b) Four",
+          "(c) Eight",
+          "(d) Twelve"
+        ],
+        "answer": "(b)",
+        "explanation": "The Mission establishes four T-Hubs: Quantum Computing, Quantum Communication, Quantum Sensing & Metrology, and Quantum Materials & Devices."
+      },
+      {
+        "id": "ca-sci-05-q5",
+        "q": "Why do many current superconducting quantum computers require dilution refrigerators cooled close to Absolute Zero (-273.15\u00b0C)?\n(a) To prevent laser melting of the chassis\n(b) To eliminate thermal noise and preserve quantum coherence of qubits\n(c) To conduct chemical photosynthesis\n(d) To freeze digital malware",
+        "options": [
+          "(a) To prevent laser melting of the chassis",
+          "(b) To eliminate thermal noise and preserve quantum coherence of qubits",
+          "(c) To conduct chemical photosynthesis",
+          "(d) To freeze digital malware"
+        ],
+        "answer": "(b)",
+        "explanation": "Thermal vibrations destroy delicate quantum states (decoherence). Superconducting qubits require millikelvin temperatures near absolute zero to maintain superposition."
+      }
+    ]
+  },
+  {
+    "id": "ca-sci-06",
+    "date": "2026-07-28",
+    "pillar": "SciTech",
+    "title": "India Semiconductor Mission (ISM): Dholera Commercial Fab & OSAT Ecosystem",
+    "source": "MeitY / PIB",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "India Semiconductor Mission (ISM) provides 50% fiscal support on a pari-passu basis for setting up silicon semiconductor fabs and display fabs.",
+      "First commercial semiconductor fabrication facility approved at Dholera, Gujarat (Tata Electronics in partnership with PSMC Taiwan).",
+      "Focuses on developing the full semiconductor value chain: Silicon Fabs, Compound Semiconductors, Outsourced Semiconductor Assembly and Test (OSAT), and ATMP."
+    ],
+    "gs_connection": "GS-3: Semiconductors, Microelectronics, ISM, Supply Chain Resilience, Electronics Manufacturing.",
+    "mcqs": [
+      {
+        "id": "ca-sci-06-q1",
+        "q": "Under the modified Semicon India program, what percentage of the project cost is provided as fiscal support by the Central Government on a pari-passu basis?\n(a) 25%\n(b) 50%\n(c) 75%\n(d) 100%",
+        "options": [
+          "(a) 25%",
+          "(b) 50%",
+          "(c) 75%",
+          "(d) 100%"
+        ],
+        "answer": "(b)",
+        "explanation": "The Union Cabinet streamlined the incentive to a uniform 50% fiscal support of project cost across all technology nodes for silicon fabs, display fabs, and OSAT facilities."
+      },
+      {
+        "id": "ca-sci-06-q2",
+        "q": "India's first commercial semiconductor fabrication facility has been established at which location?\n(a) Sriperumbudur, Tamil Nadu\n(b) Dholera, Gujarat\n(c) Noida, Uttar Pradesh\n(d) Whitefield, Bengaluru",
+        "options": [
+          "(a) Sriperumbudur, Tamil Nadu",
+          "(b) Dholera, Gujarat",
+          "(c) Noida, Uttar Pradesh",
+          "(d) Whitefield, Bengaluru"
+        ],
+        "answer": "(b)",
+        "explanation": "Tata Electronics partnering with Taiwan's Powerchip Semiconductor Manufacturing Corp (PSMC) established India's first commercial mega-fab at Dholera Smart City, Gujarat."
+      },
+      {
+        "id": "ca-sci-06-q3",
+        "q": "In semiconductor manufacturing terminology, what does 'OSAT' stand for?\n(a) Open Source Automated Technology\n(b) Outsourced Semiconductor Assembly and Test\n(c) Optical Silicon Architecture Transport\n(d) Overhead Silicon Alignment Tool",
+        "options": [
+          "(a) Open Source Automated Technology",
+          "(b) Outsourced Semiconductor Assembly and Test",
+          "(c) Optical Silicon Architecture Transport",
+          "(d) Overhead Silicon Alignment Tool"
+        ],
+        "answer": "(b)",
+        "explanation": "OSAT (Outsourced Semiconductor Assembly and Test) companies take fabricated silicon wafers, dice them into individual chips, package them, and test their performance."
+      },
+      {
+        "id": "ca-sci-06-q4",
+        "q": "What chemical element is the overwhelmingly predominant raw semiconductor material used in modern integrated circuits (ICs)?\n(a) Germanium\n(b) Silicon\n(c) Gallium\n(d) Copper",
+        "options": [
+          "(a) Germanium",
+          "(b) Silicon",
+          "(c) Gallium",
+          "(d) Copper"
+        ],
+        "answer": "(b)",
+        "explanation": "Silicon is the foundation of modern microelectronics due to its natural abundance (derived from silica sand), stable oxide (SiO2), and favorable bandgap."
+      },
+      {
+        "id": "ca-sci-06-q5",
+        "q": "Which government research laboratory in Chandigarh has historically maintained India's premier public semiconductor fabrication facility?\n(a) Semi-Conductor Laboratory (SCL)\n(b) National Physical Laboratory\n(c) CSIR-CEERI Pilani\n(d) DRDO SSPL",
+        "options": [
+          "(a) Semi-Conductor Laboratory (SCL)",
+          "(b) National Physical Laboratory",
+          "(c) CSIR-CEERI Pilani",
+          "(d) DRDO SSPL"
+        ],
+        "answer": "(a)",
+        "explanation": "Semi-Conductor Laboratory (SCL) in Mohali, Punjab (near Chandigarh) is an autonomous body under MeitY producing specialized chips for space and defense missions."
+      }
+    ]
+  },
+  {
+    "id": "ca-sci-07",
+    "date": "2026-06-18",
+    "pillar": "SciTech",
+    "title": "Generative AI Governance, MeitY Advisory & Deepfake Regulation",
+    "source": "MeitY / Indian Express",
+    "is_top100": true,
+    "is_pt365": false,
+    "summary_points": [
+      "MeitY issued advisories under the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 regarding AI deepfakes.",
+      "Mandates that social media intermediaries must remove synthetic misinformation and non-consensual deepfakes within 24 to 36 hours of notification.",
+      "Requires platforms to label AI-generated synthetic content with visible watermarks and metadata to prevent voter manipulation and digital fraud."
+    ],
+    "gs_connection": "GS-3: Artificial Intelligence, Deepfakes, Cyber Security, IT Rules 2021, Algorithmic Bias.",
+    "mcqs": [
+      {
+        "id": "ca-sci-07-q1",
+        "q": "The technology enabling the creation of hyper-realistic synthetic media, commonly known as 'Deepfakes', is primarily based on:\n(a) Generative Adversarial Networks (GANs) and Diffusion Models\n(b) Classical Relational Database Management Systems\n(c) Blockchain Proof of Work\n(d) Linear regression algorithms",
+        "options": [
+          "(a) Generative Adversarial Networks (GANs) and Diffusion Models",
+          "(b) Classical Relational Database Management Systems",
+          "(c) Blockchain Proof of Work",
+          "(d) Linear regression algorithms"
+        ],
+        "answer": "(a)",
+        "explanation": "Deepfakes utilize Generative Adversarial Networks (GANs)\u2014consisting of a generator pitted against a discriminator network\u2014to create synthetic faces, voices, and videos."
+      },
+      {
+        "id": "ca-sci-07-q2",
+        "q": "Under the Information Technology (Intermediary Guidelines) Rules, 2021, what is the maximum statutory timeline for an intermediary to take down non-consensual explicit deepfakes?\n(a) 24 hours\n(b) 36 hours\n(c) 72 hours\n(d) 7 days",
+        "options": [
+          "(a) 24 hours",
+          "(b) 36 hours",
+          "(c) 72 hours",
+          "(d) 7 days"
+        ],
+        "answer": "(a)",
+        "explanation": "Under Rule 3(2)(b), intermediaries must remove or disable access to content exposing the private area of an individual or depicting impersonation/nudity within 24 hours."
+      },
+      {
+        "id": "ca-sci-07-q3",
+        "q": "Which section of the Information Technology Act, 2000 provides 'Safe Harbour' protection to online intermediaries from liability for third-party user content?\n(a) Section 66A\n(b) Section 69A\n(c) Section 79\n(d) Section 43A",
+        "options": [
+          "(a) Section 66A",
+          "(b) Section 69A",
+          "(c) Section 79",
+          "(d) Section 43A"
+        ],
+        "answer": "(c)",
+        "explanation": "Section 79 provides conditional safe harbour to intermediaries, provided they observe due diligence and comply with government takedown notices under the IT Rules."
+      },
+      {
+        "id": "ca-sci-07-q4",
+        "q": "The European Union's landmark legislation establishing a comprehensive, risk-based framework for regulating artificial intelligence is the:\n(a) EU Artificial Intelligence Act\n(b) Digital Services Act\n(c) GDPR 2.0\n(d) Turing Compliance Directive",
+        "options": [
+          "(a) EU Artificial Intelligence Act",
+          "(b) Digital Services Act",
+          "(c) GDPR 2.0",
+          "(d) Turing Compliance Directive"
+        ],
+        "answer": "(a)",
+        "explanation": "The EU AI Act classifies AI systems by risk (Unacceptable, High, Limited, Minimal) and bans cognitive behavioral manipulation and untargeted facial scraping."
+      },
+      {
+        "id": "ca-sci-07-q5",
+        "q": "What digital mechanism is embedded into image and video files to cryptographically prove provenance and authenticity?\n(a) C2PA (Coalition for Content Provenance and Authenticity) digital watermarking\n(b) QR codes on physical packaging\n(c) Magnetic tape strip\n(d) IP address geotagging",
+        "options": [
+          "(a) C2PA (Coalition for Content Provenance and Authenticity) digital watermarking",
+          "(b) QR codes on physical packaging",
+          "(c) Magnetic tape strip",
+          "(d) IP address geotagging"
+        ],
+        "answer": "(a)",
+        "explanation": "C2PA standards attach tamper-evident cryptographic metadata (Content Credentials) to media files, indicating whether generative AI tools were used during creation."
+      }
+    ]
+  },
+  {
+    "id": "ca-sci-08",
+    "date": "2026-05-24",
+    "pillar": "SciTech",
+    "title": "Prototype Fast Breeder Reactor (PFBR) Kalpakkam & Core Loading Milestone",
+    "source": "DAE / PIB",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Core loading commenced at the 500 MWe Prototype Fast Breeder Reactor (PFBR) at Kalpakkam, Tamil Nadu, marking entry into Stage 2 of India's Nuclear Program.",
+      "PFBR uses Mixed Oxide (MOX) fuel of Uranium-238 and Plutonium-239 with liquid sodium as coolant, operating without a neutron moderator.",
+      "Called a 'breeder' because it produces more fissile material (Pu-239) than it consumes, paving the way for Stage 3 Thorium-232 utilization."
+    ],
+    "gs_connection": "GS-3: Nuclear Energy, Homi Bhabha Three-Stage Program, PFBR Kalpakkam, Thorium Utilization, DAE.",
+    "mcqs": [
+      {
+        "id": "ca-sci-08-q1",
+        "q": "The commencement of core loading at the Prototype Fast Breeder Reactor (PFBR) at Kalpakkam signifies India's transition to which stage of its nuclear power program?\n(a) Stage 1\n(b) Stage 2\n(c) Stage 3\n(d) Stage 4",
+        "options": [
+          "(a) Stage 1",
+          "(b) Stage 2",
+          "(c) Stage 3",
+          "(d) Stage 4"
+        ],
+        "answer": "(b)",
+        "explanation": "India's 3-Stage Program formulated by Dr. Homi Bhabha: Stage 1 (PHWRs using natural uranium), Stage 2 (Fast Breeder Reactors using plutonium), Stage 3 (Thorium-based Advanced Heavy Water Reactors)."
+      },
+      {
+        "id": "ca-sci-08-q2",
+        "q": "What coolant material is utilized in the Prototype Fast Breeder Reactor at Kalpakkam?\n(a) Heavy Water (D2O)\n(b) Light Water (H2O)\n(c) Liquid Sodium\n(d) Pressurized Carbon Dioxide gas",
+        "options": [
+          "(a) Heavy Water (D2O)",
+          "(b) Light Water (H2O)",
+          "(c) Liquid Sodium",
+          "(d) Pressurized Carbon Dioxide gas"
+        ],
+        "answer": "(c)",
+        "explanation": "Fast breeder reactors require fast neutrons (un-moderated) to breed fuel. Liquid sodium has excellent thermal conductivity without moderating (slowing down) neutrons."
+      },
+      {
+        "id": "ca-sci-08-q3",
+        "q": "Why is a reactor called a 'Breeder Reactor'?\n(a) It breeds microorganisms in cooling ponds\n(b) It produces more fissile material than it consumes in the fission chain reaction\n(c) It can operate without any nuclear fuel\n(d) It operates only on solar panels",
+        "options": [
+          "(a) It breeds microorganisms in cooling ponds",
+          "(b) It produces more fissile material than it consumes in the fission chain reaction",
+          "(c) It can operate without any nuclear fuel",
+          "(d) It operates only on solar panels"
+        ],
+        "answer": "(b)",
+        "explanation": "Fast neutrons convert fertile Uranium-238 into fissile Plutonium-239 at a breeding ratio greater than 1, yielding more fissile fuel than consumed."
+      },
+      {
+        "id": "ca-sci-08-q4",
+        "q": "Which abundant mineral found in the beach sands of Kerala, Tamil Nadu, and Odisha is the key to Stage 3 of India's nuclear program?\n(a) Bauxite\n(b) Monazite (Thorium-232)\n(c) Hematite\n(d) Ilmenite",
+        "options": [
+          "(a) Bauxite",
+          "(b) Monazite (Thorium-232)",
+          "(c) Hematite",
+          "(d) Ilmenite"
+        ],
+        "answer": "(b)",
+        "explanation": "India possesses ~25% of the world's Thorium reserves in monazite beach sands. Stage 2 breeders produce the fissile U-233 seed required to fuel Stage 3 Thorium reactors."
+      },
+      {
+        "id": "ca-sci-08-q5",
+        "q": "Which public sector enterprise under the Department of Atomic Energy (DAE) was incorporated to build and operate fast breeder reactors in India?\n(a) Nuclear Power Corporation of India Limited (NPCIL)\n(b) Bharatiya Nabhikiya Vidyut Nigam Limited (BHAVINI)\n(c) Uranium Corporation of India Limited (UCIL)\n(d) Heavy Water Board (HWB)",
+        "options": [
+          "(a) Nuclear Power Corporation of India Limited (NPCIL)",
+          "(b) Bharatiya Nabhikiya Vidyut Nigam Limited (BHAVINI)",
+          "(c) Uranium Corporation of India Limited (UCIL)",
+          "(d) Heavy Water Board (HWB)"
+        ],
+        "answer": "(b)",
+        "explanation": "BHAVINI is the dedicated PSU set up in 2003 under DAE specifically to construct, commission, and operate the commercial fast breeder reactor fleet."
+      }
+    ]
+  },
+  {
+    "id": "ca-sci-09",
+    "date": "2026-04-14",
+    "pillar": "SciTech",
+    "title": "CRISPR-Cas9 Sickle Cell Disease Gene Therapy: Casgevy Regulatory Approvals",
+    "source": "Nature / WHO",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Casgevy (exagamglogene autotemcel) became the world's first licensed therapy utilizing CRISPR-Cas9 genome editing technology for Sickle Cell Disease and Beta-Thalassemia.",
+      "CRISPR-Cas9 acts as molecular scissors, cutting specific DNA sequences to reactivate production of fetal hemoglobin (HbF).",
+      "India launched the National Sickle Cell Anemia Elimination Mission 2047, focusing on screening 7 crore tribal citizens across 17 high-prevalence states."
+    ],
+    "gs_connection": "GS-3: Biotechnology, Gene Editing, CRISPR-Cas9, Sickle Cell Mission, Public Health in Tribal Areas.",
+    "mcqs": [
+      {
+        "id": "ca-sci-09-q1",
+        "q": "The CRISPR-Cas9 system was originally discovered as an adaptive immune defense mechanism in:\n(a) Human white blood cells\n(b) Bacteria and archaea against invading viral bacteriophages\n(c) Flowering angiosperms\n(d) Marine cnidarians",
+        "options": [
+          "(a) Human white blood cells",
+          "(b) Bacteria and archaea against invading viral bacteriophages",
+          "(c) Flowering angiosperms",
+          "(d) Marine cnidarians"
+        ],
+        "answer": "(b)",
+        "explanation": "CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) is a natural bacterial immune system that memorizes and snips viral DNA using Cas endonuclease enzymes."
+      },
+      {
+        "id": "ca-sci-09-q2",
+        "q": "In the CRISPR-Cas9 complex, what is the specific role of the 'Guide RNA' (gRNA)?\n(a) To supply electrical energy to the enzyme\n(b) To recognize and guide the Cas9 cutting enzyme to the exact complementary target DNA sequence\n(c) To synthesize blood platelets\n(d) To coat the cell membrane against radiation",
+        "options": [
+          "(a) To supply electrical energy to the enzyme",
+          "(b) To recognize and guide the Cas9 cutting enzyme to the exact complementary target DNA sequence",
+          "(c) To synthesize blood platelets",
+          "(d) To coat the cell membrane against radiation"
+        ],
+        "answer": "(b)",
+        "explanation": "The guide RNA is a synthetic RNA sequence matching the target gene, ensuring that Cas9 cleaves exclusively at the targeted genomic site."
+      },
+      {
+        "id": "ca-sci-09-q3",
+        "q": "Sickle Cell Anemia is caused by a single point mutation in the beta-globin gene on chromosome 11, where glutamic acid is substituted by:\n(a) Lysine\n(b) Valine\n(c) Alanine\n(d) Tryptophan",
+        "options": [
+          "(a) Lysine",
+          "(b) Valine",
+          "(c) Alanine",
+          "(d) Tryptophan"
+        ],
+        "answer": "(b)",
+        "explanation": "A single nucleotide substitution (GAG -> GTG) replaces hydrophilic glutamic acid with hydrophobic valine at position 6, causing hemoglobin molecules to polymerize into sickle shapes under low oxygen."
+      },
+      {
+        "id": "ca-sci-09-q4",
+        "q": "What target year has the Government of India set under the National Sickle Cell Anemia Elimination Mission?\n(a) 2030\n(b) 2035\n(c) 2047\n(d) 2050",
+        "options": [
+          "(a) 2030",
+          "(b) 2035",
+          "(c) 2047",
+          "(d) 2050"
+        ],
+        "answer": "(c)",
+        "explanation": "The Mission launched by the Prime Minister in 2023 aims to eliminate sickle cell disease as a public health problem by 2047 through pre-marital counseling and screening."
+      },
+      {
+        "id": "ca-sci-09-q5",
+        "q": "Which scientists were awarded the Nobel Prize in Chemistry in 2020 for the development of the CRISPR-Cas9 method for genome editing?\n(a) Jennifer Doudna and Emmanuelle Charpentier\n(b) James Watson and Francis Crick\n(c) Katalin Kariko and Drew Weissman\n(d) Svante Paabo and Shinya Yamanaka",
+        "options": [
+          "(a) Jennifer Doudna and Emmanuelle Charpentier",
+          "(b) James Watson and Francis Crick",
+          "(c) Katalin Kariko and Drew Weissman",
+          "(d) Svante Paabo and Shinya Yamanaka"
+        ],
+        "answer": "(a)",
+        "explanation": "Emmanuelle Charpentier and Jennifer A. Doudna were jointly awarded the 2020 Chemistry Nobel Prize for discovering and reprogramming the CRISPR-Cas9 genetic scissors."
+      }
+    ]
+  },
+  {
+    "id": "ca-sci-10",
+    "date": "2026-03-08",
+    "pillar": "SciTech",
+    "title": "Indigenous CAR-T Cell Therapy (NexCAR19): Cancer Immunotherapy Breakthrough",
+    "source": "CDSCO / PIB",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Central Drugs Standard Control Organisation (CDSCO) approved NexCAR19 (Actalycabtagene autoleucel), India's first indigenously developed CAR-T cell therapy.",
+      "Jointly developed by IIT Bombay, Tata Memorial Centre, and ImmunoACT, reducing treatment costs from ~$400,000 abroad to ~$40,000 in India.",
+      "Engineers a patient's own T-cells with a Chimeric Antigen Receptor (CAR) targeting the CD19 protein found on malignant B-cell leukemia and lymphoma."
+    ],
+    "gs_connection": "GS-3: Biotechnology, Cancer Immunotherapy, CAR-T Technology, Affordable Healthcare, CDSCO Approvals.",
+    "mcqs": [
+      {
+        "id": "ca-sci-10-q1",
+        "q": "What does 'CAR-T' cell therapy stand for in modern oncological medicine?\n(a) Chemotherapy Assisted Radiation Therapy\n(b) Chimeric Antigen Receptor T-cell therapy\n(c) Cellular Autoimmune Regulated Transfer\n(d) Cytotoxic Antibody Release Treatment",
+        "options": [
+          "(a) Chemotherapy Assisted Radiation Therapy",
+          "(b) Chimeric Antigen Receptor T-cell therapy",
+          "(c) Cellular Autoimmune Regulated Transfer",
+          "(d) Cytotoxic Antibody Release Treatment"
+        ],
+        "answer": "(b)",
+        "explanation": "CAR-T stands for Chimeric Antigen Receptor T-cell therapy, a type of autologous cellular immunotherapy."
+      },
+      {
+        "id": "ca-sci-10-q2",
+        "q": "How does CAR-T therapy work inside a patient's body?\n(a) It poisons cancerous cells using heavy radiation seeds\n(b) It extracts the patient's own T-lymphocytes, genetically reprograms them to express synthetic receptors targeting cancer proteins, and re-infuses them\n(c) It replaces all blood with donor blood\n(d) It acts as a preventative bacterial vaccine",
+        "options": [
+          "(a) It poisons cancerous cells using heavy radiation seeds",
+          "(b) It extracts the patient's own T-lymphocytes, genetically reprograms them to express synthetic receptors targeting cancer proteins, and re-infuses them",
+          "(c) It replaces all blood with donor blood",
+          "(d) It acts as a preventative bacterial vaccine"
+        ],
+        "answer": "(b)",
+        "explanation": "T-cells (the body's immune soldiers) are drawn from patient blood, genetically modified via viral vectors to express CAR receptors recognizing cancer antigens (like CD19), multiplied, and infused back."
+      },
+      {
+        "id": "ca-sci-10-q3",
+        "q": "India's first commercially approved CAR-T therapy developed by IIT Bombay and Tata Memorial Centre is marketed under the name:\n(a) NexCAR19\n(b) Kymriah\n(c) Yescarta\n(d) Covaxin",
+        "options": [
+          "(a) NexCAR19",
+          "(b) Kymriah",
+          "(c) Yescarta",
+          "(d) Covaxin"
+        ],
+        "answer": "(a)",
+        "explanation": "NexCAR19 is India's first indigenous CAR-T cell therapy, designed specifically with a humanized antibody construct to minimize inflammatory cytokine release syndrome."
+      },
+      {
+        "id": "ca-sci-10-q4",
+        "q": "T-cells and B-cells are specialized sub-types of which white blood cell classification?\n(a) Monocytes\n(b) Neutrophils\n(c) Lymphocytes\n(d) Eosinophils",
+        "options": [
+          "(a) Monocytes",
+          "(b) Neutrophils",
+          "(c) Lymphocytes\n",
+          "(d) Eosinophils"
+        ],
+        "answer": "(c)",
+        "explanation": "T-cells (maturing in the Thymus) and B-cells (maturing in Bone marrow) are the two primary cellular components of the adaptive immune system (lymphocytes)."
+      },
+      {
+        "id": "ca-sci-10-q5",
+        "q": "Which statutory authority headed by the Drugs Controller General of India (DCGI) is responsible for approving new drugs and clinical trials in India?\n(a) Central Drugs Standard Control Organisation (CDSCO)\n(b) Indian Council of Medical Research (ICMR)\n(c) National Health Authority (NHA)\n(d) Pharmacopoeia Commission",
+        "options": [
+          "(a) Central Drugs Standard Control Organisation (CDSCO)",
+          "(b) Indian Council of Medical Research (ICMR)",
+          "(c) National Health Authority (NHA)",
+          "(d) Pharmacopoeia Commission"
+        ],
+        "answer": "(a)",
+        "explanation": "The CDSCO under the Ministry of Health and Family Welfare is the national regulatory authority for drugs, medical devices, and clinical trials under the Drugs and Cosmetics Act 1940."
+      }
+    ]
+  },
+  {
+    "id": "ca-sci-11",
+    "date": "2026-02-05",
+    "pillar": "SciTech",
+    "title": "Square Kilometre Array (SKA) Observatory: India's Full Member Ratification",
+    "source": "DST / The Hindu",
+    "is_top100": false,
+    "is_pt365": true,
+    "summary_points": [
+      "Government of India formally ratified membership in the Square Kilometre Array Observatory (SKAO), joining the world's largest radio telescope consortium.",
+      "Comprises thousands of radio antennas co-located in remote desert locations: SKA-Low in Western Australia and SKA-Mid in South Africa's Karoo region.",
+      "India's primary scientific and engineering contribution centers on designing and building the Telescope Manager software architecture led by NCRA-TIFR Pune."
+    ],
+    "gs_connection": "GS-3: Astronomy, Radio Telescopes, International Scientific Megaprojects, SKAO, Giant Metrewave Radio Telescope.",
+    "mcqs": [
+      {
+        "id": "ca-sci-11-q1",
+        "q": "The Square Kilometre Array (SKA) is designed to be the world's largest facility for which branch of astronomy?\n(a) Optical astronomy\n(b) Radio astronomy\n(c) X-ray astronomy\n(d) Gravitational wave interferometry",
+        "options": [
+          "(a) Optical astronomy",
+          "(b) Radio astronomy",
+          "(c) X-ray astronomy",
+          "(d) Gravitational wave interferometry"
+        ],
+        "answer": "(b)",
+        "explanation": "SKA will be the world's largest radio telescope, operating across radio frequencies from 50 MHz to 15 GHz to probe the early Universe and Cosmic Dawn."
+      },
+      {
+        "id": "ca-sci-11-q2",
+        "q": "In which two countries are the physical antenna arrays of the Square Kilometre Array located?\n(a) India and Chile\n(b) Australia and South Africa\n(c) United States and Canada\n(d) China and Argentina",
+        "options": [
+          "(a) India and Chile",
+          "(b) Australia and South Africa",
+          "(c) United States and Canada",
+          "(d) China and Argentina"
+        ],
+        "answer": "(b)",
+        "explanation": "SKA-Low (low frequency dipoles) is located at Murchison in Western Australia; SKA-Mid (dish antennas) is located in the Karoo desert of South Africa."
+      },
+      {
+        "id": "ca-sci-11-q3",
+        "q": "Which premier Indian astrophysics research institute headquartered in Pune leads India's institutional participation in the SKA project?\n(a) Indian Institute of Astrophysics (IIA)\n(b) National Centre for Radio Astrophysics (NCRA-TIFR)\n(c) Inter-University Centre for Astronomy and Astrophysics (IUCAA)\n(d) Physical Research Laboratory (PRL)",
+        "options": [
+          "(a) Indian Institute of Astrophysics (IIA)",
+          "(b) National Centre for Radio Astrophysics (NCRA-TIFR)",
+          "(c) Inter-University Centre for Astronomy and Astrophysics (IUCAA)",
+          "(d) Physical Research Laboratory (PRL)"
+        ],
+        "answer": "(b)",
+        "explanation": "NCRA-TIFR, which operates the world-renowned Giant Metrewave Radio Telescope (GMRT) at Khodad near Pune, coordinates India's software and technical role in SKA."
+      },
+      {
+        "id": "ca-sci-11-q4",
+        "q": "Radio waves differ from visible light waves in the electromagnetic spectrum primarily because they have:\n(a) Shorter wavelengths and higher frequencies\n(b) Longer wavelengths and lower frequencies\n(c) Zero velocity in vacuum\n(d) Only particulate mass",
+        "options": [
+          "(a) Shorter wavelengths and higher frequencies",
+          "(b) Longer wavelengths and lower frequencies",
+          "(c) Zero velocity in vacuum",
+          "(d) Only particulate mass"
+        ],
+        "answer": "(b)",
+        "explanation": "Radio waves sit at the lowest frequency, longest wavelength end of the electromagnetic spectrum, allowing them to penetrate cosmic dust clouds unhindered."
+      },
+      {
+        "id": "ca-sci-11-q5",
+        "q": "Where is the international global headquarters of the Square Kilometre Array Observatory (SKAO) located?\n(a) Jodrell Bank, United Kingdom\n(b) Geneva, Switzerland\n(c) Paris, France\n(d) Washington D.C., USA",
+        "options": [
+          "(a) Jodrell Bank, United Kingdom",
+          "(b) Geneva, Switzerland",
+          "(c) Paris, France",
+          "(d) Washington D.C., USA"
+        ],
+        "answer": "(a)",
+        "explanation": "SKAO is an intergovernmental organization established by treaty, with its central headquarters located at Jodrell Bank Observatory near Manchester, UK."
+      }
+    ]
+  },
+  {
+    "id": "ca-sci-12",
+    "date": "2026-01-12",
+    "pillar": "SciTech",
+    "title": "Indian Space Policy 2023: IN-SPACe & Private Non-Government Entities (NGEs)",
+    "source": "ISRO / PIB",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Indian Space Policy 2023 created an institutional separation of roles: ISRO (R&D and advanced exploration), IN-SPACe (authorization and promotion of private space sector), and NSIL (commercialization).",
+      "Indian National Space Promotion and Authorization Centre (IN-SPACe) serves as a single-window autonomous agency under Department of Space for private entities.",
+      "NewSpace India Limited (NSIL) acts as the commercial arm, responsible for owning and operating commercial operational launch vehicles and satellites."
+    ],
+    "gs_connection": "GS-3: Space Technology, Privatization of Space, IN-SPACe, NSIL, Commercial Space Missions.",
+    "mcqs": [
+      {
+        "id": "ca-sci-12-q1",
+        "q": "Under the Indian Space Policy 2023, which entity is the single-window regulatory agency for authorizing and promoting private space activities?\n(a) ISRO\n(b) IN-SPACe (Indian National Space Promotion and Authorization Centre)\n(c) Antrix Corporation\n(d) Telecom Regulatory Authority of India",
+        "options": [
+          "(a) ISRO",
+          "(b) IN-SPACe (Indian National Space Promotion and Authorization Centre)",
+          "(c) Antrix Corporation",
+          "(d) Telecom Regulatory Authority of India"
+        ],
+        "answer": "(b)",
+        "explanation": "IN-SPACe is an autonomous single-window nodal agency under the Department of Space that authorizes, promotes, and handholds Non-Government Entities (NGEs)."
+      },
+      {
+        "id": "ca-sci-12-q2",
+        "q": "What is the primary statutory mandate of NewSpace India Limited (NSIL)?\n(a) Pure scientific research into black holes\n(b) Commercializing space technologies, building rockets via industry consortia, and operating commercial satellite assets\n(c) Regulating private drone flights\n(d) Managing the Indian Air Force radar network",
+        "options": [
+          "(a) Pure scientific research into black holes",
+          "(b) Commercializing space technologies, building rockets via industry consortia, and operating commercial satellite assets",
+          "(c) Regulating private drone flights",
+          "(d) Managing the Indian Air Force radar network"
+        ],
+        "answer": "(b)",
+        "explanation": "NSIL is a wholly-owned Government of India CPSE under Department of Space tasked with commercial exploitation of space R&D, manufacturing LVM3/PSLV via industry, and satellite transponder leasing."
+      },
+      {
+        "id": "ca-sci-12-q3",
+        "q": "India's first privately developed sub-orbital rocket, launched by Skyroot Aerospace from Sriharikota in 2022, was named:\n(a) Vikram-S\n(b) Agnibaan\n(c) Rohini-200\n(d) Dhruva-1",
+        "options": [
+          "(a) Vikram-S",
+          "(b) Agnibaan",
+          "(c) Rohini-200",
+          "(d) Dhruva-1"
+        ],
+        "answer": "(a)",
+        "explanation": "Vikram-S (named after Dr. Vikram Sarabhai) was India's first privately built rocket launched under Mission Prarambh by Skyroot Aerospace."
+      },
+      {
+        "id": "ca-sci-12-q4",
+        "q": "Which startup successfully test-fired Agnibaan SOrTeD, featuring the world's first single-piece 3D-printed semi-cryogenic engine (Agnilet)?\n(a) Pixxel\n(b) Agnikul Cosmos\n(c) Bellatrix Aerospace\n(d) Dhruva Space",
+        "options": [
+          "(a) Pixxel",
+          "(b) Agnikul Cosmos",
+          "(c) Bellatrix Aerospace",
+          "(d) Dhruva Space"
+        ],
+        "answer": "(b)",
+        "explanation": "Agnikul Cosmos launched Agnibaan Sub-Orbital Technology Demonstrator from India's first private launchpad (Dhanush) at Sriharikota, using a 3D-printed engine running on liquid oxygen and aviation kerosene."
+      },
+      {
+        "id": "ca-sci-12-q5",
+        "q": "Under the 1967 UN Outer Space Treaty, who bears international responsibility for national activities in outer space carried out by non-governmental entities?\n(a) The private corporation exclusively\n(b) The appropriate State Party to the Treaty (the sovereign country)\n(c) The United Nations Security Council\n(d) The International Telecommunication Union",
+        "options": [
+          "(a) The private corporation exclusively",
+          "(b) The appropriate State Party to the Treaty (the sovereign country)",
+          "(c) The United Nations Security Council",
+          "(d) The International Telecommunication Union"
+        ],
+        "answer": "(b)",
+        "explanation": "Article VI of the Outer Space Treaty makes sovereign states internationally liable for activities of their private commercial entities in space, necessitating domestic licensing regimes like IN-SPACe."
+      }
+    ]
+  },
+  {
+    "id": "ca-sci-13",
+    "date": "2026-10-01",
+    "pillar": "SciTech",
+    "title": "Small Modular Reactors (SMRs) & Nuclear Energy Renaissance",
+    "source": "DAE / Livemint",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "Small Modular Reactors (SMRs) are nuclear fission reactors with power capacity up to 300 MWe per unit (about one-third of traditional reactors).",
+      "Designed with modular prefabricated systems that can be factory-manufactured, shipped by truck or rail, and assembled on site.",
+      "Government is exploring private sector participation and leasing Bharat Small Reactors (BSRs) based on 220 MWe Pressurised Heavy Water Reactor (PHWR) designs to power captive industrial units."
+    ],
+    "gs_connection": "GS-3: Nuclear Power, SMRs, Decarbonization, Clean Energy, Industrial Captive Power.",
+    "mcqs": [
+      {
+        "id": "ca-sci-13-q1",
+        "q": "By standard International Atomic Energy Agency (IAEA) classification, Small Modular Reactors (SMRs) have a power generation capacity of up to:\n(a) 50 MWe\n(b) 300 MWe\n(c) 1,000 MWe\n(d) 5,000 MWe",
+        "options": [
+          "(a) 50 MWe",
+          "(b) 300 MWe",
+          "(c) 1,000 MWe",
+          "(d) 5,000 MWe"
+        ],
+        "answer": "(b)",
+        "explanation": "The IAEA defines Small Modular Reactors (SMRs) as advanced nuclear reactors producing up to 300 MWe per module, combining modular factory construction with passive safety features."
+      },
+      {
+        "id": "ca-sci-13-q2",
+        "q": "What is the major safety advantage of SMRs over large-scale gigawatt-class nuclear reactors?\n(a) Zero radioactive waste generation\n(b) Passive safety systems relying on gravity, natural circulation, and convection that do not require external power or human action to shut down safely\n(c) Use of common table salt as core fuel\n(d) They cannot be damaged by seismic earthquakes",
+        "options": [
+          "(a) Zero radioactive waste generation",
+          "(b) Passive safety systems relying on gravity, natural circulation, and convection that do not require external power or human action to shut down safely",
+          "(c) Use of common table salt as core fuel",
+          "(d) They cannot be damaged by seismic earthquakes"
+        ],
+        "answer": "(b)",
+        "explanation": "Passive safety mechanisms operate on fundamental physical principles (gravity feed, natural convection) without needing active electrical pumps or operator intervention during accidents."
+      },
+      {
+        "id": "ca-sci-13-q3",
+        "q": "Under the Atomic Energy Act 1962, can private corporations in India currently build and operate nuclear power plants independently?\n(a) Yes, 100% private ownership is permitted\n(b) No, nuclear power generation remains restricted to Central Government entities or joint ventures with at least 51% government majority equity\n(c) Private sector is allowed only in solar energy\n(d) State Governments possess sole authority",
+        "options": [
+          "(a) Yes, 100% private ownership is permitted",
+          "(b) No, nuclear power generation remains restricted to Central Government entities or joint ventures with at least 51% government majority equity",
+          "(c) Private sector is allowed only in solar energy",
+          "(d) State Governments possess sole authority"
+        ],
+        "answer": "(b)",
+        "explanation": "Section 3 of the Atomic Energy Act reserves nuclear power to the Central Government (via NPCIL/BHAVINI). Joint ventures require majority central equity, though amendments are under consideration for captive SMRs."
+      },
+      {
+        "id": "ca-sci-13-q4",
+        "q": "What is the nuclear fuel type utilized in India's indigenous fleet of 220 MWe and 700 MWe Pressurised Heavy Water Reactors (PHWRs)?\n(a) Enriched Uranium-235 (20% enrichment)\n(b) Natural Uranium dioxide (UO2) without enrichment\n(c) Pure Plutonium-239 metal\n(d) Thorium-232 oxide only",
+        "options": [
+          "(a) Enriched Uranium-235 (20% enrichment)",
+          "(b) Natural Uranium dioxide (UO2) without enrichment",
+          "(c) Pure Plutonium-239 metal\n",
+          "(d) Thorium-232 oxide only"
+        ],
+        "answer": "(b)",
+        "explanation": "India's PHWRs use natural uranium (0.7% U-235) because Heavy Water (D2O) has low neutron absorption, eliminating the need for costly uranium enrichment."
+      },
+      {
+        "id": "ca-sci-13-q5",
+        "q": "In nuclear non-proliferation agreements, the Civil Liability for Nuclear Damage Act (CLNDA) 2010 in India contains a contentious clause in:\n(a) Section 17(b) providing right of recourse against equipment suppliers in case of defective components\n(b) Section 5 prohibiting foreign inspections\n(c) Section 10 transferring liability to consumers\n(d) Section 25 exempting all plant operators",
+        "options": [
+          "(a) Section 17(b) providing right of recourse against equipment suppliers in case of defective components",
+          "(b) Section 5 prohibiting foreign inspections",
+          "(c) Section 10 transferring liability to consumers",
+          "(d) Section 25 exempting all plant operators"
+        ],
+        "answer": "(a)",
+        "explanation": "Section 17(b) allows plant operators to seek damages from foreign equipment vendors if accidents result from defective equipment, contrasting with international conventions where liability is channeled exclusively to the operator."
+      }
+    ]
+  },
+  {
+    "id": "ca-sci-14",
+    "date": "2026-09-02",
+    "pillar": "SciTech",
+    "title": "Dark Sky Reserve at Hanle, Ladakh & Astrotourism Development",
+    "source": "IIA / DST",
+    "is_top100": false,
+    "is_pt365": true,
+    "summary_points": [
+      "India's first Dark Sky Reserve established at Hanle in Eastern Ladakh as the Department of Science and Technology's Indian Astronomical Observatory (IAO).",
+      "Hanle was chosen for high altitude (4,500 m), dry arid atmosphere, clear sub-zero nights, and near-zero artificial light pollution.",
+      "Hosts the 2-meter optical-infrared Himalayan Chandra Telescope (HCT) and the Major Atmospheric Cerenkov Experiment (MACE) gamma-ray telescope."
+    ],
+    "gs_connection": "GS-3: Astronomy, Light Pollution, Indian Astronomical Observatory, MACE Telescope, Ladakh Development.",
+    "mcqs": [
+      {
+        "id": "ca-sci-14-q1",
+        "q": "India's first designated Dark Sky Reserve has been notified in which location?\n(a) Spiti Valley, Himachal Pradesh\n(b) Hanle, Eastern Ladakh\n(c) Mount Abu, Rajasthan\n(d) Kodaikanal, Tamil Nadu",
+        "options": [
+          "(a) Spiti Valley, Himachal Pradesh\n",
+          "(b) Hanle, Eastern Ladakh",
+          "(c) Mount Abu, Rajasthan",
+          "(d) Kodaikanal, Tamil Nadu"
+        ],
+        "answer": "(b)",
+        "explanation": "The Hanle Dark Sky Reserve was created around the Indian Astronomical Observatory in Changthang Wildlife Sanctuary, Eastern Ladakh."
+      },
+      {
+        "id": "ca-sci-14-q2",
+        "q": "Why is Hanle in Ladakh an ideal geographic location for optical, infrared, and gamma-ray astronomy?\n(a) High atmospheric humidity\n(b) High altitude (4,500m), low precipitation, cloudless skies, minimal atmospheric attenuation, and absence of light pollution\n(c) Proximity to the equator\n(d) Presence of deep underground volcanic caves",
+        "options": [
+          "(a) High atmospheric humidity",
+          "(b) High altitude (4,500m), low precipitation, cloudless skies, minimal atmospheric attenuation, and absence of light pollution",
+          "(c) Proximity to the equator",
+          "(d) Presence of deep underground volcanic caves"
+        ],
+        "answer": "(b)",
+        "explanation": "High altitude cold desert conditions provide a dry, thin atmosphere that absorbs minimal starlight and infrared radiation, offering pristine seeing conditions."
+      },
+      {
+        "id": "ca-sci-14-q3",
+        "q": "The MACE (Major Atmospheric Cerenkov Experiment) telescope located at Hanle is designed to detect:\n(a) Subterranean seismic vibrations\n(b) Very high-energy cosmic Gamma rays via atmospheric Cherenkov flashes\n(c) Low-frequency FM radio broadcasts\n(d) Solar neutrino emissions exclusively",
+        "options": [
+          "(a) Subterranean seismic vibrations",
+          "(b) Very high-energy cosmic Gamma rays via atmospheric Cherenkov flashes",
+          "(c) Low-frequency FM radio broadcasts",
+          "(d) Solar neutrino emissions exclusively"
+        ],
+        "answer": "(b)",
+        "explanation": "MACE is the world's second-largest gamma-ray telescope, built by BARC to observe Cherenkov radiation generated when cosmic gamma rays collide with the upper atmosphere."
+      },
+      {
+        "id": "ca-sci-14-q4",
+        "q": "What is the primary objective of creating a 'Dark Sky Reserve'?\n(a) To enforce complete daytime blackouts\n(b) To protect the nocturnal environment and night sky from artificial light pollution through regulated lighting ordinances\n(c) To conduct military camouflage exercises\n(d) To study subterranean troglobites",
+        "options": [
+          "(a) To enforce complete daytime blackouts",
+          "(b) To protect the nocturnal environment and night sky from artificial light pollution through regulated lighting ordinances",
+          "(c) To conduct military camouflage exercises",
+          "(d) To study subterranean troglobites"
+        ],
+        "answer": "(b)",
+        "explanation": "Dark sky reserves designate buffer zones where public outdoor lighting is shielded and controlled to minimize skyglow and preserve astronomical observation."
+      },
+      {
+        "id": "ca-sci-14-q5",
+        "q": "Which premier research institute operates the Himalayan Chandra Telescope (HCT) remotely via satellite link from Hosakote near Bengaluru?\n(a) Tata Institute of Fundamental Research\n(b) Indian Institute of Astrophysics (IIA)\n(c) Physical Research Laboratory\n(d) Raman Research Institute",
+        "options": [
+          "(a) Tata Institute of Fundamental Research",
+          "(b) Indian Institute of Astrophysics (IIA)",
+          "(c) Physical Research Laboratory",
+          "(d) Raman Research Institute"
+        ],
+        "answer": "(b)",
+        "explanation": "The Indian Institute of Astrophysics (IIA) in Bengaluru controls the 2-meter optical telescope at Hanle remotely via dedicated INSAT satellite communication link."
+      }
+    ]
+  },
+  {
+    "id": "ca-sci-15",
+    "date": "2026-08-01",
+    "pillar": "SciTech",
+    "title": "Polymetallic Nodules & International Seabed Authority (ISA) Deep Sea Exploration",
+    "source": "MoES / PIB",
+    "is_top100": true,
+    "is_pt365": true,
+    "summary_points": [
+      "India holds exploration contracts from the International Seabed Authority (ISA) for Polymetallic Nodules in the Central Indian Ocean Basin (CIOB) and Polymetallic Sulphides in Central/Southwest Indian Ridges.",
+      "Polymetallic nodules (potato-sized rocks on abyssal plains at 4,000-6,000m) are rich in critical transition metals: Nickel, Cobalt, Copper, and Manganese.",
+      "UNCLOS declared the international seabed area and its mineral resources as the 'Common Heritage of Mankind' managed by the Kingston-based ISA."
+    ],
+    "gs_connection": "GS-3: Deep Sea Minerals, Critical Raw Materials, UNCLOS, International Seabed Authority, Maritime Geopolitics.",
+    "mcqs": [
+      {
+        "id": "ca-sci-15-q1",
+        "q": "Polymetallic nodules resting on the abyssal plains of the ocean floor are predominantly composed of which metal by weight?\n(a) Gold\n(b) Manganese (along with Iron oxides)\n(c) Uranium\n(d) Platinum",
+        "options": [
+          "(a) Gold",
+          "(b) Manganese (along with Iron oxides)",
+          "(c) Uranium",
+          "(d) Platinum"
+        ],
+        "answer": "(b)",
+        "explanation": "Also known as manganese nodules, they typically consist of ~28% Manganese, ~6% Iron, ~1.3% Nickel, ~1.1% Copper, and ~0.25% Cobalt."
+      },
+      {
+        "id": "ca-sci-15-q2",
+        "q": "Which international organization established under UNCLOS regulates all mineral-related activities in the international seabed area beyond national jurisdiction?\n(a) International Maritime Organization (IMO)\n(b) International Seabed Authority (ISA)\n(c) United Nations Environment Programme (UNEP)\n(d) International Whaling Commission",
+        "options": [
+          "(a) International Maritime Organization (IMO)",
+          "(b) International Seabed Authority (ISA)",
+          "(c) United Nations Environment Programme (UNEP)",
+          "(d) International Whaling Commission"
+        ],
+        "answer": "(b)",
+        "explanation": "The International Seabed Authority (headquartered in Kingston, Jamaica) was established under UNCLOS 1982 to organize and control exploration and exploitation of seabed minerals."
+      },
+      {
+        "id": "ca-sci-15-q3",
+        "q": "Where is India's allocated 75,000 sq km exploration site for polymetallic nodules located?\n(a) Bay of Bengal continental shelf\n(b) Central Indian Ocean Basin (CIOB)\n(c) Arabian Sea Lakshadweep Ridge\n(d) Andaman Sea Submarine Trench",
+        "options": [
+          "(a) Bay of Bengal continental shelf",
+          "(b) Central Indian Ocean Basin (CIOB)",
+          "(c) Arabian Sea Lakshadweep Ridge",
+          "(d) Andaman Sea Submarine Trench"
+        ],
+        "answer": "(b)",
+        "explanation": "India was the first 'Pioneer Investor' registered in 1987, receiving an exploration site in the Central Indian Ocean Basin located ~2,000 km south of Kanyakumari at 4,000-6,000 m depths."
+      },
+      {
+        "id": "ca-sci-15-q4",
+        "q": "What is the primary ecological concern associated with commercial deep-sea mining using seafloor crawlers?\n(a) Overfishing of coastal sardines\n(b) Destruction of fragile benthic ecosystems, destruction of biogenic nodule habitats, and sediment plumes suffocating mid-water organisms\n(c) Heating up of surface tropical water\n(d) Triggering tsunamis",
+        "options": [
+          "(a) Overfishing of coastal sardines",
+          "(b) Destruction of fragile benthic ecosystems, destruction of biogenic nodule habitats, and sediment plumes suffocating mid-water organisms",
+          "(c) Heating up of surface tropical water",
+          "(d) Triggering tsunamis"
+        ],
+        "answer": "(b)",
+        "explanation": "Deep-sea benthic fauna rely on hard nodule substrates formed over millions of years. Crawler machinery destroys these ecosystems and generates underwater sediment plumes."
+      },
+      {
+        "id": "ca-sci-15-q5",
+        "q": "Under Part XI of UNCLOS, mineral resources in the international seabed Area are legally designated as:\n(a) Res Nullius (property of whoever claims it first)\n(b) The Common Heritage of Mankind\n(c) Exclusive property of the G7 nations\n(d) Sovereign property of coastal states",
+        "options": [
+          "(a) Res Nullius (property of whoever claims it first)",
+          "(b) The Common Heritage of Mankind",
+          "(c) Exclusive property of the G7 nations",
+          "(d) Sovereign property of coastal states"
+        ],
+        "answer": "(b)",
+        "explanation": "Article 136 of UNCLOS states: 'The Area and its resources are the common heritage of mankind', requiring equitable sharing of financial and economic benefits."
+      }
+    ]
+  }
+]
