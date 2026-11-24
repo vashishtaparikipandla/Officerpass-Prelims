@@ -10,6 +10,7 @@ from urllib.parse import urlparse
 import urllib.parse
 import concurrent.futures
 import threading
+import subprocess
 
 PORT = 8080
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -230,6 +231,18 @@ def fetch_upsc_curated_news():
             })
 
     return curated[:30]
+
+def commit_state_to_git():
+    """Auto-commits data/state.json changes to git and pushes if remote origin is configured."""
+    try:
+        subprocess.run(['git', 'add', 'data/state.json'], cwd=BASE_DIR, capture_output=True)
+        t_str = time.strftime('%Y-%m-%d %H:%M:%S')
+        subprocess.run(['git', 'commit', '-m', f"Auto-save state: {t_str}"], cwd=BASE_DIR, capture_output=True)
+        chk = subprocess.run(['git', 'remote', 'get-url', 'origin'], cwd=BASE_DIR, capture_output=True, text=True)
+        if chk.returncode == 0 and chk.stdout.strip():
+            subprocess.run(['git', 'push', 'origin', 'main'], cwd=BASE_DIR, capture_output=True)
+    except Exception as ge:
+        pass
 
 class OfficerPassHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):
@@ -522,6 +535,9 @@ class OfficerPassHandler(http.server.SimpleHTTPRequestHandler):
                 with open(DATA_FILE, 'w') as f:
                     json.dump(state_data, f, indent=2)
                 
+                # Auto-commit to Git in background thread
+                threading.Thread(target=commit_state_to_git, daemon=True).start()
+
                 self.send_response(200)
                 self.send_header('Content-Type', 'application/json')
                 self.end_headers()
