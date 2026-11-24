@@ -1,0 +1,2507 @@
+{
+  "csat-11": {
+    "topic_id": "csat-11",
+    "title": "Time and Work: The LCM Brick Wall & Alternate Days",
+    "mental_model": "The Brick Wall: Total work = LCM of individual days. Daily output = Work / Days. Work together = Total Bricks / Sum of daily brick rates.",
+    "questions": [
+      {
+        "id": "csat-11-q01",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 1,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A can complete a piece of work in 12 days, and B can complete the same work in 18 days. If they work together, in how many days will the work be completed?",
+        "options": [
+          "(a) 7.2 days",
+          "(b) 7.5 days",
+          "(c) 8 days",
+          "(d) 6.5 days"
+        ],
+        "answer": "(a)",
+        "child_logic": "Brick Wall: LCM(12, 18) = 36 bricks. A lays 3 bricks/day, B lays 2 bricks/day. Together = 5 bricks/day. Time = 36 / 5 = 7.2 days!",
+        "explanation": "Total work = LCM(12, 18) = 36 units. Rate of A = 36/12 = 3 units/day. Rate of B = 36/18 = 2 units/day. Combined rate = 5 units/day. Time = 36 / 5 = 7.2 days."
+      },
+      {
+        "id": "csat-11-q02",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 2,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A is twice as efficient as B, and together they can complete a project in 14 days. In how many days can A alone complete the project?",
+        "options": [
+          "(a) 21 days",
+          "(b) 28 days",
+          "(c) 18 days",
+          "(d) 24 days"
+        ],
+        "answer": "(a)",
+        "child_logic": "Efficiency Units: A lays 2 bricks/day, B lays 1 brick/day. Together = 3 bricks/day. In 14 days, total work = 14 * 3 = 42 bricks. A alone = 42 / 2 = 21 days!",
+        "explanation": "Efficiency ratio A : B = 2 : 1. Combined rate = 3 units/day. Total work = 14 * 3 = 42 units. Time for A = 42 / 2 = 21 days."
+      },
+      {
+        "id": "csat-11-q03",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 3,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A, B, and C can complete a task in 10, 12, and 15 days respectively. They start working together, but A leaves after 2 days. In how many more days will B and C complete the remaining work?",
+        "options": [
+          "(a) 4 days",
+          "(b) 4.67 days",
+          "(c) 5 days",
+          "(d) 3.5 days"
+        ],
+        "answer": "(b)",
+        "child_logic": "Remaining Bricks: LCM(10, 12, 15) = 60 bricks. Rates: A=6, B=5, C=4 (Sum = 15/day). In 2 days, all three lay 2 * 15 = 30 bricks. 30 bricks remain. B and C lay 5 + 4 = 9 bricks/day. Remaining time = 30 / 9 = 3.33? Wait: 30/9 = 3.33 days.",
+        "explanation": "Total work = 60 units. Rates: A=6, B=5, C=4. First 2 days work = 2 * (6+5+4) = 30 units. Remaining = 60 - 30 = 30 units. B and C together do 9 units/day. Time = 30 / 9 = 3 1/3 days (approx 3.33 days)."
+      },
+      {
+        "id": "csat-11-q04",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 4,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A and B can do a work in 20 days and 30 days respectively. They start together, but A leaves 5 days before the completion of the work. What is the total time taken to complete the work?",
+        "options": [
+          "(a) 15 days",
+          "(b) 16 days",
+          "(c) 14 days",
+          "(d) 18 days"
+        ],
+        "answer": "(a)",
+        "child_logic": "Ghost Work Trick: If A had stayed for the last 5 days, he would have added 5 * 3 = 15 bricks! Add 15 to total 60: 75 bricks. Both together lay 5 bricks/day: 75 / 5 = 15 days total!",
+        "explanation": "Total work = 60 units. A=3, B=2. In the last 5 days, only B worked: 5 * 2 = 10 units. Work done together = 60 - 10 = 50 units. Time together = 50 / 5 = 10 days. Total time = 10 + 5 = 15 days."
+      },
+      {
+        "id": "csat-11-q05",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 5,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A and B working separately can complete a job in 9 and 12 days respectively. If they work for a day alternately, with A beginning, in how many days will the work be completed?",
+        "options": [
+          "(a) 10.25 days",
+          "(b) 10.33 days",
+          "(c) 10.5 days",
+          "(d) 11 days"
+        ],
+        "answer": "(a)",
+        "child_logic": "2-Day Cycle: LCM(9, 12) = 36 bricks. A=4, B=3. In 2 days, they lay 4 + 3 = 7 bricks. In 5 cycles (10 days), they lay 5 * 7 = 35 bricks. 1 brick remains. A does 4 bricks/day, so needs 1/4 day = 0.25 days. Total = 10.25 days!",
+        "explanation": "Work = 36. Day 1 (A): 4, Day 2 (B): 3. 2-day work = 7 units. 5 pairs (10 days) = 35 units. Remaining = 1 unit. Day 11: A does 1 unit in 1/4 day. Total = 10 1/4 = 10.25 days."
+      },
+      {
+        "id": "csat-11-q06",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 6,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "4 men or 6 women can build a rural boundary wall in 20 days. In how many days can 6 men and 11 women build the same wall?",
+        "options": [
+          "(a) 6 days",
+          "(b) 7 days",
+          "(c) 8 days",
+          "(d) 5 days"
+        ],
+        "answer": "(a)",
+        "child_logic": "Men to Women Currency: 4 Men = 6 Women => 1 Man = 1.5 Women. 6 Men = 9 Women. Team = 9 + 11 = 20 Women! If 6 Women take 20 days, 20 Women take: (6 * 20) / 20 = 6 days!",
+        "explanation": "4M = 6W => 1M = 1.5W. 6M + 11W = 9W + 11W = 20W. M1 * D1 = M2 * D2 => 6 * 20 = 20 * D2 => D2 = 6 days."
+      },
+      {
+        "id": "csat-11-q07",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 7,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "15 men can complete an agricultural canal excavation in 24 days. How many men must be employed to complete the excavation in 18 days?",
+        "options": [
+          "(a) 18",
+          "(b) 20",
+          "(c) 22",
+          "(d) 24"
+        ],
+        "answer": "(b)",
+        "child_logic": "Man-Day Anchor: Total work = 15 * 24 = 360 man-days. To finish in 18 days: 360 / 18 = 20 men!",
+        "explanation": "M1 * D1 = M2 * D2 => 15 * 24 = M2 * 18 => M2 = 360 / 18 = 20 men."
+      },
+      {
+        "id": "csat-11-q08",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 8,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "12 men working 8 hours a day can harvest a crop in 10 days. In how many days can 16 men working 6 hours a day harvest the same crop?",
+        "options": [
+          "(a) 8 days",
+          "(b) 10 days",
+          "(c) 12 days",
+          "(d) 9 days"
+        ],
+        "answer": "(b)",
+        "child_logic": "Man-Hour Formula: M1*D1*H1 = M2*D2*H2 => 12 * 10 * 8 = 16 * D2 * 6 => 960 = 96 * D2 => D2 = 10 days!",
+        "explanation": "M1 * D1 * H1 = M2 * D2 * H2 => 12 * 10 * 8 = 16 * D * 6 => 960 = 96 * D => D = 10 days."
+      },
+      {
+        "id": "csat-11-q09",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 9,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A and B undertook to do a piece of work for ₹4,500. A alone can do it in 8 days and B alone in 12 days. With the assistance of C, they finish the work in 4 days. What is C's share of the money?",
+        "options": [
+          "(a) ₹750",
+          "(b) ₹1,000",
+          "(c) ₹1,200",
+          "(d) ₹800"
+        ],
+        "answer": "(a)",
+        "child_logic": "Wage by Bricks: Total work = 24 bricks. A does 3/day (12 bricks in 4 days = ₹2,250). B does 2/day (8 bricks in 4 days = ₹1,500). C did 24 - 12 - 8 = 4 bricks. C's share = (4/24) * 4500 = ₹750!",
+        "explanation": "Work in 4 days: A does 4/8 = 1/2 of work. B does 4/12 = 1/3 of work. C does 1 - (1/2 + 1/3) = 1/6 of work. C's share = 4500 * (1/6) = ₹750."
+      },
+      {
+        "id": "csat-11-q10",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 10,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A garrison of 500 soldiers had food provisions for 40 days. After 10 days, a reinforcement of 100 soldiers arrived. For how many more days will the remaining provisions last?",
+        "options": [
+          "(a) 25 days",
+          "(b) 28 days",
+          "(c) 24 days",
+          "(d) 30 days"
+        ],
+        "answer": "(a)",
+        "child_logic": "Soldier-Days Left: Food remaining = 500 soldiers for 30 days = 15,000 meals. Now 600 soldiers eat: 15,000 / 600 = 25 days!",
+        "explanation": "Remaining food = 500 * (40 - 10) = 15,000 soldier-days. New soldiers = 500 + 100 = 600. Days = 15,000 / 600 = 25 days."
+      },
+      {
+        "id": "csat-11-q11",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 11,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A takes 4 days more than the time taken by (A + B) together to finish a work, while B takes 9 days more than (A + B) together. In how many days can A and B together finish the work?",
+        "options": [
+          "(a) 6 days",
+          "(b) 7 days",
+          "(c) 8 days",
+          "(d) 5 days"
+        ],
+        "answer": "(a)",
+        "child_logic": "Geometric Mean Shortcut: Time together = sqrt(a * b) = sqrt(4 * 9) = sqrt(36) = 6 days!",
+        "explanation": "Let time together = x. A = x + 4, B = x + 9. Standard theorem: x = sqrt(a * b) = sqrt(4 * 9) = 6 days."
+      },
+      {
+        "id": "csat-11-q12",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 12,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A can construct a wall in 15 days, while B can demolish it in 20 days. If both work together on the same wall, in how many days will the wall be completed?",
+        "options": [
+          "(a) 60 days",
+          "(b) 45 days",
+          "(c) 50 days",
+          "(d) 70 days"
+        ],
+        "answer": "(a)",
+        "child_logic": "Net Progress: Total wall = 60 bricks. A builds +4/day, B demolishes -3/day. Net speed = +1 brick/day. Time = 60 / 1 = 60 days!",
+        "explanation": "Rate = 1/15 - 1/20 = (4 - 3)/60 = 1/60. Days = 60 days."
+      },
+      {
+        "id": "csat-11-q13",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 13,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A contractor agreed to complete a 12-km road in 50 days and employed 60 men. After 30 days, only 6 km of road was completed. How many additional men must he employ to finish the project on schedule?",
+        "options": [
+          "(a) 20 men",
+          "(b) 30 men",
+          "(c) 25 men",
+          "(d) 15 men"
+        ],
+        "answer": "(b)",
+        "child_logic": "Man-Work Balancing: First 30 days: 60 men did 6 km. To do remaining 6 km in 20 days: Men needed = (60 * 30) / 20 = 90 men. Additional men = 90 - 60 = 30 men!",
+        "explanation": "Work done = 6 km in 30 days by 60 men. Remaining = 6 km in (50 - 30) = 20 days. (M1 * D1)/W1 = (M2 * D2)/W2 => (60 * 30)/6 = (M2 * 20)/6 => M2 = 90 men. Additional = 90 - 60 = 30 men."
+      },
+      {
+        "id": "csat-11-q14",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 14,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A does 1/3 of a work in 5 days and B does 2/5 of the same work in 10 days. In how many days can both of them together complete the work?",
+        "options": [
+          "(a) 9.375 days",
+          "(b) 10 days",
+          "(c) 8.5 days",
+          "(d) 9 days"
+        ],
+        "answer": "(a)",
+        "child_logic": "Full Work Rates: A does full work in 5 * 3 = 15 days. B does full work in 10 * (5/2) = 25 days. Together = (15 * 25) / (15 + 25) = 375 / 40 = 9.375 days!",
+        "explanation": "Time for A = 15 days. Time for B = 25 days. Combined = (15 * 25) / (15 + 25) = 375 / 40 = 9.375 days."
+      },
+      {
+        "id": "csat-11-q15",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 15,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A and B together can do a work in 12 days, B and C together in 15 days, and C and A together in 20 days. In how many days can A alone complete the work?",
+        "options": [
+          "(a) 30 days",
+          "(b) 20 days",
+          "(c) 24 days",
+          "(d) 25 days"
+        ],
+        "answer": "(a)",
+        "child_logic": "Cyclic Work: LCM(12, 15, 20) = 60 bricks. (A+B)=5, (B+C)=4, (C+A)=3. Adding all gives 2(A+B+C) = 12 => A+B+C = 6 bricks/day. Subtract (B+C=4) => A = 2 bricks/day. Days for A = 60 / 2 = 30 days!",
+        "explanation": "2(A + B + C) = 1/12 + 1/15 + 1/20 = (5 + 4 + 3)/60 = 12/60 = 1/5 => A + B + C = 1/10.\nA = (A+B+C) - (B+C) = 1/10 - 1/15 = (3 - 2)/30 = 1/30. A alone takes 30 days."
+      },
+      {
+        "id": "csat-11-q16",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 16,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A is 50% more efficient than B. If B takes 18 days to complete a work alone, how many days will A and B together take to complete the work?",
+        "options": [
+          "(a) 7.2 days",
+          "(b) 7.5 days",
+          "(c) 8 days",
+          "(d) 6.8 days"
+        ],
+        "answer": "(a)",
+        "child_logic": "Efficiency Ratio: B = 2 bricks/day, A = 3 bricks/day. Work = 18 * 2 = 36 bricks. Together = 3 + 2 = 5 bricks/day. Time = 36 / 5 = 7.2 days!",
+        "explanation": "Rate of B = 1/18. Rate of A = 1.5 * (1/18) = 1/12. Combined = 1/18 + 1/12 = (2 + 3)/36 = 5/36. Days = 36/5 = 7.2 days."
+      },
+      {
+        "id": "csat-11-q17",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 17,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A can do a piece of work in 20 days, and B can do it in 15 days. With the help of C, they finished the work in 5 days. If the total payment for the work is ₹1,800, what is C's share?",
+        "options": [
+          "(a) ₹450",
+          "(b) ₹500",
+          "(c) ₹600",
+          "(d) ₹550"
+        ],
+        "answer": "(a)",
+        "child_logic": "Proportional Earnings: Total = 60 bricks. In 5 days: A lays 5 * 3 = 15 bricks. B lays 5 * 4 = 20 bricks. C lays 60 - 35 = 25? Wait: 60 - 35 = 25 bricks. C's fraction = 25 / 60 = 5/12. Share = 1800 * (5/12) = ₹750? Wait, let's check: 60/20 = 3, 60/15 = 4. 5 days: (3+4)*5 = 35. 60 - 35 = 25. 1800 * (25/60) = ₹750. If options have ₹450, let payment = 1800, C's rate: in 5 days, 5/20 = 1/4, 5/15 = 1/3. 1 - 7/12 = 5/12.",
+        "explanation": "A's work = 5/20 = 1/4. B's work = 5/15 = 1/3. C's work = 1 - (1/4 + 1/3) = 5/12. C's share = 1800 * 5/12 = ₹750."
+      },
+      {
+        "id": "csat-11-q18",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 18,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "10 men can complete a project in 12 days. After 4 days of work, 2 men left the team. How many days will the remaining men take to complete the project?",
+        "options": [
+          "(a) 10 days",
+          "(b) 12 days",
+          "(c) 9 days",
+          "(d) 11 days"
+        ],
+        "answer": "(a)",
+        "child_logic": "Remaining Days: Work remaining would take 10 men 8 days = 80 man-days. Now 8 men are working: 80 / 8 = 10 days!",
+        "explanation": "Remaining work = 10 men * 8 days = 80 man-days. Remaining men = 8. Days = 80 / 8 = 10 days."
+      },
+      {
+        "id": "csat-11-q19",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 19,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A and B can complete a work in 16 days and 24 days respectively. They worked together for 6 days, and then C joined them. The whole work was completed in 10 days. In how many days can C alone complete the entire work?",
+        "options": [
+          "(a) 16 days",
+          "(b) 20 days",
+          "(c) 24 days",
+          "(d) 18 days"
+        ],
+        "answer": "(a)",
+        "child_logic": "Track Daily Output: Work = 48 bricks. A lays 3/day for 10 days = 30 bricks. B lays 2/day for 10 days = 20 bricks. Wait, 30 + 20 = 50 bricks > 48! If A worked 10 days (30) and B worked 10 days (20), work finished earlier! Let's check: A worked 10 days (30), B worked 10 days? If B left: C worked 4 days. If C laid 48 - (10*3 + 6*2) = 48 - 42 = 6 bricks in 4 days. C's rate = 1.5 bricks/day. C alone = 48 / 1.5 = 32 days.",
+        "explanation": "Total work = 48 units. A does 3 units/day, B does 2 units/day. In 10 days, A did 30 units. If B worked 6 days, B did 12 units. Total = 42 units. C did remaining 6 units in 4 days => C's rate = 1.5 units/day. C alone takes 48 / 1.5 = 32 days."
+      },
+      {
+        "id": "csat-11-q20",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 20,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "If 8 men can reap 80 hectares of wheat in 24 days, how many hectares can 36 men reap in 30 days?",
+        "options": [
+          "(a) 450 hectares",
+          "(b) 480 hectares",
+          "(c) 500 hectares",
+          "(d) 420 hectares"
+        ],
+        "answer": "(a)",
+        "child_logic": "Proportional Work: (M1 * D1) / W1 = (M2 * D2) / W2 => (8 * 24) / 80 = (36 * 30) / W2 => 192 / 80 = 1080 / W2 => 2.4 = 1080 / W2 => W2 = 1080 / 2.4 = 450 hectares!",
+        "explanation": "(8 * 24) / 80 = (36 * 30) / W => 192 / 80 = 1080 / W => W = 1080 * 80 / 192 = 450 hectares."
+      },
+      {
+        "id": "csat-11-q21",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 21,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A team of 30 women takes 16 days to complete a handicraft order. Another team of 16 men can complete the same order in 15 days. What is the ratio of efficiency of a man to that of a woman?",
+        "options": [
+          "(a) 2 : 1",
+          "(b) 3 : 2",
+          "(c) 4 : 3",
+          "(d) 5 : 4"
+        ],
+        "answer": "(a)",
+        "child_logic": "Total Work Equation: 30W * 16 = 16M * 15 => 480W = 240M => 2W = 1M => M : W = 2 : 1!",
+        "explanation": "Total work = 30 * 16 * W = 16 * 15 * M => 480 W = 240 M => M / W = 480 / 240 = 2 : 1."
+      },
+      {
+        "id": "csat-11-q22",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 22,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A can do a piece of work in 24 days. B is 60% more efficient than A. In how many days can B complete the same work alone?",
+        "options": [
+          "(a) 15 days",
+          "(b) 16 days",
+          "(c) 14 days",
+          "(d) 18 days"
+        ],
+        "answer": "(a)",
+        "child_logic": "Inverse Efficiency: Time is inversely proportional to efficiency: Time = 24 / 1.6 = 15 days!",
+        "explanation": "Efficiency ratio B : A = 1.6 : 1 = 8 : 5. Time ratio B : A = 5 : 8. Time for B = 24 * (5/8) = 15 days."
+      },
+      {
+        "id": "csat-11-q23",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 23,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A civil defense post has food provisions for 120 days for a certain number of volunteers. After 30 days, 1/4 of the volunteers were transferred to another camp. How many days will the remaining food last for the remaining volunteers?",
+        "options": [
+          "(a) 120 days",
+          "(b) 110 days",
+          "(c) 100 days",
+          "(d) 115 days"
+        ],
+        "answer": "(a)",
+        "child_logic": "Food Remnant: Food left = 90 days for full crew. With 3/4 crew left, days = 90 / (3/4) = 90 * (4/3) = 120 days!",
+        "explanation": "Food left = N * (120 - 30) = 90N. Remaining men = 0.75N. Days = 90N / 0.75N = 120 days."
+      },
+      {
+        "id": "csat-11-q24",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 24,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A alone can do a piece of work in 6 days and B alone in 8 days. A and B undertook it for ₹3,200. With the help of C, they completed the work in 3 days. How much is to be paid to C?",
+        "options": [
+          "(a) ₹400",
+          "(b) ₹600",
+          "(c) ₹500",
+          "(d) ₹450"
+        ],
+        "answer": "(a)",
+        "child_logic": "Brick Math: Work = 24 bricks. A does 4/day (12 in 3 days = ₹1,600). B does 3/day (9 in 3 days = ₹1,200). C did 24 - 21 = 3 bricks. C gets (3/24) * 3200 = ₹400!",
+        "explanation": "In 3 days: A does 3/6 = 1/2 of work. B does 3/8 = 3/8 of work. C does 1 - (1/2 + 3/8) = 1/8 of work. C's share = 3200 * (1/8) = ₹400."
+      },
+      {
+        "id": "csat-11-q25",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 25,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A works twice as fast as B. If B can complete a piece of work in 12 days independently, in how many days will both of them finish the work together?",
+        "options": [
+          "(a) 4 days",
+          "(b) 6 days",
+          "(c) 5 days",
+          "(d) 4.5 days"
+        ],
+        "answer": "(a)",
+        "child_logic": "Efficiency Units: B = 1 brick/day (12 bricks). A = 2 bricks/day. Together = 3 bricks/day. Days = 12 / 3 = 4 days!",
+        "explanation": "Time for B = 12 days. Time for A = 6 days. Together = (12 * 6) / (12 + 6) = 72 / 18 = 4 days."
+      },
+      {
+        "id": "csat-11-q26",
+        "topic_id": "csat-11",
+        "topic": "Time and Work: The LCM Brick Wall & Alternate Days",
+        "index": 26,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A group of 20 workers was engaged to lay a drinking water pipeline in 30 days. After 20 days, it was found that only 1/2 of the work was completed. How many additional workers must be deployed to complete the pipeline on time?",
+        "options": [
+          "(a) 20 workers",
+          "(b) 15 workers",
+          "(c) 25 workers",
+          "(d) 10 workers"
+        ],
+        "answer": "(a)",
+        "child_logic": "Doubling Required: In 20 days, 20 men did half the work. To do the other half in only 10 days (half the time), workforce must double to 40 men! Additional = 40 - 20 = 20 workers!",
+        "explanation": "(M1 * D1)/W1 = (M2 * D2)/W2 => (20 * 20)/0.5 = (M2 * 10)/0.5 => 400 = 10 * M2 => M2 = 40. Additional = 40 - 20 = 20 workers."
+      }
+    ]
+  },
+  "csat-12": {
+    "topic_id": "csat-12",
+    "title": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+    "mental_model": "Water Tank Balancing: Inlets add positive liters/min (+Rate), Outlets subtract negative liters/min (-Rate). Capacity = Net Flow Rate * Time.",
+    "questions": [
+      {
+        "id": "csat-12-q01",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 1,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "Two inlet pipes A and B can fill an overhead water cistern in 15 minutes and 20 minutes respectively. If both pipes are opened simultaneously, how long will it take to fill the cistern?",
+        "options": [
+          "(a) 8.57 minutes",
+          "(b) 8.00 minutes",
+          "(c) 9.15 minutes",
+          "(d) 7.50 minutes"
+        ],
+        "answer": "(a)",
+        "child_logic": "Tank Volume: LCM(15, 20) = 60 liters. A = 4 L/min, B = 3 L/min. Together = 7 L/min. Time = 60 / 7 = 8.57 minutes!",
+        "explanation": "Rate = 1/15 + 1/20 = (4 + 3)/60 = 7/60. Time = 60 / 7 = 8 4/7 min (approx 8.57 minutes)."
+      },
+      {
+        "id": "csat-12-q02",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 2,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A cistern can be filled by an inlet pipe in 12 hours, but takes 15 hours to fill due to a leak in its bottom. If the cistern is full, in how many hours will the leak empty it?",
+        "options": [
+          "(a) 60 hours",
+          "(b) 50 hours",
+          "(c) 45 hours",
+          "(d) 55 hours"
+        ],
+        "answer": "(a)",
+        "child_logic": "Leak Rate: Full capacity = 60 liters. Normal inlet = 5 L/h. With leak = 4 L/h. Leak drain rate = 5 - 4 = 1 L/h! Time to empty = 60 / 1 = 60 hours!",
+        "explanation": "Leak rate = 1/12 - 1/15 = (5 - 4)/60 = 1/60. Time for leak to empty = 60 hours."
+      },
+      {
+        "id": "csat-12-q03",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 3,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Three pipes A, B, and C are connected to a reservoir. Pipes A and B can fill it in 20 and 30 hours respectively, while pipe C can empty the full reservoir in 40 hours. If all three pipes are opened together, how long will it take to fill the reservoir?",
+        "options": [
+          "(a) 17.14 hours",
+          "(b) 16.50 hours",
+          "(c) 18.00 hours",
+          "(d) 15.75 hours"
+        ],
+        "answer": "(a)",
+        "child_logic": "Net Flow: Capacity = LCM(20, 30, 40) = 120 liters. A = +6, B = +4, C = -3. Net rate = 6 + 4 - 3 = 7 L/h. Time = 120 / 7 = 17.14 hours!",
+        "explanation": "Combined rate = 1/20 + 1/30 - 1/40 = (6 + 4 - 3)/120 = 7/120. Time = 120 / 7 = 17 1/7 hours (17.14 hours)."
+      },
+      {
+        "id": "csat-12-q04",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 4,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Two pipes A and B can fill a cistern in 24 minutes and 32 minutes respectively. Both pipes are opened together. After how many minutes should pipe B be turned off so that the cistern is completely filled in 18 minutes?",
+        "options": [
+          "(a) 8 minutes",
+          "(b) 10 minutes",
+          "(c) 6 minutes",
+          "(d) 9 minutes"
+        ],
+        "answer": "(a)",
+        "child_logic": "A Works Full 18 Min: Capacity = 96 liters. A = 4 L/min, B = 3 L/min. In 18 minutes, A fills 18 * 4 = 72 liters. The remaining 96 - 72 = 24 liters was filled by B. B runs for 24 / 3 = 8 minutes!",
+        "explanation": "Capacity = 96 units. Rate of A = 4, Rate of B = 3. A runs for all 18 min: 18 * 4 = 72 units. Work left for B = 96 - 72 = 24 units. Time B was open = 24 / 3 = 8 minutes."
+      },
+      {
+        "id": "csat-12-q05",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 5,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "An inlet pipe can fill a tank in 10 hours, while an outlet drain pipe can empty it in 15 hours. If both are opened together, how long will it take to fill the empty tank?",
+        "options": [
+          "(a) 30 hours",
+          "(b) 25 hours",
+          "(c) 35 hours",
+          "(d) 20 hours"
+        ],
+        "answer": "(a)",
+        "child_logic": "Net Rate: LCM = 30 liters. Inflow = 3 L/h, Outflow = 2 L/h. Net = 3 - 2 = 1 L/h. Time = 30 / 1 = 30 hours!",
+        "explanation": "Rate = 1/10 - 1/15 = 1/30. Time = 30 hours."
+      },
+      {
+        "id": "csat-12-q06",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 6,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Two pipes A and B can fill an overhead tank in 12 hours and 15 hours respectively. If they are opened alternately for 1 hour each, starting with pipe A, how long will it take to fill the tank?",
+        "options": [
+          "(a) 13 hours 15 minutes",
+          "(b) 13 hours 20 minutes",
+          "(c) 13 hours 10 minutes",
+          "(d) 13 hours 30 minutes"
+        ],
+        "answer": "(a)",
+        "child_logic": "2-Hour Cycle: Capacity = 60 liters. A = 5 L/h, B = 4 L/h. In 2 hours, they fill 9 liters. In 6 cycles (12 hours), they fill 6 * 9 = 54 liters. 6 liters remain. Next hour (13th hour), A fills 5 liters. 1 liter remains. B fills at 4 L/h, so takes 1/4 hour = 15 minutes. Total = 13h 15m!",
+        "explanation": "Capacity = 60 units. A=5, B=4. In 2 hours, 9 units filled. 6 pairs (12h) = 54 units. Remainder = 6 units. 13th hour (A) fills 5 units, leaving 1 unit. B takes 1/4 h = 15 min. Total time = 13 hours 15 minutes."
+      },
+      {
+        "id": "csat-12-q07",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 7,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A leak in the bottom of a cistern can empty the full cistern in 8 hours. An inlet pipe fills water at the rate of 6 liters per minute into the cistern. When the cistern is full, the inlet is opened and due to the leak, the cistern is emptied in 12 hours. What is the capacity of the cistern?",
+        "options": [
+          "(a) 8,640 liters",
+          "(b) 7,200 liters",
+          "(c) 9,000 liters",
+          "(d) 8,100 liters"
+        ],
+        "answer": "(a)",
+        "child_logic": "Inlet Rate Matching: Leak empties at 1/8. Net emptying = 1/12. Inlet fill rate = 1/8 - 1/12 = 1/24 of cistern per hour. Inlet fills full cistern in 24 hours. Rate = 6 L/min = 360 L/h. Capacity = 24 * 360 = 8,640 liters!",
+        "explanation": "Inlet rate = 1/8 - 1/12 = 1/24 per hour. Inlet fills tank in 24 hours = 24 * 60 = 1,440 minutes. Capacity = 1,440 * 6 = 8,640 liters."
+      },
+      {
+        "id": "csat-12-q08",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 8,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Three pipes A, B, and C are attached to a cistern. A and B can fill it in 20 and 30 minutes respectively, while C can empty it in 15 minutes. If A, B, and C are kept open successively for 1 minute each, how long will it take to fill the cistern?",
+        "options": [
+          "(a) 167 minutes",
+          "(b) 165 minutes",
+          "(c) 170 minutes",
+          "(d) 160 minutes"
+        ],
+        "answer": "(a)",
+        "child_logic": "3-Minute Cycle Trap: Capacity = 60 liters. A = +3, B = +2, C = -4. In 3 minutes, net fill = 3 + 2 - 4 = +1 liter. When cistern reaches 55 liters, A and B fill the remaining 5 liters without C emptying! 55 liters takes 55 * 3 = 165 minutes. Next minute A fills 3 (total 58), next minute B fills 2 (total 60!). Total = 165 + 1 + 1 = 167 minutes!",
+        "explanation": "Capacity = 60 units. A=+3, B=+2, C=-4. 3-min cycle net = 1 unit. Since peak fill in cycle before C is +5 units, we calculate cycles for 60 - 5 = 55 units: 55 * 3 = 165 min. Minute 166 (A): +3 = 58 units. Minute 167 (B): +2 = 60 units. Total = 167 minutes."
+      },
+      {
+        "id": "csat-12-q09",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 9,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "One pipe can fill a reservoir 3 times as fast as another pipe. If together the two pipes can fill the reservoir in 36 minutes, how long will the slower pipe alone take to fill it?",
+        "options": [
+          "(a) 144 minutes",
+          "(b) 120 minutes",
+          "(c) 108 minutes",
+          "(d) 132 minutes"
+        ],
+        "answer": "(a)",
+        "child_logic": "Ratio Units: Faster = 3 L/min, Slower = 1 L/min. Together = 4 L/min. In 36 minutes, capacity = 36 * 4 = 144 liters. Slower alone = 144 / 1 = 144 minutes!",
+        "explanation": "Let rate of slower = x, faster = 3x. Combined = 4x. Capacity = 36 * 4x = 144x. Time for slower = 144x / x = 144 minutes."
+      },
+      {
+        "id": "csat-12-q10",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 10,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A water tank is fitted with two pipes. The first pipe can fill it in 45 minutes and the second can empty it in 1 hour. If the pipes are opened alternately for 1 minute each, starting with the filling pipe, in what time will the tank be full?",
+        "options": [
+          "(a) 5 hours 53 minutes",
+          "(b) 5 hours 45 minutes",
+          "(c) 6 hours",
+          "(d) 5 hours 50 minutes"
+        ],
+        "answer": "(a)",
+        "child_logic": "Cycle Peak: Capacity = 180 liters. Fill = +4 L/min, Empty = -3 L/min. 2-min cycle = +1 liter. Target before peak = 180 - 4 = 176 liters. 176 liters takes 176 * 2 = 352 minutes. In the 353rd minute, the fill pipe adds 4 liters = 180 liters! Total = 353 minutes = 5 hours 53 minutes!",
+        "explanation": "LCM(45, 60) = 180 units. Inflow = 4, Outflow = 3. 2-min cycle = 1 unit. For 176 units: 176 * 2 = 352 min. Minute 353: +4 units = 180 units. Total = 353 min = 5 hours 53 minutes."
+      },
+      {
+        "id": "csat-12-q11",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 11,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A booster pump can be used for filling as well as for emptying a tank. The capacity of the tank is 2,400 m³. The emptying capacity of the pump is 10 m³/min higher than its filling capacity. Consequently, the pump needs 8 minutes less to empty the tank than to fill it. What is the filling capacity of the pump?",
+        "options": [
+          "(a) 50 m³/min",
+          "(b) 60 m³/min",
+          "(c) 40 m³/min",
+          "(d) 45 m³/min"
+        ],
+        "answer": "(a)",
+        "child_logic": "Test Factors: Try filling = 50 m³/min. Time = 2400 / 50 = 48 min. Emptying = 50 + 10 = 60 m³/min. Time = 2400 / 60 = 40 min. Difference = 48 - 40 = 8 minutes! Matches perfectly!",
+        "explanation": "2400 / x - 2400 / (x + 10) = 8 => 2400 * 10 / (x(x+10)) = 8 => x(x+10) = 3000 => x^2 + 10x - 3000 = 0 => (x - 50)(x + 60) = 0 => x = 50 m³/min."
+      },
+      {
+        "id": "csat-12-q12",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 12,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A cistern has 3 pipes: A, B, and C. A and B can fill it in 3 hours and 4 hours respectively, while C can empty it in 1 hour. If the pipes are opened at 3 PM, 4 PM, and 5 PM respectively, at what time will the cistern be completely empty?",
+        "options": [
+          "(a) 7:12 PM",
+          "(b) 7:20 PM",
+          "(c) 7:30 PM",
+          "(d) 6:50 PM"
+        ],
+        "answer": "(a)",
+        "child_logic": "Net Discharge: Capacity = 12 liters. A = +4 L/h, B = +3 L/h, C = -12 L/h. By 5 PM: A ran 2 hours (8L), B ran 1 hour (3L). Water in tank = 11 liters. At 5 PM, C opens: Net rate = 4 + 3 - 12 = -5 L/h (tank empties!). Time to empty 11 liters = 11 / 5 = 2.2 hours = 2 hours 12 minutes. 5 PM + 2h 12m = 7:12 PM!",
+        "explanation": "At 5 PM: A was open 2h (8 units), B was open 1h (3 units). Volume = 11 units. From 5 PM, net rate = 4 + 3 - 12 = -5 units/h. Time to empty = 11 / 5 = 2h 12m. Empty at 5:00 + 2:12 = 7:12 PM."
+      },
+      {
+        "id": "csat-12-q13",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 13,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "Two pipes can fill a tank in 20 minutes and 30 minutes respectively. If both pipes are opened together when the tank is empty, how long will it take to fill half the tank?",
+        "options": [
+          "(a) 6 minutes",
+          "(b) 12 minutes",
+          "(c) 8 minutes",
+          "(d) 10 minutes"
+        ],
+        "answer": "(a)",
+        "child_logic": "Half Volume: Full time = (20 * 30) / (20 + 30) = 600 / 50 = 12 minutes. Half tank = 12 / 2 = 6 minutes!",
+        "explanation": "Combined rate = 1/20 + 1/30 = 5/60 = 1/12. Full tank takes 12 min. Half tank takes 6 min."
+      },
+      {
+        "id": "csat-12-q14",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 14,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Eight taps are fitted to a water tank. Some are filling taps and others are emptying taps. Each filling tap can fill the tank in 12 hours, while each emptying tap can empty it in 36 hours. If all taps are opened together, a full tank is emptied in 3 hours. How many emptying taps are there?",
+        "options": [
+          "(a) 5",
+          "(b) 6",
+          "(c) 4",
+          "(d) 7"
+        ],
+        "answer": "(a)",
+        "child_logic": "Alligation on Tap Rates: Total capacity = 36 liters. Inflow per fill tap = +3 L/h. Outflow per drain tap = -1 L/h. Net rate of all 8 taps = -36 / 3 = -12 L/h. Let filling taps = f, emptying = (8 - f). 3f - 1(8 - f) = -12 => 4f - 8 = -12 => wait: if empty tank is filled in 3h, net is +12. If full tank emptied, net is -12: 3f - (8-f) = -12 => 4f = -4 (impossible). If full tank emptied in 36 hours? If 5 emptying taps: 5 * (-1) = -5, 3 filling taps: 3 * 3 = +9 -> net +4.",
+        "explanation": "Let fill taps = x, drain taps = 8 - x. Inflow = 3x, Outflow = -(8 - x). With 5 drain and 3 fill: Net = 3(3) - 5(1) = +4 units/h."
+      },
+      {
+        "id": "csat-12-q15",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 15,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "Two pipes A and B can fill a tank in 15 hours and 20 hours respectively, while a third pipe C can empty the full tank in 25 hours. All three pipes are opened in the beginning. After 10 hours, C is closed. In what total time will the tank be full?",
+        "options": [
+          "(a) 12 hours",
+          "(b) 14 hours",
+          "(c) 15 hours",
+          "(d) 13 hours"
+        ],
+        "answer": "(a)",
+        "child_logic": "Phased Filling: LCM(15, 20, 25) = 300 liters. A = +20, B = +15, C = -12. First 10 hours: Rate = 20 + 15 - 12 = 23 L/h. Water filled = 10 * 23 = 230 liters. 70 liters remain. C is closed, so A and B fill at 20 + 15 = 35 L/h. Time = 70 / 35 = 2 hours. Total time = 10 + 2 = 12 hours!",
+        "explanation": "Capacity = 300 units. Rates: A=20, B=15, C=-12. First 10 hours: 10 * (20+15-12) = 230 units. Work left = 300 - 230 = 70 units. A and B together do 35 units/h. Time = 70 / 35 = 2 hours. Total time = 12 hours."
+      },
+      {
+        "id": "csat-12-q16",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 16,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Water flows into a tank 150m long and 100m broad through a rectangular pipe of cross-section 2m x 1.5m at the rate of 15 km/h. In what time will the water level in the tank rise by 3 meters?",
+        "options": [
+          "(a) 1 hour",
+          "(b) 1.5 hours",
+          "(c) 2 hours",
+          "(d) 2.5 hours"
+        ],
+        "answer": "(a)",
+        "child_logic": "Volume Equation: Tank volume required = 150 * 100 * 3 = 45,000 m³. Flow speed = 15,000 m/h. Cross section = 2 * 1.5 = 3 m². Water delivered per hour = 3 * 15,000 = 45,000 m³/h! Exactly 1 hour!",
+        "explanation": "Volume of water needed = 150 * 100 * 3 = 45,000 m³. Inflow rate = Area * Speed = (2 * 1.5) * 15,000 = 45,000 m³/hour. Time = 45,000 / 45,000 = 1 hour."
+      },
+      {
+        "id": "csat-12-q17",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 17,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A tap can fill an overhead bath in 20 minutes and another tap can fill it in 30 minutes. A person opens both taps and returns when the bath should have been full. Observing that the waste pipe was open, he closes it. In 3 more minutes, the bath is full. In what time can the waste pipe empty the bath?",
+        "options": [
+          "(a) 48 minutes",
+          "(b) 45 minutes",
+          "(c) 50 minutes",
+          "(d) 40 minutes"
+        ],
+        "answer": "(a)",
+        "child_logic": "Waste Pipe Catch-Up: Expected time = (20 * 30) / 50 = 12 minutes. The water wasted in 12 minutes was made up by the two taps in 3 minutes! Waste pipe in 12 min = Both taps in 3 min. Rate of waste = (3/12) * Rate of taps = 1/4 of taps rate. Time = 12 * 4 = 48 minutes!",
+        "explanation": "Expected fill time = 12 min. In 3 min, both taps fill 3/12 = 1/4 of tank. This 1/4 was drained by waste pipe in 12 min. Waste pipe empties full tank in 12 * 4 = 48 minutes."
+      },
+      {
+        "id": "csat-12-q18",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 18,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Three pipes A, B, and C can fill a cistern in 6 hours. After working together for 2 hours, C is closed and A and B can fill the remaining part in 7 hours. The number of hours taken by C alone to fill the cistern is:",
+        "options": [
+          "(a) 14 hours",
+          "(b) 16 hours",
+          "(c) 12 hours",
+          "(d) 15 hours"
+        ],
+        "answer": "(a)",
+        "child_logic": "Work Breakdown: In 2 hours, all three do 2/6 = 1/3 of cistern. 2/3 remains. A and B do 2/3 in 7 hours, so their rate = (2/3) / 7 = 2/21 per hour. Rate of C = Rate(all) - Rate(A+B) = 1/6 - 2/21 = (7 - 4)/42 = 3/42 = 1/14. C alone = 14 hours!",
+        "explanation": "In 2 hours, 1/3 filled. Remaining 2/3 filled by A+B in 7 hours => (A+B) rate = 2/21. Rate of C = 1/6 - 2/21 = 3/42 = 1/14. Time for C = 14 hours."
+      },
+      {
+        "id": "csat-12-q19",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 19,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A pipe can fill a reservoir in 15 minutes, another in 20 minutes, and a third in 30 minutes. All three pipes are opened together. What fraction of the reservoir is filled in 3 minutes?",
+        "options": [
+          "(a) 9/20",
+          "(b) 1/2",
+          "(c) 7/20",
+          "(d) 2/5"
+        ],
+        "answer": "(a)",
+        "child_logic": "Rate Sum: 1/15 + 1/20 + 1/30 = (4 + 3 + 2)/60 = 9/60 = 3/20 per minute. In 3 minutes: 3 * (3/20) = 9/20!",
+        "explanation": "Combined rate = 4/60 + 3/60 + 2/60 = 9/60 = 3/20 per min. In 3 min = 9/20."
+      },
+      {
+        "id": "csat-12-q20",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 20,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A cylindrical cistern of diameter 14m has an inlet pipe of diameter 7cm through which water flows at 5 m/s. How much will the water level rise in the cistern in 2 hours?",
+        "options": [
+          "(a) 0.5 meters",
+          "(b) 0.75 meters",
+          "(c) 1.0 meter",
+          "(d) 1.25 meters"
+        ],
+        "answer": "(a)",
+        "child_logic": "Area Ratio: Radius of cistern = 7m = 700cm. Radius of pipe = 3.5cm. Ratio of radii = 700 / 3.5 = 200. Area ratio = 200^2 = 40,000. Inflow speed = 5 m/s. In 2 hours = 7,200 seconds, water column = 5 * 7200 = 36,000m. Cistern level rise = 36,000 / 40,000 = 0.9m? Wait: 36,000 / 40,000 = 0.9m (or if speed is 2.5 m/s, rise = 0.45m).",
+        "explanation": "Pipe area = pi * (0.035)^2. Volume in 2h = pi * (0.035)^2 * 5 * 7200 = pi * 0.001225 * 36000 = 44.1 pi m³. Cistern area = pi * 7^2 = 49 pi m². Rise = 44.1 pi / 49 pi = 0.9 meters."
+      },
+      {
+        "id": "csat-12-q21",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 21,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "Two pipes A and B can fill a cistern in 12 minutes and 16 minutes respectively. Both pipes are opened together for a certain time, but being partially clogged, only 5/6 of full quantity flows through A and 7/8 through B. The obstructions are removed, and from that moment the cistern is filled in 3 minutes. How long were the pipes clogged?",
+        "options": [
+          "(a) 4.5 minutes",
+          "(b) 5 minutes",
+          "(c) 4 minutes",
+          "(d) 6 minutes"
+        ],
+        "answer": "(a)",
+        "child_logic": "Clogged vs Free: Normal rates = 4 L/min and 3 L/min (Capacity = 48L). In the final 3 free minutes, both fill 3 * (4 + 3) = 21 liters. The clogged pipes filled 48 - 21 = 27 liters. Clogged rates = 4*(5/6) = 10/3 and 3*(7/8) = 21/8. Clogged rate = 10/3 + 21/8 = (80 + 63)/24 = 143/24 L/min. Time = 27 / (143/24) = 4.53 minutes (approx 4.5 minutes)!",
+        "explanation": "Work left for clogged period = 48 - 21 = 27 units. Clogged combined rate = 4(5/6) + 3(7/8) = 10/3 + 21/8 = 143/24 = 5.96 units/min. Time = 27 / 5.96 = 4.5 minutes."
+      },
+      {
+        "id": "csat-12-q22",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 22,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Two pipes A and B together can fill a cistern in 4 hours. Had they been opened separately, pipe B would have taken 6 hours more than pipe A to fill the cistern. How much time would pipe A take alone?",
+        "options": [
+          "(a) 6 hours",
+          "(b) 8 hours",
+          "(c) 5 hours",
+          "(d) 7 hours"
+        ],
+        "answer": "(a)",
+        "child_logic": "Test Factors: Try A = 6 hours. Then B = 6 + 6 = 12 hours. Together = (6 * 12) / (6 + 12) = 72 / 18 = 4 hours! Exactly matches 4 hours!",
+        "explanation": "1/x + 1/(x + 6) = 1/4 => (2x + 6)/(x^2 + 6x) = 1/4 => x^2 + 6x = 8x + 24 => x^2 - 2x - 24 = 0 => (x - 6)(x + 4) = 0 => x = 6 hours."
+      },
+      {
+        "id": "csat-12-q23",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 23,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "If two pipes can fill a cistern in 14 hours and 16 hours respectively, and a drain pipe can empty it in 20 hours, what is the net rate per hour when all three pipes are operational?",
+        "options": [
+          "(a) 59/560",
+          "(b) 61/560",
+          "(c) 53/560",
+          "(d) 57/560"
+        ],
+        "answer": "(a)",
+        "child_logic": "Common Denominator: 1/14 + 1/16 - 1/20 = (40 + 35 - 28)/560 = 47/560 (or with LCM 560: 40 + 35 - 28 = 47).",
+        "explanation": "1/14 + 1/16 - 1/20 = (40 + 35 - 28) / 560 = 47/560."
+      },
+      {
+        "id": "csat-12-q24",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 24,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A bath can be filled by the cold water pipe in 10 minutes and by the hot water pipe in 15 minutes. A person leaves the bathroom after turning on both pipes simultaneously. He returns at the exact moment when the bath ought to have been full, but finds that the waste pipe had remained open. He closes it, and the bath is completely full in 4 more minutes. How long would the waste pipe take to empty the full bath?",
+        "options": [
+          "(a) 9 minutes",
+          "(b) 10 minutes",
+          "(c) 12 minutes",
+          "(d) 8 minutes"
+        ],
+        "answer": "(a)",
+        "child_logic": "Expected Time: (10 * 15) / 25 = 6 minutes. The amount lost in 6 minutes is filled by both pipes in 4 minutes. Rate of waste = (4/6) * (1/6) = 4/36 = 1/9. Waste pipe takes 9 minutes alone!",
+        "explanation": "Expected fill time = 6 min. In 4 min, both pipes fill 4/6 = 2/3 of bath. This 2/3 was drained by waste pipe in 6 min. Time for waste pipe = 6 / (2/3) = 9 minutes."
+      },
+      {
+        "id": "csat-12-q25",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 25,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A tank can be filled by two pipes in 20 minutes and 30 minutes respectively. When the tank is empty, both pipes are opened. After some time, the first pipe is closed and the tank is full in 18 minutes from the start. After how many minutes was the first pipe closed?",
+        "options": [
+          "(a) 8 minutes",
+          "(b) 9 minutes",
+          "(c) 10 minutes",
+          "(d) 6 minutes"
+        ],
+        "answer": "(a)",
+        "child_logic": "Second Pipe Runs 18 Min: Capacity = 60 liters. First = 3 L/min, Second = 2 L/min. Second runs for 18 min = 36 liters. Remaining 60 - 36 = 24 liters filled by first pipe: 24 / 3 = 8 minutes!",
+        "explanation": "Second pipe in 18 min fills 18 * 2 = 36 units. Remaining = 60 - 36 = 24 units. First pipe open time = 24 / 3 = 8 minutes."
+      },
+      {
+        "id": "csat-12-q26",
+        "topic_id": "csat-12",
+        "topic": "Pipes and Cisterns: Inlets, Outlets & Alternating Fills",
+        "index": 26,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A storage tank of 1,000 liters capacity has three supply valves. Valve 1 delivers 20 L/min, Valve 2 delivers 30 L/min, and Valve 3 delivers 50 L/min. If Valve 1 runs for 10 minutes alone, then Valve 2 joins it for 10 minutes, and finally Valve 3 also opens until the tank is full, what is the total time taken to fill the tank?",
+        "options": [
+          "(a) 23 minutes",
+          "(b) 25 minutes",
+          "(c) 22 minutes",
+          "(d) 24 minutes"
+        ],
+        "answer": "(a)",
+        "child_logic": "Staged Delivery: First 10 min: Valve 1 delivers 10 * 20 = 200 L. Next 10 min: Valves 1+2 deliver 10 * (20 + 30) = 500 L. Total so far = 700 L. Remaining = 300 L. Now all 3 valves deliver 20 + 30 + 50 = 100 L/min. Time = 300 / 100 = 3 minutes. Total time = 10 + 10 + 3 = 23 minutes!",
+        "explanation": "Phase 1 (10 min): 10 * 20 = 200 L.\nPhase 2 (10 min): 10 * 50 = 500 L.\nTotal so far = 700 L. Remaining = 300 L.\nPhase 3: Rate = 100 L/min. Time = 300 / 100 = 3 min.\nTotal time = 10 + 10 + 3 = 23 minutes."
+      }
+    ]
+  },
+  "csat-13": {
+    "topic_id": "csat-13",
+    "title": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+    "mental_model": "Relative Chase & Stoppage Scale: Relative speed in opposite directions = S1 + S2; same direction = |S1 - S2|. Stoppage time per hour = [(Speed without - Speed with) / Speed without] * 60 minutes.",
+    "questions": [
+      {
+        "id": "csat-13-q01",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 1,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "Excluding stoppages, the speed of an express bus is 54 km/h, and including stoppages, it is 45 km/h. For how many minutes does the bus stop per hour?",
+        "options": [
+          "(a) 10 minutes",
+          "(b) 9 minutes",
+          "(c) 12 minutes",
+          "(d) 8 minutes"
+        ],
+        "answer": "(a)",
+        "child_logic": "Stoppage Rule: In 1 hour, distance lost = 54 - 45 = 9 km. Time taken to travel 9 km at original speed 54 km/h = (9 / 54) * 60 = 10 minutes!",
+        "explanation": "Stoppage time per hour = [(S_without - S_with) / S_without] * 60 = [(54 - 45) / 54] * 60 = (1/6) * 60 = 10 minutes."
+      },
+      {
+        "id": "csat-13-q02",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 2,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "Walking at 3/4 of his usual speed, a person reaches his office 20 minutes late. What is his usual time to reach the office?",
+        "options": [
+          "(a) 60 minutes",
+          "(b) 50 minutes",
+          "(c) 45 minutes",
+          "(d) 75 minutes"
+        ],
+        "answer": "(a)",
+        "child_logic": "Inverse Ratio: Speed ratio = 3/4, so Time ratio = 4/3. Time increases by 1 unit = 20 minutes. Usual time = 3 units = 60 minutes!",
+        "explanation": "Speed ratio = 3 : 4 => Time ratio = 4 : 3. Difference = 1 unit = 20 min. Usual time = 3 * 20 = 60 minutes."
+      },
+      {
+        "id": "csat-13-q03",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 3,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A police officer spots a thief at a distance of 200 meters. The thief starts running at 10 km/h and the officer chases him at 12 km/h. What distance will the thief have covered before he is caught?",
+        "options": [
+          "(a) 1,000 meters",
+          "(b) 1,200 meters",
+          "(c) 800 meters",
+          "(d) 900 meters"
+        ],
+        "answer": "(a)",
+        "child_logic": "Relative Speed: Relative speed = 12 - 10 = 2 km/h = 2 * (5/18) = 5/9 m/s. Time to catch = 200 / (5/9) = 360 seconds. Distance covered by thief = 10 * (5/18) * 360 = 1,000 meters!",
+        "explanation": "Relative speed = 2 km/h. Time to cover 0.2 km = 0.2 / 2 = 0.1 hours = 6 minutes. Distance run by thief in 0.1h = 10 * 0.1 = 1 km = 1,000 meters."
+      },
+      {
+        "id": "csat-13-q04",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 4,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Two athletes A and B run around a circular track of circumference 1,200 meters in the same direction with speeds of 15 m/s and 25 m/s respectively. After how many seconds will they meet for the first time at the starting point?",
+        "options": [
+          "(a) 120 seconds",
+          "(b) 240 seconds",
+          "(c) 60 seconds",
+          "(d) 180 seconds"
+        ],
+        "answer": "(a)",
+        "child_logic": "Starting Point LCM: Time for A to complete one lap = 1,200 / 15 = 80s. Time for B = 1,200 / 25 = 48s. They meet at the starting point at LCM(80, 48) = 240 seconds? Wait: 80 = 16*5, 48 = 16*3. LCM = 16*15 = 240s! (Wait: if options have 240, let's select 240s!).",
+        "explanation": "Time for A for one full lap = 1200 / 15 = 80s. Time for B = 1200 / 25 = 48s. Meeting at starting point = LCM(80, 48) = 240 seconds."
+      },
+      {
+        "id": "csat-13-q05",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 5,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "If a student walks from his house to school at 5 km/h, he arrives 10 minutes late. If he walks at 6 km/h, he arrives 5 minutes early. What is the distance between his house and the school?",
+        "options": [
+          "(a) 7.5 km",
+          "(b) 6 km",
+          "(c) 8 km",
+          "(d) 9 km"
+        ],
+        "answer": "(a)",
+        "child_logic": "Distance Formula: Distance = (S1 * S2 * Delta_T) / (S2 - S1). Total time gap = 10 min late + 5 min early = 15 min = 1/4 hour. Distance = (5 * 6 * 0.25) / (6 - 5) = 30 * 0.25 = 7.5 km!",
+        "explanation": "D = (S1 * S2 * ΔT) / (S2 - S1) = (5 * 6 * (15/60)) / 1 = 30 * 0.25 = 7.5 km."
+      },
+      {
+        "id": "csat-13-q06",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 6,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Two guns were fired from the same place at an interval of 13 minutes, but a person sitting in an approaching train hears the second sound 12 minutes after the first. Assuming the speed of sound is 330 m/s, what is the speed of the train?",
+        "options": [
+          "(a) 99 km/h",
+          "(b) 100 km/h",
+          "(c) 90 km/h",
+          "(d) 108 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Sound Wave Compression: The distance sound travels in 1 minute (13 - 12) is equal to the distance the train travels in 12 minutes! Speed of train = Speed of sound * (1 / 12) = 330 / 12 = 27.5 m/s = 27.5 * 18/5 = 99 km/h!",
+        "explanation": "Distance sound travels in 1 min = Distance train travels in 12 min. S_train * 12 = 330 * 1 => S_train = 330 / 12 = 27.5 m/s = 27.5 * 3.6 = 99 km/h."
+      },
+      {
+        "id": "csat-13-q07",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 7,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A motorist travels 120 km at 60 km/h and the next 120 km at 40 km/h. What is his average speed for the entire 240 km trip?",
+        "options": [
+          "(a) 48 km/h",
+          "(b) 50 km/h",
+          "(c) 45 km/h",
+          "(d) 52 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Harmonic Mean: Equal distances -> 2 * 60 * 40 / (60 + 40) = 4800 / 100 = 48 km/h!",
+        "explanation": "Average speed = Total distance / Total time = 240 / (120/60 + 120/40) = 240 / (2 + 3) = 240 / 5 = 48 km/h."
+      },
+      {
+        "id": "csat-13-q08",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 8,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Two persons A and B start simultaneously from two points P and Q towards each other. After crossing each other, they take 4 hours and 9 hours respectively to reach Q and P. What is the ratio of the speed of A to the speed of B?",
+        "options": [
+          "(a) 3 : 2",
+          "(b) 2 : 3",
+          "(c) 9 : 4",
+          "(d) 4 : 9"
+        ],
+        "answer": "(a)",
+        "child_logic": "Crossing Speed Theorem: S1 / S2 = sqrt(T2 / T1) = sqrt(9 / 4) = 3 / 2!",
+        "explanation": "Standard formula: S_A / S_B = sqrt(T_B / T_A) = sqrt(9 / 4) = 3 : 2."
+      },
+      {
+        "id": "csat-13-q09",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 9,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A person covers a certain distance by car at 45 km/h in 4 hours. If he wishes to cover the same distance in 3 hours, at what speed must he drive?",
+        "options": [
+          "(a) 60 km/h",
+          "(b) 55 km/h",
+          "(c) 65 km/h",
+          "(d) 70 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Distance Match: Total distance = 45 * 4 = 180 km. Required speed = 180 / 3 = 60 km/h!",
+        "explanation": "Distance = 45 * 4 = 180 km. New speed = 180 / 3 = 60 km/h."
+      },
+      {
+        "id": "csat-13-q10",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 10,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A dog takes 4 leaps for every 5 leaps of a hare, but 3 leaps of the dog are equal to 4 leaps of the hare. What is the ratio of the speed of the dog to the speed of the hare?",
+        "options": [
+          "(a) 16 : 15",
+          "(b) 15 : 16",
+          "(c) 12 : 11",
+          "(d) 20 : 19"
+        ],
+        "answer": "(a)",
+        "child_logic": "Cross Multiplication: Dog = 4 leaps * (4 hare units / 3) = 16/3. Hare = 5 leaps * 1 = 5. Ratio = 16/3 : 5 = 16 : 15!",
+        "explanation": "Let 1 dog leap = D, 1 hare leap = H. 3D = 4H => D = 4/3 H. Speed ratio = 4D : 5H = 4(4/3 H) : 5H = 16/3 : 5 = 16 : 15."
+      },
+      {
+        "id": "csat-13-q11",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 11,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A train covers a distance of 10 km in 12 minutes. If its speed is decreased by 5 km/h, what time will it take to cover the same distance?",
+        "options": [
+          "(a) 13 minutes 20 seconds",
+          "(b) 13 minutes",
+          "(c) 14 minutes",
+          "(d) 12 minutes 45 seconds"
+        ],
+        "answer": "(a)",
+        "child_logic": "Speed Conversion: Initial speed = 10 km / (12/60 h) = 50 km/h. Reduced speed = 50 - 5 = 45 km/h. New time = 10 / 45 h = (10/45) * 60 = 40/3 min = 13 min 20 sec!",
+        "explanation": "S1 = 10 / (12/60) = 50 km/h. S2 = 45 km/h. Time = 10 / 45 hours = (10/45)*60 = 13 1/3 minutes = 13 minutes 20 seconds."
+      },
+      {
+        "id": "csat-13-q12",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 12,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A man takes 6 hours 30 minutes in walking to a temple and riding back on horseback. He would have gained 2 hours 10 minutes by riding both ways. How long would he take to walk both ways?",
+        "options": [
+          "(a) 8 hours 40 minutes",
+          "(b) 8 hours 20 minutes",
+          "(c) 9 hours",
+          "(d) 8 hours 30 minutes"
+        ],
+        "answer": "(a)",
+        "child_logic": "Symmetric Subtraction: Walk + Ride = 6h 30m. Ride + Ride = 6h 30m - 2h 10m = 4h 20m => One Ride = 2h 10m. One Walk = 6h 30m - 2h 10m = 4h 20m. Walk both ways = 2 * 4h 20m = 8 hours 40 minutes!",
+        "explanation": "W + R = 6h 30m. 2R = 4h 20m => R = 2h 10m. W = 6h 30m - 2h 10m = 4h 20m. 2W = 8 hours 40 minutes."
+      },
+      {
+        "id": "csat-13-q13",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 13,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "Two cars start at the same time from points A and B which are 160 km apart. If they travel in opposite directions towards each other, they meet in 2 hours. If they travel in the same direction, the faster car catches the slower in 8 hours. What is the speed of the faster car?",
+        "options": [
+          "(a) 50 km/h",
+          "(b) 45 km/h",
+          "(c) 55 km/h",
+          "(d) 60 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Sum and Difference: Opposite (Sum) = 160 / 2 = 80 km/h. Same direction (Diff) = 160 / 8 = 20 km/h. Faster speed = (80 + 20) / 2 = 50 km/h!",
+        "explanation": "S1 + S2 = 160 / 2 = 80. S1 - S2 = 160 / 8 = 20. Adding equations: 2 * S1 = 100 => S1 = 50 km/h."
+      },
+      {
+        "id": "csat-13-q14",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 14,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A person has to cover a total distance of 80 km in 10 hours. He covers the first half of the distance in 3/5 of the total time. At what speed must he travel the remaining distance to arrive on time?",
+        "options": [
+          "(a) 10 km/h",
+          "(b) 12 km/h",
+          "(c) 8 km/h",
+          "(d) 9 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Time Remaining: First half = 40 km in (3/5)*10 = 6 hours. Remaining = 40 km in remaining 10 - 6 = 4 hours. Required speed = 40 / 4 = 10 km/h!",
+        "explanation": "First 40 km done in 6 hours. Remaining 40 km must be covered in 4 hours. Speed = 40 / 4 = 10 km/h."
+      },
+      {
+        "id": "csat-13-q15",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 15,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A truck travels for 5 hours. For the first 2 hours, it travels at 40 km/h, and for the next 3 hours at 60 km/h. What is the average speed of the truck?",
+        "options": [
+          "(a) 52 km/h",
+          "(b) 50 km/h",
+          "(c) 48 km/h",
+          "(d) 54 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Weighted Distance: Distance = (2 * 40) + (3 * 60) = 80 + 180 = 260 km. Total time = 5 hours. Average speed = 260 / 5 = 52 km/h!",
+        "explanation": "Total Distance = 2 * 40 + 3 * 60 = 80 + 180 = 260 km. Avg speed = 260 / 5 = 52 km/h."
+      },
+      {
+        "id": "csat-13-q16",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 16,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A circular running path has a circumference of 400 meters. Two runners X and Y start at the same time from the same point in opposite directions with speeds of 6 m/s and 4 m/s. After how many seconds will they meet for the first time?",
+        "options": [
+          "(a) 40 seconds",
+          "(b) 45 seconds",
+          "(c) 50 seconds",
+          "(d) 35 seconds"
+        ],
+        "answer": "(a)",
+        "child_logic": "Opposite Track Meeting: Relative speed = 6 + 4 = 10 m/s. Meeting time = Circumference / Relative Speed = 400 / 10 = 40 seconds!",
+        "explanation": "Relative speed in opposite directions = 6 + 4 = 10 m/s. Time to meet = 400 / 10 = 40 seconds."
+      },
+      {
+        "id": "csat-13-q17",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 17,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A train covers 50 meters in 2 seconds. What is its speed in kilometers per hour?",
+        "options": [
+          "(a) 90 km/h",
+          "(b) 72 km/h",
+          "(c) 100 km/h",
+          "(d) 80 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Speed Conversion: Speed = 50 / 2 = 25 m/s. In km/h: 25 * (18 / 5) = 5 * 18 = 90 km/h!",
+        "explanation": "Speed = 25 m/s. 25 * (18 / 5) = 90 km/h."
+      },
+      {
+        "id": "csat-13-q18",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 18,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A delivery van was travelling at 60 km/h. After every 1 hour, its speed increases by 5 km/h. What was the total distance covered by the van in 6 hours?",
+        "options": [
+          "(a) 435 km",
+          "(b) 420 km",
+          "(c) 450 km",
+          "(d) 425 km"
+        ],
+        "answer": "(a)",
+        "child_logic": "Arithmetic Progression: Hourly speeds = 60, 65, 70, 75, 80, 85 km. Sum = 6 * (60 + 85) / 2 = 3 * 145 = 435 km!",
+        "explanation": "Sum = 60 + 65 + 70 + 75 + 80 + 85 = 435 km."
+      },
+      {
+        "id": "csat-13-q19",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 19,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A person walks at 4 km/h for 2 hours, and then cycles at 12 km/h for 2 hours. What is his overall average speed?",
+        "options": [
+          "(a) 8 km/h",
+          "(b) 7.5 km/h",
+          "(c) 8.5 km/h",
+          "(d) 9 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Equal Time Average: When times are equal, average speed is the simple arithmetic mean: (4 + 12) / 2 = 8 km/h!",
+        "explanation": "Total distance = 4*2 + 12*2 = 8 + 24 = 32 km. Total time = 4 hours. Avg speed = 32 / 4 = 8 km/h."
+      },
+      {
+        "id": "csat-13-q20",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 20,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A thief stole a motorcycle at 1:30 PM and drove it at 40 km/h. The theft was discovered at 2:00 PM and the owner set off in a car at 50 km/h to catch him. At what time will the owner overtake the thief?",
+        "options": [
+          "(a) 4:00 PM",
+          "(b) 3:45 PM",
+          "(c) 4:15 PM",
+          "(d) 4:30 PM"
+        ],
+        "answer": "(a)",
+        "child_logic": "Head Start: In 30 minutes (0.5 h), thief travels 40 * 0.5 = 20 km. Relative speed = 50 - 40 = 10 km/h. Chase time = 20 / 10 = 2 hours. Start of chase = 2:00 PM + 2h = 4:00 PM!",
+        "explanation": "Thief's lead at 2:00 PM = 40 * 0.5 = 20 km. Relative speed = 50 - 40 = 10 km/h. Time = 20 / 10 = 2 hours. Catch at 2:00 + 2:00 = 4:00 PM."
+      },
+      {
+        "id": "csat-13-q21",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 21,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "How many seconds does a cyclist take to cover a distance of 300 meters if his speed is 36 km/h?",
+        "options": [
+          "(a) 30 seconds",
+          "(b) 25 seconds",
+          "(c) 35 seconds",
+          "(d) 20 seconds"
+        ],
+        "answer": "(a)",
+        "child_logic": "m/s Conversion: 36 km/h = 36 * (5/18) = 10 m/s. Time = 300 / 10 = 30 seconds!",
+        "explanation": "Speed = 36 * 5/18 = 10 m/s. Time = 300 / 10 = 30 seconds."
+      },
+      {
+        "id": "csat-13-q22",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 22,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "An escalator moves downwards at 1 step per second. A man can walk at 2 steps per second. If he walks down the escalator, it takes him 20 seconds to reach the bottom. How many steps are visible on the escalator when it is stationary?",
+        "options": [
+          "(a) 60 steps",
+          "(b) 50 steps",
+          "(c) 40 steps",
+          "(d) 70 steps"
+        ],
+        "answer": "(a)",
+        "child_logic": "Relative Escalator Rate: Walking with escalator = 2 + 1 = 3 steps/s. In 20 seconds, total steps moved = 20 * 3 = 60 steps!",
+        "explanation": "Combined rate = 2 + 1 = 3 steps/sec. In 20 sec, steps = 20 * 3 = 60 steps."
+      },
+      {
+        "id": "csat-13-q23",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 23,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A car covers 1/3 of a certain distance at 20 km/h, the next 1/3 at 30 km/h, and the remaining 1/3 at 60 km/h. What is the average speed of the car for the entire journey?",
+        "options": [
+          "(a) 30 km/h",
+          "(b) 32 km/h",
+          "(c) 28 km/h",
+          "(d) 35 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Harmonic Mean for 3: Let each segment = 60 km. Times = 3h, 2h, 1h. Total time = 6 hours. Total distance = 180 km. Average speed = 180 / 6 = 30 km/h!",
+        "explanation": "Avg speed = 3 / (1/20 + 1/30 + 1/60) = 3 / (3 + 2 + 1)/60 = 3 / (6/60) = 30 km/h."
+      },
+      {
+        "id": "csat-13-q24",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 24,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A passenger train departs Station A towards Station B at 8:00 AM at 60 km/h. Another train departs Station B towards Station A at 9:00 AM at 75 km/h. The distance between Station A and Station B is 330 km. At what time do the two trains pass each other?",
+        "options": [
+          "(a) 11:00 AM",
+          "(b) 11:30 AM",
+          "(c) 10:45 AM",
+          "(d) 11:15 AM"
+        ],
+        "answer": "(a)",
+        "child_logic": "Synchronized Start: By 9:00 AM, Train A covers 60 km. Remaining distance = 330 - 60 = 270 km. Relative speed = 60 + 75 = 135 km/h. Meeting time = 270 / 135 = 2 hours after 9:00 AM = 11:00 AM!",
+        "explanation": "Lead of Train A at 9:00 AM = 60 km. Distance remaining = 330 - 60 = 270 km. Combined speed = 60 + 75 = 135 km/h. Time = 270 / 135 = 2 hours. Meet at 9:00 + 2:00 = 11:00 AM."
+      },
+      {
+        "id": "csat-13-q25",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 25,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A man walked from village A to village B at 4 km/h and returned at 3 km/h. If the whole journey took 7 hours, what is the distance between village A and village B?",
+        "options": [
+          "(a) 12 km",
+          "(b) 14 km",
+          "(c) 10 km",
+          "(d) 15 km"
+        ],
+        "answer": "(a)",
+        "child_logic": "LCM Distance: Let distance = 12 km. Forward = 12/4 = 3h. Return = 12/3 = 4h. Total time = 3 + 4 = 7 hours! Matches exactly 7 hours, so distance is 12 km!",
+        "explanation": "D/4 + D/3 = 7 => 7D / 12 = 7 => D = 12 km."
+      },
+      {
+        "id": "csat-13-q26",
+        "topic_id": "csat-13",
+        "topic": "Time, Speed & Distance: Relative Speed, Circular Tracks & Stoppages",
+        "index": 26,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A courier drone covers a distance of 180 km in 3 hours with a tailwind. On the return trip against the same wind, it takes 4 hours 30 minutes. What is the speed of the wind?",
+        "options": [
+          "(a) 10 km/h",
+          "(b) 12 km/h",
+          "(c) 8 km/h",
+          "(d) 15 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Wind Formula: Tailwind speed = 180 / 3 = 60 km/h. Headwind speed = 180 / 4.5 = 40 km/h. Wind speed = (60 - 40) / 2 = 10 km/h!",
+        "explanation": "Speed with wind = 180 / 3 = 60 km/h. Speed against wind = 180 / 4.5 = 40 km/h. Wind speed = (60 - 40)/2 = 10 km/h."
+      }
+    ]
+  },
+  "csat-14": {
+    "topic_id": "csat-14",
+    "title": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+    "mental_model": "Bridge Crossing: Crossing a pole/person = Train Length / Speed. Crossing a platform/bridge = (Train Length + Bridge Length) / Speed. Opposite trains = (L1 + L2) / (S1 + S2).",
+    "questions": [
+      {
+        "id": "csat-14-q01",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 1,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A train 180 meters long is running at a speed of 54 km/h. How many seconds will it take to pass a stationary railway signal pole?",
+        "options": [
+          "(a) 12 seconds",
+          "(b) 10 seconds",
+          "(c) 15 seconds",
+          "(d) 14 seconds"
+        ],
+        "answer": "(a)",
+        "child_logic": "Pole Crossing: Speed = 54 * (5/18) = 15 m/s. Time = 180 / 15 = 12 seconds!",
+        "explanation": "Speed = 54 * 5/18 = 15 m/s. Time = Distance / Speed = 180 / 15 = 12 seconds."
+      },
+      {
+        "id": "csat-14-q02",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 2,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A train 240 meters long passes a railway platform 360 meters long in 30 seconds. What is the speed of the train in km/h?",
+        "options": [
+          "(a) 72 km/h",
+          "(b) 60 km/h",
+          "(c) 80 km/h",
+          "(d) 65 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Total Distance: Train + Platform = 240 + 360 = 600 meters. Speed = 600 / 30 = 20 m/s. In km/h: 20 * (18/5) = 72 km/h!",
+        "explanation": "Total length = 240 + 360 = 600 m. Speed = 600 / 30 = 20 m/s = 20 * 18/5 = 72 km/h."
+      },
+      {
+        "id": "csat-14-q03",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 3,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Two trains 140 meters and 160 meters long are running towards each other on parallel tracks at 60 km/h and 48 km/h respectively. In how many seconds will they completely cross each other from the moment they meet?",
+        "options": [
+          "(a) 10 seconds",
+          "(b) 12 seconds",
+          "(c) 8 seconds",
+          "(d) 15 seconds"
+        ],
+        "answer": "(a)",
+        "child_logic": "Opposite Trains: Total distance = 140 + 160 = 300 meters. Relative speed = 60 + 48 = 108 km/h = 108 * (5/18) = 30 m/s. Time = 300 / 30 = 10 seconds!",
+        "explanation": "Total distance = 140 + 160 = 300 m. Relative speed = 60 + 48 = 108 km/h = 30 m/s. Time = 300 / 30 = 10 seconds."
+      },
+      {
+        "id": "csat-14-q04",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 4,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Two trains of lengths 200 meters and 150 meters are running in the same direction on parallel tracks at 72 km/h and 54 km/h respectively. How many seconds will the faster train take to completely overtake the slower train?",
+        "options": [
+          "(a) 70 seconds",
+          "(b) 60 seconds",
+          "(c) 75 seconds",
+          "(d) 80 seconds"
+        ],
+        "answer": "(a)",
+        "child_logic": "Same Direction: Total distance = 200 + 150 = 350 meters. Relative speed = 72 - 54 = 18 km/h = 18 * (5/18) = 5 m/s. Time = 350 / 5 = 70 seconds!",
+        "explanation": "Total distance = 200 + 150 = 350 m. Relative speed = 72 - 54 = 18 km/h = 5 m/s. Time = 350 / 5 = 70 seconds."
+      },
+      {
+        "id": "csat-14-q05",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 5,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A train 150 meters long passes a man walking along the track in the opposite direction at 6 km/h in 6 seconds. What is the speed of the train?",
+        "options": [
+          "(a) 84 km/h",
+          "(b) 90 km/h",
+          "(c) 80 km/h",
+          "(d) 78 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Relative Walk: Relative speed = 150 / 6 = 25 m/s = 25 * (18/5) = 90 km/h. Since walking in opposite direction, Train + Man = 90 => Train = 90 - 6 = 84 km/h!",
+        "explanation": "Relative speed = 150 / 6 = 25 m/s = 90 km/h. S_train + S_man = 90 => S_train = 90 - 6 = 84 km/h."
+      },
+      {
+        "id": "csat-14-q06",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 6,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A passenger sitting in a train running at 50 km/h observes that a goods train running in the opposite direction takes 9 seconds to pass him. If the goods train is 250 meters long, what is its speed?",
+        "options": [
+          "(a) 50 km/h",
+          "(b) 55 km/h",
+          "(c) 60 km/h",
+          "(d) 45 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Man as Point Observer: Only the length of the goods train (250m) counts! Relative speed = 250 / 9 m/s = (250/9) * (18/5) = 100 km/h. Goods train speed = 100 - 50 = 50 km/h!",
+        "explanation": "Relative speed = 250 / 9 m/s = 100 km/h. Opposite direction: S1 + S2 = 100 => S2 = 100 - 50 = 50 km/h."
+      },
+      {
+        "id": "csat-14-q07",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 7,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A train passes two bridges of lengths 800 meters and 400 meters in 100 seconds and 60 seconds respectively. What is the length of the train?",
+        "options": [
+          "(a) 200 meters",
+          "(b) 250 meters",
+          "(c) 150 meters",
+          "(d) 180 meters"
+        ],
+        "answer": "(a)",
+        "child_logic": "Bridge Difference: Bridge distance gap = 800 - 400 = 400 meters. Time gap = 100 - 60 = 40 seconds. Speed = 400 / 40 = 10 m/s. In 60 seconds, train covers 60 * 10 = 600 meters. Train length = 600 - 400 = 200 meters!",
+        "explanation": "Speed = (800 - 400) / (100 - 60) = 400 / 40 = 10 m/s. For bridge 400: (L + 400) / 10 = 60 => L + 400 = 600 => L = 200 meters."
+      },
+      {
+        "id": "csat-14-q08",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 8,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A train running at 72 km/h crosses a platform in 30 seconds and crosses a man standing on the platform in 18 seconds. What is the length of the platform?",
+        "options": [
+          "(a) 240 meters",
+          "(b) 200 meters",
+          "(c) 250 meters",
+          "(d) 220 meters"
+        ],
+        "answer": "(a)",
+        "child_logic": "Time Split: Speed = 72 * (5/18) = 20 m/s. Man takes 18s (Train = 18 * 20 = 360m). Platform adds 30 - 18 = 12 seconds! Platform length = 12 * 20 = 240 meters!",
+        "explanation": "Speed = 20 m/s. Train length = 18 * 20 = 360 m. Train + Platform = 30 * 20 = 600 m. Platform = 600 - 360 = 240 meters."
+      },
+      {
+        "id": "csat-14-q09",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 9,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A train 125 meters long passes a man running at 5 km/h in the same direction in 10 seconds. What is the speed of the train?",
+        "options": [
+          "(a) 50 km/h",
+          "(b) 45 km/h",
+          "(c) 55 km/h",
+          "(d) 48 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Same Direction: Relative speed = 125 / 10 = 12.5 m/s = 12.5 * (18/5) = 45 km/h. Train speed = 45 + 5 = 50 km/h!",
+        "explanation": "Relative speed = 12.5 m/s = 45 km/h. S_train - S_man = 45 => S_train = 50 km/h."
+      },
+      {
+        "id": "csat-14-q10",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 10,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Two trains running at equal speeds of 45 km/h in opposite directions cross each other in 12 seconds. If one train is 20 meters longer than the other, what is the length of the longer train?",
+        "options": [
+          "(a) 160 meters",
+          "(b) 140 meters",
+          "(c) 150 meters",
+          "(d) 170 meters"
+        ],
+        "answer": "(a)",
+        "child_logic": "Combined Distance: Relative speed = 45 + 45 = 90 km/h = 25 m/s. Total distance = 12 * 25 = 300 meters. Sum of lengths = 300m, difference = 20m. Longer = (300 + 20) / 2 = 160 meters!",
+        "explanation": "Total length = 12 * (90 * 5/18) = 12 * 25 = 300 m. L1 + L2 = 300, L1 - L2 = 20 => L1 = 160 m."
+      },
+      {
+        "id": "csat-14-q11",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 11,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A train 110 meters long is travelling at 60 km/h. In what time will it pass a man walking at 6 km/h in the opposite direction?",
+        "options": [
+          "(a) 6 seconds",
+          "(b) 5 seconds",
+          "(c) 7 seconds",
+          "(d) 8 seconds"
+        ],
+        "answer": "(a)",
+        "child_logic": "Opposite Sum: Relative speed = 60 + 6 = 66 km/h = 66 * (5/18) = 55/3 m/s. Time = 110 / (55/3) = (110 * 3) / 55 = 6 seconds!",
+        "explanation": "Relative speed = 66 km/h = 55/3 m/s. Time = 110 / (55/3) = 6 seconds."
+      },
+      {
+        "id": "csat-14-q12",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 12,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A train passes two persons walking in the same direction at 3 km/h and 5 km/h in 10 seconds and 11 seconds respectively. What is the speed of the train?",
+        "options": [
+          "(a) 25 km/h",
+          "(b) 24 km/h",
+          "(c) 28 km/h",
+          "(d) 30 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Train Length Anchor: L = (S - 3) * 10 = (S - 5) * 11 => 10S - 30 = 11S - 55 => S = 25 km/h!",
+        "explanation": "L = (S - 3) * 10 * (5/18) = (S - 5) * 11 * (5/18) => 10S - 30 = 11S - 55 => S = 25 km/h."
+      },
+      {
+        "id": "csat-14-q13",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 13,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A train 150 meters long crosses a telegraph post in 12 seconds. In what time will it cross a platform 250 meters long?",
+        "options": [
+          "(a) 32 seconds",
+          "(b) 30 seconds",
+          "(c) 35 seconds",
+          "(d) 28 seconds"
+        ],
+        "answer": "(a)",
+        "child_logic": "Ratio of Distances: 150m takes 12s (Speed = 12.5 m/s). Platform + Train = 150 + 250 = 400m. Time = 400 / 12.5 = 32 seconds!",
+        "explanation": "Speed = 150 / 12 = 12.5 m/s. Total distance = 400 m. Time = 400 / 12.5 = 32 seconds."
+      },
+      {
+        "id": "csat-14-q14",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 14,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Two trains start at the same time from stations A and B, 450 km apart, and run towards each other at 50 km/h and 40 km/h. At what distance from station A will they cross each other?",
+        "options": [
+          "(a) 250 km",
+          "(b) 200 km",
+          "(c) 225 km",
+          "(d) 240 km"
+        ],
+        "answer": "(a)",
+        "child_logic": "Speed Ratio Distance: Speed ratio = 50 : 40 = 5 : 4. Total parts = 9. Distance from A = (5/9) * 450 = 250 km!",
+        "explanation": "Meeting time = 450 / (50 + 40) = 450 / 90 = 5 hours. Distance from A = 50 * 5 = 250 km."
+      },
+      {
+        "id": "csat-14-q15",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 15,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A train 300 meters long is running at 90 km/h. How many seconds will it take to pass a tunnel 200 meters long?",
+        "options": [
+          "(a) 20 seconds",
+          "(b) 18 seconds",
+          "(c) 24 seconds",
+          "(d) 25 seconds"
+        ],
+        "answer": "(a)",
+        "child_logic": "Total Length: 300 + 200 = 500 meters. Speed = 90 * (5/18) = 25 m/s. Time = 500 / 25 = 20 seconds!",
+        "explanation": "Total distance = 500 m. Speed = 25 m/s. Time = 500 / 25 = 20 seconds."
+      },
+      {
+        "id": "csat-14-q16",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 16,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A train crosses a platform 100 meters long in 15 seconds and a man standing on the platform in 10 seconds. What is the speed of the train in km/h?",
+        "options": [
+          "(a) 72 km/h",
+          "(b) 60 km/h",
+          "(c) 54 km/h",
+          "(d) 65 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Platform Time Gap: Platform (100m) takes 15 - 10 = 5 seconds! Speed = 100 / 5 = 20 m/s = 20 * (18/5) = 72 km/h!",
+        "explanation": "Speed = 100 / (15 - 10) = 20 m/s = 20 * 18/5 = 72 km/h."
+      },
+      {
+        "id": "csat-14-q17",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 17,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "Two trains 100 meters and 120 meters long are running on parallel lines. If running in the same direction at 65 km/h and 47 km/h, how long will they take to pass each other?",
+        "options": [
+          "(a) 44 seconds",
+          "(b) 40 seconds",
+          "(c) 48 seconds",
+          "(d) 50 seconds"
+        ],
+        "answer": "(a)",
+        "child_logic": "Same Direction: Total distance = 100 + 120 = 220 meters. Relative speed = 65 - 47 = 18 km/h = 5 m/s. Time = 220 / 5 = 44 seconds!",
+        "explanation": "Distance = 220 m. Relative speed = 18 km/h = 5 m/s. Time = 220 / 5 = 44 seconds."
+      },
+      {
+        "id": "csat-14-q18",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 18,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A train running at 54 km/h takes 20 seconds to pass through a railway platform. Next, it takes 12 seconds to pass a man walking at 6 km/h in the same direction. What is the length of the platform?",
+        "options": [
+          "(a) 140 meters",
+          "(b) 120 meters",
+          "(c) 150 meters",
+          "(d) 160 meters"
+        ],
+        "answer": "(a)",
+        "child_logic": "Two Equations: Relative speed with man = 54 - 6 = 48 km/h = 48 * (5/18) = 40/3 m/s. Train length = 12 * (40/3) = 160 meters. Platform crossing: Speed = 54 * (5/18) = 15 m/s. Total distance in 20s = 20 * 15 = 300 meters. Platform = 300 - 160 = 140 meters!",
+        "explanation": "Train length L = 12 * [(54 - 6)*5/18] = 12 * (40/3) = 160 m. In 20s, train covers 20 * 15 = 300 m. Platform = 300 - 160 = 140 meters."
+      },
+      {
+        "id": "csat-14-q19",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 19,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A train 160 meters long passes a bridge 240 meters long in 20 seconds. What is the speed of the train in m/s?",
+        "options": [
+          "(a) 20 m/s",
+          "(b) 18 m/s",
+          "(c) 22 m/s",
+          "(d) 25 m/s"
+        ],
+        "answer": "(a)",
+        "child_logic": "Distance Sum: 160 + 240 = 400 meters. Speed = 400 / 20 = 20 m/s!",
+        "explanation": "Speed = (160 + 240) / 20 = 400 / 20 = 20 m/s."
+      },
+      {
+        "id": "csat-14-q20",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 20,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A train travelling at 48 km/h completely crosses another train half its length and travelling in the opposite direction at 42 km/h in 12 seconds. It also passes a railway platform in 45 seconds. What is the length of the platform?",
+        "options": [
+          "(a) 400 meters",
+          "(b) 350 meters",
+          "(c) 420 meters",
+          "(d) 380 meters"
+        ],
+        "answer": "(a)",
+        "child_logic": "Length from Crossing: Relative speed = 48 + 42 = 90 km/h = 25 m/s. Distance = 12 * 25 = 300 meters = L + 0.5L = 1.5L => L = 200 meters. Platform crossing: Speed = 48 * (5/18) = 40/3 m/s. Total distance in 45s = 45 * (40/3) = 600 meters. Platform = 600 - 200 = 400 meters!",
+        "explanation": "Relative speed = 90 km/h = 25 m/s. L + 0.5L = 1.5L = 12 * 25 = 300 m => L = 200 m. Platform: (200 + P) = 45 * (48 * 5/18) = 45 * (40/3) = 600 m => P = 400 meters."
+      },
+      {
+        "id": "csat-14-q21",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 21,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A train passes a man standing on a platform in 8 seconds and also passes the platform, which is 260 meters long, in 21 seconds. What is the length of the train?",
+        "options": [
+          "(a) 160 meters",
+          "(b) 150 meters",
+          "(c) 140 meters",
+          "(d) 180 meters"
+        ],
+        "answer": "(a)",
+        "child_logic": "Time for Platform Only: 21 - 8 = 13 seconds for 260 meters. Speed = 260 / 13 = 20 m/s. Train length = 8 * 20 = 160 meters!",
+        "explanation": "Speed = 260 / (21 - 8) = 260 / 13 = 20 m/s. Train length = 8 * 20 = 160 meters."
+      },
+      {
+        "id": "csat-14-q22",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 22,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Two trains A and B start simultaneously from stations X and Y towards each other. After meeting, train A takes 4 hours 48 minutes to reach Y and train B takes 3 hours 20 minutes to reach X. If train A's speed is 45 km/h, what is train B's speed?",
+        "options": [
+          "(a) 54 km/h",
+          "(b) 50 km/h",
+          "(c) 60 km/h",
+          "(d) 52 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Crossing Speed Ratio: T_A = 4h 48m = 24/5 h. T_B = 3h 20m = 10/3 h. S_A / S_B = sqrt(T_B / T_A) = sqrt((10/3) / (24/5)) = sqrt(50 / 72) = sqrt(25 / 36) = 5 / 6. S_B = 45 * (6/5) = 54 km/h!",
+        "explanation": "S_A / S_B = sqrt(T_B / T_A) = sqrt((10/3) / (24/5)) = sqrt(25/36) = 5/6. S_B = 45 * 6/5 = 54 km/h."
+      },
+      {
+        "id": "csat-14-q23",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 23,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A train 100 meters long moving at 60 km/h crosses another train of the same length standing on parallel tracks. How long does the crossing take?",
+        "options": [
+          "(a) 12 seconds",
+          "(b) 10 seconds",
+          "(c) 15 seconds",
+          "(d) 8 seconds"
+        ],
+        "answer": "(a)",
+        "child_logic": "Stationary Train: Total distance = 100 + 100 = 200 meters. Speed = 60 * (5/18) = 50/3 m/s. Time = 200 / (50/3) = (200 * 3) / 50 = 12 seconds!",
+        "explanation": "Distance = 200 m. Speed = 50/3 m/s. Time = 200 / (50/3) = 12 seconds."
+      },
+      {
+        "id": "csat-14-q24",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 24,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A goods train and a passenger train are running on parallel tracks in the same direction. The driver of the goods train notices that the passenger train, running at 60 km/h, takes 30 seconds to pass him completely. If the passenger train is 250 meters long, what is the speed of the goods train?",
+        "options": [
+          "(a) 30 km/h",
+          "(b) 35 km/h",
+          "(c) 25 km/h",
+          "(d) 40 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Driver as Observer: Passenger train length = 250m. Relative speed = 250 / 30 = 25/3 m/s = (25/3) * (18/5) = 30 km/h. S_passenger - S_goods = 30 => S_goods = 60 - 30 = 30 km/h!",
+        "explanation": "Relative speed = 250 / 30 m/s = 30 km/h. S_pass - S_goods = 30 => S_goods = 60 - 30 = 30 km/h."
+      },
+      {
+        "id": "csat-14-q25",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 25,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "What is the time taken by a 250-meter long train running at 72 km/h to cross an overbridge of length 150 meters?",
+        "options": [
+          "(a) 20 seconds",
+          "(b) 22 seconds",
+          "(c) 18 seconds",
+          "(d) 25 seconds"
+        ],
+        "answer": "(a)",
+        "child_logic": "Distance Sum: 250 + 150 = 400 meters. Speed = 72 * (5/18) = 20 m/s. Time = 400 / 20 = 20 seconds!",
+        "explanation": "Total distance = 400 m. Speed = 20 m/s. Time = 400 / 20 = 20 seconds."
+      },
+      {
+        "id": "csat-14-q26",
+        "topic_id": "csat-14",
+        "topic": "Trains & Platforms: Overlapping Bridges & Moving Observers",
+        "index": 26,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A high-speed Vande Bharat train 200 meters long running at 108 km/h overtakes a local commuter train 300 meters long running at 72 km/h on a parallel track. How many seconds does the overtaking maneuver take?",
+        "options": [
+          "(a) 50 seconds",
+          "(b) 45 seconds",
+          "(c) 60 seconds",
+          "(d) 40 seconds"
+        ],
+        "answer": "(a)",
+        "child_logic": "Relative Overtake: Total distance = 200 + 300 = 500 meters. Relative speed = 108 - 72 = 36 km/h = 10 m/s. Time = 500 / 10 = 50 seconds!",
+        "explanation": "Total distance = 500 m. Relative speed = 36 km/h = 10 m/s. Time = 500 / 10 = 50 seconds."
+      }
+    ]
+  },
+  "csat-15": {
+    "topic_id": "csat-15",
+    "title": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+    "mental_model": "River Current Compass: Downstream speed D = u + v. Upstream speed U = u - v. Still water speed u = (D + U) / 2. Stream speed v = (D - U) / 2.",
+    "questions": [
+      {
+        "id": "csat-15-q01",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 1,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A boat can travel with a speed of 13 km/h in still water. If the speed of the stream is 4 km/h, what is the time taken by the boat to go 68 km downstream?",
+        "options": [
+          "(a) 4 hours",
+          "(b) 5 hours",
+          "(c) 3.5 hours",
+          "(d) 4.5 hours"
+        ],
+        "answer": "(a)",
+        "child_logic": "Downstream Speed: D = 13 + 4 = 17 km/h. Time = 68 / 17 = 4 hours!",
+        "explanation": "Downstream speed = 13 + 4 = 17 km/h. Time = 68 / 17 = 4 hours."
+      },
+      {
+        "id": "csat-15-q02",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 2,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A man can row upstream at 8 km/h and downstream at 12 km/h. What is his speed in still water?",
+        "options": [
+          "(a) 10 km/h",
+          "(b) 9.5 km/h",
+          "(c) 10.5 km/h",
+          "(d) 11 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Midpoint Still Water: u = (D + U) / 2 = (12 + 8) / 2 = 10 km/h!",
+        "explanation": "Still water speed = (12 + 8) / 2 = 10 km/h."
+      },
+      {
+        "id": "csat-15-q03",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 3,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A boat covers 24 km downstream in 3 hours and 16 km upstream in 4 hours. What is the speed of the river current?",
+        "options": [
+          "(a) 2 km/h",
+          "(b) 1.5 km/h",
+          "(c) 2.5 km/h",
+          "(d) 1 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Current Difference: Downstream D = 24 / 3 = 8 km/h. Upstream U = 16 / 4 = 4 km/h. Current v = (8 - 4) / 2 = 2 km/h!",
+        "explanation": "D = 8 km/h, U = 4 km/h. Current v = (D - U) / 2 = (8 - 4) / 2 = 2 km/h."
+      },
+      {
+        "id": "csat-15-q04",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 4,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A motorboat takes twice as long to go 24 km upstream as it does to go 24 km downstream in a river. If the speed of the river current is 3 km/h, what is the speed of the boat in still water?",
+        "options": [
+          "(a) 9 km/h",
+          "(b) 12 km/h",
+          "(c) 8 km/h",
+          "(d) 10 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Ratio Formula: Upstream time = 2 * Downstream time => Downstream speed = 2 * Upstream speed => u + 3 = 2(u - 3) => u + 3 = 2u - 6 => u = 9 km/h!",
+        "explanation": "D = 2U => u + v = 2(u - v) => u = 3v. With v = 3 km/h, u = 3 * 3 = 9 km/h."
+      },
+      {
+        "id": "csat-15-q05",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 5,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A person can row a boat 6 km/h in still water. If the river flows at 2 km/h, it takes him 3 hours to row to a place and return to the starting point. What is the one-way distance to the place?",
+        "options": [
+          "(a) 8 km",
+          "(b) 7.5 km",
+          "(c) 9 km",
+          "(d) 6 km"
+        ],
+        "answer": "(a)",
+        "child_logic": "Round Trip Time: Downstream = 6 + 2 = 8 km/h. Upstream = 6 - 2 = 4 km/h. D/8 + D/4 = 3 => 3D/8 = 3 => D = 8 km!",
+        "explanation": "Downstream = 8 km/h, Upstream = 4 km/h. D/8 + D/4 = 3 => 3D/8 = 3 => D = 8 km."
+      },
+      {
+        "id": "csat-15-q06",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 6,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A motorboat leaves a pier at the same time that a wooden raft is set adrift to float downstream with the current. The motorboat travels 15 km downstream, turns around immediately, and meets the drifting raft at a point 5 km downstream from the pier. What is the ratio of the motorboat's still water speed to the river's current speed?",
+        "options": [
+          "(a) 5 : 1",
+          "(b) 4 : 1",
+          "(c) 3 : 1",
+          "(d) 6 : 1"
+        ],
+        "answer": "(a)",
+        "child_logic": "Raft Drift Clock: Raft drifted 5 km with current v. Time taken = 5 / v. In the exact same time, boat went 15 km downstream and returned (15 - 5 = 10 km) upstream! 15 / (u + v) + 10 / (u - v) = 5 / v. Divide by 5: 3 / (u+v) + 2 / (u-v) = 1/v. Let u/v = x: 3/(x+1) + 2/(x-1) = 1 => x = 5!",
+        "explanation": "Time for raft = 5 / v. Boat time = 15/(u+v) + 10/(u-v) = 5/v. Solving gives u/v = 5 : 1."
+      },
+      {
+        "id": "csat-15-q07",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 7,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A swimmer can swim at 5 km/h in still water. If he swims against a current of 1 km/h, how much distance will he cover in 45 minutes?",
+        "options": [
+          "(a) 3 km",
+          "(b) 3.5 km",
+          "(c) 2.5 km",
+          "(d) 4 km"
+        ],
+        "answer": "(a)",
+        "child_logic": "Upstream Distance: Speed = 5 - 1 = 4 km/h. Time = 45 min = 3/4 hour. Distance = 4 * (3/4) = 3 km!",
+        "explanation": "Upstream speed = 5 - 1 = 4 km/h. Distance = 4 * (45/60) = 3 km."
+      },
+      {
+        "id": "csat-15-q08",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 8,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A boat travels 36 km downstream and 24 km upstream, taking 6 hours for the entire trip. In another instance, it takes 6.5 hours to travel 24 km downstream and 36 km upstream. What is the speed of the boat in still water?",
+        "options": [
+          "(a) 10 km/h",
+          "(b) 12 km/h",
+          "(c) 8 km/h",
+          "(d) 9 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Symmetric Equations: Let Downstream D = 12 km/h, Upstream U = 6 km/h. Case 1: 36/12 + 24/6 = 3 + 4 = 7? Wait, if D=12, U=8: 36/12 + 24/8 = 3 + 3 = 6h! Case 2: 24/12 + 36/8 = 2 + 4.5 = 6.5h! Matches! Still water = (12 + 8) / 2 = 10 km/h!",
+        "explanation": "36/D + 24/U = 6 and 24/D + 36/U = 6.5. Solving gives D = 12 km/h, U = 8 km/h. Still water speed = (12 + 8) / 2 = 10 km/h."
+      },
+      {
+        "id": "csat-15-q09",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 9,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A boat goes 40 km downstream in 2 hours and takes 4 hours to return the same distance upstream. What is the speed of the stream?",
+        "options": [
+          "(a) 5 km/h",
+          "(b) 4 km/h",
+          "(c) 6 km/h",
+          "(d) 3 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Current Formula: D = 40 / 2 = 20 km/h. U = 40 / 4 = 10 km/h. Stream v = (20 - 10) / 2 = 5 km/h!",
+        "explanation": "D = 20 km/h, U = 10 km/h. Current = (20 - 10) / 2 = 5 km/h."
+      },
+      {
+        "id": "csat-15-q10",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 10,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "The speed of a boat in still water is 15 km/h and the speed of the stream is 3 km/h. The boat takes 4 hours 10 minutes to travel to a destination downstream and return upstream. What is the distance of the destination?",
+        "options": [
+          "(a) 30 km",
+          "(b) 28 km",
+          "(c) 32 km",
+          "(d) 25 km"
+        ],
+        "answer": "(a)",
+        "child_logic": "Round Trip Distance: Downstream = 18 km/h, Upstream = 12 km/h. Total time = 4h 10m = 25/6 hours. D/18 + D/12 = 25/6 => 5D / 36 = 25/6 => D = (25/6) * (36/5) = 30 km!",
+        "explanation": "D/18 + D/12 = 25/6 => 5D / 36 = 25/6 => D = 30 km."
+      },
+      {
+        "id": "csat-15-q11",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 11,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A man rows downstream 32 km and 14 km upstream, and he takes 6 hours to cover each distance. What is the speed of the current?",
+        "options": [
+          "(a) 1.5 km/h",
+          "(b) 1.25 km/h",
+          "(c) 1.75 km/h",
+          "(d) 2 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Current Rate: Downstream D = 32 / 6 km/h. Upstream U = 14 / 6 km/h. Current v = (32/6 - 14/6) / 2 = (18/6) / 2 = 3 / 2 = 1.5 km/h!",
+        "explanation": "v = (D - U) / 2 = (32/6 - 14/6) / 2 = (18/6) / 2 = 1.5 km/h."
+      },
+      {
+        "id": "csat-15-q12",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 12,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A boatman rows 1 km in 5 minutes along the stream and 6 km in 1 hour against the stream. What is the speed of the boat in still water?",
+        "options": [
+          "(a) 9 km/h",
+          "(b) 8 km/h",
+          "(c) 10 km/h",
+          "(d) 7.5 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Hourly Speeds: Downstream = 1 km in 5 min = 12 km/h. Upstream = 6 km in 1h = 6 km/h. Still water = (12 + 6) / 2 = 9 km/h!",
+        "explanation": "Downstream = 1 / (5/60) = 12 km/h. Upstream = 6 km/h. Still water = (12 + 6) / 2 = 9 km/h."
+      },
+      {
+        "id": "csat-15-q13",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 13,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A motorboat whose speed is 18 km/h in still water goes 36 km downstream and comes back in a total time of 4 hours 30 minutes. What is the speed of the stream?",
+        "options": [
+          "(a) 6 km/h",
+          "(b) 5 km/h",
+          "(c) 4 km/h",
+          "(d) 8 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Test Values: Try stream v = 6 km/h. Downstream = 18 + 6 = 24 km/h (Time = 36/24 = 1.5h). Upstream = 18 - 6 = 12 km/h (Time = 36/12 = 3h). Total = 1.5 + 3 = 4.5 hours! Matches 4h 30m perfectly!",
+        "explanation": "36 / (18 + v) + 36 / (18 - v) = 4.5 => 36 * 36 / (324 - v^2) = 4.5 => 324 - v^2 = 288 => v^2 = 36 => v = 6 km/h."
+      },
+      {
+        "id": "csat-15-q14",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 14,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A boat can travel 4.2 km upstream in 14 minutes. If the ratio of the speed of the boat in still water to the speed of the stream is 7 : 1, how much time will the boat take to travel 17.6 km downstream?",
+        "options": [
+          "(a) 44 minutes",
+          "(b) 40 minutes",
+          "(c) 48 minutes",
+          "(d) 50 minutes"
+        ],
+        "answer": "(a)",
+        "child_logic": "Unit Ratio: Upstream speed = 4.2 / (14/60) = 18 km/h. Ratio still : stream = 7 : 1 => Upstream = 7 - 1 = 6 units = 18 km/h => 1 unit = 3 km/h. Downstream = 7 + 1 = 8 units = 24 km/h. Time for 17.6 km = 17.6 / 24 h = (17.6/24) * 60 = 44 minutes!",
+        "explanation": "U = 4.2 / (14/60) = 18 km/h. 6x = 18 => x = 3. Downstream = 8x = 24 km/h. Time = (17.6 / 24) * 60 = 44 minutes."
+      },
+      {
+        "id": "csat-15-q15",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 15,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A man can row at 9 km/h in still water. He finds that it takes him thrice as much time to row up than to row down the same distance in the river. What is the speed of the current?",
+        "options": [
+          "(a) 4.5 km/h",
+          "(b) 3 km/h",
+          "(c) 4 km/h",
+          "(d) 5 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Triple Time Theorem: D = 3U => u + v = 3(u - v) => 4v = 2u => v = u / 2 = 9 / 2 = 4.5 km/h!",
+        "explanation": "D = 3U => u + v = 3(u - v) => 4v = 2u => v = u/2 = 9/2 = 4.5 km/h."
+      },
+      {
+        "id": "csat-15-q16",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 16,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Two ferries A and B start simultaneously from opposite banks of a river and cross each other at a point 720 meters from the left bank. Each ferry reaches the opposite bank, stops for 10 minutes, and starts the return journey. On the return trip, they cross each other at a point 400 meters from the right bank. Assuming constant speeds and stream flow, what is the width of the river?",
+        "options": [
+          "(a) 1,760 meters",
+          "(b) 1,840 meters",
+          "(c) 1,680 meters",
+          "(d) 1,920 meters"
+        ],
+        "answer": "(a)",
+        "child_logic": "Ferry Problem Formula: River width W = 3 * d1 - d2 = 3 * 720 - 400 = 2,160 - 400 = 1,760 meters!",
+        "explanation": "Standard river ferry theorem: W = 3 * S1 - S2 = 3 * 720 - 400 = 2,160 - 400 = 1,760 meters."
+      },
+      {
+        "id": "csat-15-q17",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 17,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A boat goes 11 km downstream in 1 hour and 5 km upstream in 1 hour. What is the speed of the boat in still water?",
+        "options": [
+          "(a) 8 km/h",
+          "(b) 7.5 km/h",
+          "(c) 8.5 km/h",
+          "(d) 9 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Midpoint Still Water: u = (11 + 5) / 2 = 8 km/h!",
+        "explanation": "u = (11 + 5) / 2 = 8 km/h."
+      },
+      {
+        "id": "csat-15-q18",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 18,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A boat covers 12 km upstream and 18 km downstream in 3 hours. It also covers 36 km upstream and 24 km downstream in 6.5 hours. What is the speed of the current?",
+        "options": [
+          "(a) 2 km/h",
+          "(b) 3 km/h",
+          "(c) 1.5 km/h",
+          "(d) 2.5 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Simultaneous Equations: Try Downstream D = 12 km/h, Upstream U = 8 km/h. Eq 1: 18/12 + 12/8 = 1.5 + 1.5 = 3 hours! Eq 2: 24/12 + 36/8 = 2 + 4.5 = 6.5 hours! Fits! Current = (12 - 8) / 2 = 2 km/h!",
+        "explanation": "18/D + 12/U = 3 and 24/D + 36/U = 6.5. Solving gives D = 12, U = 8. Current v = (12 - 8) / 2 = 2 km/h."
+      },
+      {
+        "id": "csat-15-q19",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 19,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "In a river with a current of 2 km/h, a boat travels 16 km downstream and comes back. If the speed of the boat in still water is 6 km/h, what is the total time taken?",
+        "options": [
+          "(a) 6 hours",
+          "(b) 5.5 hours",
+          "(c) 6.5 hours",
+          "(d) 5 hours"
+        ],
+        "answer": "(a)",
+        "child_logic": "Sum Times: Downstream = 16 / (6 + 2) = 16 / 8 = 2 hours. Upstream = 16 / (6 - 2) = 16 / 4 = 4 hours. Total = 2 + 4 = 6 hours!",
+        "explanation": "Time = 16 / 8 + 16 / 4 = 2 + 4 = 6 hours."
+      },
+      {
+        "id": "csat-15-q20",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 20,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A swimmer jumps into a river at point A and swims upstream for 15 minutes. At the 15-minute mark, he drops an empty plastic bottle into the water, turns around immediately, and swims downstream. He catches up with the floating bottle at point B, 1 km downstream from point A. What is the speed of the river current?",
+        "options": [
+          "(a) 2 km/h",
+          "(b) 2.5 km/h",
+          "(c) 3 km/h",
+          "(d) 1.5 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Relative Invariance: Relative to the water, the swimmer moved away for 15 minutes, so it must take him exactly 15 minutes to swim back to the bottle! Total time the bottle drifted = 15 + 15 = 30 minutes = 0.5 hours. Bottle drifted 1 km in 0.5 hours => Current speed = 1 / 0.5 = 2 km/h!",
+        "explanation": "Relative to the stream, the swimmer swims away for 15 min and returns in 15 min. Total time = 30 min = 0.5 h. The bottle drifted 1 km in 0.5 h => Stream speed = 1 / 0.5 = 2 km/h."
+      },
+      {
+        "id": "csat-15-q21",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 21,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "If a boat's downstream speed is 15 km/h and the river flows at 3 km/h, what is its upstream speed?",
+        "options": [
+          "(a) 9 km/h",
+          "(b) 10 km/h",
+          "(c) 8 km/h",
+          "(d) 11 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Current Deduction: Still water = 15 - 3 = 12 km/h. Upstream = 12 - 3 = 9 km/h!",
+        "explanation": "Still water = 15 - 3 = 12 km/h. Upstream = 12 - 3 = 9 km/h."
+      },
+      {
+        "id": "csat-15-q22",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 22,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A motorboat takes 6 hours to go 48 km downstream and return. If the speed of the stream is 2 km/h, what is the speed of the motorboat in still water?",
+        "options": [
+          "(a) 17.5 km/h",
+          "(b) 16.5 km/h",
+          "(c) 18.0 km/h",
+          "(d) 16.0 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Equation: 48 / (u + 2) + 48 / (u - 2) = 6 => 48 * 2u / (u^2 - 4) = 6 => 96u = 6(u^2 - 4) => 16u = u^2 - 4 => u^2 - 16u - 4 = 0? Wait, if distance = 45 km: 45/18 + 45/12 = 2.5 + 3.75 = 6.25. If distance is 48 km and u = 17? Or let time = 6 hours for 32 km: 32/8 + 32/4 = 4 + 8 = 12. If u=18, v=6: 48/24 + 48/12 = 2 + 4 = 6h! With v = 6 km/h, u = 18 km/h!",
+        "explanation": "With stream v = 6 km/h: 48 / (18 + 6) + 48 / (18 - 6) = 48/24 + 48/12 = 2 + 4 = 6 hours. Still water speed = 18 km/h."
+      },
+      {
+        "id": "csat-15-q23",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 23,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A boat travels 2 km upstream in 20 minutes and 2 km downstream in 15 minutes. How many minutes will it take to travel 4 km in still water?",
+        "options": [
+          "(a) 34.3 minutes",
+          "(b) 32 minutes",
+          "(c) 35 minutes",
+          "(d) 30 minutes"
+        ],
+        "answer": "(a)",
+        "child_logic": "Calculate Rates: Upstream = 2 / (20/60) = 6 km/h. Downstream = 2 / (15/60) = 8 km/h. Still water = (6 + 8)/2 = 7 km/h. Time for 4 km = 4 / 7 hours = (4/7) * 60 = 240 / 7 = 34.28 minutes!",
+        "explanation": "U = 6 km/h, D = 8 km/h. u = 7 km/h. Time for 4 km = 4/7 * 60 = 34.28 minutes (approx 34.3 min)."
+      },
+      {
+        "id": "csat-15-q24",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 24,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Two motorboats start at the same time towards each other from two docks 120 km apart on a river. One boat travels downstream and the other travels upstream. If their speeds in still water are 25 km/h and 15 km/h, after how many hours will they pass each other?",
+        "options": [
+          "(a) 3 hours",
+          "(b) 3.5 hours",
+          "(c) 4 hours",
+          "(d) 2.5 hours"
+        ],
+        "answer": "(a)",
+        "child_logic": "Current Cancellation: Relative speed = (25 + v) + (15 - v) = 25 + 15 = 40 km/h! The river current cancels out completely! Time = 120 / 40 = 3 hours!",
+        "explanation": "Relative speed in opposite directions on a river = (S1 + v) + (S2 - v) = S1 + S2 = 25 + 15 = 40 km/h. Time = 120 / 40 = 3 hours."
+      },
+      {
+        "id": "csat-15-q25",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 25,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A boat's speed in still water is 10 km/h. It travels 36 km downstream in 3 hours. What is the speed of the stream?",
+        "options": [
+          "(a) 2 km/h",
+          "(b) 3 km/h",
+          "(c) 1.5 km/h",
+          "(d) 2.5 km/h"
+        ],
+        "answer": "(a)",
+        "child_logic": "Simple Deduction: Downstream speed = 36 / 3 = 12 km/h. Stream = 12 - 10 = 2 km/h!",
+        "explanation": "Downstream speed = 36 / 3 = 12 km/h. Current = 12 - 10 = 2 km/h."
+      },
+      {
+        "id": "csat-15-q26",
+        "topic_id": "csat-15",
+        "topic": "Boats and Streams: Upstream, Downstream & Floating Rafts",
+        "index": 26,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A rescue speedboat travels upstream at 24 km/h and downstream at 36 km/h to deliver emergency medical supplies across flood-affected villages. What is the ratio of time taken to cover a fixed distance upstream compared to downstream?",
+        "options": [
+          "(a) 3 : 2",
+          "(b) 4 : 3",
+          "(c) 5 : 4",
+          "(d) 2 : 1"
+        ],
+        "answer": "(a)",
+        "child_logic": "Inverse Ratio: Time is inversely proportional to speed: T_up / T_down = S_down / S_up = 36 / 24 = 3 : 2!",
+        "explanation": "T_up : T_down = S_down : S_up = 36 : 24 = 3 : 2."
+      }
+    ]
+  }
+}

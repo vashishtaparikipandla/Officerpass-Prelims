@@ -233,11 +233,11 @@ def fetch_upsc_curated_news():
     return curated[:30]
 
 def commit_state_to_git():
-    """Auto-commits data/state.json changes to git and pushes if remote origin is configured."""
+    """Auto-commits data/ state changes to git and pushes if remote origin is configured."""
     try:
-        subprocess.run(['git', 'add', 'data/state.json'], cwd=BASE_DIR, capture_output=True)
+        subprocess.run(['git', 'add', 'data/state.json', 'data/current-affairs-db.json', 'data/csat-topic-questions-db.json'], cwd=BASE_DIR, capture_output=True)
         t_str = time.strftime('%Y-%m-%d %H:%M:%S')
-        subprocess.run(['git', 'commit', '-m', f"Auto-save state: {t_str}"], cwd=BASE_DIR, capture_output=True)
+        subprocess.run(['git', 'commit', '-m', f"Auto-save state and notes: {t_str}"], cwd=BASE_DIR, capture_output=True)
         chk = subprocess.run(['git', 'remote', 'get-url', 'origin'], cwd=BASE_DIR, capture_output=True, text=True)
         if chk.returncode == 0 and chk.stdout.strip():
             subprocess.run(['git', 'push', 'origin', 'main'], cwd=BASE_DIR, capture_output=True)

@@ -3319,6 +3319,7 @@ function openArticleDrawer(artId) {
 
   const fs = art.digestible_fact_sheet || {};
   const whatNews = fs.what_is_news || (art.summary_points ? art.summary_points.join(' ') : 'Key national/international news event relevant for UPSC Civil Services Examination.');
+  const summaryPoints = art.summary_points || [];
   const factBox = fs.prelims_fact_box || [
     'Constitutional & Statutory Anchor: Directly applicable to UPSC Prelims GS papers.',
     `Syllabus Alignment: ${art.gs_connection || 'General Studies Paper Core'}`
@@ -3329,6 +3330,27 @@ function openArticleDrawer(artId) {
     'Static Integration: Constitutional Articles',
     'Static Integration: Economic Survey & Budget'
   ];
+
+  const gistItemsHtml = summaryPoints.map((pt, idx) => {
+    let title = `Point ${idx + 1}`;
+    let desc = pt;
+    if (pt.includes(':')) {
+      const parts = pt.split(':');
+      title = parts[0].trim();
+      desc = parts.slice(1).join(':').trim();
+    }
+    return `
+      <div style="background:#ffffff; border:1px solid #e2e8f0; border-radius:6px; padding:10px 12px; margin-bottom:8px;">
+        <div style="font-size:11.5px; font-weight:800; color:#0f172a; margin-bottom:4px; display:flex; align-items:center; gap:6px;">
+          <span style="background:#0f172a; color:#ffffff; font-size:10px; font-weight:800; padding:1px 6px; border-radius:3px;">${idx + 1}</span>
+          ${escapeHtml(title)}
+        </div>
+        <div style="font-size:12.5px; line-height:1.55; color:var(--text-body);">
+          ${escapeHtml(desc)}
+        </div>
+      </div>
+    `;
+  }).join('');
 
   body.innerHTML = `
     <div style="font-size:12px; color:var(--text-muted); margin-bottom:14px; display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
@@ -3349,7 +3371,21 @@ function openArticleDrawer(artId) {
       </div>
     </div>
 
-    <!-- 2. UPSC PRELIMS FACT-BOX -->
+    <!-- 2. COMPREHENSIVE 6-POINT PRELIMS GIST & CONTEXT -->
+    <div style="background:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:14px; margin-bottom:14px;">
+      <div style="font-size:11.5px; font-weight:800; text-transform:uppercase; color:#0f172a; margin-bottom:10px; display:flex; align-items:center; justify-content:space-between;">
+        <span style="display:flex; align-items:center; gap:6px;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          Comprehensive 6-Point Prelims Gist & Context (${summaryPoints.length} Key Dimensions)
+        </span>
+        <span style="font-size:11px; font-weight:700; color:#475569;">360° Syllabus Integration</span>
+      </div>
+      <div>
+        ${gistItemsHtml}
+      </div>
+    </div>
+
+    <!-- 3. UPSC PRELIMS FACT-BOX -->
     <div style="background:#f1f5f9; border:1px solid #cbd5e1; border-radius:8px; padding:14px; margin-bottom:14px;">
       <div style="font-size:11.5px; font-weight:800; text-transform:uppercase; color:#0f172a; margin-bottom:8px; display:flex; align-items:center; gap:6px;">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="9" x2="15" y2="9"></line><line x1="9" y1="13" x2="15" y2="13"></line><line x1="9" y1="17" x2="11" y2="17"></line></svg>
@@ -3360,7 +3396,7 @@ function openArticleDrawer(artId) {
       </ul>
     </div>
 
-    <!-- 3. PRELIMS TRAP ALERT -->
+    <!-- 4. PRELIMS TRAP ALERT -->
     <div style="background:#fef2f2; border:1px solid #fecaca; border-radius:8px; padding:12px 14px; margin-bottom:14px;">
       <div style="font-size:11.5px; font-weight:800; text-transform:uppercase; color:#991b1b; margin-bottom:4px; display:flex; align-items:center; gap:6px;">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
@@ -3371,7 +3407,7 @@ function openArticleDrawer(artId) {
       </div>
     </div>
 
-    <!-- 4. HOT TOPICS TO REVISE ALONGSIDE -->
+    <!-- 5. HOT TOPICS TO REVISE ALONGSIDE -->
     <div style="background:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:12px 14px; margin-bottom:20px;">
       <div style="font-size:11.5px; font-weight:800; text-transform:uppercase; color:#166534; margin-bottom:8px; display:flex; align-items:center; gap:6px;">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>

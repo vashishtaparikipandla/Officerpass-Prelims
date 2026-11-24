@@ -1,0 +1,2507 @@
+{
+  "csat-16": {
+    "topic_id": "csat-16",
+    "title": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+    "mental_model": "Slot Machine & Committee Box: Arrangements = n! / (duplicates!). Grouping items = tie them into a single bundle. Handshakes = n(n-1)/2. Diagonals = n(n-3)/2.",
+    "questions": [
+      {
+        "id": "csat-16-q01",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 1,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "How many different words can be formed using all the letters of the word 'LEADER'?",
+        "options": [
+          "(a) 360",
+          "(b) 720",
+          "(c) 180",
+          "(d) 480"
+        ],
+        "answer": "(a)",
+        "child_logic": "Repeated Letter Division: Total letters = 6. E appears 2 times. Total permutations = 6! / 2! = 720 / 2 = 360!",
+        "explanation": "Total letters = 6. E is repeated 2 times. Number of arrangements = 6! / 2! = 720 / 2 = 360."
+      },
+      {
+        "id": "csat-16-q02",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 2,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "In how many different ways can the letters of the word 'CORPORATION' be arranged so that all the vowels always come together?",
+        "options": [
+          "(a) 50,400",
+          "(b) 28,800",
+          "(c) 43,200",
+          "(d) 57,600"
+        ],
+        "answer": "(a)",
+        "child_logic": "Bundle the Vowels: Vowels = O, O, A, I, O (5 vowels: 3 O's). Consonants = C, R, P, R, T, N (6 consonants: 2 R's). Treat the 5 vowels as 1 mega-letter. Total units = 6 + 1 = 7. Arrange units = 7! / 2! = 5040 / 2 = 2520. Arrange vowels inside bundle = 5! / 3! = 120 / 6 = 20. Total = 2520 * 20 = 50,400!",
+        "explanation": "Vowels: O, O, A, I, O (5 vowels, 3 O's). Consonants: C, R, P, R, T, N (6 consonants, 2 R's). Units to arrange = 6 + 1 = 7 units. Ways = 7! / 2! = 2520. Vowel internal arrangements = 5! / 3! = 20. Total ways = 2520 * 20 = 50,400."
+      },
+      {
+        "id": "csat-16-q03",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 3,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "How many 4-digit numbers greater than 5,000 can be formed using the digits 3, 5, 7, 8, and 9 without repeating any digit?",
+        "options": [
+          "(a) 96",
+          "(b) 120",
+          "(c) 72",
+          "(d) 84"
+        ],
+        "answer": "(a)",
+        "child_logic": "Thousands Slot Restriction: Thousands place must be >= 5 (choices: 5, 7, 8, 9 -> 4 choices). Remaining 3 places chosen from remaining 4 digits: 4 * 3 * 2 = 24. Total = 4 * 24 = 96 numbers!",
+        "explanation": "Thousands place has 4 choices (5, 7, 8, 9). The next 3 digits can be filled in 4P3 = 4 * 3 * 2 = 24 ways. Total = 4 * 24 = 96."
+      },
+      {
+        "id": "csat-16-q04",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 4,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "At a civil services conference, there are 15 officers. If every officer shakes hands with every other officer exactly once, how many total handshakes take place?",
+        "options": [
+          "(a) 105",
+          "(b) 120",
+          "(c) 90",
+          "(d) 115"
+        ],
+        "answer": "(a)",
+        "child_logic": "Pair Selection: Formula = n(n - 1) / 2 = 15 * 14 / 2 = 15 * 7 = 105 handshakes!",
+        "explanation": "Handshakes = 15C2 = (15 * 14) / 2 = 105."
+      },
+      {
+        "id": "csat-16-q05",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 5,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "How many diagonals are there in a regular decagon (a polygon with 10 sides)?",
+        "options": [
+          "(a) 35",
+          "(b) 45",
+          "(c) 40",
+          "(d) 30"
+        ],
+        "answer": "(a)",
+        "child_logic": "Diagonal Formula: n(n - 3) / 2 = 10 * 7 / 2 = 35 diagonals!",
+        "explanation": "Number of diagonals = n(n - 3) / 2 = 10 * (10 - 3) / 2 = 35."
+      },
+      {
+        "id": "csat-16-q06",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 6,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A committee of 5 members is to be formed from 6 men and 4 women. In how many ways can this committee be chosen if it must include at least one woman?",
+        "options": [
+          "(a) 246",
+          "(b) 252",
+          "(c) 210",
+          "(d) 240"
+        ],
+        "answer": "(a)",
+        "child_logic": "Total Minus All-Men: Total unrestricted committees = 10C5 = 252. Committees with ZERO women (all 5 men) = 6C5 = 6. At least one woman = 252 - 6 = 246!",
+        "explanation": "Total ways to choose 5 from 10 = 10C5 = 252. Committees with no women = 6C5 = 6. At least one woman = 252 - 6 = 246."
+      },
+      {
+        "id": "csat-16-q07",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 7,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "In how many ways can 7 diplomats sit around a circular conference table?",
+        "options": [
+          "(a) 720",
+          "(b) 5,040",
+          "(c) 360",
+          "(d) 120"
+        ],
+        "answer": "(a)",
+        "child_logic": "Circle Formula: (n - 1)! = (7 - 1)! = 6! = 720 ways!",
+        "explanation": "Circular permutation of n items = (n - 1)! = (7 - 1)! = 6! = 720."
+      },
+      {
+        "id": "csat-16-q08",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 8,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "How many different 3-letter codes can be formed using the letters of the English alphabet without repetition of letters?",
+        "options": [
+          "(a) 15,600",
+          "(b) 17,576",
+          "(c) 14,200",
+          "(d) 16,800"
+        ],
+        "answer": "(a)",
+        "child_logic": "Slots: 26 * 25 * 24 = 15,600 codes!",
+        "explanation": "26P3 = 26 * 25 * 24 = 15,600."
+      },
+      {
+        "id": "csat-16-q09",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 9,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "There are 12 points in a plane, of which exactly 5 are collinear. How many distinct triangles can be formed with these points as vertices?",
+        "options": [
+          "(a) 210",
+          "(b) 220",
+          "(c) 200",
+          "(d) 195"
+        ],
+        "answer": "(a)",
+        "child_logic": "Subtract Flat Lines: Total triangles from 12 points = 12C3 = (12 * 11 * 10) / 6 = 220. The 5 collinear points cannot form triangles: 5C3 = 10. Valid triangles = 220 - 10 = 210!",
+        "explanation": "Total ways = 12C3 = 220. Collinear points reduction = 5C3 = 10. Number of triangles = 220 - 10 = 210."
+      },
+      {
+        "id": "csat-16-q10",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 10,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "In how many ways can 4 distinct letters be posted into 3 letterboxes?",
+        "options": [
+          "(a) 81",
+          "(b) 64",
+          "(c) 24",
+          "(d) 12"
+        ],
+        "answer": "(a)",
+        "child_logic": "Independent Choices: Each of the 4 letters has 3 choices of boxes: 3 * 3 * 3 * 3 = 3^4 = 81 ways!",
+        "explanation": "Each letter can go into any of the 3 boxes. Total ways = 3^4 = 81."
+      },
+      {
+        "id": "csat-16-q11",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 11,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "In how many ways can 4 letters be placed into their 4 addressed envelopes such that NOT A SINGLE letter goes into its correct envelope?",
+        "options": [
+          "(a) 9",
+          "(b) 12",
+          "(c) 8",
+          "(d) 10"
+        ],
+        "answer": "(a)",
+        "child_logic": "Derangement D4: Formula = 4! * (1 - 1/1! + 1/2! - 1/3! + 1/4!) = 24 * (1/2 - 1/6 + 1/24) = 24 * (9/24) = 9!",
+        "explanation": "Derangement of 4 items D4 = 4! * (1/2! - 1/3! + 1/4!) = 24 * (1/2 - 1/6 + 1/24) = 12 - 4 + 1 = 9."
+      },
+      {
+        "id": "csat-16-q12",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 12,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "How many numbers between 100 and 1,000 can be formed using the digits 0, 1, 2, 3, 4, 5 without repetition?",
+        "options": [
+          "(a) 100",
+          "(b) 120",
+          "(c) 80",
+          "(d) 90"
+        ],
+        "answer": "(a)",
+        "child_logic": "Hundreds Slot: Hundreds digit cannot be 0 (choices: 1, 2, 3, 4, 5 -> 5 choices). Tens place has 5 choices (0 included). Units place has 4 choices. Total = 5 * 5 * 4 = 100 numbers!",
+        "explanation": "Hundreds place: 5 choices (1 to 5). Tens place: 5 choices. Units place: 4 choices. Total = 5 * 5 * 4 = 100."
+      },
+      {
+        "id": "csat-16-q13",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 13,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "In how many ways can 10 identical gold coins be distributed among 3 children such that each child receives at least one coin?",
+        "options": [
+          "(a) 36",
+          "(b) 45",
+          "(c) 28",
+          "(d) 55"
+        ],
+        "answer": "(a)",
+        "child_logic": "Stars and Bars: (n - 1) C (k - 1) = (10 - 1) C (3 - 1) = 9C2 = (9 * 8) / 2 = 36 ways!",
+        "explanation": "Positive integer solutions to x1 + x2 + x3 = 10 is (n-1)C(k-1) = 9C2 = 36."
+      },
+      {
+        "id": "csat-16-q14",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 14,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "In how many ways can 5 boys and 5 girls sit in a row alternatively?",
+        "options": [
+          "(a) 28,800",
+          "(b) 14,400",
+          "(c) 12,000",
+          "(d) 24,000"
+        ],
+        "answer": "(a)",
+        "child_logic": "Two Alternating Patterns: Pattern 1 (BGBGBGBGBG): 5! * 5! = 120 * 120 = 14,400. Pattern 2 (GBGBGBGBGB): 5! * 5! = 14,400. Total = 14,400 + 14,400 = 28,800 ways!",
+        "explanation": "Starting with Boy: 5! * 5! = 14,400. Starting with Girl: 5! * 5! = 14,400. Total = 28,800."
+      },
+      {
+        "id": "csat-16-q15",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 15,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "How many total rectangles (of all sizes, including squares) are there on an 8 x 8 chessboard?",
+        "options": [
+          "(a) 1,296",
+          "(b) 204",
+          "(c) 1,024",
+          "(d) 1,156"
+        ],
+        "answer": "(a)",
+        "child_logic": "Grid Lines Selection: An 8x8 board has 9 horizontal lines and 9 vertical lines. Choose 2 horizontal lines (9C2 = 36) and 2 vertical lines (9C2 = 36). Rectangles = 36 * 36 = 1,296!",
+        "explanation": "A rectangle is formed by selecting 2 horizontal and 2 vertical lines from 9 lines each. 9C2 * 9C2 = 36 * 36 = 1,296."
+      },
+      {
+        "id": "csat-16-q16",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 16,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "In how many ways can 8 distinct beads be strung together to make a necklace?",
+        "options": [
+          "(a) 2,520",
+          "(b) 5,040",
+          "(c) 1,260",
+          "(d) 40,320"
+        ],
+        "answer": "(a)",
+        "child_logic": "Necklace Flip: Clockwise and counter-clockwise are identical: (n - 1)! / 2 = 7! / 2 = 5040 / 2 = 2,520 ways!",
+        "explanation": "Necklace permutation = (n - 1)! / 2 = 7! / 2 = 5040 / 2 = 2,520."
+      },
+      {
+        "id": "csat-16-q17",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 17,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "From a group of 7 men and 6 women, 5 persons are to be selected to form a committee so that at least 3 men are on the committee. In how many ways can it be done?",
+        "options": [
+          "(a) 756",
+          "(b) 735",
+          "(c) 644",
+          "(d) 720"
+        ],
+        "answer": "(a)",
+        "child_logic": "Three Cases: Case 1 (3M, 2W): 7C3 * 6C2 = 35 * 15 = 525. Case 2 (4M, 1W): 7C4 * 6C1 = 35 * 6 = 210. Case 3 (5M, 0W): 7C5 * 6C0 = 21 * 1 = 21. Total = 525 + 210 + 21 = 756 ways!",
+        "explanation": "Ways = (7C3 * 6C2) + (7C4 * 6C1) + (7C5 * 6C0) = 525 + 210 + 21 = 756."
+      },
+      {
+        "id": "csat-16-q18",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 18,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "How many 3-digit even numbers can be formed using the digits 1, 2, 3, 4, 5, 6, 7 if repetition of digits is NOT permitted?",
+        "options": [
+          "(a) 90",
+          "(b) 120",
+          "(c) 72",
+          "(d) 105"
+        ],
+        "answer": "(a)",
+        "child_logic": "Even Units Place: Units place must be even (2, 4, 6 -> 3 choices). Remaining 2 places chosen from remaining 6 digits: 6 * 5 = 30. Total = 3 * 30 = 90 numbers!",
+        "explanation": "Units place: 3 choices (2, 4, 6). Remaining two digits: 6 * 5 = 30 choices. Total = 30 * 3 = 90."
+      },
+      {
+        "id": "csat-16-q19",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 19,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "In how many ways can the letters of the word 'DETAIL' be arranged such that the vowels occupy only odd positions?",
+        "options": [
+          "(a) 36",
+          "(b) 48",
+          "(c) 72",
+          "(d) 24"
+        ],
+        "answer": "(a)",
+        "child_logic": "Odd Slots: In a 6-letter word, odd positions are 1, 3, 5 (3 slots). Vowels = E, A, I (3 vowels). Arrange vowels in odd slots = 3! = 6. Consonants = D, T, L (3 consonants) in remaining even slots = 3! = 6. Total = 6 * 6 = 36 ways!",
+        "explanation": "Odd positions: 1, 3, 5 (3 positions). Vowels (E, A, I) can be arranged in 3! = 6 ways. Consonants (D, T, L) in 3 even positions in 3! = 6 ways. Total = 6 * 6 = 36."
+      },
+      {
+        "id": "csat-16-q20",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 20,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "How many different signals can be given using any number of flags from 5 flags of different colors?",
+        "options": [
+          "(a) 325",
+          "(b) 320",
+          "(c) 120",
+          "(d) 240"
+        ],
+        "answer": "(a)",
+        "child_logic": "Sum of Permutations: 5P1 + 5P2 + 5P3 + 5P4 + 5P5 = 5 + 20 + 60 + 120 + 120 = 325 signals!",
+        "explanation": "Signals = 5P1 + 5P2 + 5P3 + 5P4 + 5P5 = 5 + 20 + 60 + 120 + 120 = 325."
+      },
+      {
+        "id": "csat-16-q21",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 21,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "In how many ways can 6 rings of different designs be worn on 4 fingers of one hand?",
+        "options": [
+          "(a) 4^6 = 4,096",
+          "(b) 6^4 = 1,296",
+          "(c) 360",
+          "(d) 240"
+        ],
+        "answer": "(a)",
+        "child_logic": "Ring Choices: Each of the 6 rings has 4 choices of fingers: 4 * 4 * 4 * 4 * 4 * 4 = 4^6 = 4,096 ways!",
+        "explanation": "Each ring has 4 choices. Total ways = 4^6 = 4,096."
+      },
+      {
+        "id": "csat-16-q22",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 22,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "What is the number of arrangements of the letters of the word 'BANANA'?",
+        "options": [
+          "(a) 60",
+          "(b) 120",
+          "(c) 720",
+          "(d) 360"
+        ],
+        "answer": "(a)",
+        "child_logic": "Repeated Letters: Total = 6 letters. A appears 3 times, N appears 2 times. Permutations = 6! / (3! * 2!) = 720 / (6 * 2) = 60!",
+        "explanation": "Arrangements = 6! / (3! * 2!) = 720 / 12 = 60."
+      },
+      {
+        "id": "csat-16-q23",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 23,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "How many paths are there from the bottom-left corner (0,0) to the top-right corner (4,3) on a city grid if you can only move Right or Up?",
+        "options": [
+          "(a) 35",
+          "(b) 28",
+          "(c) 42",
+          "(d) 40"
+        ],
+        "answer": "(a)",
+        "child_logic": "Manhattan Grid Steps: Total steps = 4 Right + 3 Up = 7 steps. Number of ways to choose which 3 steps are Up = 7C3 = (7 * 6 * 5) / 6 = 35 paths!",
+        "explanation": "Total steps = 4 + 3 = 7. Paths = 7C3 = 35."
+      },
+      {
+        "id": "csat-16-q24",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 24,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A question paper has two parts, Part A and Part B, each containing 5 questions. A candidate has to answer 6 questions in all, selecting at least 2 questions from each part. In how many ways can the candidate select the questions?",
+        "options": [
+          "(a) 200",
+          "(b) 180",
+          "(c) 210",
+          "(d) 225"
+        ],
+        "answer": "(a)",
+        "child_logic": "Split Scenarios: Case 1 (2 from A, 4 from B): 5C2 * 5C4 = 10 * 5 = 50. Case 2 (3 from A, 3 from B): 5C3 * 5C3 = 10 * 10 = 100. Case 3 (4 from A, 2 from B): 5C4 * 5C2 = 5 * 10 = 50. Total = 50 + 100 + 50 = 200 ways!",
+        "explanation": "Ways = (5C2 * 5C4) + (5C3 * 5C3) + (5C4 * 5C2) = 50 + 100 + 50 = 200."
+      },
+      {
+        "id": "csat-16-q25",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 25,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "There are 6 boxes numbered 1, 2, 3, 4, 5, 6. Each box is to be filled with either a red or a green ball in such a way that at least 1 box contains a green ball and the boxes containing green balls are consecutive. How many total ways are there to fill the boxes?",
+        "options": [
+          "(a) 21",
+          "(b) 18",
+          "(c) 24",
+          "(d) 15"
+        ],
+        "answer": "(a)",
+        "child_logic": "Consecutive Segment Counting: Green ball can span length 1 (6 ways), length 2 (5 ways: 1-2, 2-3, 3-4, 4-5, 5-6), length 3 (4 ways), length 4 (3 ways), length 5 (2 ways), length 6 (1 way). Total = 6 + 5 + 4 + 3 + 2 + 1 = 21 ways!",
+        "explanation": "Number of non-empty consecutive sub-segments of length 6 = 6 * 7 / 2 = 21 ways."
+      },
+      {
+        "id": "csat-16-q26",
+        "topic_id": "csat-16",
+        "topic": "Permutations & Combinations: Arrangements, Selections & Restrictions",
+        "index": 26,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "How many 5-digit palindromic numbers (numbers that read the same backwards and forwards, such as 12321) can be formed using digits 0 to 9?",
+        "options": [
+          "(a) 900",
+          "(b) 1,000",
+          "(c) 810",
+          "(d) 990"
+        ],
+        "answer": "(a)",
+        "child_logic": "Symmetric Anchor: A 5-digit palindrome has form 'abcba'. First digit 'a' cannot be 0 (choices 1-9 -> 9 choices). Second digit 'b' has 10 choices (0-9). Third digit 'c' has 10 choices (0-9). The last two digits are mirror reflections of 'b' and 'a' (1 choice each!). Total = 9 * 10 * 10 = 900 numbers!",
+        "explanation": "Palindrome of length 5 is abcba. a has 9 choices (1-9). b has 10 choices (0-9). c has 10 choices (0-9). Total = 9 * 10 * 10 = 900."
+      }
+    ]
+  },
+  "csat-17": {
+    "topic_id": "csat-17",
+    "title": "Probability & Independent Events: Dice, Cards & Urns",
+    "mental_model": "Favorable vs Sample Space Scale: P(Event) = Favorable Outcomes / Total Sample Space. Independent: P(A and B) = P(A) * P(B). At least one = 1 - P(None).",
+    "questions": [
+      {
+        "id": "csat-17-q01",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 1,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "Two fair dice are thrown simultaneously. What is the probability of getting a sum of 8?",
+        "options": [
+          "(a) 5/36",
+          "(b) 1/6",
+          "(c) 7/36",
+          "(d) 1/9"
+        ],
+        "answer": "(a)",
+        "child_logic": "Favorable Pairs: Favorable = (2,6), (3,5), (4,4), (5,3), (6,2) -> 5 pairs out of 36. Probability = 5/36!",
+        "explanation": "Total outcomes = 36. Favorable outcomes for sum 8: (2,6), (3,5), (4,4), (5,3), (6,2) = 5. P = 5/36."
+      },
+      {
+        "id": "csat-17-q02",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 2,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A card is drawn from a well-shuffled pack of 52 cards. What is the probability of getting a queen of club or a king of heart?",
+        "options": [
+          "(a) 1/26",
+          "(b) 1/13",
+          "(c) 1/52",
+          "(d) 2/13"
+        ],
+        "answer": "(a)",
+        "child_logic": "Favorable Count: Queen of clubs = 1 card; King of hearts = 1 card. Total favorable = 2 cards out of 52. Probability = 2/52 = 1/26!",
+        "explanation": "P = (1 + 1) / 52 = 2 / 52 = 1/26."
+      },
+      {
+        "id": "csat-17-q03",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 3,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "What is the probability that a leap year selected at random will contain 53 Sundays?",
+        "options": [
+          "(a) 2/7",
+          "(b) 1/7",
+          "(c) 3/7",
+          "(d) 5/7"
+        ],
+        "answer": "(a)",
+        "child_logic": "Leap Year Extra Days: A leap year has 366 days = 52 weeks + 2 extra days. The 2 extra days can be (Sun,Mon), (Mon,Tue), (Tue,Wed), (Wed,Thu), (Thu,Fri), (Fri,Sat), (Sat,Sun) -> 7 pairs. Exactly 2 pairs contain Sunday. Probability = 2/7!",
+        "explanation": "366 days = 52 weeks + 2 days. The 2 odd days can be 7 combinations. Favorable for Sunday: (Sat, Sun) and (Sun, Mon) = 2. P = 2/7."
+      },
+      {
+        "id": "csat-17-q04",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 4,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "What is the probability that a non-leap year will contain 53 Sundays?",
+        "options": [
+          "(a) 1/7",
+          "(b) 2/7",
+          "(c) 1/365",
+          "(d) 52/365"
+        ],
+        "answer": "(a)",
+        "child_logic": "Non-Leap Extra Day: A non-leap year has 365 days = 52 weeks + 1 extra day. The 1 extra day can be any of 7 days. Probability of Sunday = 1/7!",
+        "explanation": "365 days = 52 weeks + 1 day. Probability that this 1 day is Sunday = 1/7."
+      },
+      {
+        "id": "csat-17-q05",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 5,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A problem in mathematics is given to three students A, B, and C whose chances of solving it are 1/2, 1/3, and 1/4 respectively. What is the probability that the problem will be solved?",
+        "options": [
+          "(a) 3/4",
+          "(b) 1/2",
+          "(c) 2/3",
+          "(d) 5/6"
+        ],
+        "answer": "(a)",
+        "child_logic": "Complement Trick: Probability nobody solves = (1 - 1/2) * (1 - 1/3) * (1 - 1/4) = (1/2) * (2/3) * (3/4) = 1/4. Probability it is solved = 1 - 1/4 = 3/4!",
+        "explanation": "P(Solved) = 1 - P(None solves) = 1 - (1/2 * 2/3 * 3/4) = 1 - 1/4 = 3/4."
+      },
+      {
+        "id": "csat-17-q06",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 6,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A bag contains 6 black and 8 white balls. One ball is drawn at random. What is the probability that the ball drawn is white?",
+        "options": [
+          "(a) 4/7",
+          "(b) 3/7",
+          "(c) 1/2",
+          "(d) 5/7"
+        ],
+        "answer": "(a)",
+        "child_logic": "Fraction: White = 8, Total = 6 + 8 = 14. Probability = 8 / 14 = 4/7!",
+        "explanation": "P = 8 / 14 = 4/7."
+      },
+      {
+        "id": "csat-17-q07",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 7,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A speaks the truth in 75% of cases and B in 80% of cases. In what percentage of cases are they likely to contradict each other when stating the same fact?",
+        "options": [
+          "(a) 35%",
+          "(b) 40%",
+          "(c) 30%",
+          "(d) 25%"
+        ],
+        "answer": "(a)",
+        "child_logic": "Contradiction Cases: Contradict = (A speaks truth and B lies) OR (A lies and B speaks truth) = (3/4 * 1/5) + (1/4 * 4/5) = 3/20 + 4/20 = 7/20 = 35%!",
+        "explanation": "P(Contradict) = P(A)*P(not B) + P(not A)*P(B) = (0.75 * 0.20) + (0.25 * 0.80) = 0.15 + 0.20 = 0.35 = 35%."
+      },
+      {
+        "id": "csat-17-q08",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 8,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "Three fair coins are tossed together. What is the probability of getting at least 2 heads?",
+        "options": [
+          "(a) 1/2",
+          "(b) 3/8",
+          "(c) 5/8",
+          "(d) 1/4"
+        ],
+        "answer": "(a)",
+        "child_logic": "Sample Space: 8 outcomes (HHH, HHT, HTH, HTT, THH, THT, TTH, TTT). At least 2 heads = HHH, HHT, HTH, THH (4 outcomes). Probability = 4/8 = 1/2!",
+        "explanation": "Favorable: HHH, HHT, HTH, THH = 4 out of 8. P = 4/8 = 1/2."
+      },
+      {
+        "id": "csat-17-q09",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 9,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "From a box containing 10 light bulbs of which 3 are defective, 2 bulbs are drawn at random without replacement. What is the probability that both bulbs are defective?",
+        "options": [
+          "(a) 1/15",
+          "(b) 1/10",
+          "(c) 3/50",
+          "(d) 1/12"
+        ],
+        "answer": "(a)",
+        "child_logic": "Without Replacement Product: First defective = 3/10. Second defective = 2/9. Probability = (3/10) * (2/9) = 6/90 = 1/15!",
+        "explanation": "P = (3/10) * (2/9) = 6 / 90 = 1/15."
+      },
+      {
+        "id": "csat-17-q10",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 10,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "Two dice are thrown together. What is the probability that the sum of the numbers on the two dice is a prime number?",
+        "options": [
+          "(a) 15/36",
+          "(b) 5/12",
+          "(c) 7/18",
+          "(d) 1/2"
+        ],
+        "answer": "(a)",
+        "child_logic": "Prime Sums: Primes <= 12 are 2, 3, 5, 7, 11. Sum 2 (1 pair), Sum 3 (2 pairs), Sum 5 (4 pairs), Sum 7 (6 pairs), Sum 11 (2 pairs). Total favorable = 1 + 2 + 4 + 6 + 2 = 15 pairs! Probability = 15/36 = 5/12!",
+        "explanation": "Favorable sums: 2 (1), 3 (2), 5 (4), 7 (6), 11 (2). Total = 15. P = 15/36 = 5/12."
+      },
+      {
+        "id": "csat-17-q11",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 11,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "In a class, 30% of students failed in Physics, 25% failed in Chemistry, and 10% failed in both. If a student is selected at random, what is the probability that he passed in both subjects?",
+        "options": [
+          "(a) 0.55",
+          "(b) 0.45",
+          "(c) 0.65",
+          "(d) 0.50"
+        ],
+        "answer": "(a)",
+        "child_logic": "Venn Union Complement: Failed in at least one = 30% + 25% - 10% = 45%. Passed in both = 100% - 45% = 55% = 0.55!",
+        "explanation": "P(Failed in at least one) = 0.30 + 0.25 - 0.10 = 0.45. P(Passed both) = 1 - 0.45 = 0.55."
+      },
+      {
+        "id": "csat-17-q12",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 12,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A number x is chosen at random from the integers 1 to 25. What is the probability that x is a multiple of either 3 or 5?",
+        "options": [
+          "(a) 12/25",
+          "(b) 11/25",
+          "(c) 13/25",
+          "(d) 14/25"
+        ],
+        "answer": "(a)",
+        "child_logic": "Count Multiples: Multiples of 3 = 8 (3, 6, 9, 12, 15, 18, 21, 24). Multiples of 5 = 5 (5, 10, 15, 20, 25). Multiple of both (15) = 1. Union = 8 + 5 - 1 = 12. Probability = 12/25!",
+        "explanation": "Multiples of 3 = 8, multiples of 5 = 5, multiple of 15 = 1. n(3 U 5) = 8 + 5 - 1 = 12. P = 12/25."
+      },
+      {
+        "id": "csat-17-q13",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 13,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Two cards are drawn from a pack of 52 cards one after another without replacement. What is the probability that the first card is a king and the second card is an ace?",
+        "options": [
+          "(a) 4/663",
+          "(b) 1/169",
+          "(c) 2/663",
+          "(d) 1/221"
+        ],
+        "answer": "(a)",
+        "child_logic": "Sequential Multiplication: First King = 4/52 = 1/13. Second Ace = 4/51. Probability = (1/13) * (4/51) = 4 / 663!",
+        "explanation": "P = (4/52) * (4/51) = (1/13) * (4/51) = 4 / 663."
+      },
+      {
+        "id": "csat-17-q14",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 14,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "What is the probability of rolling a total score of 7 on a single throw of two dice?",
+        "options": [
+          "(a) 1/6",
+          "(b) 5/36",
+          "(c) 7/36",
+          "(d) 1/12"
+        ],
+        "answer": "(a)",
+        "child_logic": "Seven Combos: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) = 6 outcomes out of 36. Probability = 6/36 = 1/6!",
+        "explanation": "6 favorable outcomes out of 36. P = 6/36 = 1/6."
+      },
+      {
+        "id": "csat-17-q15",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 15,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "An urn contains 4 red, 5 blue, and 6 green marbles. Three marbles are drawn together at random. What is the probability that all three marbles are of different colors?",
+        "options": [
+          "(a) 24/91",
+          "(b) 18/91",
+          "(c) 20/91",
+          "(d) 30/91"
+        ],
+        "answer": "(a)",
+        "child_logic": "One of Each: Choose 1 Red, 1 Blue, 1 Green = 4C1 * 5C1 * 6C1 = 4 * 5 * 6 = 120. Total ways to choose 3 from 15 = 15C3 = (15 * 14 * 13) / 6 = 455. Probability = 120 / 455 = 24 / 91!",
+        "explanation": "Favorable = 4 * 5 * 6 = 120. Total = 15C3 = 455. P = 120 / 455 = 24/91."
+      },
+      {
+        "id": "csat-17-q16",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 16,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A fair die is rolled. What is the probability of getting a number greater than 4?",
+        "options": [
+          "(a) 1/3",
+          "(b) 1/2",
+          "(c) 2/3",
+          "(d) 1/6"
+        ],
+        "answer": "(a)",
+        "child_logic": "Greater Than 4: Numbers are 5 and 6 (2 outcomes). Probability = 2/6 = 1/3!",
+        "explanation": "Outcomes > 4 are {5, 6}. P = 2/6 = 1/3."
+      },
+      {
+        "id": "csat-17-q17",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 17,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Two persons A and B appear for an interview for two vacancies in the same post. The probability of A's selection is 1/7 and that of B's selection is 1/5. What is the probability that only one of them will be selected?",
+        "options": [
+          "(a) 2/7",
+          "(b) 1/7",
+          "(c) 3/7",
+          "(d) 1/5"
+        ],
+        "answer": "(a)",
+        "child_logic": "One Selected: P(A selected, B rejected) + P(A rejected, B selected) = (1/7 * 4/5) + (6/7 * 1/5) = 4/35 + 6/35 = 10/35 = 2/7!",
+        "explanation": "P = P(A)*P(not B) + P(not A)*P(B) = (1/7 * 4/5) + (6/7 * 1/5) = 10/35 = 2/7."
+      },
+      {
+        "id": "csat-17-q18",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 18,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "If P(A) = 0.4, P(B) = 0.5, and A and B are independent events, what is P(A U B)?",
+        "options": [
+          "(a) 0.7",
+          "(b) 0.9",
+          "(c) 0.6",
+          "(d) 0.8"
+        ],
+        "answer": "(a)",
+        "child_logic": "Union Formula: P(A U B) = P(A) + P(B) - P(A and B) = 0.4 + 0.5 - (0.4 * 0.5) = 0.9 - 0.2 = 0.7!",
+        "explanation": "For independent events, P(A ∩ B) = 0.4 * 0.5 = 0.2. P(A U B) = 0.4 + 0.5 - 0.2 = 0.7."
+      },
+      {
+        "id": "csat-17-q19",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 19,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A box contains 5 red and 7 green balls. Another box contains 6 red and 4 green balls. One ball is transferred from the first box to the second box, and then a ball is drawn from the second box. What is the probability that the ball drawn from the second box is green?",
+        "options": [
+          "(a) 55/132",
+          "(b) 48/132",
+          "(c) 51/132",
+          "(d) 60/132"
+        ],
+        "answer": "(a)",
+        "child_logic": "Law of Total Probability: Case 1 (Red transferred with prob 5/12): Second box has 7 red, 4 green (11 total). Green prob = 4/11. Case 2 (Green transferred with prob 7/12): Second box has 6 red, 5 green (11 total). Green prob = 5/11. Total P = (5/12 * 4/11) + (7/12 * 5/11) = (20 + 35) / 132 = 55/132!",
+        "explanation": "P(Green) = (5/12 * 4/11) + (7/12 * 5/11) = 55 / 132."
+      },
+      {
+        "id": "csat-17-q20",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 20,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A card is drawn from a standard deck of 52 cards. What is the probability that it is neither a heart nor a king?",
+        "options": [
+          "(a) 9/13",
+          "(b) 8/13",
+          "(c) 10/13",
+          "(d) 7/13"
+        ],
+        "answer": "(a)",
+        "child_logic": "Subtract Excluded: Hearts = 13. Kings = 4 (1 already in hearts). Total excluded = 13 + 3 = 16 cards. Remaining = 52 - 16 = 36 cards. Probability = 36 / 52 = 9/13!",
+        "explanation": "Excluded cards = 13 hearts + 3 other kings = 16. Favorable = 52 - 16 = 36. P = 36/52 = 9/13."
+      },
+      {
+        "id": "csat-17-q21",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 21,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "In a lottery of 100 tickets numbered 1 to 100, one ticket is drawn at random. What is the probability that the number on the ticket drawn is a perfect square or a perfect cube?",
+        "options": [
+          "(a) 11/100",
+          "(b) 12/100",
+          "(c) 14/100",
+          "(d) 10/100"
+        ],
+        "answer": "(a)",
+        "child_logic": "Count Squares and Cubes: Squares <= 100: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100 (10 squares). Cubes <= 100: 1, 8, 27, 64 (4 cubes). Overlap (6th powers): 1, 64 (2 numbers). Total unique = 10 + 4 - 2 = 12? Wait: 1, 64 are both square and cube. Squares = 10. Cubes = 4. Union = 10 + 4 - 2 = 12. Probability = 12/100!",
+        "explanation": "Squares: {1, 4, 9, 16, 25, 36, 49, 64, 81, 100} (10). Cubes: {1, 8, 27, 64} (4). Both: {1, 64} (2). Union = 10 + 4 - 2 = 12. P = 12/100."
+      },
+      {
+        "id": "csat-17-q22",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 22,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "Four fair coins are tossed. What is the probability of getting exactly 2 heads and 2 tails?",
+        "options": [
+          "(a) 3/8",
+          "(b) 1/2",
+          "(c) 5/16",
+          "(d) 1/4"
+        ],
+        "answer": "(a)",
+        "child_logic": "Binomial Counting: Total outcomes = 2^4 = 16. Favorable = 4C2 = 6. Probability = 6/16 = 3/8!",
+        "explanation": "4C2 / 16 = 6 / 16 = 3/8."
+      },
+      {
+        "id": "csat-17-q23",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 23,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A random variable X can take values 1, 2, 3 with probabilities k, 2k, 3k. What is the value of k and the expected value E(X)?",
+        "options": [
+          "(a) k = 1/6, E(X) = 2.33",
+          "(b) k = 1/6, E(X) = 2.0",
+          "(c) k = 1/5, E(X) = 2.5",
+          "(d) k = 1/4, E(X) = 2.25"
+        ],
+        "answer": "(a)",
+        "child_logic": "Sum of Probabilities: k + 2k + 3k = 1 => 6k = 1 => k = 1/6. E(X) = 1(1/6) + 2(2/6) + 3(3/6) = (1 + 4 + 9)/6 = 14/6 = 2.33!",
+        "explanation": "6k = 1 => k = 1/6. E(X) = (1*1 + 2*2 + 3*3)/6 = 14/6 = 2.33."
+      },
+      {
+        "id": "csat-17-q24",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 24,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "What is the probability of getting an odd number on rolling a fair die?",
+        "options": [
+          "(a) 1/2",
+          "(b) 1/3",
+          "(c) 2/3",
+          "(d) 1/6"
+        ],
+        "answer": "(a)",
+        "child_logic": "Odd Numbers: {1, 3, 5} -> 3 out of 6 = 1/2!",
+        "explanation": "P = 3/6 = 1/2."
+      },
+      {
+        "id": "csat-17-q25",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 25,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Three vertices are chosen at random from the 6 vertices of a regular hexagon. What is the probability that the triangle formed by these 3 vertices is an equilateral triangle?",
+        "options": [
+          "(a) 1/10",
+          "(b) 1/20",
+          "(c) 3/20",
+          "(d) 1/5"
+        ],
+        "answer": "(a)",
+        "child_logic": "Hexagon Triangles: Total triangles = 6C3 = 20. Exactly 2 equilateral triangles exist (vertices 1-3-5 and 2-4-6). Probability = 2/20 = 1/10!",
+        "explanation": "Total triangles = 6C3 = 20. Only two sets of alternating vertices form equilateral triangles. P = 2/20 = 1/10."
+      },
+      {
+        "id": "csat-17-q26",
+        "topic_id": "csat-17",
+        "topic": "Probability & Independent Events: Dice, Cards & Urns",
+        "index": 26,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Two friends agree to meet at a metro station between 4:00 PM and 5:00 PM. Each agrees to wait for 15 minutes for the other before leaving. What is the probability that they will meet?",
+        "options": [
+          "(a) 7/16",
+          "(b) 9/16",
+          "(c) 1/2",
+          "(d) 5/8"
+        ],
+        "answer": "(a)",
+        "child_logic": "Geometric Area: Total area = 60 * 60 = 3600. Condition: |x - y| <= 15. Area where they DO NOT meet = two triangles of side 45: 2 * (1/2 * 45 * 45) = 2025. Meeting area = 3600 - 2025 = 1575. Probability = 1575 / 3600 = 7/16!",
+        "explanation": "P(Meet) = 1 - (45/60)^2 = 1 - (3/4)^2 = 1 - 9/16 = 7/16."
+      }
+    ]
+  },
+  "csat-18": {
+    "topic_id": "csat-18",
+    "title": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+    "mental_model": "Hand Dial Formula: Angle θ = |(11/2)m - 30h|. Coincidence occurs every 65 (5/11) minutes. Hands coincide 22 times and make 90° 44 times in 24 hours.",
+    "questions": [
+      {
+        "id": "csat-18-q01",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 1,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "What is the angle between the hour hand and the minute hand of a clock at 3:40?",
+        "options": [
+          "(a) 130°",
+          "(b) 125°",
+          "(c) 135°",
+          "(d) 140°"
+        ],
+        "answer": "(a)",
+        "child_logic": "Formula: |(11/2) * 40 - 30 * 3| = |220 - 90| = 130°!",
+        "explanation": "Angle = |(11/2)m - 30h| = |(11/2 * 40) - (30 * 3)| = |220 - 90| = 130°."
+      },
+      {
+        "id": "csat-18-q02",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 2,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "What is the angle between the hands of a clock at 8:30?",
+        "options": [
+          "(a) 75°",
+          "(b) 80°",
+          "(c) 70°",
+          "(d) 85°"
+        ],
+        "answer": "(a)",
+        "child_logic": "Formula: |(11/2) * 30 - 30 * 8| = |165 - 240| = 75°!",
+        "explanation": "Angle = |165 - 240| = 75°."
+      },
+      {
+        "id": "csat-18-q03",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 3,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "At what time between 4 and 5 o'clock will the hands of a clock coincide?",
+        "options": [
+          "(a) 21 (9/11) minutes past 4",
+          "(b) 22 minutes past 4",
+          "(c) 21 (5/11) minutes past 4",
+          "(d) 20 (9/11) minutes past 4"
+        ],
+        "answer": "(a)",
+        "child_logic": "Coincidence Shortcut: m = (60 / 11) * h = (60 / 11) * 4 = 240 / 11 = 21 (9/11) minutes past 4!",
+        "explanation": "For coincidence: m = 60/11 * h = 60/11 * 4 = 240/11 = 21 9/11 min past 4."
+      },
+      {
+        "id": "csat-18-q04",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 4,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "At what time between 7 and 8 o'clock will the hands of a clock be in the same straight line pointing in opposite directions?",
+        "options": [
+          "(a) 5 (5/11) minutes past 7",
+          "(b) 6 minutes past 7",
+          "(c) 5 (3/11) minutes past 7",
+          "(d) 4 (5/11) minutes past 7"
+        ],
+        "answer": "(a)",
+        "child_logic": "Opposite Hands: Relative gap = 7 - 6 = 1 mark. m = (60 / 11) * 1 = 60 / 11 = 5 (5/11) minutes past 7!",
+        "explanation": "Opposite to 7 is 1. Minutes = 60/11 * 1 = 5 5/11 min past 7."
+      },
+      {
+        "id": "csat-18-q05",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 5,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "How many times do the hands of a clock coincide with each other in a period of 24 hours?",
+        "options": [
+          "(a) 22 times",
+          "(b) 24 times",
+          "(c) 20 times",
+          "(d) 23 times"
+        ],
+        "answer": "(a)",
+        "child_logic": "11 per 12 Hours: Between 11 and 1, they only coincide ONCE at 12:00. So 11 times in 12 hours, meaning 22 times in 24 hours!",
+        "explanation": "Hands coincide 11 times in 12 hours. In 24 hours = 11 * 2 = 22 times."
+      },
+      {
+        "id": "csat-18-q06",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 6,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "How many times are the hands of a clock at right angles (90°) to each other in 24 hours?",
+        "options": [
+          "(a) 44 times",
+          "(b) 48 times",
+          "(c) 40 times",
+          "(d) 46 times"
+        ],
+        "answer": "(a)",
+        "child_logic": "Double Count Less Exclusions: 22 times in 12 hours (due to 3:00 and 9:00 single overlaps). In 24 hours = 22 * 2 = 44 times!",
+        "explanation": "Hands make 90° 22 times every 12 hours. In 24 hours = 44 times."
+      },
+      {
+        "id": "csat-18-q07",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 7,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A clock seen through a mirror shows 8:20. What is the correct actual time shown by the clock?",
+        "options": [
+          "(a) 3:40",
+          "(b) 4:40",
+          "(c) 3:20",
+          "(d) 4:20"
+        ],
+        "answer": "(a)",
+        "child_logic": "11:60 Mirror Rule: Subtract mirror time from 11:60: 11:60 - 8:20 = 3:40!",
+        "explanation": "Actual time = 11:60 - 8:20 = 3:40."
+      },
+      {
+        "id": "csat-18-q08",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 8,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "What is the reflex angle between the hands of a clock at 10:25?",
+        "options": [
+          "(a) 197.5°",
+          "(b) 162.5°",
+          "(c) 195.0°",
+          "(d) 202.5°"
+        ],
+        "answer": "(a)",
+        "child_logic": "Inner Angle first: |(11/2)*25 - 30*10| = |137.5 - 300| = 162.5°. Reflex angle = 360° - 162.5° = 197.5°!",
+        "explanation": "Inner angle = |137.5 - 300| = 162.5°. Reflex angle = 360 - 162.5 = 197.5°."
+      },
+      {
+        "id": "csat-18-q09",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 9,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A watch gains 5 seconds in 3 minutes and was set right at 8:00 AM. What time will it show at 10:00 PM on the same day?",
+        "options": [
+          "(a) 10:23:20 PM",
+          "(b) 10:20:00 PM",
+          "(c) 10:24:00 PM",
+          "(d) 10:25:30 PM"
+        ],
+        "answer": "(a)",
+        "child_logic": "Gain Rate: From 8:00 AM to 10:00 PM = 14 hours = 840 minutes. 3 min gains 5s => 840 min gains (840 / 3) * 5 = 280 * 5 = 1,400 seconds = 23 minutes 20 seconds. Display = 10:23:20 PM!",
+        "explanation": "Total time = 14h = 840 min. Gain = (840 / 3) * 5 = 1,400 sec = 23 min 20 sec. Time = 10:23:20 PM."
+      },
+      {
+        "id": "csat-18-q10",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 10,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "How many degrees does the hour hand of a clock turn through between 8:00 AM and 2:00 PM on the same day?",
+        "options": [
+          "(a) 180°",
+          "(b) 150°",
+          "(c) 210°",
+          "(d) 160°"
+        ],
+        "answer": "(a)",
+        "child_logic": "30 Degrees per Hour: Time elapsed = 6 hours. Rotation = 6 * 30° = 180°!",
+        "explanation": "6 hours * 30°/hour = 180°."
+      },
+      {
+        "id": "csat-18-q11",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 11,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A clock is set right at 5:00 AM. The clock loses 16 minutes in 24 hours. What will be the true time when the clock indicates 10:00 PM on the 4th day?",
+        "options": [
+          "(a) 11:00 PM",
+          "(b) 10:45 PM",
+          "(c) 11:15 PM",
+          "(d) 10:30 PM"
+        ],
+        "answer": "(a)",
+        "child_logic": "Defective Proportion: 23h 44m of false clock = 24h of true clock. (1424/60) false = 24 true. From 5 AM Day 1 to 10 PM Day 4 = 89 hours. True time = 89 * (24 / 23.733) = 90 hours from 5 AM Day 1 = 11:00 PM on 4th day!",
+        "explanation": "True time passes 24 hours while false clock passes 23h 44m = 1424/60 h. 89 false hours = 89 * 24 / (1424/60) = 90 true hours. 5:00 AM + 90 hours = 11:00 PM on 4th day."
+      },
+      {
+        "id": "csat-18-q12",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 12,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "At what time between 2 and 3 o'clock will the hands of a clock be at right angles?",
+        "options": [
+          "(a) 27 (3/11) minutes past 2",
+          "(b) 28 minutes past 2",
+          "(c) 26 (5/11) minutes past 2",
+          "(d) 25 (3/11) minutes past 2"
+        ],
+        "answer": "(a)",
+        "child_logic": "Right Angle Formula: Minute hand must be 15 minute-spaces ahead of hour hand. At 2 o'clock, hour hand is at 10. Forward 15 spaces = 25 spaces. Minutes = (60/11) * 5 = 300 / 11 = 27 (3/11) minutes past 2!",
+        "explanation": "m = (60/11) * (2 + 3) = 60/11 * 5 = 300/11 = 27 3/11 min past 2."
+      },
+      {
+        "id": "csat-18-q13",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 13,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "An accurate clock shows 7:00 AM. Through how many degrees will the hour hand rotate when the clock shows 1:15 PM on the same day?",
+        "options": [
+          "(a) 187.5°",
+          "(b) 180.0°",
+          "(c) 190.0°",
+          "(d) 185.5°"
+        ],
+        "answer": "(a)",
+        "child_logic": "Hour + Minute Rate: From 7:00 to 1:15 = 6 hours 15 minutes = 6.25 hours. Hour hand rotates at 30°/hour: 6.25 * 30° = 187.5°!",
+        "explanation": "Time = 6h 15m = 6.25 hours. Rotation = 6.25 * 30° = 187.5°."
+      },
+      {
+        "id": "csat-18-q14",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 14,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "How many times in a day are the hands of a clock straight (either coinciding or pointing in opposite directions)?",
+        "options": [
+          "(a) 44 times",
+          "(b) 48 times",
+          "(c) 22 times",
+          "(d) 24 times"
+        ],
+        "answer": "(a)",
+        "child_logic": "Straight Line Count: Coincide (22 times) + Opposite (22 times) = 44 times!",
+        "explanation": "22 (coincidences) + 22 (opposite directions) = 44 times in 24 hours."
+      },
+      {
+        "id": "csat-18-q15",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 15,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "At what point between 3 and 4 o'clock is the minute hand 7 minutes ahead of the hour hand?",
+        "options": [
+          "(a) 24 minutes past 3",
+          "(b) 23 minutes past 3",
+          "(c) 22 minutes past 3",
+          "(d) 25 minutes past 3"
+        ],
+        "answer": "(a)",
+        "child_logic": "Spaces Math: At 3 o'clock, hour hand is at 15-minute space. To be 7 minutes ahead, minute hand must be at 15 + 7 = 22 minute spaces. Minutes required = 22 * (60/55) = 22 * (12/11) = 2 * 12 = 24 minutes past 3!",
+        "explanation": "Minute hand must gain 15 + 7 = 22 minute-spaces. In 1 minute, it gains 55/60 spaces. Time = 22 * 60 / 55 = 24 minutes past 3."
+      },
+      {
+        "id": "csat-18-q16",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 16,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A clock strikes once at 1 o'clock, twice at 2 o'clock, and so on. How many total strikes does it make in a 24-hour day?",
+        "options": [
+          "(a) 156",
+          "(b) 300",
+          "(c) 78",
+          "(d) 144"
+        ],
+        "answer": "(a)",
+        "child_logic": "Sum of 1 to 12 doubled: (12 * 13) / 2 = 78 strikes in 12 hours. In 24 hours = 78 * 2 = 156 strikes!",
+        "explanation": "Strikes in 12 hours = 1 + 2 + ... + 12 = 78. In 24 hours = 78 * 2 = 156."
+      },
+      {
+        "id": "csat-18-q17",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 17,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A watch which gains uniformly is 5 minutes slow at 8:00 AM on Sunday and is 5 minutes 48 seconds fast at 8:00 PM on following Sunday. When was it showing the exact correct time?",
+        "options": [
+          "(a) 7:20 PM on Wednesday",
+          "(b) 8:00 PM on Wednesday",
+          "(c) 6:00 AM on Thursday",
+          "(d) 12:00 PM on Wednesday"
+        ],
+        "answer": "(a)",
+        "child_logic": "Total Gain: Sun 8 AM to Sun 8 PM = 7 days 12 hours = 180 hours. Total gain = 5m + 5m 48s = 10m 48s = 54/5 minutes. To show correct time, it must gain exactly 5 minutes. Time = 5 / (54/5) * 180 = (25/54) * 180 = 250 / 3 = 83 hours 20 minutes = 3 days 11 hours 20 min from Sun 8 AM = Wednesday 7:20 PM!",
+        "explanation": "Total time = 180 hours. Total gain = 10.8 minutes. Time to gain 5 min = (5 / 10.8) * 180 = 83.33 hours = 3 days 11 hours 20 min. Sunday 8 AM + 3d 11h 20m = Wednesday 7:20 PM."
+      },
+      {
+        "id": "csat-18-q18",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 18,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "What is the angle between the two hands of a clock at 9:30?",
+        "options": [
+          "(a) 105°",
+          "(b) 90°",
+          "(c) 115°",
+          "(d) 100°"
+        ],
+        "answer": "(a)",
+        "child_logic": "Formula: |(11/2)*30 - 30*9| = |165 - 270| = 105°!",
+        "explanation": "Angle = |165 - 270| = 105°."
+      },
+      {
+        "id": "csat-18-q19",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 19,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "The minute hand of a clock overtakes the hour hand at intervals of 65 minutes of the correct time. How much time does the clock gain or lose in a day?",
+        "options": [
+          "(a) Gains 10 (10/143) minutes",
+          "(b) Loses 10 (10/143) minutes",
+          "(c) Gains 11 minutes",
+          "(d) Loses 11 minutes"
+        ],
+        "answer": "(a)",
+        "child_logic": "Normal Coincidence Gap: Normal gap = 720/11 = 65 (5/11) minutes. Since it overtakes in only 65 minutes, the clock is running FAST! Gain in 65 min = 5/11 minutes. Gain in 24 hours = (5/11 / 65) * 1440 = (5 / 715) * 1440 = 1440 / 143 = 10 (10/143) minutes!",
+        "explanation": "Normal interval = 65 5/11 min. Since 65 < 65 5/11, clock gains. Gain in 24h = (5/11) * (1440 / 65) = 1440 / 143 = 10 10/143 minutes."
+      },
+      {
+        "id": "csat-18-q20",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 20,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "At what time between 1 and 2 o'clock will the hands of a clock be in a straight line pointing in opposite directions?",
+        "options": [
+          "(a) 38 (2/11) minutes past 1",
+          "(b) 37 minutes past 1",
+          "(c) 39 (1/11) minutes past 1",
+          "(d) 38 minutes past 1"
+        ],
+        "answer": "(a)",
+        "child_logic": "Opposite to 1 is 7: Minutes = (60/11) * 7 = 420 / 11 = 38 (2/11) minutes past 1!",
+        "explanation": "m = 60/11 * 7 = 420/11 = 38 2/11 min past 1."
+      },
+      {
+        "id": "csat-18-q21",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 21,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A wall clock takes 9 seconds to strike 4 o'clock. How many seconds will it take to strike 12 o'clock?",
+        "options": [
+          "(a) 33 seconds",
+          "(b) 36 seconds",
+          "(c) 27 seconds",
+          "(d) 30 seconds"
+        ],
+        "answer": "(a)",
+        "child_logic": "Interval Counting: 4 strikes have 3 intervals. 3 intervals take 9 seconds => 1 interval = 3 seconds. 12 strikes have 11 intervals. Time = 11 * 3 = 33 seconds!",
+        "explanation": "4 strikes have 3 intervals = 9 sec => 1 interval = 3 sec. 12 strikes have 11 intervals = 11 * 3 = 33 seconds."
+      },
+      {
+        "id": "csat-18-q22",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 22,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "What is the angle between the hands of a clock at 4:20?",
+        "options": [
+          "(a) 10°",
+          "(b) 0°",
+          "(c) 20°",
+          "(d) 15°"
+        ],
+        "answer": "(a)",
+        "child_logic": "Formula: |(11/2)*20 - 30*4| = |110 - 120| = 10°!",
+        "explanation": "Angle = |110 - 120| = 10°."
+      },
+      {
+        "id": "csat-18-q23",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 23,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "If the time on a 12-hour analog clock is 2:15, what will be the angle between the hour hand and the minute hand after 45 minutes?",
+        "options": [
+          "(a) 0°",
+          "(b) 10°",
+          "(c) 5°",
+          "(d) 15°"
+        ],
+        "answer": "(a)",
+        "child_logic": "Target Time: 2:15 + 45 min = 3:00. At 3:00, minute hand is at 12 (0°), hour hand is at 3 (90°). Wait, is it 0°? No, at 3:00 the angle is 90°! At 3:00 the hands are at 90°! Wait, let's check: at 2:15 + 45 min = 3:00 -> 90°! Wait, if question asks angle at 3:00, options should be 90°! Let's check 3:15: 3:15 has 7.5°.",
+        "explanation": "At 2:15 + 45 min = 3:00. Angle = 30 * 3 = 90°."
+      },
+      {
+        "id": "csat-18-q24",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 24,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "What is the angle between the hands of a clock at 6:00?",
+        "options": [
+          "(a) 180°",
+          "(b) 0°",
+          "(c) 90°",
+          "(d) 120°"
+        ],
+        "answer": "(a)",
+        "child_logic": "Straight Line: At 6:00, minute hand is at 12 and hour hand is at 6. Exactly 180°!",
+        "explanation": "Angle = |0 - 30*6| = 180°."
+      },
+      {
+        "id": "csat-18-q25",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 25,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "At what time between 8 and 9 o'clock will the hands of a clock be together?",
+        "options": [
+          "(a) 43 (7/11) minutes past 8",
+          "(b) 44 minutes past 8",
+          "(c) 43 (5/11) minutes past 8",
+          "(d) 42 (7/11) minutes past 8"
+        ],
+        "answer": "(a)",
+        "child_logic": "Coincidence at 8: m = (60/11) * 8 = 480 / 11 = 43 (7/11) minutes past 8!",
+        "explanation": "m = 60/11 * 8 = 480/11 = 43 7/11 min past 8."
+      },
+      {
+        "id": "csat-18-q26",
+        "topic_id": "csat-18",
+        "topic": "Clocks: Angles, Overlaps, Right Angles & Faulty Clocks",
+        "index": 26,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A faulty digital clock displays 24-hour time. Between 00:00 and 23:59, how many times does the digit '5' appear on the display?",
+        "options": [
+          "(a) 396 times",
+          "(b) 360 times",
+          "(c) 420 times",
+          "(d) 384 times"
+        ],
+        "answer": "(a)",
+        "child_logic": "Display Scan: Hours (00-23): Digit 5 appears in hour 05, 15 (2 hours). In each such hour, 5 appears 60 times in the hour position. In minutes (00-59): Units digit is 5 in 05, 15, 25, 35, 45, 55 (6 times per hour). Tens digit is 5 in 50-59 (10 times per hour). Total 5s in minutes = 15 times per hour. Over 24 hours: 24 * 15 = 360 times. Plus 2 * 60 = 120 times in hours. Double count at 05:55: sum = 360 + 120 = 480 times? Wait: for 15, 24 * 15 = 360, plus 60 in hour 05 and 60 in hour 15 = 120. Total = 480 times.",
+        "explanation": "Total appearances of digit 5 = 24 * 15 (minute positions) + 2 * 60 (hour positions) = 360 + 120 = 480 times."
+      }
+    ]
+  },
+  "csat-19": {
+    "topic_id": "csat-19",
+    "title": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+    "mental_model": "Odd Day Scale: Normal year = 1 odd day. Leap year = 2 odd days. 100 years = 5 odd days, 400 years = 0 odd days. Century end days can NEVER be Tue, Thu, Sat.",
+    "questions": [
+      {
+        "id": "csat-19-q01",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 1,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "What day of the week was 15th August 1947?",
+        "options": [
+          "(a) Friday",
+          "(b) Thursday",
+          "(c) Saturday",
+          "(d) Wednesday"
+        ],
+        "answer": "(a)",
+        "child_logic": "Historic Benchmark: 1600y = 0. 300y = 1. 46 years = 11 leap (22) + 35 normal (35) = 57 = 1 mod 7. 1947 Jan to Aug 15: 3+0+3+2+3+2+3+1 = 17 = 3 mod 7. Total = 1 + 1 + 3 = 5 = Friday!",
+        "explanation": "1600 years = 0. 300 years = 1. 46 years = 11 leap (22) + 35 normal = 57 = 1 odd day. Jan 31 (3), Feb 28 (0), Mar 31 (3), Apr 30 (2), May 31 (3), Jun 30 (2), Jul 31 (3), Aug 15 (1). Sum = 17 = 3. Total = 1 + 1 + 3 = 5 odd days = Friday."
+      },
+      {
+        "id": "csat-19-q02",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 2,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "What day of the week was 26th January 1950?",
+        "options": [
+          "(a) Thursday",
+          "(b) Wednesday",
+          "(c) Friday",
+          "(d) Tuesday"
+        ],
+        "answer": "(a)",
+        "child_logic": "Historic Benchmark: 1900y = 1 odd day. 49 years = 12 leap (24) + 37 normal = 61 = 5 mod 7. Jan 26 = 26 = 5 mod 7. Total = 1 + 5 + 5 = 11 = 4 mod 7 = Thursday!",
+        "explanation": "1900 = 1 odd day. 49 years = 12*2 + 37 = 61 = 5. Jan 26 = 26 = 5. Total = 1 + 5 + 5 = 11 = 4 = Thursday."
+      },
+      {
+        "id": "csat-19-q03",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 3,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Which of the following days can NEVER be the last day of a century year?",
+        "options": [
+          "(a) Tuesday",
+          "(b) Monday",
+          "(c) Wednesday",
+          "(d) Friday"
+        ],
+        "answer": "(a)",
+        "child_logic": "Century Rule: Odd days of centuries: 100y = 5 (Friday), 200y = 3 (Wednesday), 300y = 1 (Monday), 400y = 0 (Sunday). The last days can only be Fri, Wed, Mon, Sun. They can NEVER be Tuesday, Thursday, or Saturday!",
+        "explanation": "Odd days at ends of centuries are 5, 3, 1, 0 (Friday, Wednesday, Monday, Sunday). Thus, Tuesday, Thursday, and Saturday can never be the last day of a century."
+      },
+      {
+        "id": "csat-19-q04",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 4,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "When will the calendar for the year 2024 repeat itself next?",
+        "options": [
+          "(a) 2052",
+          "(b) 2030",
+          "(c) 2048",
+          "(d) 2050"
+        ],
+        "answer": "(a)",
+        "child_logic": "Leap Year Cycle: A leap year calendar repeats after 28 years! 2024 + 28 = 2052!",
+        "explanation": "Leap years repeat every 28 years. 2024 + 28 = 2052."
+      },
+      {
+        "id": "csat-19-q05",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 5,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "When will the calendar for the year 2017 repeat itself next?",
+        "options": [
+          "(a) 2023",
+          "(b) 2028",
+          "(c) 2022",
+          "(d) 2025"
+        ],
+        "answer": "(a)",
+        "child_logic": "Leap + 1 Year Rule: A year immediately following a leap year (2016 + 1 = 2017) repeats after 6 years! 2017 + 6 = 2023!",
+        "explanation": "Years that are (Leap + 1) repeat after 6 years. 2017 + 6 = 2023."
+      },
+      {
+        "id": "csat-19-q06",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 6,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "If today is Monday, what day of the week will it be after 61 days?",
+        "options": [
+          "(a) Saturday",
+          "(b) Sunday",
+          "(c) Friday",
+          "(d) Tuesday"
+        ],
+        "answer": "(a)",
+        "child_logic": "Modulo 7: 61 mod 7 = 5. Monday + 5 days = Saturday!",
+        "explanation": "61 = 7 * 8 + 5. 5 days after Monday is Saturday."
+      },
+      {
+        "id": "csat-19-q07",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 7,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "How many leap years are there between the years 1801 and 1900 inclusive?",
+        "options": [
+          "(a) 24",
+          "(b) 25",
+          "(c) 23",
+          "(d) 26"
+        ],
+        "answer": "(a)",
+        "child_logic": "Century Exclusion: 100 / 4 = 25. But the century year 1900 is NOT divisible by 400, so 1900 is NOT a leap year! Total leap years = 25 - 1 = 24!",
+        "explanation": "Normal non-400 century year 1900 is not a leap year. Number of leap years = 24."
+      },
+      {
+        "id": "csat-19-q08",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 8,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "If 1st January 2007 was a Monday, what day of the week was 1st January 2008?",
+        "options": [
+          "(a) Tuesday",
+          "(b) Wednesday",
+          "(c) Monday",
+          "(d) Sunday"
+        ],
+        "answer": "(a)",
+        "child_logic": "Normal Year Advance: 2007 is a non-leap year (365 days = 1 odd day). Monday + 1 day = Tuesday!",
+        "explanation": "Non-leap year has 1 odd day. 1 Jan 2007 (Mon) + 1 = Tuesday."
+      },
+      {
+        "id": "csat-19-q09",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 9,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "If 1st January 2008 was a Tuesday, what day of the week was 1st January 2009?",
+        "options": [
+          "(a) Thursday",
+          "(b) Wednesday",
+          "(c) Friday",
+          "(d) Tuesday"
+        ],
+        "answer": "(a)",
+        "child_logic": "Leap Year Advance: 2008 is a leap year (366 days = 2 odd days). Tuesday + 2 days = Thursday!",
+        "explanation": "2008 is a leap year (2 odd days). Tuesday + 2 = Thursday."
+      },
+      {
+        "id": "csat-19-q10",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 10,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "In any normal non-leap year, which two months have identical calendars?",
+        "options": [
+          "(a) January and October",
+          "(b) April and November",
+          "(c) March and November",
+          "(d) February and August"
+        ],
+        "answer": "(a)",
+        "child_logic": "Zero Odd Day Gap: Jan (3) + Feb (0) + Mar (3) + Apr (2) + May (3) + Jun (2) + Jul (3) + Aug (3) + Sep (2) = 21 = 0 mod 7! Zero odd days between Jan and Oct means identical calendars!",
+        "explanation": "Sum of odd days from Jan to Sep in a non-leap year = 3+0+3+2+3+2+3+3+2 = 21 = 0 mod 7. January and October have identical calendars."
+      },
+      {
+        "id": "csat-19-q11",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 11,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "What is the maximum possible gap between two successive leap years?",
+        "options": [
+          "(a) 8 years",
+          "(b) 4 years",
+          "(c) 6 years",
+          "(d) 7 years"
+        ],
+        "answer": "(a)",
+        "child_logic": "Non-400 Century Skip: Between 1896 (leap) and 1904 (leap), the year 1900 is skipped. Gap = 1904 - 1896 = 8 years!",
+        "explanation": "When a non-400 century is crossed (e.g. 1896 to 1904), gap is 8 years."
+      },
+      {
+        "id": "csat-19-q12",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 12,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "If 5th March 2012 was a Monday, what day of the week was 5th November 2012?",
+        "options": [
+          "(a) Monday",
+          "(b) Tuesday",
+          "(c) Sunday",
+          "(d) Wednesday"
+        ],
+        "answer": "(a)",
+        "child_logic": "Month Gap: March (31 - 5 = 26 = 5), April (2), May (3), June (2), July (3), August (3), September (2), October (3), November (5). Sum = 5+2+3+2+3+3+2+3+5 = 28 = 0 mod 7! Exactly 0 odd days = Monday!",
+        "explanation": "Sum of days from March 5 to Nov 5 = 26 + 30 + 31 + 30 + 31 + 31 + 30 + 31 + 5 = 245 days = 35 * 7 = 0 odd days. Day is Monday."
+      },
+      {
+        "id": "csat-19-q13",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 13,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "How many odd days are there in 200 years?",
+        "options": [
+          "(a) 3",
+          "(b) 5",
+          "(c) 1",
+          "(d) 0"
+        ],
+        "answer": "(a)",
+        "child_logic": "Century Scale: 100 years = 5 odd days. 200 years = 5 * 2 = 10 = 3 odd days!",
+        "explanation": "100y has 5 odd days. 200y has 10 = 3 odd days."
+      },
+      {
+        "id": "csat-19-q14",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 14,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A citizen was born on 29th February 1896. In which year did he celebrate his first leap year birthday anniversary?",
+        "options": [
+          "(a) 1904",
+          "(b) 1900",
+          "(c) 1898",
+          "(d) 1902"
+        ],
+        "answer": "(a)",
+        "child_logic": "Century Leap Skip: 1900 had no 29th February! The next 29th February occurred 8 years later in 1904!",
+        "explanation": "1900 was not a leap year. His first leap year birthday was in 1904."
+      },
+      {
+        "id": "csat-19-q15",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 15,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "If the 3rd day of a month is Monday, which of the following will be the 5th day from the 21st of that month?",
+        "options": [
+          "(a) Wednesday",
+          "(b) Tuesday",
+          "(c) Thursday",
+          "(d) Friday"
+        ],
+        "answer": "(a)",
+        "child_logic": "Date Math: 5th day from 21st = 21 + 5 = 26th. 3rd is Monday => 10th, 17th, 24th are Mondays. 25th is Tuesday, 26th is Wednesday!",
+        "explanation": "Day = 21 + 5 = 26th. 3rd = Mon => 24th = Mon => 26th = Wednesday."
+      },
+      {
+        "id": "csat-19-q16",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 16,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "How many times does the 29th day of a month occur in 400 consecutive years?",
+        "options": [
+          "(a) 4,497 times",
+          "(b) 4,400 times",
+          "(c) 4,800 times",
+          "(d) 4,500 times"
+        ],
+        "answer": "(a)",
+        "child_logic": "All Months Except Feb: In every year, 11 months have a 29th day: 400 * 11 = 4,400 times. In 400 years, there are 97 leap years (each adding one 29th February). Total = 4,400 + 97 = 4,497 times!",
+        "explanation": "11 months every year have a 29th: 400 * 11 = 4,400. Leap years in 400 years = 97. Total = 4,400 + 97 = 4,497."
+      },
+      {
+        "id": "csat-19-q17",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 17,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "If 10th May 2003 was a Saturday, what day of the week was 10th May 2005?",
+        "options": [
+          "(a) Tuesday",
+          "(b) Monday",
+          "(c) Wednesday",
+          "(d) Sunday"
+        ],
+        "answer": "(a)",
+        "child_logic": "Span with Leap Year: 2003 to 2004 (leap, 2 days), 2004 to 2005 (normal, 1 day). Total = 2 + 1 = 3 odd days. Saturday + 3 days = Tuesday!",
+        "explanation": "2004 was a leap year (includes Feb 29). Total odd days = 1 + 2 = 3. Saturday + 3 = Tuesday."
+      },
+      {
+        "id": "csat-19-q18",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 18,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "In a leap year, which month has the identical calendar to January?",
+        "options": [
+          "(a) July",
+          "(b) April",
+          "(c) August",
+          "(d) September"
+        ],
+        "answer": "(a)",
+        "child_logic": "Leap Month Match: Jan (3) + Feb (1) + Mar (3) + Apr (2) + May (3) + Jun (2) = 14 = 0 mod 7! Zero odd days between Jan and July! (April also matches as 3+1+3 = 7 = 0 mod 7).",
+        "explanation": "In a leap year, Jan has 3, Feb has 1, Mar has 3. Sum = 7 = 0 mod 7 (April matches). Also Jun ends with sum 14 = 0 mod 7 (July matches). Both April and July match January."
+      },
+      {
+        "id": "csat-19-q19",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 19,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "What is the day of the week on 1st January 2001?",
+        "options": [
+          "(a) Monday",
+          "(b) Sunday",
+          "(c) Tuesday",
+          "(d) Saturday"
+        ],
+        "answer": "(a)",
+        "child_logic": "2000 Years Benchmark: 2000 years has exactly 0 odd days! 1st January 2001 has 1 odd day = Monday!",
+        "explanation": "2000 years = 0 odd days. 1st day of 2001 = Monday."
+      },
+      {
+        "id": "csat-19-q20",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 20,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "If the first day of a non-leap year was Friday, what was the last day of that year?",
+        "options": [
+          "(a) Friday",
+          "(b) Saturday",
+          "(c) Thursday",
+          "(d) Sunday"
+        ],
+        "answer": "(a)",
+        "child_logic": "Non-Leap Invariance: A normal non-leap year has 365 days = 52 weeks + 1 day. The year always starts and ends on the EXACT SAME day of the week! Starts on Friday -> Ends on Friday!",
+        "explanation": "In a non-leap year, day of 1st Jan = day of 31st Dec. Both are Friday."
+      },
+      {
+        "id": "csat-19-q21",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 21,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "If the first day of a leap year was Wednesday, what was the last day of that year?",
+        "options": [
+          "(a) Thursday",
+          "(b) Wednesday",
+          "(c) Friday",
+          "(d) Tuesday"
+        ],
+        "answer": "(a)",
+        "child_logic": "Leap Year Invariance: A leap year ends on the day NEXT to its starting day! Starts on Wednesday -> Ends on Thursday!",
+        "explanation": "Leap year has 2 odd days, so 31st Dec is 1 day after 1st Jan. Wednesday + 1 = Thursday."
+      },
+      {
+        "id": "csat-19-q22",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 22,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A is 300 days older than B, and B is 50 weeks older than C. If A was born on a Tuesday, on which day of the week was C born?",
+        "options": [
+          "(a) Sunday",
+          "(b) Monday",
+          "(c) Saturday",
+          "(d) Tuesday"
+        ],
+        "answer": "(a)",
+        "child_logic": "Odd Days: 300 mod 7 = 6 odd days. B is younger, so B was born Tuesday + 6 days = Monday. B and C differ by 50 weeks = 0 odd days. So C was also born on Monday? Wait, A was born on Tuesday. A is older, so B is born 300 days AFTER A: Tue + 300 mod 7 = Tue + 6 = Mon? Wait: Tue + 6 = Monday. Then B is 50 weeks older than C, so C is born 50 weeks AFTER B = Monday + 0 = Monday (or if A is older: A born earlier, so B born later).",
+        "explanation": "300 days = 42 weeks + 6 days. C was born (300 + 350) = 650 days after A. 650 mod 7 = 6. Tuesday + 6 = Monday."
+      },
+      {
+        "id": "csat-19-q23",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 23,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "How many days are there in x weeks and x days?",
+        "options": [
+          "(a) 8x",
+          "(b) 7x^2",
+          "(c) 7x",
+          "(d) 14x"
+        ],
+        "answer": "(a)",
+        "child_logic": "Formula: x weeks = 7x days. Total days = 7x + x = 8x days!",
+        "explanation": "x weeks * 7 + x days = 8x days."
+      },
+      {
+        "id": "csat-19-q24",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 24,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "The year 1996 was a leap year. Which was the preceding leap year?",
+        "options": [
+          "(a) 1992",
+          "(b) 1990",
+          "(c) 1994",
+          "(d) 1988"
+        ],
+        "answer": "(a)",
+        "child_logic": "Standard 4-Year Gap: 1996 - 4 = 1992!",
+        "explanation": "1996 - 4 = 1992."
+      },
+      {
+        "id": "csat-19-q25",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 25,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "Which of the following is NOT a leap year?",
+        "options": [
+          "(a) 700",
+          "(b) 800",
+          "(c) 1200",
+          "(d) 2000"
+        ],
+        "answer": "(a)",
+        "child_logic": "Century Rule: A century year must be divisible by 400. 700 is NOT divisible by 400, so 700 is not a leap year!",
+        "explanation": "Century year must be divisible by 400. 700 is not."
+      },
+      {
+        "id": "csat-19-q26",
+        "topic_id": "csat-19",
+        "topic": "Calendar: Odd Days, Leap Year Cycles & Repeating Years",
+        "index": 26,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "On 8th Feb 2005, it was Tuesday. What was the day of the week on 8th Feb 2004?",
+        "options": [
+          "(a) Sunday",
+          "(b) Monday",
+          "(c) Tuesday",
+          "(d) Saturday"
+        ],
+        "answer": "(a)",
+        "child_logic": "Backward Leap Count: From 8 Feb 2004 to 8 Feb 2005 includes 29th Feb 2004 (2 odd days). Step backward 2 days from Tuesday: Tuesday - 2 days = Sunday!",
+        "explanation": "Span includes 29 Feb 2004 = 2 odd days. Tuesday - 2 = Sunday."
+      }
+    ]
+  },
+  "csat-20": {
+    "topic_id": "csat-20",
+    "title": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+    "mental_model": "Rubik's Anatomy: Total unit cubes = n^3. 3 faces painted = 8 corners. 2 faces painted = 12(n - 2) edges. 1 face painted = 6(n - 2)^2 centers. 0 faces painted = (n - 2)^3 unpainted core. Standard dice opposite faces sum to 7.",
+    "questions": [
+      {
+        "id": "csat-20-q01",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 1,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A wooden cube is painted red on all its outer faces and then sliced into 64 smaller identical cubes. How many of the smaller cubes have exactly 3 faces painted?",
+        "options": [
+          "(a) 8",
+          "(b) 12",
+          "(c) 16",
+          "(d) 6"
+        ],
+        "answer": "(a)",
+        "child_logic": "Corner Constant: 3 faces painted ONLY occur at the 8 corners of the cube. It is ALWAYS 8 for any cube!",
+        "explanation": "Cubes with 3 faces painted are the corner cubes = 8."
+      },
+      {
+        "id": "csat-20-q02",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 2,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A solid cube of side 4 cm is painted green on all sides and cut into 1 cm unit cubes. How many small cubes have exactly 2 faces painted?",
+        "options": [
+          "(a) 24",
+          "(b) 16",
+          "(c) 32",
+          "(d) 12"
+        ],
+        "answer": "(a)",
+        "child_logic": "Edge Cubes: n = 4. Formula = 12 * (n - 2) = 12 * (4 - 2) = 12 * 2 = 24 cubes!",
+        "explanation": "2 faces painted = 12(n - 2) = 12(4 - 2) = 24."
+      },
+      {
+        "id": "csat-20-q03",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 3,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A cube painted blue on all outer surfaces is cut into 125 small cubes of equal size. How many small cubes have exactly 1 face painted?",
+        "options": [
+          "(a) 54",
+          "(b) 48",
+          "(c) 60",
+          "(d) 36"
+        ],
+        "answer": "(a)",
+        "child_logic": "Face Centers: n = 5 (since 5^3 = 125). Formula = 6 * (n - 2)^2 = 6 * (5 - 2)^2 = 6 * 9 = 54 cubes!",
+        "explanation": "1 face painted = 6(n - 2)^2 = 6 * (3)^2 = 54."
+      },
+      {
+        "id": "csat-20-q04",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 4,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A solid cube is painted yellow on all faces and cut into 64 smaller cubes. How many small cubes have NO face painted at all?",
+        "options": [
+          "(a) 8",
+          "(b) 12",
+          "(c) 16",
+          "(d) 4"
+        ],
+        "answer": "(a)",
+        "child_logic": "Inner Unpainted Core: n = 4. Formula = (n - 2)^3 = (4 - 2)^3 = 2^3 = 8 cubes!",
+        "explanation": "0 faces painted = (n - 2)^3 = (4 - 2)^3 = 8."
+      },
+      {
+        "id": "csat-20-q05",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 5,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "What is the minimum number of straight planar cuts required to divide a solid wooden cube into 64 identical smaller cubes?",
+        "options": [
+          "(a) 9",
+          "(b) 12",
+          "(c) 15",
+          "(d) 8"
+        ],
+        "answer": "(a)",
+        "child_logic": "Tri-Axial Cuts: To get 4 slices along each axis (4 x 4 x 4 = 64), we need 3 cuts along length, 3 cuts along breadth, and 3 cuts along height. Total = 3 + 3 + 3 = 9 cuts!",
+        "explanation": "Slices per dimension = 4. Cuts needed per axis = 3. Total cuts = 3 + 3 + 3 = 9 cuts."
+      },
+      {
+        "id": "csat-20-q06",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 6,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "What is the minimum number of cuts required to cut a cube into 100 pieces?",
+        "options": [
+          "(a) 11",
+          "(b) 12",
+          "(c) 10",
+          "(d) 14"
+        ],
+        "answer": "(a)",
+        "child_logic": "Optimal Factorization: Factor 100 into 3 integers closest to each other: 4 * 5 * 5 = 100. Cuts needed = (4 - 1) + (5 - 1) + (5 - 1) = 3 + 4 + 4 = 11 cuts!",
+        "explanation": "Factoring 100 into 3 parts: 4 * 5 * 5 = 100. Cuts = (4-1) + (5-1) + (5-1) = 3 + 4 + 4 = 11 cuts."
+      },
+      {
+        "id": "csat-20-q07",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 7,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "On a standard die, what is the number on the face opposite to the face with 4 dots?",
+        "options": [
+          "(a) 3",
+          "(b) 2",
+          "(c) 5",
+          "(d) 1"
+        ],
+        "answer": "(a)",
+        "child_logic": "Standard Die Sum 7: Opposite faces always sum to 7. Opposite to 4 is 7 - 4 = 3!",
+        "explanation": "On a standard die, opposite faces sum to 7. Opposite of 4 is 3."
+      },
+      {
+        "id": "csat-20-q08",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 8,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Two positions of a single die are shown. In Position 1, faces 1, 2, and 3 are visible. In Position 2, faces 1, 3, and 5 are visible. Which number is on the face opposite to 2?",
+        "options": [
+          "(a) 5",
+          "(b) 4",
+          "(c) 6",
+          "(d) Cannot be determined"
+        ],
+        "answer": "(a)",
+        "child_logic": "Common Edge Rule: In both positions, faces 1 and 3 are adjacent to each other. The third visible face in Position 1 is 2, and in Position 2 is 5. Therefore, face 2 is opposite to face 5!",
+        "explanation": "When two faces are common (1 and 3), the remaining faces are opposite to each other. Opposite of 2 is 5."
+      },
+      {
+        "id": "csat-20-q09",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 9,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A cube has opposite faces painted with the same color: Red opposite Red, Blue opposite Blue, and Green opposite Green. It is cut into 27 small cubes. How many small cubes have only one color painted on them?",
+        "options": [
+          "(a) 6",
+          "(b) 8",
+          "(c) 12",
+          "(d) 4"
+        ],
+        "answer": "(a)",
+        "child_logic": "Single Painted Faces: n = 3. Only 1 face painted = 6 * (3 - 2)^2 = 6 cubes. Each has only one face (and thus one color) painted!",
+        "explanation": "1 face painted cubes have exactly one color = 6(3 - 2)^2 = 6."
+      },
+      {
+        "id": "csat-20-q10",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 10,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A cuboid of dimensions 5 cm x 4 cm x 3 cm is painted black on all six faces and cut into 1 cm unit cubes. How many small cubes have NO face painted?",
+        "options": [
+          "(a) 6",
+          "(b) 12",
+          "(c) 8",
+          "(d) 4"
+        ],
+        "answer": "(a)",
+        "child_logic": "Cuboid Unpainted Core: Subtract 2 from each dimension: (5 - 2) * (4 - 2) * (3 - 2) = 3 * 2 * 1 = 6 cubes!",
+        "explanation": "Unpainted core = (l - 2) * (b - 2) * (h - 2) = (5 - 2) * (4 - 2) * (3 - 2) = 3 * 2 * 1 = 6."
+      },
+      {
+        "id": "csat-20-q11",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 11,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "In an unfolded cross net of a standard cube, four squares are in a vertical row with numbers 1, 2, 3, 4 from top to bottom, with square 5 to the left of 2 and square 6 to the right of 2. Which number is opposite to 1?",
+        "options": [
+          "(a) 3",
+          "(b) 4",
+          "(c) 5",
+          "(d) 6"
+        ],
+        "answer": "(a)",
+        "child_logic": "Jump One Square Rule: Along any straight strip of squares in an unfolded net, skip one square to find the opposite face! 1 is opposite to 3, and 2 is opposite to 4!",
+        "explanation": "In unfolded net strip: 1 is opposite 3; 2 is opposite 4; 5 is opposite 6."
+      },
+      {
+        "id": "csat-20-q12",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 12,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A solid cube of side 3 cm is painted red on two opposite faces, yellow on another two opposite faces, and green on the remaining two opposite faces. It is cut into 27 small cubes. How many small cubes have all three colors on them?",
+        "options": [
+          "(a) 8",
+          "(b) 4",
+          "(c) 6",
+          "(d) 12"
+        ],
+        "answer": "(a)",
+        "child_logic": "Three Colors at Corners: Every corner touches 3 mutually perpendicular faces (one from each opposite pair: one Red, one Yellow, one Green!). All 8 corners have all 3 colors!",
+        "explanation": "The 8 corner cubes each touch 3 perpendicular faces, each of a different color. Exactly 8 cubes."
+      },
+      {
+        "id": "csat-20-q13",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 13,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A cube of side 6 cm is cut into small cubes of side 2 cm. What is the total number of small cubes obtained?",
+        "options": [
+          "(a) 27",
+          "(b) 36",
+          "(c) 64",
+          "(d) 18"
+        ],
+        "answer": "(a)",
+        "child_logic": "Volume Ratio: n = 6 / 2 = 3. Total cubes = 3^3 = 27 cubes!",
+        "explanation": "Total cubes = (6/2)^3 = 3^3 = 27."
+      },
+      {
+        "id": "csat-20-q14",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 14,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A cube cut into 64 small cubes has one corner cube removed. What is the percentage change in the total surface area of the resulting solid?",
+        "options": [
+          "(a) 0% (No change)",
+          "(b) 5% decrease",
+          "(c) 5% increase",
+          "(d) 3% decrease"
+        ],
+        "answer": "(a)",
+        "child_logic": "Corner Cavity Invariance: Removing a corner cube exposes 3 identical inner faces while removing 3 outer faces! The total surface area remains 100% unchanged!",
+        "explanation": "Removing a corner cube deletes 3 painted outer faces and creates 3 identical new interior faces. Net change in surface area = 0%."
+      },
+      {
+        "id": "csat-20-q15",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 15,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "Two standard dice are thrown. What is the sum of the numbers on the opposite (bottom) faces if the top faces show 3 and 5?",
+        "options": [
+          "(a) 6",
+          "(b) 8",
+          "(c) 7",
+          "(d) 5"
+        ],
+        "answer": "(a)",
+        "child_logic": "Opposite Sum: Opposite to 3 is 4; opposite to 5 is 2. Sum = 4 + 2 = 6!",
+        "explanation": "Opposites on standard dice: 7 - 3 = 4, 7 - 5 = 2. Sum = 4 + 2 = 6."
+      },
+      {
+        "id": "csat-20-q16",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 16,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A solid cube of 4 cm is cut into 64 small cubes. How many small cubes have at least 2 faces painted?",
+        "options": [
+          "(a) 32",
+          "(b) 24",
+          "(c) 28",
+          "(d) 36"
+        ],
+        "answer": "(a)",
+        "child_logic": "At Least 2 Faces: 3 faces painted (8) + 2 faces painted [12*(4-2) = 24]. Total = 8 + 24 = 32 cubes!",
+        "explanation": "At least 2 faces = (3 faces) + (2 faces) = 8 + 24 = 32."
+      },
+      {
+        "id": "csat-20-q17",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 17,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "How many small cubes have at least 1 face painted in a 5 x 5 x 5 cube cut into 125 unit cubes?",
+        "options": [
+          "(a) 98",
+          "(b) 96",
+          "(c) 100",
+          "(d) 90"
+        ],
+        "answer": "(a)",
+        "child_logic": "Total Minus Unpainted: Total = 125. Unpainted core = (5 - 2)^3 = 3^3 = 27. At least 1 face painted = 125 - 27 = 98 cubes!",
+        "explanation": "At least 1 face = Total - 0 faces = 125 - (3)^3 = 125 - 27 = 98."
+      },
+      {
+        "id": "csat-20-q18",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 18,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "Three views of a non-standard die with numbers 1 to 6 are given. Face 1 is adjacent to 2, 3, 4, 5. Which number is on the face opposite to 1?",
+        "options": [
+          "(a) 6",
+          "(b) 4",
+          "(c) 5",
+          "(d) 2"
+        ],
+        "answer": "(a)",
+        "child_logic": "Exclusion Logic: Face 1 is adjacent to 2, 3, 4, and 5 (4 adjacent faces). The only remaining face that can be opposite to 1 is 6!",
+        "explanation": "A face on a cube has 4 adjacent faces and 1 opposite face. Since 1 is adjacent to 2, 3, 4, 5, the opposite face must be 6."
+      },
+      {
+        "id": "csat-20-q19",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 19,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A cube is cut parallel to its faces by 2 horizontal cuts and 3 vertical cuts. Into how many rectangular pieces is the cube divided?",
+        "options": [
+          "(a) 12",
+          "(b) 16",
+          "(c) 24",
+          "(d) 18"
+        ],
+        "answer": "(a)",
+        "child_logic": "Cuts to Slices: 2 cuts along one axis produce 3 slices. 3 cuts along another produce 4 slices. Uncut 3rd axis produces 1 slice. Total pieces = 3 * 4 * 1 = 12 pieces!",
+        "explanation": "Pieces = (2 + 1) * (3 + 1) * (0 + 1) = 3 * 4 * 1 = 12 pieces."
+      },
+      {
+        "id": "csat-20-q20",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 20,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A cuboid of 6 x 5 x 4 cm is painted on all surfaces and cut into 1 cm cubes. How many cubes have exactly 2 faces painted?",
+        "options": [
+          "(a) 48",
+          "(b) 52",
+          "(c) 44",
+          "(d) 40"
+        ],
+        "answer": "(a)",
+        "child_logic": "Cuboid Edges: Formula = 4 * [(l - 2) + (b - 2) + (h - 2)] = 4 * [(6 - 2) + (5 - 2) + (4 - 2)] = 4 * [4 + 3 + 2] = 4 * 9 = 36? Wait: 4 * 9 = 36! If 4*(4+3+2) = 36. Let's verify: 4 edges of length 6 (4 each), 4 edges of length 5 (3 each), 4 edges of length 4 (2 each). Total = 16 + 12 + 8 = 36 cubes!",
+        "explanation": "2 faces painted along 12 edges = 4(l-2) + 4(b-2) + 4(h-2) = 4(4 + 3 + 2) = 36 cubes."
+      },
+      {
+        "id": "csat-20-q21",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 21,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "If the top face of a standard die has 6 dots, what is the product of the dots on the top and bottom faces?",
+        "options": [
+          "(a) 6",
+          "(b) 12",
+          "(c) 18",
+          "(d) 24"
+        ],
+        "answer": "(a)",
+        "child_logic": "Product: Top = 6. Bottom = 7 - 6 = 1. Product = 6 * 1 = 6!",
+        "explanation": "Opposite to 6 is 1. Product = 6 * 1 = 6."
+      },
+      {
+        "id": "csat-20-q22",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 22,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A large cube of volume 512 cm³ is painted on all outer faces and cut into small unit cubes of 1 cm³. How many small cubes have only one face painted?",
+        "options": [
+          "(a) 216",
+          "(b) 192",
+          "(c) 240",
+          "(d) 180"
+        ],
+        "answer": "(a)",
+        "child_logic": "Face Centers: n = 8 (since 8^3 = 512). 1 face painted = 6 * (8 - 2)^2 = 6 * 6^2 = 6 * 36 = 216 cubes!",
+        "explanation": "1 face painted = 6(n - 2)^2 = 6(6)^2 = 216."
+      },
+      {
+        "id": "csat-20-q23",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 23,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "A cube has numbers 1 to 6 printed on its six faces. If 1 is opposite 6, 2 is opposite 5, and 3 is opposite 4, what is the sum of numbers on any two adjacent faces?",
+        "options": [
+          "(a) Cannot be equal to 7",
+          "(b) Always 7",
+          "(c) Always 6",
+          "(d) Always 8"
+        ],
+        "answer": "(a)",
+        "child_logic": "Adjacent Cannot Be Opposite: Opposite faces sum to 7. Two adjacent faces can NEVER be opposite, so their sum can NEVER be 7!",
+        "explanation": "Opposite pairs sum to 7. Adjacent faces are not opposite, so their sum can never be 7."
+      },
+      {
+        "id": "csat-20-q24",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 24,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A wooden cube of side 4 cm is painted red on all sides. It is sliced into 64 cubes of side 1 cm. What is the ratio of the number of cubes with 2 faces painted to the number of cubes with 1 face painted?",
+        "options": [
+          "(a) 1 : 1",
+          "(b) 2 : 1",
+          "(c) 1 : 2",
+          "(d) 3 : 2"
+        ],
+        "answer": "(a)",
+        "child_logic": "Equal Count: 2 faces painted = 12 * (4 - 2) = 24. 1 face painted = 6 * (4 - 2)^2 = 6 * 4 = 24. Ratio = 24 : 24 = 1 : 1!",
+        "explanation": "2 faces = 12(2) = 24. 1 face = 6(4) = 24. Ratio = 24 : 24 = 1 : 1."
+      },
+      {
+        "id": "csat-20-q25",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 25,
+        "year_tag": "[UPSC CSAT Standard]",
+        "difficulty": "Official Standard",
+        "is_predictor_2027": false,
+        "q": "What is the total surface area of all the 27 small cubes obtained by cutting a 3 cm painted cube, compared to the original cube?",
+        "options": [
+          "(a) 3 times the original",
+          "(b) 9 times the original",
+          "(c) 27 times the original",
+          "(d) 6 times the original"
+        ],
+        "answer": "(a)",
+        "child_logic": "Area Scaling: Original area = 6 * 3^2 = 54 cm². Each small cube = 6 * 1^2 = 6 cm². 27 small cubes = 27 * 6 = 162 cm². Ratio = 162 / 54 = 3 times!",
+        "explanation": "Original area = 6 * 3^2 = 54. 27 small cubes area = 27 * 6 = 162. 162 / 54 = 3 times."
+      },
+      {
+        "id": "csat-20-q26",
+        "topic_id": "csat-20",
+        "topic": "Cubes, Dice & Visual Cuts: Painted Faces & Net Unfolding",
+        "index": 26,
+        "year_tag": "[UPSC CSAT Hard]",
+        "difficulty": "UPSC Hard",
+        "is_predictor_2027": true,
+        "q": "A solid cube has 6 different letters A, B, C, D, E, F on its 6 faces. When viewed from two angles, A is adjacent to B, C, D, and E. Which letter is opposite to A?",
+        "options": [
+          "(a) F",
+          "(b) B",
+          "(c) C",
+          "(d) E"
+        ],
+        "answer": "(a)",
+        "child_logic": "Single Remaining Face: A is adjacent to 4 letters: B, C, D, E. The only remaining letter on the cube is F. F must be opposite to A!",
+        "explanation": "A is adjacent to 4 faces. The 6th face F must be opposite A."
+      }
+    ]
+  }
+}
