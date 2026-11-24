@@ -4,7 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>OfficerPass — UPSC Prelims</title>
+<!-- KaTeX Mathematical Typesetting Engine -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
 <style>
+.katex {
+  font-size: 1.05em !important;
+  line-height: 1.2;
+}
+.katex-display {
+  margin: 0.4em 0 !important;
+}
 /* UIVERSE GALAXY LIGHT THEME SYSTEM */
 :root {
   --bg: #f8fafc;
@@ -2092,6 +2103,7 @@ window.addEventListener('DOMContentLoaded', async () => {
   renderCSATModules();
   renderCSATDaily();
   loadAndRenderPYQs();
+  setTimeout(() => renderMath(document.body), 300);
 });
 
 // 1. STATE PERSISTENCE (GET / POST /api/state)
@@ -2108,6 +2120,53 @@ function escapeHtml(str) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;');
+}
+
+// ===================================================================
+// KATEX MATHEMATICAL TYPESETTING ENGINE
+// ===================================================================
+function prepareMathInElement(root) {
+  if (!root) return;
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null, false);
+  const textNodes = [];
+  while (walker.nextNode()) {
+    textNodes.push(walker.currentNode);
+  }
+  textNodes.forEach(node => {
+    let val = node.nodeValue;
+    if (!val) return;
+    if (val.includes('sqrt(') && !val.includes('\\sqrt{')) {
+      val = val.replace(/\bsqrt\s*\(([^()]+)\)/gi, '$\\sqrt{$1}$');
+      node.nodeValue = val;
+    }
+  });
+}
+
+function renderMath(targetElement) {
+  const el = targetElement || document.body;
+  prepareMathInElement(el);
+  if (typeof renderMathInElement === 'function') {
+    try {
+      renderMathInElement(el, {
+        delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '$', right: '$', display: false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ],
+        throwOnError: false,
+        errorColor: '#dc2626'
+      });
+    } catch (err) {
+      console.warn('KaTeX render error:', err);
+    }
+  } else {
+    setTimeout(() => {
+      if (typeof renderMathInElement === 'function') {
+        renderMath(el);
+      }
+    }, 250);
+  }
 }
 
 let csatArenaCache = {};
@@ -2538,6 +2597,7 @@ function renderCSATDrawer(dayNum, topicData) {
   });
 
   listElem.innerHTML = questionsHtml;
+  renderMath(listElem);
 }
 
 // Backward compatibility alias
@@ -2567,7 +2627,10 @@ function selectCSATArenaOption(qId, selectedLetter, correctLetter, dayNum) {
   });
 
   const expl = document.getElementById(`csat-expl-${qId}`);
-  if (expl) expl.classList.add('visible');
+  if (expl) {
+    expl.classList.add('visible');
+    renderMath(expl);
+  }
 
   // Re-render header stats
   if (csatArenaCache[dayNum]) {
@@ -2943,6 +3006,7 @@ function renderDayMCQs(mcqs) {
   });
 
   document.getElementById('day-mcq-score-pill').textContent = `Solved: ${answeredCount} / ${mcqs.length}`;
+  renderMath(container);
 }
 
 // 5b. DAY CSAT TOPIC PYQS RENDERING
@@ -3042,6 +3106,7 @@ function renderDayCSATMCQs(csatPyqs) {
   });
 
   document.getElementById('day-csat-mcq-score-pill').textContent = `CSAT Solved: ${answeredCount} / ${csatPyqs.length}`;
+  renderMath(container);
 }
 
 function updateDayMCQScore() {
@@ -3505,6 +3570,7 @@ function openArticleDrawer(artId) {
 
   document.getElementById('drawer-overlay').classList.add('active');
   document.getElementById('drawer-panel').classList.add('active');
+  renderMath(body);
 }
 
 function closeDrawer() {
@@ -3638,6 +3704,7 @@ function renderMCQBank() {
     card.appendChild(expBox);
     container.appendChild(card);
   });
+  renderMath(container);
 }
 
 function filterMCQBank(filterKey, btn) {
@@ -3769,6 +3836,7 @@ async function loadAndRenderPYQs(append = false) {
         card.appendChild(expBox);
         container.appendChild(card);
       });
+      renderMath(container);
 
       // Show/hide load more
       const loadMoreWrap = document.getElementById('pyq-load-more-wrap');
@@ -4011,6 +4079,8 @@ function switchTab(tabId) {
   } else if (tabId === 'mcqs') {
     renderMCQBank();
   }
+
+  setTimeout(() => renderMath(), 100);
 
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
