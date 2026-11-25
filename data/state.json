@@ -1,7 +1,8 @@
 {
   "checks": {},
   "sub_checks": {
-    "pol-01__d1_s0": true
+    "pol-01__d1_s0": true,
+    "pol-01__d1_s1": true
   },
   "notes": {},
   "read_articles": {},
@@ -10,5 +11,5 @@
     "csat-d1-pyq2": "a"
   },
   "ca_memory_calendar": {},
-  "updatedAt": "2026-11-25T01:39:30Z"
+  "updatedAt": "2026-11-25T01:39:33Z"
 }
