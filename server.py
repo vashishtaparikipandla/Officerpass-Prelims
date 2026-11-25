@@ -235,7 +235,7 @@ def fetch_upsc_curated_news():
 def commit_state_to_git():
     """Auto-commits data/ state changes to git and pushes if remote origin is configured."""
     try:
-        subprocess.run(['git', 'add', 'data/state.json', 'data/current-affairs-db.json', 'data/csat-topic-questions-db.json'], cwd=BASE_DIR, capture_output=True)
+        subprocess.run(['git', 'add', 'data/state.json', 'data/current-affairs-db.json', 'data/csat-topic-questions-db.json', 'data/upsc-traps-vault.json'], cwd=BASE_DIR, capture_output=True)
         t_str = time.strftime('%Y-%m-%d %H:%M:%S')
         subprocess.run(['git', 'commit', '-m', f"Auto-save state and notes: {t_str}"], cwd=BASE_DIR, capture_output=True)
         chk = subprocess.run(['git', 'remote', 'get-url', 'origin'], cwd=BASE_DIR, capture_output=True, text=True)
@@ -517,7 +517,49 @@ class OfficerPassHandler(http.server.SimpleHTTPRequestHandler):
                 self.wfile.write(json.dumps({'error': str(e)}).encode('utf-8'))
             return
 
-        # 5. Root
+        # 5. UPSC Traps Vault endpoint
+        if parsed.path == '/api/traps':
+            try:
+                traps_file = os.path.join(BASE_DIR, 'data', 'upsc-traps-vault.json')
+                with open(traps_file, 'r', encoding='utf-8') as f:
+                    vault = json.load(f)
+                params = dict(urllib.parse.parse_qsl(parsed.query))
+                
+                subject = params.get('subject')
+                if subject and subject in vault.get('subjects', {}):
+                    subj_data = vault['subjects'][subject]
+                    items = subj_data.get('items', [])
+                    if params.get('pyq') == 'true':
+                        items = [it for it in items if it.get('is_pyq')]
+                    if params.get('section'):
+                        sec_num = int(params['section'])
+                        items = [it for it in items if it.get('section_num') == sec_num]
+                    if params.get('q'):
+                        q_term = params['q'].lower()
+                        items = [it for it in items if q_term in it.get('prompt','').lower() or q_term in it.get('distinction','').lower() or q_term in it.get('authority','').lower()]
+                    result = {
+                        'subject': subject,
+                        'title': subj_data.get('title'),
+                        'subtitle': subj_data.get('subtitle'),
+                        'total_items': len(items),
+                        'sections': subj_data.get('sections', []),
+                        'items': items
+                    }
+                else:
+                    result = vault
+
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.end_headers()
+                self.wfile.write(json.dumps(result, ensure_ascii=False).encode('utf-8'))
+            except Exception as e:
+                self.send_response(500)
+                self.send_header('Content-Type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps({'error': str(e)}).encode('utf-8'))
+            return
+
+        # 6. Root
         if parsed.path in ['/', '/index.html']:
             self.path = '/dashboard/index.html'
 
