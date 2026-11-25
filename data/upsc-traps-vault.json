@@ -11,14 +11,14 @@
       "Geography",
       "IR"
     ],
-    "total_items": 115
+    "total_items": 339
   },
   "subjects": {
     "Polity": {
       "title": "Indian Polity & Governance",
       "subtitle": "The Confusion List: Source, Authority, Exception & Numerical Traps",
-      "total_items": 115,
-      "pyq_count": 29,
+      "total_items": 339,
+      "pyq_count": 94,
       "sections": [
         {
           "section_num": 1,
@@ -51,6 +51,70 @@
         {
           "section_num": 8,
           "title": "Constitutional history and governance"
+        },
+        {
+          "section_num": 9,
+          "title": "A1. Practice, Precedent & General Procedure"
+        },
+        {
+          "section_num": 10,
+          "title": "A2. Familiar Expressions with Different Legal Sources"
+        },
+        {
+          "section_num": 11,
+          "title": "B1. President, VP, Governor & Councils of Ministers"
+        },
+        {
+          "section_num": 12,
+          "title": "B2. Presiding Officers, MPs & MLAs"
+        },
+        {
+          "section_num": 13,
+          "title": "B3. Attorney-General, Advocate-General, CAG & Audit"
+        },
+        {
+          "section_num": 14,
+          "title": "B4. Supreme Court, High Courts & Subordinate Judiciary"
+        },
+        {
+          "section_num": 15,
+          "title": "B5. Election & Public Service Commissions"
+        },
+        {
+          "section_num": 16,
+          "title": "B6. Finance Commission, GST Council & Federal Institutions"
+        },
+        {
+          "section_num": 17,
+          "title": "B7. SC, ST, SEBC, Languages & Minority Institutions"
+        },
+        {
+          "section_num": 18,
+          "title": "B8. Local Government Offices & Committees"
+        },
+        {
+          "section_num": 19,
+          "title": "B9. Statutory & Executive Bodies Beside Constitutional Ones"
+        },
+        {
+          "section_num": 20,
+          "title": "C1. Criminal Justice & Public Order (BNS, BNSS, BSA)"
+        },
+        {
+          "section_num": 21,
+          "title": "C2. Armed Forces, CAPFs & Command/Ministry"
+        },
+        {
+          "section_num": 22,
+          "title": "C3. Investigating Agencies, Ministries & Parent Laws"
+        },
+        {
+          "section_num": 23,
+          "title": "C4. Rights, Regulators & Current-Law Crossovers"
+        },
+        {
+          "section_num": 24,
+          "title": "D. UPSC Examiner Blueprint — What Past Questions Changed (2012–2026)"
         }
       ],
       "items": [
@@ -1494,6 +1558,2830 @@
           "raw_authority": "DSPE Act ss. 5–6, CVC Act 2003, State of West Bengal v. Committee for Protection of Democratic Rights",
           "is_pyq": false,
           "pyq_years": []
+        },
+        {
+          "subject": "Polity",
+          "section_num": 9,
+          "section_title": "A1. Practice, Precedent & General Procedure",
+          "prompt": "Zero Hour in Lok Sabha",
+          "distinction": "Members seek the Speaker's permission to raise urgent matters. The official FAQ describes a notice practice and says the label lacks formal recognition in parliamentary procedure.",
+          "authority": "Practice. Neither a right to be heard nor a constitutional requirement. Compare formal Rule 377 and RS Special Mentions. [L1]",
+          "raw_authority": "**Practice**. Neither a right to be heard nor a constitutional requirement. Compare formal Rule 377 and RS Special Mentions. [L1]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-116"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 9,
+          "section_title": "A1. Practice, Precedent & General Procedure",
+          "prompt": "Censure motion",
+          "distinction": "It may criticise a specified policy or failure of one minister, several ministers or the Council. It is handled under the general rules for motions and can be admitted without a date fixed.",
+          "authority": "Practice under general procedure. Rules 184–189 govern motions. There is no dedicated censure rule comparable to no-confidence Rule 198. [L2]",
+          "raw_authority": "**Practice under general procedure**. Rules 184–189 govern motions. There is no dedicated censure rule comparable to no-confidence Rule 198. [L2]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-117"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 9,
+          "section_title": "A1. Practice, Precedent & General Procedure",
+          "prompt": "Government's confidence motion",
+          "distinction": "A government can seek a confidence vote. Lok Sabha practice uses the general motions procedure.",
+          "authority": "Practice under general procedure. Confidence moved by government and no-confidence moved by a member are separate devices. [L2]",
+          "raw_authority": "**Practice under general procedure**. Confidence moved by government and no-confidence moved by a member are separate devices. [L2]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-118"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 9,
+          "section_title": "A1. Practice, Precedent & General Procedure",
+          "prompt": "Deputy Speaker from opposition",
+          "distinction": "The post has at times been offered to the opposition. The House chooses the Deputy Speaker, and the Speaker fixes the election date.",
+          "authority": "Political convention or choice for party affiliation. Constitution and House rule for office and election date. Art. 93 and LS Rule 8. PYQ 2017, 2022. [P1, P2]",
+          "raw_authority": "**Political convention or choice** for party affiliation. **Constitution and House rule** for office and election date. Art. 93 and LS Rule 8. **PYQ 2017, 2022.** [P1, P2]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2017",
+            "2022"
+          ],
+          "id": "polity-trap-119"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 9,
+          "section_title": "A1. Practice, Precedent & General Procedure",
+          "prompt": "Speaker from ruling side",
+          "distinction": "The majority ordinarily elects a candidate it supports. Art. 93 requires a member of the House and sets no party-affiliation rule.",
+          "authority": "Political practice. Election winner and eligibility condition are different. PYQ 2017. [P1]",
+          "raw_authority": "**Political practice**. Election winner and eligibility condition are different. **PYQ 2017.** [P1]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2017"
+          ],
+          "id": "polity-trap-120"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 9,
+          "section_title": "A1. Practice, Precedent & General Procedure",
+          "prompt": "Speaker resigning party membership",
+          "distinction": "Holding the office does not automatically terminate party membership. A presiding officer who voluntarily gives it up because of election to the office can use the conditional Tenth Schedule exemption.",
+          "authority": "Optional constitutional protection under para. 5. Avoid turning a neutrality norm into a mandatory resignation rule.",
+          "raw_authority": "**Optional constitutional protection** under para. 5. Avoid turning a neutrality norm into a mandatory resignation rule.",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-121"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 9,
+          "section_title": "A1. Practice, Precedent & General Procedure",
+          "prompt": "Speaker pro tem",
+          "distinction": "President appoints a Lok Sabha member to perform the Speaker's duties when both offices are vacant. Senior members are considered in administrative practice.",
+          "authority": "Art. 95(1) supplies appointment power. Practice supplies the label and seniority consideration. There is no constitutional rule that the single longest-serving MP must get it. Taking MPs' oaths comes from the separate Art. 99 authorisation. [L3]",
+          "raw_authority": "**Art. 95(1)** supplies appointment power. **Practice** supplies the label and seniority consideration. There is no constitutional rule that the single longest-serving MP must get it. Taking MPs' oaths comes from the separate Art. 99 authorisation. [L3]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-122"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 9,
+          "section_title": "A1. Practice, Precedent & General Procedure",
+          "prompt": "Panel of Chairpersons",
+          "distinction": "The Speaker nominates a panel under House rules for presiding at sittings in the absence of the Speaker and Deputy Speaker.",
+          "authority": "House rule. Absence during a sitting and vacancy of both offices are different triggers. Art. 95 and LS Rule 9. [L1]",
+          "raw_authority": "**House rule**. Absence during a sitting and vacancy of both offices are different triggers. Art. 95 and LS Rule 9. [L1]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-123"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 9,
+          "section_title": "A1. Practice, Precedent & General Procedure",
+          "prompt": "PAC chair from opposition",
+          "distinction": "Since 1967 the chair has conventionally come from the opposition. The Speaker appoints the chair from Lok Sabha members of the committee.",
+          "authority": "Convention for party affiliation, procedure for appointment, House rules for the committee and its functions. [L4]",
+          "raw_authority": "**Convention** for party affiliation, **procedure** for appointment, **House rules** for the committee and its functions. [L4]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-124"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 9,
+          "section_title": "A1. Practice, Precedent & General Procedure",
+          "prompt": "Three parliamentary sessions",
+          "distinction": "Budget, Monsoon and Winter are the usual session names. Dates are set for each session.",
+          "authority": "Practice for names and number. Art. 85 sets the maximum gap between sessions. No fixed annual sitting-day count in Art. 85. PYQ 2020. [P1]",
+          "raw_authority": "**Practice** for names and number. **Art. 85** sets the maximum gap between sessions. No fixed annual sitting-day count in Art. 85. **PYQ 2020.** [P1]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2020"
+          ],
+          "id": "polity-trap-125"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 9,
+          "section_title": "A1. Practice, Precedent & General Procedure",
+          "prompt": "Prorogation after adjournment sine die",
+          "distinction": "This is the usual sequence. President can prorogue a House even when it is in session.",
+          "authority": "Usual practice with constitutional power under Art. 85. The words generally and only after change the answer. PYQ 2024. [P1]",
+          "raw_authority": "**Usual practice** with constitutional power under Art. 85. The words **generally** and **only after** change the answer. **PYQ 2024.** [P1]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2024"
+          ],
+          "id": "polity-trap-126"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 9,
+          "section_title": "A1. Practice, Precedent & General Procedure",
+          "prompt": "Interim Budget",
+          "distinction": "The label describes a budget presented by convention in a transition or election period.",
+          "authority": "Practice for the label. Arts. 112–114, 116 for the actual financial documents and authorisations. A vote on account is an advance grant for part of the year.",
+          "raw_authority": "**Practice** for the label. **Arts. 112–114, 116** for the actual financial documents and authorisations. A vote on account is an advance grant for part of the year.",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-127"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 9,
+          "section_title": "A1. Practice, Precedent & General Procedure",
+          "prompt": "Caretaker government",
+          "distinction": "An outgoing government may continue until the successor takes office. Restraint in major decisions is a political convention and may overlap with election-period restrictions when the MCC applies.",
+          "authority": "Convention and context. No separate constitutional office named caretaker PM or CM. Arts. 74–75, 163–164 supply the executive framework. [L8]",
+          "raw_authority": "**Convention and context**. No separate constitutional office named caretaker PM or CM. Arts. 74–75, 163–164 supply the executive framework. [L8]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-128"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 9,
+          "section_title": "A1. Practice, Precedent & General Procedure",
+          "prompt": "Inviting a PM or CM in a hung House",
+          "distinction": "President or Governor appoints the PM or CM under the relevant Article. Ability to command confidence matters. Support may come from a coalition or outside supporters.",
+          "authority": "Appointment power plus conventions and judicial principles. There is no universal constitutional queue requiring the largest single party to get the first invitation. Arts. 75, 164. [J2]",
+          "raw_authority": "**Appointment power plus conventions and judicial principles**. There is no universal constitutional queue requiring the largest single party to get the first invitation. Arts. 75, 164. [J2]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-129"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 9,
+          "section_title": "A1. Practice, Precedent & General Procedure",
+          "prompt": "Floor test",
+          "distinction": "Confidence is ordinarily established on the floor. A Governor's call for one requires objective material bearing on loss of majority. Internal party disagreement by itself does not establish loss of House confidence.",
+          "authority": "Judicial doctrine around confidence, including Bommai, Shivraj Singh Chouhan and Subhash Desai. Read may call on objective material, rather than a general power to intervene in intra-party disputes. [J2]",
+          "raw_authority": "**Judicial doctrine around confidence**, including Bommai, Shivraj Singh Chouhan and Subhash Desai. Read **may call on objective material**, rather than a general power to intervene in intra-party disputes. [J2]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-130"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 9,
+          "section_title": "A1. Practice, Precedent & General Procedure",
+          "prompt": "Senior-most Supreme Court judge as CJI",
+          "distinction": "The appointment procedure normally looks to the senior-most Supreme Court judge considered fit to hold office.",
+          "authority": "Memorandum of Procedure and convention for seniority and fitness. Art. 124 for appointment. Being the oldest judge is a different test. [L5]",
+          "raw_authority": "**Memorandum of Procedure and convention** for seniority and fitness. **Art. 124** for appointment. Being the oldest judge is a different test. [L5]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-131"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 9,
+          "section_title": "A1. Practice, Precedent & General Procedure",
+          "prompt": "Attorney-General resigning with government",
+          "distinction": "A change of government may prompt resignation. Art. 76(4) says the Attorney-General holds office during the President's pleasure and leaves remuneration to the President.",
+          "authority": "Practice for when a resignation is offered. Constitution for pleasure tenure. There is no automatic resignation requirement in Art. 76. PYQ 2022. [P2]",
+          "raw_authority": "**Practice** for when a resignation is offered. **Constitution** for pleasure tenure. There is no automatic resignation requirement in Art. 76. **PYQ 2022.** [P2]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2022"
+          ],
+          "id": "polity-trap-132"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 9,
+          "section_title": "A1. Practice, Precedent & General Procedure",
+          "prompt": "All-party meetings and party discipline",
+          "distinction": "Informal meetings coordinate business. A whip's internal party role and the legal effect of a voting direction are different.",
+          "authority": "Practice for coordination, Tenth Schedule para. 2 for qualifying voting or abstention directions, and 1998 Facilities Act for statutory recognition of chief whips for facilities. [L6]",
+          "raw_authority": "**Practice** for coordination, **Tenth Schedule para. 2** for qualifying voting or abstention directions, and **1998 Facilities Act** for statutory recognition of chief whips for facilities. [L6]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-133"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 9,
+          "section_title": "A1. Practice, Precedent & General Procedure",
+          "prompt": "No automatic 10% requirement for Leader of Opposition under the 1977 Act",
+          "distinction": "Section 2 refers to the opposition party with greatest numerical strength and recognition by the Speaker or Chairman. The commonly cited 10% has featured in recognition practice and related directions regarding parties or groups.",
+          "authority": "Separate the provision from the practice. An MCQ saying the 1977 Act itself prescribes 10% is false. Special appointment statutes may include a largest-opposition fallback. [L6, L7]",
+          "raw_authority": "**Separate the provision from the practice**. An MCQ saying the 1977 Act itself prescribes 10% is false. Special appointment statutes may include a largest-opposition fallback. [L6, L7]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-134"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 9,
+          "section_title": "A1. Practice, Precedent & General Procedure",
+          "prompt": "Rules versus Speaker's Directions",
+          "distinction": "Speaker's Directions can regulate procedural detail under the House framework. For example directions also address recognition of parliamentary parties and groups for House purposes.",
+          "authority": "Subordinate procedural authority. A direction, a House rule, a statute and a convention carry different labels. [L1, L2]",
+          "raw_authority": "**Subordinate procedural authority**. A direction, a House rule, a statute and a convention carry different labels. [L1, L2]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-135"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 10,
+          "section_title": "A2. Familiar Expressions with Different Legal Sources",
+          "prompt": "Cabinet versus Cabinet committees",
+          "distinction": "Art. 352(3) expressly identifies the Union Cabinet for written advice on National Emergency. The 1961 Transaction of Business Rules provide for Cabinet committees.",
+          "authority": "The proposition that the word Cabinet never appears in the Constitution is false. [L9]",
+          "raw_authority": "The proposition that the word **Cabinet** never appears in the Constitution is false. [L9]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-136"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 10,
+          "section_title": "A2. Familiar Expressions with Different Legal Sources",
+          "prompt": "Cabinet minister, MoS and independent charge",
+          "distinction": "Executive organisation and allocation of business explain ranks and charge. The Constitution provides for the Council of Ministers and caps its size.",
+          "authority": "A four-rank ministerial classification is not laid down in the Constitution. PYQ 2022. [P2]",
+          "raw_authority": "A four-rank ministerial classification is not laid down in the Constitution. **PYQ 2022.** [P2]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2022"
+          ],
+          "id": "polity-trap-137"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 10,
+          "section_title": "A2. Familiar Expressions with Different Legal Sources",
+          "prompt": "Deputy Prime Minister or Deputy Chief Minister",
+          "distinction": "A political designation given to a minister. Constitutional authority flows from appointment as a minister and work allocated.",
+          "authority": "No separately enumerated constitutional office with its own succession power or oath. Arts. 75, 164 and Third Schedule.",
+          "raw_authority": "No separately enumerated constitutional office with its own succession power or oath. Arts. 75, 164 and Third Schedule.",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-138"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 10,
+          "section_title": "A2. Familiar Expressions with Different Legal Sources",
+          "prompt": "Shadow cabinet",
+          "distinction": "An opposition practice associated with Westminster. Individual opposition parties can allocate portfolios or spokesperson roles.",
+          "authority": "No general constitutional requirement for a shadow cabinet in India. Distinguish the statutorily recognised Leader of Opposition.",
+          "raw_authority": "No general constitutional requirement for a shadow cabinet in India. Distinguish the statutorily recognised Leader of Opposition.",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-139"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 10,
+          "section_title": "A2. Familiar Expressions with Different Legal Sources",
+          "prompt": "Leader of the House",
+          "distinction": "House rulebooks define this office. The PM may occupy it in the House of which the PM is a member. A nominated minister may serve under the applicable rule.",
+          "authority": "House-rule office. Leader of the House and Leader of Opposition follow different sources. [L1, L6]",
+          "raw_authority": "**House-rule office**. Leader of the House and Leader of Opposition follow different sources. [L1, L6]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-140"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 10,
+          "section_title": "A2. Familiar Expressions with Different Legal Sources",
+          "prompt": "Basic structure, collegium, curative petition",
+          "distinction": "Basic structure is a judicial limit on amendments. The collegium derives from the Judges Cases. Curative relief derives from Rupa Ashok Hurra and is regulated by SC Rules.",
+          "authority": "These are three different examples of doctrine, with varying later procedural codification. A curative petition comes after review in exceptional circumstances. [J1, L5]",
+          "raw_authority": "These are three different examples of doctrine, with varying later procedural codification. A curative petition comes after review in exceptional circumstances. [J1, L5]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-141"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 10,
+          "section_title": "A2. Familiar Expressions with Different Legal Sources",
+          "prompt": "Judicial review and PIL",
+          "distinction": "Several constitutional provisions support review, including Arts. 13, 32, 226 and 227. Relaxed standing for PIL developed through decisions.",
+          "authority": "The review power has text. The modern procedure and standing rules also have case-law origins.",
+          "raw_authority": "The review power has text. The modern procedure and standing rules also have case-law origins.",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-142"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 10,
+          "section_title": "A2. Familiar Expressions with Different Legal Sources",
+          "prompt": "Parliamentary privilege",
+          "distinction": "Arts. 105 and 194 supply protection and preserve other privileges within the constitutional scheme. House rules govern privilege motions and committees. Case law defines limits.",
+          "authority": "They are partly express. A procedural irregularity is different from substantive illegality. Bribery for speech or vote is outside immunity under Sita Soren. PYQ 2025 on speech immunity. [J3, P5]",
+          "raw_authority": "They are **partly express**. A procedural irregularity is different from substantive illegality. Bribery for speech or vote is outside immunity under Sita Soren. **PYQ 2025** on speech immunity. [J3, P5]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2025"
+          ],
+          "id": "polity-trap-143"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 10,
+          "section_title": "A2. Familiar Expressions with Different Legal Sources",
+          "prompt": "Election Model Code",
+          "distinction": "ECI administers an election code developed through political agreement and practice. Some conduct is independently governed by statute.",
+          "authority": "Both “the entire MCC is an Act” and “no underlying conduct can be prosecuted” are unsafe. [L8]",
+          "raw_authority": "Both “the entire MCC is an Act” and “no underlying conduct can be prosecuted” are unsafe. [L8]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-144"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 10,
+          "section_title": "A2. Familiar Expressions with Different Legal Sources",
+          "prompt": "Office of profit",
+          "distinction": "Arts. 102(1)(a) and 191(1)(a) use the term. Statutory exemptions and judicial tests supply detail.",
+          "authority": "Mentioned and defined are different. PYQ 2019. [P1]",
+          "raw_authority": "**Mentioned** and **defined** are different. **PYQ 2019.** [P1]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2019"
+          ],
+          "id": "polity-trap-145"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 10,
+          "section_title": "A2. Familiar Expressions with Different Legal Sources",
+          "prompt": "National language",
+          "distinction": "Hindi in Devanagari is the official language of the Union under Art. 343. The Official Languages Act provides for continued official use of English. Eighth Schedule is a separate list.",
+          "authority": "“National language,” “official language of the Union” and “scheduled language” are distinct claims.",
+          "raw_authority": "“National language,” “official language of the Union” and “scheduled language” are distinct claims.",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-146"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 10,
+          "section_title": "A2. Familiar Expressions with Different Legal Sources",
+          "prompt": "Estimating a function from an institution's name",
+          "distinction": "A constitutional Article can authorise action without itself constituting the current office. An executive order or an Act may provide the actual design.",
+          "authority": "Art. 263 and the Inter-State Council order. Art. 323A and the Administrative Tribunals Act. Art. 280 and the Finance Commission (Miscellaneous Provisions) Act.",
+          "raw_authority": "Art. 263 and the Inter-State Council order. Art. 323A and the Administrative Tribunals Act. Art. 280 and the Finance Commission (Miscellaneous Provisions) Act.",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-147"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "President — electoral college",
+          "distinction": "**Elected** members of both Houses and **elected** members of the relevant Legislative Assemblies. For Arts. 54–55, “State” includes Delhi and Puducherry. MLCs and nominated MPs or MLAs are outside this college.",
+          "authority": "Arts. 54–55 · PYQ 2023 [P3]",
+          "raw_authority": "Arts. 54–55 · **PYQ 2023** [P3]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2023"
+          ],
+          "id": "polity-trap-148"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "President — vote value",
+          "distinction": "Elected MPs have equal vote value among themselves. Elected MLA vote value can differ by state. Art. 55 uses 1971 census figures until publication of the relevant figures of the first census taken after 2026.",
+          "authority": "Art. 55 · PYQ 2023 [P3]",
+          "raw_authority": "Art. 55 · **PYQ 2023** [P3]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2026",
+            "2023"
+          ],
+          "id": "polity-trap-149"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "President — eligibility and office of profit",
+          "distinction": "Citizen, 35, qualified for **Lok Sabha** election, and no disqualifying office of profit. The listed President, VP, Governor and Union or state minister positions are excepted for this purpose.",
+          "authority": "Art. 58",
+          "raw_authority": "Art. 58",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-150"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "President — disputes and vacancies",
+          "distinction": "Supreme Court decides election disputes. A vacancy in the electoral college is insufficient by itself to challenge an election. Casual presidential vacancy is to be filled within six months and the successor gets a **full** term.",
+          "authority": "Arts. 62, 71",
+          "raw_authority": "Arts. 62, 71",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-151"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "President — holdover and acting",
+          "distinction": "President remains until successor enters office. VP acts as President on a vacancy. During discharge of presidential functions, VP does not perform RS Chair duties.",
+          "authority": "Arts. 56, 64–65",
+          "raw_authority": "Arts. 56, 64–65",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-152"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "President — removal",
+          "distinction": "Impeachment for **violation of the Constitution**, initiated by either House. Notice signed by at least one-quarter of total membership of the initiating House, 14 days' notice, and at least two-thirds of **total membership** in each House at the relevant stage.",
+          "authority": "Art. 61",
+          "raw_authority": "Art. 61",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-153"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "President — elected by some, impeached by others",
+          "distinction": "Nominated MPs can participate in impeachment as members of their Houses. State MLAs are in the presidential electoral college and do not participate in parliamentary impeachment.",
+          "authority": "Arts. 54, 61",
+          "raw_authority": "Arts. 54, 61",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-154"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "President — advice",
+          "distinction": "President may ask ministers to reconsider advice once and is bound by the advice after reconsideration. Art. 74(2) bars inquiry into whether and what advice was tendered.",
+          "authority": "Art. 74",
+          "raw_authority": "Art. 74",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-155"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "President — bill assent",
+          "distinction": "Art. 111 permits return of a **non-Money Bill**. After passage again, the President shall not withhold assent. Art. 368 separately commands assent to a duly passed amendment.",
+          "authority": "Arts. 111, 368 · PYQ 2022 for amendment [P2]",
+          "raw_authority": "Arts. 111, 368 · **PYQ 2022** for amendment [P2]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2022"
+          ],
+          "id": "polity-trap-156"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "President — ordinance while one House sits",
+          "distinction": "Trigger fails only when **both** Houses are in session. Expiry is normally six weeks from the later reassembly date, with earlier disapproval and withdrawal routes. It cannot amend the Constitution and remains subject to legislative competence and rights.",
+          "authority": "Arts. 13, 123, 368",
+          "raw_authority": "Arts. 13, 123, 368",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-157"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "President — pardoning",
+          "distinction": "Covers court-martial sentences, offences within Union executive competence and all death sentences. Art. 72(3) preserves state-law powers to suspend, remit or commute a death sentence. Distinguish sentence reduction from full pardon.",
+          "authority": "Arts. 72, 161",
+          "raw_authority": "Arts. 72, 161",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-158"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "President and Governor — immunity",
+          "distinction": "Official-act personal non-answerability. Criminal proceedings barred during term. No arrest or imprisonment process during term. Civil proceedings for personal acts require at least **two months' written notice** during term. Proceedings against Union or state government can still lie.",
+          "authority": "Art. 361 · PYQ 2025 [P5]",
+          "raw_authority": "Art. 361 · **PYQ 2025** [P5]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2025"
+          ],
+          "id": "polity-trap-159"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "Vice-President — college and qualification",
+          "distinction": "Members of both Houses, **including nominated members**, vote. State legislators do not vote. Qualification is for election to **Rajya Sabha**.",
+          "authority": "Art. 66",
+          "raw_authority": "Art. 66",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-160"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "Vice-President — resignation and removal",
+          "distinction": "Resigns to President. Removal starts in RS by majority of **all then members**, then requires LS agreement. 14 days' notice. No constitutional list of grounds equivalent to presidential impeachment.",
+          "authority": "Art. 67",
+          "raw_authority": "Art. 67",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-161"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "Vice-President — Chair's vote",
+          "distinction": "Ex officio RS Chair and usually a casting voter on a tie. While a resolution for own removal is under consideration, may speak and take part but cannot vote at all.",
+          "authority": "Arts. 64, 92, 100",
+          "raw_authority": "Arts. 64, 92, 100",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-162"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "Governor — appointment, term and resignation",
+          "distinction": "Appointed by President. Five years **subject to President's pleasure**, with holdover until successor enters. Resignation to President. Same person may be Governor of multiple states.",
+          "authority": "Arts. 153, 155–156",
+          "raw_authority": "Arts. 153, 155–156",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-163"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "Governor — qualifications versus conventions",
+          "distinction": "Citizen and at least 35. No constitutional requirement to be an outsider or to consult the Chief Minister before appointment. Cannot sit as an MP or MLA/MLC while Governor.",
+          "authority": "Arts. 157–158",
+          "raw_authority": "Arts. 157–158",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-164"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "Governor — removal and review",
+          "distinction": "Tenure is subject to pleasure, without a parliamentary impeachment process. B.P. Singhal holds that withdrawal of pleasure cannot be arbitrary, capricious or unreasonable.",
+          "authority": "Art. 156, B.P. Singhal [J2]",
+          "raw_authority": "Art. 156, B.P. Singhal [J2]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-165"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "Governor — discretion",
+          "distinction": "Ministerial aid and advice is the rule, with constitutionally recognised exceptions. Art. 163(2) cannot be read as a free-standing discretion to decide every matter personally.",
+          "authority": "Art. 163, Nabam Rebia, Subhash Desai [J2]",
+          "raw_authority": "Art. 163, Nabam Rebia, Subhash Desai [J2]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-166"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "Governor — bills",
+          "distinction": "Art. 200 uses distinct routes for assent, reservation and withholding with return in the applicable non-Money Bill scenario. A Bill endangering the constitutional position of the High Court must be reserved. Under the 2025 Art. 143 opinion, a repassed Bill can be reserved but assent cannot simply be withheld again.",
+          "authority": "Arts. 200–201, 2025 INSC 1333 [J4]",
+          "raw_authority": "Arts. 200–201, 2025 INSC 1333 [J4]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-167"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "Governor — delay and personal immunity",
+          "distinction": "No general court-imposed timelines or deemed assent under the November 2025 opinion. Prolonged, unexplained and indefinite inaction can invite a limited direction to act. The Governor retains personal immunity.",
+          "authority": "Arts. 200–201, 361, 2025 INSC 1333 [J4]",
+          "raw_authority": "Arts. 200–201, 361, 2025 INSC 1333 [J4]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-168"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "Governor — ordinance timing and President's instructions",
+          "distinction": "In a bicameral state the Governor can promulgate unless both Houses sit. Presidential instructions are required in the three specified categories under the first proviso to Art. 213(1).",
+          "authority": "Art. 213",
+          "raw_authority": "Art. 213",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-169"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "Governor — special responsibilities",
+          "distinction": "Powers under the Fifth Schedule, the Sixth Schedule and particular Art. 371 provisions have different triggers and procedures. A special responsibility in one state cannot be generalised to every Governor.",
+          "authority": "Arts. 244, 371–371J and schedules",
+          "raw_authority": "Arts. 244, 371–371J and schedules",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-170"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "PM and CM — who appoints whom",
+          "distinction": "President appoints PM and other Union ministers on the PM's advice. Governor appoints CM and other state ministers on CM's advice. The Union Council is collectively responsible to **Lok Sabha**, state Council to **Legislative Assembly**.",
+          "authority": "Arts. 75, 164",
+          "raw_authority": "Arts. 75, 164",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-171"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "PM and CM — house membership",
+          "distinction": "PM may sit in either House of Parliament. CM can sit in either state House in a bicameral state. The Constitution allows a non-member a maximum of six consecutive months as minister before ceasing to hold office.",
+          "authority": "Arts. 75(5), 164(4)",
+          "raw_authority": "Arts. 75(5), 164(4)",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-172"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "Ministers — strength and tribal welfare",
+          "distinction": "Union cap is 15% of **Lok Sabha**, state cap 15% of **Assembly** with a minimum of 12. Tribal welfare minister provision specifically names Chhattisgarh, Jharkhand, Madhya Pradesh and Odisha.",
+          "authority": "Arts. 75(1A), 164(1), 164(1A) · PYQ 2022 for Union cap [P2]",
+          "raw_authority": "Arts. 75(1A), 164(1), 164(1A) · **PYQ 2022** for Union cap [P2]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2022"
+          ],
+          "id": "polity-trap-173"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "PM and CM — duty to inform",
+          "distinction": "PM communicates decisions and furnishes information to President. CM has corresponding duties towards Governor. Each submits a minister's decision to the Council if required by the relevant constitutional head.",
+          "authority": "Arts. 78, 167",
+          "raw_authority": "Arts. 78, 167",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-174"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 11,
+          "section_title": "B1. President, VP, Governor & Councils of Ministers",
+          "prompt": "Defecting member becoming minister",
+          "distinction": "A member disqualified under the Tenth Schedule is also disqualified from appointment as minister for the period specified in Arts. 75(1B) or 164(1B). Earlier re-election can end the bar.",
+          "authority": "Arts. 75(1B), 164(1B), 361B",
+          "raw_authority": "Arts. 75(1B), 164(1B), 361B",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-175"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 12,
+          "section_title": "B2. Presiding Officers, MPs & MLAs",
+          "prompt": "Lok Sabha Speaker — resignation and removal",
+          "distinction": "Speaker resigns to Deputy Speaker, and vice versa. Removal is by majority of **all then members** after 14 days' notice. Giving up House membership ordinarily vacates the office.",
+          "authority": "Art. 94",
+          "raw_authority": "Art. 94",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-176"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 12,
+          "section_title": "B2. Presiding Officers, MPs & MLAs",
+          "prompt": "Lok Sabha Speaker — dissolution",
+          "distinction": "Speaker continues until just before the first meeting of the newly constituted Lok Sabha. The special protection expressly names the Speaker.",
+          "authority": "Art. 94 proviso",
+          "raw_authority": "Art. 94 proviso",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-177"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 12,
+          "section_title": "B2. Presiding Officers, MPs & MLAs",
+          "prompt": "SPEAKER vs RS CHAIR — own removal vote",
+          "distinction": "Lok Sabha Speaker can speak and vote **in the first instance** while own removal is considered. The RS Chair can speak during the VP removal proceedings and **cannot vote** on any matter in those proceedings. Neither presides over own removal proceedings.",
+          "authority": "Arts. 92, 96, 100 · PYQ 2024 for Speaker [P1]",
+          "raw_authority": "Arts. 92, 96, 100 · **PYQ 2024** for Speaker [P1]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2024"
+          ],
+          "id": "polity-trap-178"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 12,
+          "section_title": "B2. Presiding Officers, MPs & MLAs",
+          "prompt": "Deputy Speaker — capacity when presiding",
+          "distinction": "Deputy Speaker presides in the Speaker's absence. When presiding, Rule 10 gives the Deputy Speaker the same powers as Speaker for that sitting. There is no general constitutional rule of personal subordination while presiding.",
+          "authority": "Arts. 93, 95, LS Rule 10 · PYQ 2022 [P2]",
+          "raw_authority": "Arts. 93, 95, LS Rule 10 · **PYQ 2022** [P2]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2022"
+          ],
+          "id": "polity-trap-179"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 12,
+          "section_title": "B2. Presiding Officers, MPs & MLAs",
+          "prompt": "RS Deputy Chair vs VP",
+          "distinction": "Deputy Chair is chosen **by RS from its members** and resigns to Chair. RS can remove by majority of all then members after 14 days' notice. LS agreement is needed for VP removal, a separate process.",
+          "authority": "Arts. 67, 89–90",
+          "raw_authority": "Arts. 67, 89–90",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-180"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 12,
+          "section_title": "B2. Presiding Officers, MPs & MLAs",
+          "prompt": "State Speaker and Council Chair",
+          "distinction": "Assembly chooses its Speaker and Deputy Speaker. Legislative Council chooses its Chairman and Deputy Chairman. The Governor is never the ex officio Chair of a State Legislative Council.",
+          "authority": "Arts. 178–185",
+          "raw_authority": "Arts. 178–185",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-181"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 12,
+          "section_title": "B2. Presiding Officers, MPs & MLAs",
+          "prompt": "Money Bill certificate",
+          "distinction": "Art. 110(3) makes the Speaker's decision final in the constitutional text. Judicial decisions distinguish finality inside the process from claims of constitutional illegality capable of review. Avoid assuming every disputed certificate is invalid or every certificate is immune.",
+          "authority": "Arts. 110, 122, Raja Ram Pal, Rojer Mathew [J3]",
+          "raw_authority": "Arts. 110, 122, Raja Ram Pal, Rojer Mathew [J3]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-182"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 12,
+          "section_title": "B2. Presiding Officers, MPs & MLAs",
+          "prompt": "SC/ST Welfare Committee — powers and composition",
+          "distinction": "Full strength 30, with 20 from LS and 10 from RS. Speaker appoints the chair, ministers are ineligible and term is at most one year. Distinguish the parliamentary committee from NCSC and NCST.",
+          "authority": "LS Rule 331B · PYQ 2026 [L4, P6]",
+          "raw_authority": "LS Rule 331B · **PYQ 2026** [L4, P6]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2026"
+          ],
+          "id": "polity-trap-183"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 12,
+          "section_title": "B2. Presiding Officers, MPs & MLAs",
+          "prompt": "Members' oath vs seat vacancy",
+          "distinction": "A member must take oath before taking the seat. A House **may** declare a seat vacant for absence from all meetings for 60 days without permission, excluding specified periods of prorogation or adjournment.",
+          "authority": "Arts. 99, 101(4), 188, 190(4)",
+          "raw_authority": "Arts. 99, 101(4), 188, 190(4)",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-184"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 12,
+          "section_title": "B2. Presiding Officers, MPs & MLAs",
+          "prompt": "Nomination vs election",
+          "distinction": "President nominates 12 to Rajya Sabha for special knowledge or practical experience in literature, science, art or social service. The Anglo-Indian special representation provision ceased after the period set by Art. 334(b).",
+          "authority": "Arts. 80, 331, 333–334",
+          "raw_authority": "Arts. 80, 331, 333–334",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-185"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 12,
+          "section_title": "B2. Presiding Officers, MPs & MLAs",
+          "prompt": "MP and MLA — voting immunity",
+          "distinction": "Arts. 105(2) and 194(2) protect speech and voting in the House **or its committees**. Bribery in connection with legislative votes or speech is prosecutable under Sita Soren.",
+          "authority": "Arts. 105, 194 · PYQ 2025 for legislative speech [J3, P5]",
+          "raw_authority": "Arts. 105, 194 · **PYQ 2025** for legislative speech [J3, P5]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2025"
+          ],
+          "id": "polity-trap-186"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 12,
+          "section_title": "B2. Presiding Officers, MPs & MLAs",
+          "prompt": "Member — statutory disqualification",
+          "distinction": "Art. 102(1) or 191(1) cases for sitting members go to President or Governor, who act according to **ECI's** opinion. Do not swap in the SEC for an MLA. Defection follows separate Tenth Schedule procedure.",
+          "authority": "Arts. 103, 192",
+          "raw_authority": "Arts. 103, 192",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-187"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 12,
+          "section_title": "B2. Presiding Officers, MPs & MLAs",
+          "prompt": "Member — defection triggers",
+          "distinction": "An elected independent member who joins a political party after election incurs disqualification. A nominated member may join within six months **from taking the seat**. For party voting directions, prior permission or condonation within 15 days can matter.",
+          "authority": "Tenth Schedule para. 2 · PYQ 2022 [P2]",
+          "raw_authority": "Tenth Schedule para. 2 · **PYQ 2022** [P2]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2022"
+          ],
+          "id": "polity-trap-188"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 12,
+          "section_title": "B2. Presiding Officers, MPs & MLAs",
+          "prompt": "Tenth Schedule — merger",
+          "distinction": "At least two-thirds of the **legislature party** must agree to the merger for the deeming rule. The former one-third split exception was deleted.",
+          "authority": "Tenth Schedule para. 4, 91st Amendment",
+          "raw_authority": "Tenth Schedule para. 4, 91st Amendment",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-189"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 12,
+          "section_title": "B2. Presiding Officers, MPs & MLAs",
+          "prompt": "Defection adjudicator and clock",
+          "distinction": "Relevant Speaker or Chair decides, subject to review. If the question concerns that officer, the House elects a member to decide. The Schedule sets no fixed period. Supreme Court says ordinarily three months absent exceptional circumstances.",
+          "authority": "Tenth Schedule para. 6, Kihoto Hollohan, Keisham · PYQ 2022 for text [J5, P2]",
+          "raw_authority": "Tenth Schedule para. 6, Kihoto Hollohan, Keisham · **PYQ 2022** for text [J5, P2]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2022"
+          ],
+          "id": "polity-trap-190"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 13,
+          "section_title": "B3. Attorney-General, Advocate-General, CAG & Audit",
+          "prompt": "Attorney-General — qualification",
+          "distinction": "President appoints a person qualified to be a **Supreme Court judge**. Art. 76 does not require a sitting or retired judge or a law minister. Distinguished jurist is one route in Art. 124(3).",
+          "authority": "Arts. 76, 124(3)",
+          "raw_authority": "Arts. 76, 124(3)",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-191"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 13,
+          "section_title": "B3. Attorney-General, Advocate-General, CAG & Audit",
+          "prompt": "Attorney-General — rights and accountability",
+          "distinction": "Right of audience in **all courts in India** in performance of duties. May speak and take part in either House, joint sitting and a committee of which named a member. Art. 88 supplies no vote.",
+          "authority": "Arts. 76, 88 · PYQ 2022 [P2]",
+          "raw_authority": "Arts. 76, 88 · **PYQ 2022** [P2]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2022"
+          ],
+          "id": "polity-trap-192"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 13,
+          "section_title": "B3. Attorney-General, Advocate-General, CAG & Audit",
+          "prompt": "Advocate-General — comparison",
+          "distinction": "Governor appoints someone qualified to be a **High Court judge**. Holds during Governor's pleasure. Art. 177 parallels legislative participation with no vote created by that Article.",
+          "authority": "Arts. 165, 177, 217",
+          "raw_authority": "Arts. 165, 177, 217",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-193"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 13,
+          "section_title": "B3. Attorney-General, Advocate-General, CAG & Audit",
+          "prompt": "Solicitor-General and Additional Solicitors-General",
+          "distinction": "Law Officers Rules govern these posts. The constitutional participation clause names Attorney-General at Union level and Advocate-General at state level.",
+          "authority": "Arts. 76, 88, 165, 177, Law Officers Rules 1987",
+          "raw_authority": "Arts. 76, 88, 165, 177, Law Officers Rules 1987",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-194"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 13,
+          "section_title": "B3. Attorney-General, Advocate-General, CAG & Audit",
+          "prompt": "CAG — appointment and tenure",
+          "distinction": "President appoints by warrant. **Six years or 65, whichever is earlier**, is statutory under the 1971 Act. Same manner and grounds of removal as an SC judge are constitutional.",
+          "authority": "Art. 148, CAG Act s. 4 [S1]",
+          "raw_authority": "Art. 148, CAG Act s. 4 [S1]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-195"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 13,
+          "section_title": "B3. Attorney-General, Advocate-General, CAG & Audit",
+          "prompt": "CAG — eligibility after office",
+          "distinction": "Ineligible for further office under Union or state government. Constitutional protection against disadvantageous changes covers salary and specified rights. Administrative expenses are charged on Consolidated Fund of India.",
+          "authority": "Art. 148(3)–(6)",
+          "raw_authority": "Art. 148(3)–(6)",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-196"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 13,
+          "section_title": "B3. Attorney-General, Advocate-General, CAG & Audit",
+          "prompt": "CAG — form of accounts",
+          "distinction": "Accounts of Union and states are kept in the form the **President prescribes on the advice of CAG**. Art. 150 gives the prescription and advisory roles to different actors.",
+          "authority": "Art. 150",
+          "raw_authority": "Art. 150",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-197"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 13,
+          "section_title": "B3. Attorney-General, Advocate-General, CAG & Audit",
+          "prompt": "CAG — reports and PAC",
+          "distinction": "Union reports go to President who causes laying before each House. State reports go to Governor who causes laying before the state legislature. PAC scrutinises reports. CAG has audit authority and no power to prosecute in its own right.",
+          "authority": "Art. 151, CAG Act, LS Rules 308–309 · PYQ 2012 [S1, P4]",
+          "raw_authority": "Art. 151, CAG Act, LS Rules 308–309 · **PYQ 2012** [S1, P4]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2012"
+          ],
+          "id": "polity-trap-198"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 13,
+          "section_title": "B3. Attorney-General, Advocate-General, CAG & Audit",
+          "prompt": "CAG — “Comptroller” and prior withdrawals",
+          "distinction": "India’s CAG does not pre-authorise every payment from the Consolidated Fund. Constitution controls appropriation. The CAG audits expenditure and other matters under law.",
+          "authority": "Arts. 114, 149, 266 · PYQ 2012 for supposed exchequer control [P4]",
+          "raw_authority": "Arts. 114, 149, 266 · **PYQ 2012** for supposed exchequer control [P4]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2012"
+          ],
+          "id": "polity-trap-199"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 13,
+          "section_title": "B3. Attorney-General, Advocate-General, CAG & Audit",
+          "prompt": "Government-company audit",
+          "distinction": "CAG’s government-company role under the Companies Act includes appointment of the auditor and directions, and supplementary audit or comments where applicable. Avoid equating it with the CAG personally doing all company audits.",
+          "authority": "Companies Act 2013 ss. 139(5), 143(5)–(7)",
+          "raw_authority": "Companies Act 2013 ss. 139(5), 143(5)–(7)",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-200"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 14,
+          "section_title": "B4. Supreme Court, High Courts & Subordinate Judiciary",
+          "prompt": "SC judge — qualification",
+          "distinction": "Citizen plus one of the stated routes. At least five years as High Court judge, at least ten years as High Court advocate, or distinguished jurist in President's opinion.",
+          "authority": "Art. 124(3)",
+          "raw_authority": "Art. 124(3)",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-201"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 14,
+          "section_title": "B4. Supreme Court, High Courts & Subordinate Judiciary",
+          "prompt": "HC judge — qualification",
+          "distinction": "Citizen plus at least ten years holding judicial office in India or at least ten years as a High Court advocate under the specified rules. No equivalent distinguished-jurist route in Art. 217.",
+          "authority": "Art. 217(2)",
+          "raw_authority": "Art. 217(2)",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-202"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 14,
+          "section_title": "B4. Supreme Court, High Courts & Subordinate Judiciary",
+          "prompt": "SC vs HC — age and transfer",
+          "distinction": "Retirement 65 vs 62. President may transfer a High Court judge after consultation with CJI under Art. 222. The judicial decisions and appointment procedure elaborate consultation.",
+          "authority": "Arts. 124, 217, 222",
+          "raw_authority": "Arts. 124, 217, 222",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-203"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 14,
+          "section_title": "B4. Supreme Court, High Courts & Subordinate Judiciary",
+          "prompt": "Judge — removal denominator",
+          "distinction": "President's order after an address from **each** House in the same session, by majority of total membership plus at least two-thirds present and voting, for proved misbehaviour or incapacity.",
+          "authority": "Arts. 124(4), 217, 218",
+          "raw_authority": "Arts. 124(4), 217, 218",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-204"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 14,
+          "section_title": "B4. Supreme Court, High Courts & Subordinate Judiciary",
+          "prompt": "Post-retirement practice",
+          "distinction": "Former Supreme Court judge cannot plead or act in any court or before any authority in India. Permanent former High Court judge may plead or act in the Supreme Court and High Courts other than the one where the restriction applies.",
+          "authority": "Arts. 124(7), 220",
+          "raw_authority": "Arts. 124(7), 220",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-205"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 14,
+          "section_title": "B4. Supreme Court, High Courts & Subordinate Judiciary",
+          "prompt": "Acting, ad hoc and retired judges",
+          "distinction": "Acting CJI under Art. 126, an ad hoc SC judge under Art. 127 and attendance by retired judges under Art. 128 each have different authorisation and eligibility.",
+          "authority": "Arts. 126–128",
+          "raw_authority": "Arts. 126–128",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-206"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 14,
+          "section_title": "B4. Supreme Court, High Courts & Subordinate Judiciary",
+          "prompt": "SC and HC — courts of record",
+          "distinction": "Both are courts of record with constitutional contempt powers. Their Articles differ. Art. 142 is the SC complete-justice provision.",
+          "authority": "Arts. 129, 142, 215",
+          "raw_authority": "Arts. 129, 142, 215",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-207"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 14,
+          "section_title": "B4. Supreme Court, High Courts & Subordinate Judiciary",
+          "prompt": "SC and HC — territorial reach of writs",
+          "distinction": "Art. 32 is for enforcing Part III. Art. 226 reaches Part III and other legal rights, including where cause of action arises wholly or partly within territory under clause (2).",
+          "authority": "Arts. 32, 226 · PYQ 2022 on writs [P2]",
+          "raw_authority": "Arts. 32, 226 · **PYQ 2022** on writs [P2]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2022"
+          ],
+          "id": "polity-trap-208"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 14,
+          "section_title": "B4. Supreme Court, High Courts & Subordinate Judiciary",
+          "prompt": "Advisory vs appellate vs review",
+          "distinction": "Presidential reference under Art. 143, appeal routes under Arts. 132–136, and review of SC's own judgment or order under Art. 137 have distinct triggers. Special leave under Art. 136 has an armed-forces court or tribunal exclusion.",
+          "authority": "Arts. 132–137, 143",
+          "raw_authority": "Arts. 132–137, 143",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-209"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 14,
+          "section_title": "B4. Supreme Court, High Courts & Subordinate Judiciary",
+          "prompt": "District judges",
+          "distinction": "Governor appoints, posts and promotes in consultation with High Court. Direct recruitment from outside service requires at least seven years as advocate or pleader and High Court recommendation. Control over district and subordinate courts vests in High Court.",
+          "authority": "Arts. 233–235",
+          "raw_authority": "Arts. 233–235",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-210"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 14,
+          "section_title": "B4. Supreme Court, High Courts & Subordinate Judiciary",
+          "prompt": "Tribunals",
+          "distinction": "Art. 323A enables **Parliament** to legislate on administrative tribunals. Art. 323B refers to the **appropriate legislature** for specific matters. Constitutional judicial review remains under L. Chandra Kumar.",
+          "authority": "Arts. 323A–323B [J1]",
+          "raw_authority": "Arts. 323A–323B [J1]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-211"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 15,
+          "section_title": "B5. Election & Public Service Commissions",
+          "prompt": "Election Commission — who fixes size and appoints",
+          "distinction": "Constitution specifies CEC and such number of other commissioners, if any, as President may fix. President appoints subject to parliamentary law. When other ECs are appointed, CEC is Chair.",
+          "authority": "Art. 324(2)–(3)",
+          "raw_authority": "Art. 324(2)–(3)",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-212"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 15,
+          "section_title": "B5. Election & Public Service Commissions",
+          "prompt": "Election Commission — selection under the 2023 Act",
+          "distinction": "PM chairs. Other members are a Union Cabinet Minister nominated by PM and Lok Sabha's Leader of Opposition, with a fallback for the largest opposition party where a recognised Leader is absent. Appointment is by President.",
+          "authority": "2023 Act ss. 4, 7 [S2]",
+          "raw_authority": "2023 Act ss. 4, 7 [S2]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-213"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 15,
+          "section_title": "B5. Election & Public Service Commissions",
+          "prompt": "Election Commission — older interim formula",
+          "distinction": "Anoop Baranwal's CJI-inclusive formula operated until Parliament made a law. The 2023 Act uses its own selection committee. The Act has been challenged. The September 2026 proceedings concerned the route to a larger bench, rather than a ruling striking down s. 7.",
+          "authority": "Art. 324, 2023 Act, Anoop Baranwal [S2]",
+          "raw_authority": "Art. 324, 2023 Act, Anoop Baranwal [S2]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-214"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 15,
+          "section_title": "B5. Election & Public Service Commissions",
+          "prompt": "Election Commission — eligibility, term and salary",
+          "distinction": "The 2023 Act sets an official rank and election-related knowledge and experience requirements. Term is six years or 65, whichever earlier. No reappointment. Combined EC and CEC service may not exceed six years. Salary is equivalent to an SC judge under s. 10.",
+          "authority": "2023 Act ss. 5, 8, 10 [S2]",
+          "raw_authority": "2023 Act ss. 5, 8, 10 [S2]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-215"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 15,
+          "section_title": "B5. Election & Public Service Commissions",
+          "prompt": "CEC and EC — removal asymmetry",
+          "distinction": "CEC has the same manner and grounds of removal as an SC judge. Other ECs and regional commissioners cannot be removed except on CEC recommendation. CEC's disadvantageous condition-of-service protection is expressly stated in Art. 324(5).",
+          "authority": "Art. 324(5)",
+          "raw_authority": "Art. 324(5)",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-216"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 15,
+          "section_title": "B5. Election & Public Service Commissions",
+          "prompt": "Election Commission — what it conducts",
+          "distinction": "Parliament, state legislatures, President and VP. Municipal and panchayat elections sit with SEC. Presidential and VP election **disputes** go to SC.",
+          "authority": "Arts. 71, 243K, 243ZA, 324 · PYQ 2004 for ECI functions [P4]",
+          "raw_authority": "Arts. 71, 243K, 243ZA, 324 · **PYQ 2004** for ECI functions [P4]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2004"
+          ],
+          "id": "polity-trap-217"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 15,
+          "section_title": "B5. Election & Public Service Commissions",
+          "prompt": "State Election Commissioner",
+          "distinction": "Governor appoints. Removal follows the manner and grounds of removal of a **High Court judge**. Service conditions may not be varied to disadvantage after appointment.",
+          "authority": "Art. 243K; Art. 243ZA for municipalities",
+          "raw_authority": "Art. 243K; Art. 243ZA for municipalities",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-218"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 15,
+          "section_title": "B5. Election & Public Service Commissions",
+          "prompt": "ECI vs Delimitation Commission",
+          "distinction": "ECI supervises elections. Constituting a delimitation commission and assigning delimitation powers depend on parliamentary law. Under the 2002 Act the ECI is represented on the Commission.",
+          "authority": "Arts. 82, 170, 324, Delimitation Act 2002",
+          "raw_authority": "Arts. 82, 170, 324, Delimitation Act 2002",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-219"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 15,
+          "section_title": "B5. Election & Public Service Commissions",
+          "prompt": "Recognition, registration and disqualification",
+          "distinction": "ECI registers parties under s. 29A and administers recognition and reserved symbols under the Symbols Order. Eligibility, election petition and conviction consequences have separate statutory provisions.",
+          "authority": "RPA 1951, Symbols Order 1968 [S3]",
+          "raw_authority": "RPA 1951, Symbols Order 1968 [S3]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-220"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 15,
+          "section_title": "B5. Election & Public Service Commissions",
+          "prompt": "Election petition — which court",
+          "distinction": "Parliamentary and state legislative elections are challenged by election petition to the High Court under the RPA. Appeal can lie to SC. President and VP election disputes start in SC.",
+          "authority": "Arts. 71, 329, RPA 1951 ss. 80, 80A, 116A",
+          "raw_authority": "Arts. 71, 329, RPA 1951 ss. 80, 80A, 116A",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-221"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 15,
+          "section_title": "B5. Election & Public Service Commissions",
+          "prompt": "UPSC, SPSC and Joint PSC — formation",
+          "distinction": "Each state has a PSC or arrangement within Art. 315. Parliament can provide a Joint PSC after resolutions from the participating state legislatures. President appoints Union and Joint PSC members. Governor appoints SPSC members.",
+          "authority": "Arts. 315–316",
+          "raw_authority": "Arts. 315–316",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-222"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 15,
+          "section_title": "B5. Election & Public Service Commissions",
+          "prompt": "UPSC vs State or Joint PSC — term",
+          "distinction": "Six years with age ceilings **65 for UPSC** and **62 for State or Joint PSC**. As nearly as possible half the members must have held government office for at least ten years.",
+          "authority": "Art. 316",
+          "raw_authority": "Art. 316",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-223"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 15,
+          "section_title": "B5. Election & Public Service Commissions",
+          "prompt": "PSCs — appoint, remove, suspend",
+          "distinction": "President removes members of **all** PSCs under Art. 317. Misbehaviour route requires SC inquiry on presidential reference. Governor can suspend a State PSC member in the relevant reference scenario, pending presidential decision.",
+          "authority": "Art. 317",
+          "raw_authority": "Art. 317",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-224"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 15,
+          "section_title": "B5. Election & Public Service Commissions",
+          "prompt": "PSCs — post-tenure restrictions",
+          "distinction": "UPSC chair cannot take further government employment. State PSC chair can become UPSC chair or member or chair of another State PSC. Other members have specific upward appointment routes and general restrictions.",
+          "authority": "Art. 319",
+          "raw_authority": "Art. 319",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-225"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 15,
+          "section_title": "B5. Election & Public Service Commissions",
+          "prompt": "PSCs — functions and advice",
+          "distinction": "Exam and consultation functions are distinct. Laws can add functions. Regulations can except matters from consultation. Reports go to President or Governor, with reasons for non-acceptance laid before the legislature.",
+          "authority": "Arts. 320–323",
+          "raw_authority": "Arts. 320–323",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-226"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 16,
+          "section_title": "B6. Finance Commission, GST Council & Federal Institutions",
+          "prompt": "Union Finance Commission — constitution",
+          "distinction": "President constitutes it every fifth year **or earlier**. It consists of chairman plus four other members. Parliament determines qualifications and manner of selection by law.",
+          "authority": "Art. 280, 1951 Act [S4]",
+          "raw_authority": "Art. 280, 1951 Act [S4]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-227"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 16,
+          "section_title": "B6. Finance Commission, GST Council & Federal Institutions",
+          "prompt": "Union Finance Commission — five years",
+          "distinction": "Five-year interval relates to **constituting the Commission**, while individual appointments run for the period specified by President in the appointment order.",
+          "authority": "Art. 280(1), 1951 Act s. 6 [S4]",
+          "raw_authority": "Art. 280(1), 1951 Act s. 6 [S4]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-228"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 16,
+          "section_title": "B6. Finance Commission, GST Council & Federal Institutions",
+          "prompt": "Union Finance Commission — subject of advice",
+          "distinction": "Tax sharing vertically and among states, principles of grants-in-aid, measures to augment state Consolidated Funds for panchayats and municipalities **on the basis of State Finance Commission recommendations**, and other matters referred by President in the interests of sound finance.",
+          "authority": "Art. 280(3)",
+          "raw_authority": "Art. 280(3)",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-229"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 16,
+          "section_title": "B6. Finance Commission, GST Council & Federal Institutions",
+          "prompt": "15th Finance Commission — horizontal criteria",
+          "distinction": "Population, area, income distance, forest and ecology, demographic performance, and tax and fiscal efforts. The 2023 question asked whether governance reforms and stable government were also criteria. The factors in an award are report-specific.",
+          "authority": "Table 6.4, 15th Finance Commission report · PYQ 2023 [P3, S4]",
+          "raw_authority": "Table 6.4, 15th Finance Commission report · **PYQ 2023** [P3, S4]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2023"
+          ],
+          "id": "polity-trap-230"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 16,
+          "section_title": "B6. Finance Commission, GST Council & Federal Institutions",
+          "prompt": "Union Finance Commission — report and action",
+          "distinction": "President causes recommendations and an explanatory memorandum on action taken to be laid before each House. Tax devolution and release of grants require action under their applicable framework.",
+          "authority": "Arts. 270, 275, 281",
+          "raw_authority": "Arts. 270, 275, 281",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-231"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 16,
+          "section_title": "B6. Finance Commission, GST Council & Federal Institutions",
+          "prompt": "State Finance Commission — who and when",
+          "distinction": "Governor constitutes it within the relevant constitutional timeline and thereafter every fifth year. The same commission reviews municipal finances by Art. 243Y. Governor causes recommendations and action memorandum to be laid before state legislature.",
+          "authority": "Arts. 243I, 243Y · PYQ 2025 [P5]",
+          "raw_authority": "Arts. 243I, 243Y · **PYQ 2025** [P5]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2025"
+          ],
+          "id": "polity-trap-232"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 16,
+          "section_title": "B6. Finance Commission, GST Council & Federal Institutions",
+          "prompt": "GST Council — members",
+          "distinction": "Union Finance Minister is Chair. Union Minister of State in charge of Revenue or Finance and a minister nominated by each state are members. State members choose one among themselves as Vice-Chair.",
+          "authority": "Art. 279A(2)–(3)",
+          "raw_authority": "Art. 279A(2)–(3)",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-233"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 16,
+          "section_title": "B6. Finance Commission, GST Council & Federal Institutions",
+          "prompt": "GST Council — voting vs quorum",
+          "distinction": "Half of total membership is quorum. A decision needs at least three-fourths of **weighted votes of members present and voting**. Union has one-third of weight and states together two-thirds.",
+          "authority": "Art. 279A(7), (9)",
+          "raw_authority": "Art. 279A(7), (9)",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-234"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 16,
+          "section_title": "B6. Finance Commission, GST Council & Federal Institutions",
+          "prompt": "GST Council — legal effect",
+          "distinction": "Recommendations guide cooperative federal action. Supreme Court in Mohit Minerals held that Art. 279A recommendations are not binding as such on Union and state legislatures. Distinguish a specific statute conditioning a delegated power on a recommendation.",
+          "authority": "Arts. 246A, 279A, Mohit Minerals [J6]",
+          "raw_authority": "Arts. 246A, 279A, Mohit Minerals [J6]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-235"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 16,
+          "section_title": "B6. Finance Commission, GST Council & Federal Institutions",
+          "prompt": "GST Council — dispute mechanism",
+          "distinction": "Council shall establish a mechanism to adjudicate disputes arising from recommendations or their implementation. This is distinct from the interstate river-water tribunal system.",
+          "authority": "Art. 279A(11)",
+          "raw_authority": "Art. 279A(11)",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-236"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 16,
+          "section_title": "B6. Finance Commission, GST Council & Federal Institutions",
+          "prompt": "Inter-State Council",
+          "distinction": "Art. 263 permits President to establish a council on public-interest grounds. The 1990 order assigned coordination and discussion functions under clauses (b) and (c). The Article's general list is wider than that order's assignment.",
+          "authority": "Art. 263, 1990 Presidential Order [S5]",
+          "raw_authority": "Art. 263, 1990 Presidential Order [S5]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-237"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 16,
+          "section_title": "B6. Finance Commission, GST Council & Federal Institutions",
+          "prompt": "Zonal Councils",
+          "distinction": "Five statutory Zonal Councils in the States Reorganisation Act, 1956 framework. Union Home Minister chairs in practice as the Union minister nominated under the Act.",
+          "authority": "States Reorganisation Act ss. 15–16 [S5]",
+          "raw_authority": "States Reorganisation Act ss. 15–16 [S5]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-238"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 16,
+          "section_title": "B6. Finance Commission, GST Council & Federal Institutions",
+          "prompt": "North Eastern Council",
+          "distinction": "Section 3 provides Governors and Chief Ministers of member states and three presidential nominees. President may also nominate a Union minister as member, shall nominate the Chair, and may nominate another member as Vice-Chair.",
+          "authority": "NEC Act 1971, amended 2002 · PYQ 2024 [P4, S5]",
+          "raw_authority": "NEC Act 1971, amended 2002 · **PYQ 2024** [P4, S5]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2002",
+            "2024"
+          ],
+          "id": "polity-trap-239"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 16,
+          "section_title": "B6. Finance Commission, GST Council & Federal Institutions",
+          "prompt": "Inter-state rivers",
+          "distinction": "Parliament may legislate for adjudication and may exclude courts' jurisdiction over specified inter-state river-water disputes. The current statutory tribunal framework is under the 1956 Act.",
+          "authority": "Art. 262, Inter-State River Water Disputes Act 1956",
+          "raw_authority": "Art. 262, Inter-State River Water Disputes Act 1956",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-240"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 16,
+          "section_title": "B6. Finance Commission, GST Council & Federal Institutions",
+          "prompt": "NITI Aayog",
+          "distinction": "Union Cabinet resolution constituted it. Prime Minister chairs. Its Governing Council follows the executive framework, distinct from the Finance Commission and GST Council.",
+          "authority": "2015 Cabinet resolution [S5]",
+          "raw_authority": "2015 Cabinet resolution [S5]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-241"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 17,
+          "section_title": "B7. SC, ST, SEBC, Languages & Minority Institutions",
+          "prompt": "NCSC — Art. 338",
+          "distinction": "Chair, Vice-Chair and **three other members**. President appoints by warrant under hand and seal. Civil-court powers apply when investigating or inquiring into specified matters.",
+          "authority": "Art. 338(2), (3), (8)",
+          "raw_authority": "Art. 338(2), (3), (8)",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-242"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 17,
+          "section_title": "B7. SC, ST, SEBC, Languages & Minority Institutions",
+          "prompt": "NCST — Art. 338A",
+          "distinction": "The analogous constitutional body for ST safeguards. Distinguish the Commission from local Tribes Advisory Councils and autonomous district councils.",
+          "authority": "Art. 338A, Fifth and Sixth Schedules",
+          "raw_authority": "Art. 338A, Fifth and Sixth Schedules",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-243"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 17,
+          "section_title": "B7. SC, ST, SEBC, Languages & Minority Institutions",
+          "prompt": "NCBC — Art. 338B",
+          "distinction": "Constitutional body after the 102nd Amendment. The earlier statutory NCBC is relevant to historical questions. Same broad position of Chair, Vice-Chair and three other members.",
+          "authority": "Arts. 338B, 342A · PYQ 2023 [P4]",
+          "raw_authority": "Arts. 338B, 342A · **PYQ 2023** [P4]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2023"
+          ],
+          "id": "polity-trap-244"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 17,
+          "section_title": "B7. SC, ST, SEBC, Languages & Minority Institutions",
+          "prompt": "NCSC, NCST, NCBC — reports and policy consultation",
+          "distinction": "Reports go to President, with parliamentary laying and action/explanation framework. State-related reports also reach Governor for laying before state legislature. Government consultation on major policy matters has the Art. 338B(9) proviso for state/UT lists under Art. 342A(3).",
+          "authority": "Arts. 338(5)–(9), 338A, 338B",
+          "raw_authority": "Arts. 338(5)–(9), 338A, 338B",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-245"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 17,
+          "section_title": "B7. SC, ST, SEBC, Languages & Minority Institutions",
+          "prompt": "Commissions' powers vs judicial relief",
+          "distinction": "Powers of a civil court for specific inquiries do not create a civil court with ordinary decree-making or enforcement powers. Distinguish investigation, recommendation, and adjudication.",
+          "authority": "Arts. 338(8), 338A(8), 338B(8)",
+          "raw_authority": "Arts. 338(8), 338A(8), 338B(8)",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-246"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 17,
+          "section_title": "B7. SC, ST, SEBC, Languages & Minority Institutions",
+          "prompt": "SC and ST lists — who changes them",
+          "distinction": "President initially specifies by public notification, after consultation with Governor where the Article requires it. **Parliament by law** subsequently includes or excludes entries.",
+          "authority": "Arts. 341–342",
+          "raw_authority": "Arts. 341–342",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-247"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 17,
+          "section_title": "B7. SC, ST, SEBC, Languages & Minority Institutions",
+          "prompt": "SEBC lists — Central vs state",
+          "distinction": "Art. 342A(1)–(2) concerns the Central List. Art. 342A(3) permits every state or UT to prepare and maintain by law its own list for its own purposes.",
+          "authority": "Art. 342A, 105th Amendment",
+          "raw_authority": "Art. 342A, 105th Amendment",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-248"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 17,
+          "section_title": "B7. SC, ST, SEBC, Languages & Minority Institutions",
+          "prompt": "Art. 340 commission vs NCBC",
+          "distinction": "President may appoint a commission to investigate conditions of socially and educationally backward classes. That inquiry commission has a different basis from standing NCBC under Art. 338B.",
+          "authority": "Arts. 340, 338B",
+          "raw_authority": "Arts. 340, 338B",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-249"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 17,
+          "section_title": "B7. SC, ST, SEBC, Languages & Minority Institutions",
+          "prompt": "Linguistic minorities",
+          "distinction": "President appoints the Special Officer. Reports go to President, who causes laying before both Houses and sends them to governments of concerned states. This is separate from the statutory National Commission for Minorities.",
+          "authority": "Arts. 350A–350B, NCM Act 1992",
+          "raw_authority": "Arts. 350A–350B, NCM Act 1992",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-250"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 17,
+          "section_title": "B7. SC, ST, SEBC, Languages & Minority Institutions",
+          "prompt": "Official Language Commission and Committee",
+          "distinction": "Art. 344 has its own Commission and 30-member parliamentary committee. Under s. 4 of the Official Languages Act, a separately sourced Committee on Official Language has a similar 20 LS/10 RS composition. Check which instrument a question names.",
+          "authority": "Art. 344, Official Languages Act 1963 s. 4",
+          "raw_authority": "Art. 344, Official Languages Act 1963 s. 4",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-251"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 17,
+          "section_title": "B7. SC, ST, SEBC, Languages & Minority Institutions",
+          "prompt": "Minority educational institutions",
+          "distinction": "Art. 30 uses religion or language. Art. 29(1) protects any section of citizens with a distinct language, script or culture. The statutory NCMEI and NCM serve different functions.",
+          "authority": "Arts. 29–30, NCMEI Act 2004, NCM Act 1992",
+          "raw_authority": "Arts. 29–30, NCMEI Act 2004, NCM Act 1992",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-252"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 17,
+          "section_title": "B7. SC, ST, SEBC, Languages & Minority Institutions",
+          "prompt": "Fifth Schedule — TAC and Governor",
+          "distinction": "TAC has up to 20 members, with about three-fourths ST representatives in the Assembly as the Schedule provides. The President declares a Scheduled Area. Governor regulations under para. 5 require presidential assent and consultation with TAC where one exists.",
+          "authority": "Fifth Schedule paras. 4–6 · PYQ 2023 on who declares [P3]",
+          "raw_authority": "Fifth Schedule paras. 4–6 · **PYQ 2023** on who declares [P3]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2023"
+          ],
+          "id": "polity-trap-253"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 17,
+          "section_title": "B7. SC, ST, SEBC, Languages & Minority Institutions",
+          "prompt": "Sixth Schedule — governor and councils",
+          "distinction": "Applies to specified tribal areas in Assam, Meghalaya, Tripura and Mizoram. Council composition, law-making and Governor assent requirements depend on the Schedule and relevant area-specific provisions.",
+          "authority": "Art. 244(2), Sixth Schedule · PYQ 2026 [P6]",
+          "raw_authority": "Art. 244(2), Sixth Schedule · **PYQ 2026** [P6]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2026"
+          ],
+          "id": "polity-trap-254"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 17,
+          "section_title": "B7. SC, ST, SEBC, Languages & Minority Institutions",
+          "prompt": "Art. 244A inside Assam",
+          "distinction": "Parliament may by law form an autonomous state covering all or part of specified Sixth Schedule tribal areas within Assam and create a legislature, Council of Ministers or both. An autonomous district council is a different institution.",
+          "authority": "Art. 244A",
+          "raw_authority": "Art. 244A",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-255"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 17,
+          "section_title": "B7. SC, ST, SEBC, Languages & Minority Institutions",
+          "prompt": "Delhi vs Puducherry vs J&K",
+          "distinction": "Delhi assembly has a special constitutional framework in Art. 239AA and no legislative competence over public order, police and land as specified. Puducherry and J&K assemblies follow their own statutes and enabling frameworks. Avoid copying Delhi's exact exclusions across UTs.",
+          "authority": "Arts. 239, 239A, 239AA, Government of Union Territories Act 1963, J&K Reorganisation Act 2019",
+          "raw_authority": "Arts. 239, 239A, 239AA, Government of Union Territories Act 1963, J&K Reorganisation Act 2019",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-256"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 18,
+          "section_title": "B8. Local Government Offices & Committees",
+          "prompt": "Gram Sabha",
+          "distinction": "Consists of persons registered in electoral rolls for the village within the panchayat area. Powers and functions depend on state law, with PESA applying in Scheduled Areas.",
+          "authority": "Arts. 243(b), 243A, PESA [S6]",
+          "raw_authority": "Arts. 243(b), 243A, PESA [S6]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-257"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 18,
+          "section_title": "B8. Local Government Offices & Committees",
+          "prompt": "Panchayat chair — direct or indirect",
+          "distinction": "Village-chair election follows state law. Intermediate and district chairs are elected **by and from among** elected members.",
+          "authority": "Art. 243C(5)",
+          "raw_authority": "Art. 243C(5)",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-258"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 18,
+          "section_title": "B8. Local Government Offices & Committees",
+          "prompt": "Panchayat chair — vote and reserved offices",
+          "distinction": "Chair and other members have voting rights in panchayat meetings under Art. 243C(4). At least one-third of chairperson offices at each level are reserved for women.",
+          "authority": "Arts. 243C(4), 243D(4)",
+          "raw_authority": "Arts. 243C(4), 243D(4)",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-259"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 18,
+          "section_title": "B8. Local Government Offices & Committees",
+          "prompt": "Panchayat tier — 20 lakh",
+          "distinction": "State population **not exceeding** 20 lakh can omit the intermediate tier. “Below” would wrongly exclude a state with exactly 20 lakh.",
+          "authority": "Art. 243B(2) · PYQ 2025 [P5]",
+          "raw_authority": "Art. 243B(2) · **PYQ 2025** [P5]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2025"
+          ],
+          "id": "polity-trap-260"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 18,
+          "section_title": "B8. Local Government Offices & Committees",
+          "prompt": "Panchayat or municipality — term clock",
+          "distinction": "Five years runs from the date **appointed for the first meeting**, and a replacement after early dissolution serves the remainder. The six-month election exception is when the remainder is **less than six months**.",
+          "authority": "Arts. 243E, 243U",
+          "raw_authority": "Arts. 243E, 243U",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-261"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 18,
+          "section_title": "B8. Local Government Offices & Committees",
+          "prompt": "Minimum age for panchayat and municipality",
+          "distinction": "The constitutional disqualification rule protects a person aged at least 21 from disqualification on the ground of being under 25. Eligibility otherwise depends on the applicable law.",
+          "authority": "Arts. 243F, 243V",
+          "raw_authority": "Arts. 243F, 243V",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-262"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 18,
+          "section_title": "B8. Local Government Offices & Committees",
+          "prompt": "One-third of seats",
+          "distinction": "At least one-third of directly elected seats are reserved for women including SC/ST women. Municipality chairperson reservation follows state law under Art. 243T(4).",
+          "authority": "Arts. 243D, 243T · PYQ 2026 on SC/ST women in panchayats [P6]",
+          "raw_authority": "Arts. 243D, 243T · **PYQ 2026** on SC/ST women in panchayats [P6]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2026"
+          ],
+          "id": "polity-trap-263"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 18,
+          "section_title": "B8. Local Government Offices & Committees",
+          "prompt": "Wards and metropolitan threshold",
+          "distinction": "Wards Committees apply from **3 lakh** municipal population. Metropolitan area definition uses **10 lakh or more**, besides the other constitutional conditions.",
+          "authority": "Arts. 243P(c), 243S",
+          "raw_authority": "Arts. 243P(c), 243S",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-264"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 18,
+          "section_title": "B8. Local Government Offices & Committees",
+          "prompt": "DPC vs MPC",
+          "distinction": "At least four-fifths of the DPC are elected by and from elected members of district-level panchayat and municipalities in the district, as specified. For MPC the elected share is at least two-thirds from municipal elected members and panchayat chairpersons in the area.",
+          "authority": "Arts. 243ZD–243ZE",
+          "raw_authority": "Arts. 243ZD–243ZE",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-265"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 18,
+          "section_title": "B8. Local Government Offices & Committees",
+          "prompt": "Part IX and Part IXA exclusions",
+          "distinction": "Fifth and Sixth Schedule areas and other constitutionally specified cases require checking the exact Part and Article. PESA extends Part IX to Fifth Schedule Scheduled Areas with modifications.",
+          "authority": "Arts. 243M, 243ZC, PESA ss. 3–4 [S6]",
+          "raw_authority": "Arts. 243M, 243ZC, PESA ss. 3–4 [S6]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-266"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 19,
+          "section_title": "B9. Statutory & Executive Bodies Beside Constitutional Ones",
+          "prompt": "Lokpal — chair eligibility",
+          "distinction": "Eligible chair routes include a CJI or former CJI, SC judge or former SC judge, or an eminent person meeting the Act's conditions. The chair or member must meet the **45-year** minimum on assuming office.",
+          "authority": "Lokpal Act ss. 3–4 · PYQ 2025 [S7, P4]",
+          "raw_authority": "Lokpal Act ss. 3–4 · **PYQ 2025** [S7, P4]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2025"
+          ],
+          "id": "polity-trap-267"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 19,
+          "section_title": "B9. Statutory & Executive Bodies Beside Constitutional Ones",
+          "prompt": "Lokpal — sitting PM",
+          "distinction": "A sitting PM falls within its jurisdiction, with exceptions for specified subjects and special full-bench and at least two-thirds approval safeguards. Proceedings against certain officials posted outside India may fall within statutory jurisdiction.",
+          "authority": "Lokpal Act s. 14 · PYQ 2025 [S7, P4]",
+          "raw_authority": "Lokpal Act s. 14 · **PYQ 2025** [S7, P4]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2025"
+          ],
+          "id": "polity-trap-268"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 19,
+          "section_title": "B9. Statutory & Executive Bodies Beside Constitutional Ones",
+          "prompt": "Lokpal — member composition and tenure",
+          "distinction": "Up to eight members besides the Chair. Fifty per cent of members are judicial members. At least fifty per cent of members are from listed groups including women. A judicial member is or has been an SC judge or a Chief Justice of a High Court. Term is five years or age 70, whichever earlier.",
+          "authority": "Lokpal Act ss. 3, 6 [S7]",
+          "raw_authority": "Lokpal Act ss. 3, 6 [S7]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-269"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 19,
+          "section_title": "B9. Statutory & Executive Bodies Beside Constitutional Ones",
+          "prompt": "NHRC — changed eligibility",
+          "distinction": "Current chair eligibility includes a former CJI **or former Supreme Court judge**. Term is three years or age 70, whichever earlier, with reappointment eligibility subject to law. The old retired-CJI-only answer is historical.",
+          "authority": "PHRA ss. 3, 6, 2019 amendment [S7]",
+          "raw_authority": "PHRA ss. 3, 6, 2019 amendment [S7]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-270"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 19,
+          "section_title": "B9. Statutory & Executive Bodies Beside Constitutional Ones",
+          "prompt": "NHRC — limits",
+          "distinction": "It may recommend relief or prosecution and approach courts. The armed-forces complaint route uses a Central Government report. The Act's one-year inquiry bar has a specific statutory formulation.",
+          "authority": "PHRA ss. 18, 19, 36 [S7]",
+          "raw_authority": "PHRA ss. 18, 19, 36 [S7]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-271"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 19,
+          "section_title": "B9. Statutory & Executive Bodies Beside Constitutional Ones",
+          "prompt": "SHRC — appointing and removing authorities",
+          "distinction": "Governor appoints on statutory recommendation. President has the statutory removal power. SHRC inquiry jurisdiction links to State and Concurrent List subjects and has overlap limits.",
+          "authority": "PHRA ss. 21–23 [S7]",
+          "raw_authority": "PHRA ss. 21–23 [S7]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-272"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 19,
+          "section_title": "B9. Statutory & Executive Bodies Beside Constitutional Ones",
+          "prompt": "CIC/SIC — status and route",
+          "distinction": "Statutory under RTI. PIO decides the application. First appeal ordinarily goes to a senior officer within the authority. Second appeal goes to CIC or SIC, as applicable. Complaint and appeal powers are distinct.",
+          "authority": "RTI Act ss. 12, 15, 18–20 [S7]",
+          "raw_authority": "RTI Act ss. 12, 15, 18–20 [S7]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-273"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 19,
+          "section_title": "B9. Statutory & Executive Bodies Beside Constitutional Ones",
+          "prompt": "NCDRC and Law Commission",
+          "distinction": "NCDRC is created by Consumer Protection Act 2019. Law Commission is constituted by executive notification and makes recommendations. NCBC is the constitutional member of the comparison.",
+          "authority": "CPA s. 53, Art. 338B · PYQ 2023 [P4, S7]",
+          "raw_authority": "CPA s. 53, Art. 338B · **PYQ 2023** [P4, S7]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2019",
+            "2023"
+          ],
+          "id": "polity-trap-274"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 19,
+          "section_title": "B9. Statutory & Executive Bodies Beside Constitutional Ones",
+          "prompt": "CVC vs CBI",
+          "distinction": "CVC is statutory. CBI's existence stems from executive resolution and its police powers come from the DSPE Act. CVC's superintendence of DSPE concerning corruption matters has a defined statutory scope.",
+          "authority": "CVC Act 2003 s. 8, DSPE Act ss. 4–6 [S8]",
+          "raw_authority": "CVC Act 2003 s. 8, DSPE Act ss. 4–6 [S8]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-275"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 19,
+          "section_title": "B9. Statutory & Executive Bodies Beside Constitutional Ones",
+          "prompt": "CAT vs NGT",
+          "distinction": "CAT is a statutory tribunal in the Art. 323A framework. NGT is statutory under the NGT Act and covers civil cases with substantial environmental questions within specified enactments. No general environmental criminal jurisdiction follows from its name.",
+          "authority": "Administrative Tribunals Act 1985, NGT Act ss. 14, 22 and Schedule I",
+          "raw_authority": "Administrative Tribunals Act 1985, NGT Act ss. 14, 22 and Schedule I",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-276"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 19,
+          "section_title": "B9. Statutory & Executive Bodies Beside Constitutional Ones",
+          "prompt": "NALSA and Lok Adalats",
+          "distinction": "Both trace to Legal Services Authorities Act. Ordinary Lok Adalats facilitate settlement and cannot decide merits if it fails. A Permanent Lok Adalat can adjudicate specified public utility disputes in certain circumstances. An ordinary Lok Adalat's award is deemed a decree.",
+          "authority": "Legal Services Authorities Act ss. 19–22E [S7]",
+          "raw_authority": "Legal Services Authorities Act ss. 19–22E [S7]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-277"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 20,
+          "section_title": "C1. Criminal Justice & Public Order (BNS, BNSS, BSA)",
+          "prompt": "BNS, BNSS, BSA",
+          "distinction": "BNS is substantive criminal law and replaced IPC. BNSS governs criminal procedure and replaced CrPC. BSA governs evidence and replaced the Indian Evidence Act.",
+          "authority": "Adjacent. Acts of 2023 [C1]",
+          "raw_authority": "Adjacent. Acts of 2023 [C1]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-278"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 20,
+          "section_title": "C1. Criminal Justice & Public Order (BNS, BNSS, BSA)",
+          "prompt": "Date of commencement vs year in title",
+          "distinction": "The three Acts are dated 2023 and broadly commenced on **1 July 2024**. The BNS commencement notification excepted s. 106(2). The BNSS commencement notification also excepted the corresponding First Schedule entry.",
+          "authority": "Adjacent. Check commencement and savings for the exact provision. [C1]",
+          "raw_authority": "Adjacent. Check commencement and savings for the exact provision. [C1]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-279"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 20,
+          "section_title": "C1. Criminal Justice & Public Order (BNS, BNSS, BSA)",
+          "prompt": "Zero FIR — geography",
+          "distinction": "BNSS s. 173(1) applies to information relating to a **cognizable** offence, irrespective of the place of commission. This is the statutory wording commonly called Zero FIR.",
+          "authority": "Direct PYQ 2026. The cognizable/non-cognizable swap matters. [P6, C1]",
+          "raw_authority": "**Direct PYQ 2026.** The cognizable/non-cognizable swap matters. [P6, C1]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2026"
+          ],
+          "id": "polity-trap-280"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 20,
+          "section_title": "C1. Criminal Justice & Public Order (BNS, BNSS, BSA)",
+          "prompt": "Zero FIR — mode",
+          "distinction": "Information may be given **orally or electronically**. Electronic information is taken on record upon being signed by the person furnishing it within **three days**.",
+          "authority": "Direct PYQ 2026 on compulsory electronic mode. BNSS s. 173(1). [P6, C1]",
+          "raw_authority": "**Direct PYQ 2026** on compulsory electronic mode. BNSS s. 173(1). [P6, C1]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2026"
+          ],
+          "id": "polity-trap-281"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 20,
+          "section_title": "C1. Criminal Justice & Public Order (BNS, BNSS, BSA)",
+          "prompt": "Preliminary enquiry — may and threshold",
+          "distinction": "For a cognizable offence punishable with **at least three but less than seven years**, the station officer may act under s. 173(3), after prior permission from an officer not below DSP and considering nature and gravity. The enquiry, if chosen, is to ascertain a prima facie case within 14 days. Process and case stage matter.",
+          "authority": "Direct PYQ 2026 for the power to make an enquiry with permission. The Act supplies the omitted conditions. [P6, C1]",
+          "raw_authority": "**Direct PYQ 2026** for the power to make an enquiry with permission. The Act supplies the omitted conditions. [P6, C1]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2026"
+          ],
+          "id": "polity-trap-282"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 20,
+          "section_title": "C1. Criminal Justice & Public Order (BNS, BNSS, BSA)",
+          "prompt": "Refusal to record cognizable information",
+          "distinction": "Statute provides escalation to the Superintendent of Police in writing and by post, then recourse to the Magistrate as specified. A copy of recorded information goes to the informant or victim free of cost.",
+          "authority": "Adjacent. BNSS s. 173(2), (4) [C1]",
+          "raw_authority": "Adjacent. BNSS s. 173(2), (4) [C1]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-283"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 20,
+          "section_title": "C1. Criminal Justice & Public Order (BNS, BNSS, BSA)",
+          "prompt": "Non-cognizable information",
+          "distinction": "Procedure includes recording the substance and referring the informant to the Magistrate. Police ordinarily need Magistrate's order to investigate a non-cognizable case. If at least one offence in a case is cognizable the case is deemed cognizable.",
+          "authority": "Adjacent. BNSS s. 174 [C1]",
+          "raw_authority": "Adjacent. BNSS s. 174 [C1]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-284"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 20,
+          "section_title": "C1. Criminal Justice & Public Order (BNS, BNSS, BSA)",
+          "prompt": "Cognizable and bailable",
+          "distinction": "These are separate classifications. Cognizable concerns police authority to arrest without warrant under law. Bailable concerns the bail classification under the applicable schedule or law.",
+          "authority": "Adjacent. BNSS s. 2 and First Schedule [C1]",
+          "raw_authority": "Adjacent. BNSS s. 2 and First Schedule [C1]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-285"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 20,
+          "section_title": "C1. Criminal Justice & Public Order (BNS, BNSS, BSA)",
+          "prompt": "Arrest and 24 hours",
+          "distinction": "For ordinary criminal arrest, Art. 22(2) requires production before the nearest Magistrate within 24 hours **excluding journey time**. Further detention requires Magistrate's authority. Art. 22(3) specifies exceptions to clauses (1) and (2).",
+          "authority": "Adjacent. Art. 22, BNSS ss. 57–58, 187 [C1]",
+          "raw_authority": "Adjacent. Art. 22, BNSS ss. 57–58, 187 [C1]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-286"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 20,
+          "section_title": "C1. Criminal Justice & Public Order (BNS, BNSS, BSA)",
+          "prompt": "Police custody and default-bail period",
+          "distinction": "The 15 days of police custody can be authorised in parts within the specified initial 40 or 60 days under BNSS s. 187. The general investigation detention limits for default bail are separately 60 or 90 days, depending on the statutory category and subject to special laws.",
+          "authority": "Adjacent. BNSS s. 187 [C1]",
+          "raw_authority": "Adjacent. BNSS s. 187 [C1]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-287"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 20,
+          "section_title": "C1. Criminal Justice & Public Order (BNS, BNSS, BSA)",
+          "prompt": "Undertrial bail under BNSS",
+          "distinction": "Section 479 generally uses **one-half** of the maximum sentence and **one-third** for a first-time offender, with an exclusion where death or life imprisonment is specified as a punishment, and separate conditions including multiple pending offences or cases.",
+          "authority": "Adjacent. BNSS s. 479 [C1]",
+          "raw_authority": "Adjacent. BNSS s. 479 [C1]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-288"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 20,
+          "section_title": "C1. Criminal Justice & Public Order (BNS, BNSS, BSA)",
+          "prompt": "Evidence and electronic records",
+          "distinction": "BSA covers electronic and digital records. Its certificate requirements attach to the computer-output route under the stated conditions. A police confession has a separate statutory exclusion and a limited discovery proviso.",
+          "authority": "Adjacent. BSA ss. 23, 61–63 [C1]",
+          "raw_authority": "Adjacent. BSA ss. 23, 61–63 [C1]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-289"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 20,
+          "section_title": "C1. Criminal Justice & Public Order (BNS, BNSS, BSA)",
+          "prompt": "Preventive detention",
+          "distinction": "Art. 22(3) creates exceptions to ordinary arrest protections in clauses (1) and (2). The preventive-detention provisions include communication of grounds with a public-interest exception, an opportunity to represent and the advisory-board framework. The NSA is one statute under this field.",
+          "authority": "Adjacent. Art. 22(3)–(7), NSA 1980 [C2]",
+          "raw_authority": "Adjacent. Art. 22(3)–(7), NSA 1980 [C2]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-290"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 20,
+          "section_title": "C1. Criminal Justice & Public Order (BNS, BNSS, BSA)",
+          "prompt": "Police and public order",
+          "distinction": "Both are State List subjects, subject to their entries' qualifications. Criminal law and criminal procedure are in the Concurrent List. Union armed forces deployed in aid of civil power have a separate Union entry.",
+          "authority": "Adjacent. Seventh Schedule State List entries 1–2, Union List 2A, Concurrent List 1–2",
+          "raw_authority": "Adjacent. Seventh Schedule State List entries 1–2, Union List 2A, Concurrent List 1–2",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-291"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 20,
+          "section_title": "C1. Criminal Justice & Public Order (BNS, BNSS, BSA)",
+          "prompt": "“Peaceful assembly” and restrictions",
+          "distinction": "Art. 19(1)(b) protects assembling peaceably and without arms. Clause (3) identifies sovereignty and integrity of India and public order for reasonable restrictions on that right. BNSS s. 163 is the successor to CrPC s. 144.",
+          "authority": "Adjacent. Art. 19, BNSS s. 163 [C1]",
+          "raw_authority": "Adjacent. Art. 19, BNSS s. 163 [C1]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-292"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 20,
+          "section_title": "C1. Criminal Justice & Public Order (BNS, BNSS, BSA)",
+          "prompt": "Which law governs improper uniforms?",
+          "distinction": "The Official Secrets Act covers specified unauthorised use of uniforms and certain acts of obstruction or deception in its statutory setting. It should not be replaced in an MCQ by the old Evidence Act.",
+          "authority": "Direct PYQ 2023. Official Secrets Act ss. 6–7. [P4, C3]",
+          "raw_authority": "**Direct PYQ 2023.** Official Secrets Act ss. 6–7. [P4, C3]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2023"
+          ],
+          "id": "polity-trap-293"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 20,
+          "section_title": "C1. Criminal Justice & Public Order (BNS, BNSS, BSA)",
+          "prompt": "Which law governs celebratory gunfire?",
+          "distinction": "The Arms Act as amended in 2019 contains a specific punishment provision for specified rash, negligent or celebratory use endangering safety.",
+          "authority": "Direct PYQ 2023. Arms Act s. 25(9). [P4, C3]",
+          "raw_authority": "**Direct PYQ 2023.** Arms Act s. 25(9). [P4, C3]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2019",
+            "2023"
+          ],
+          "id": "polity-trap-294"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 21,
+          "section_title": "C2. Armed Forces, CAPFs & Command/Ministry",
+          "prompt": "Rashtriya Rifles",
+          "distinction": "Indian Army force, raised in 1990. The name is separate from Assam Rifles.",
+          "authority": "Adjacent. Verified institutional fact. A direct CSE Prelims question on Rashtriya Rifles was not verified. [C4]",
+          "raw_authority": "**Adjacent.** Verified institutional fact. A direct CSE Prelims question on Rashtriya Rifles was not verified. [C4]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-295"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 21,
+          "section_title": "C2. Armed Forces, CAPFs & Command/Ministry",
+          "prompt": "Assam Rifles",
+          "distinction": "An armed force of the Union under its own 2006 Act. MHA handles administration and finance, while the Army has operational control. The India–Myanmar border is among its publicly stated responsibilities.",
+          "authority": "Adjacent. A classic administration-vs-command swap. [C4]",
+          "raw_authority": "Adjacent. A classic administration-vs-command swap. [C4]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-296"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 21,
+          "section_title": "C2. Armed Forces, CAPFs & Command/Ministry",
+          "prompt": "CAPF exam list vs MHA terminology",
+          "distinction": "UPSC's 2026 CAPF Assistant Commandants examination names BSF, CRPF, CISF, ITBP and SSB. MHA publications can use a wider institutional grouping that includes Assam Rifles or NSG in context.",
+          "authority": "Adjacent. Read recruited through this examination differently from classified by this Ministry. [C4]",
+          "raw_authority": "Adjacent. Read **recruited through this examination** differently from **classified by this Ministry**. [C4]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-297"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 21,
+          "section_title": "C2. Armed Forces, CAPFs & Command/Ministry",
+          "prompt": "BSF, ITBP and SSB",
+          "distinction": "Broad public mandates map BSF to Pakistan and Bangladesh land borders, ITBP to China border, and SSB to Nepal and Bhutan borders. These are high-level allocations for identification questions.",
+          "authority": "Adjacent. MHA annual report [C4]",
+          "raw_authority": "Adjacent. MHA annual report [C4]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-298"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 21,
+          "section_title": "C2. Armed Forces, CAPFs & Command/Ministry",
+          "prompt": "CRPF and CISF",
+          "distinction": "CRPF assists with internal security and law and order. CISF protects designated critical establishments and infrastructure, including airports. Both are under MHA.",
+          "authority": "Adjacent. MHA annual report [C4]",
+          "raw_authority": "Adjacent. MHA annual report [C4]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-299"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 21,
+          "section_title": "C2. Armed Forces, CAPFs & Command/Ministry",
+          "prompt": "Home Guards",
+          "distinction": "A voluntary auxiliary to police, raised under applicable state/UT frameworks. Border Wing Home Guards battalions exist in some states. Distinguish state framework from Union coordination.",
+          "authority": "Direct PYQ 2023. [P4, C4]",
+          "raw_authority": "**Direct PYQ 2023.** [P4, C4]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2023"
+          ],
+          "id": "polity-trap-300"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 21,
+          "section_title": "C2. Armed Forces, CAPFs & Command/Ministry",
+          "prompt": "Chief of Defence Staff",
+          "distinction": "Heads Department of Military Affairs in Ministry of Defence. Permanent Chair of Chiefs of Staff Committee. Principal military adviser to Defence Minister on tri-service matters. In the creation framework, CDS does not exercise military command over the three service chiefs.",
+          "authority": "Direct PYQ 2024. [P7, C5]",
+          "raw_authority": "**Direct PYQ 2024.** [P7, C5]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2024"
+          ],
+          "id": "polity-trap-301"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 21,
+          "section_title": "C2. Armed Forces, CAPFs & Command/Ministry",
+          "prompt": "President and defence command",
+          "distinction": "The supreme command of the Defence Forces vests in President and is regulated by law. This constitutional wording does not make the President the operational counterpart of a service chief.",
+          "authority": "Adjacent. Art. 53(2), 74",
+          "raw_authority": "Adjacent. Art. 53(2), 74",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-302"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 21,
+          "section_title": "C2. Armed Forces, CAPFs & Command/Ministry",
+          "prompt": "Indian Coast Guard",
+          "distinction": "An armed force of the Union under the Coast Guard Act, 1978, within the Ministry of Defence. Maritime law enforcement and safety duties differ from the Indian Navy's defence role.",
+          "authority": "Adjacent. Coast Guard Act ss. 4–5, 14 [C5]",
+          "raw_authority": "Adjacent. Coast Guard Act ss. 4–5, 14 [C5]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-303"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 21,
+          "section_title": "C2. Armed Forces, CAPFs & Command/Ministry",
+          "prompt": "NDRF vs NDMA",
+          "distinction": "NDRF is a specialist response force. NDMA is a statutory authority chaired by PM. SDMA is normally chaired by CM, with special rules for UTs.",
+          "authority": "Adjacent. Disaster Management Act ss. 3, 14, 44–45 [C6]",
+          "raw_authority": "Adjacent. Disaster Management Act ss. 3, 14, 44–45 [C6]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-304"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 22,
+          "section_title": "C3. Investigating Agencies, Ministries & Parent Laws",
+          "prompt": "Enforcement Directorate",
+          "distinction": "Under **Department of Revenue, Ministry of Finance**. Enforces PMLA, FEMA and FEOA among its core mandates. The FEOA function is compatible with the Finance Ministry placement.",
+          "authority": "Direct PYQ 2025. [P4, C7]",
+          "raw_authority": "**Direct PYQ 2025.** [P4, C7]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2025"
+          ],
+          "id": "polity-trap-305"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 22,
+          "section_title": "C3. Investigating Agencies, Ministries & Parent Laws",
+          "prompt": "Directorate of Revenue Intelligence",
+          "distinction": "Customs intelligence and enforcement, within CBIC under Department of Revenue, Ministry of Finance.",
+          "authority": "Direct PYQ 2025. [P4, C7]",
+          "raw_authority": "**Direct PYQ 2025.** [P4, C7]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2025"
+          ],
+          "id": "polity-trap-306"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 22,
+          "section_title": "C3. Investigating Agencies, Ministries & Parent Laws",
+          "prompt": "Directorate General of Systems and Data Management",
+          "distinction": "CBIC systems and data functions include analytics supporting tax administration. The departmental parent is Revenue, Finance.",
+          "authority": "Direct PYQ 2025. [P4, C7]",
+          "raw_authority": "**Direct PYQ 2025.** [P4, C7]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2025"
+          ],
+          "id": "polity-trap-307"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 22,
+          "section_title": "C3. Investigating Agencies, Ministries & Parent Laws",
+          "prompt": "CEIB",
+          "distinction": "Central Economic Intelligence Bureau is under **Department of Revenue, Ministry of Finance**. Coordination of economic intelligence does not make it a Home Ministry body.",
+          "authority": "Direct PYQ 2026. [P4, C7]",
+          "raw_authority": "**Direct PYQ 2026.** [P4, C7]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2026"
+          ],
+          "id": "polity-trap-308"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 22,
+          "section_title": "C3. Investigating Agencies, Ministries & Parent Laws",
+          "prompt": "SFIO",
+          "distinction": "Serious Fraud Investigation Office sits within **Ministry of Corporate Affairs**. Section 211 of Companies Act provides for it. Section 212 governs assignment of company investigations.",
+          "authority": "Direct PYQ 2026. [P4, C7]",
+          "raw_authority": "**Direct PYQ 2026.** [P4, C7]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2026"
+          ],
+          "id": "polity-trap-309"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 22,
+          "section_title": "C3. Investigating Agencies, Ministries & Parent Laws",
+          "prompt": "CBI",
+          "distinction": "Administrative location is DoPT in Ministry of Personnel, Public Grievances and Pensions. The executive resolution and DSPE Act respectively explain its establishment and police powers.",
+          "authority": "Direct PYQ 2026 on ministry and function matching. [P4, S8]",
+          "raw_authority": "**Direct PYQ 2026** on ministry and function matching. [P4, S8]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2026"
+          ],
+          "id": "polity-trap-310"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 22,
+          "section_title": "C3. Investigating Agencies, Ministries & Parent Laws",
+          "prompt": "CBI and state consent",
+          "distinction": "DSPE Act ss. 5–6 cover extension of powers and state consent. The Supreme Court and High Courts can order CBI investigation under constitutional powers without state consent in appropriate cases.",
+          "authority": "Adjacent. DSPE Act, Committee for Protection of Democratic Rights [S8]",
+          "raw_authority": "Adjacent. DSPE Act, Committee for Protection of Democratic Rights [S8]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-311"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 22,
+          "section_title": "C3. Investigating Agencies, Ministries & Parent Laws",
+          "prompt": "NIA",
+          "distinction": "Statutory under NIA Act, 2008, under Home Ministry. It investigates **Scheduled Offences**. Central Government direction under s. 6 and the scope of the Schedule distinguish it from DSPE jurisdiction.",
+          "authority": "Adjacent. NIA Act ss. 3, 6 and Schedule [C2]",
+          "raw_authority": "Adjacent. NIA Act ss. 3, 6 and Schedule [C2]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-312"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 22,
+          "section_title": "C3. Investigating Agencies, Ministries & Parent Laws",
+          "prompt": "UAPA vs NIA Act",
+          "distinction": "UAPA provides substantive prohibitions and powers. NIA Act provides agency and jurisdiction for scheduled offences. Designation of terrorist organisations and individuals under UAPA uses its **First** and **Fourth** Schedules respectively.",
+          "authority": "Adjacent. UAPA s. 35, NIA Act [C2]",
+          "raw_authority": "Adjacent. UAPA s. 35, NIA Act [C2]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-313"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 22,
+          "section_title": "C3. Investigating Agencies, Ministries & Parent Laws",
+          "prompt": "NSA vs AFSPA",
+          "distinction": "NSA is a preventive-detention law. The AFSPA framework concerns special statutory powers in declared disturbed areas. Distinguish the 1958 Act and separate 1990 J&K Act, and read any current area coverage from its notification.",
+          "authority": "Adjacent. NSA, AFSPA statutes [C2]",
+          "raw_authority": "Adjacent. NSA, AFSPA statutes [C2]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-314"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 23,
+          "section_title": "C4. Rights, Regulators & Current-Law Crossovers",
+          "prompt": "Aadhaar vs citizenship",
+          "distinction": "Aadhaar is an identity instrument. Aadhaar Act s. 9 expressly rules out proof of citizenship or domicile by itself. UIDAI is statutory under the Aadhaar Act.",
+          "authority": "Direct PYQ 2018 on citizenship/domicile. [P4, C8]",
+          "raw_authority": "**Direct PYQ 2018** on citizenship/domicile. [P4, C8]",
+          "is_pyq": true,
+          "pyq_years": [
+            "2018"
+          ],
+          "id": "polity-trap-315"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 23,
+          "section_title": "C4. Rights, Regulators & Current-Law Crossovers",
+          "prompt": "RTI — who and when",
+          "distinction": "Right given to **citizens**. General response period 30 days. Information concerning life or liberty attracts 48 hours. Reasons for requesting information are unnecessary.",
+          "authority": "Adjacent. RTI Act ss. 3, 6–7 [S7]",
+          "raw_authority": "Adjacent. RTI Act ss. 3, 6–7 [S7]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-316"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 23,
+          "section_title": "C4. Rights, Regulators & Current-Law Crossovers",
+          "prompt": "RTI — exempt organisations",
+          "distinction": "Section 24 excludes listed intelligence and security organisations, with exceptions for allegations of corruption and human-rights violations. Human-rights requests under this provision have a special approval and time framework.",
+          "authority": "Adjacent. RTI Act s. 24 and Second Schedule [S7]",
+          "raw_authority": "Adjacent. RTI Act s. 24 and Second Schedule [S7]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-317"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 23,
+          "section_title": "C4. Rights, Regulators & Current-Law Crossovers",
+          "prompt": "Digital privacy vs RTI — commencement matters",
+          "distinction": "DPDP Act s. 44(2) would change the RTI personal-information exemption. S.O. 843(E), published 13 November 2025, places this clause in the tranche taking effect **18 months after publication**. The change was not in force on 25 November 2026 under that notification.",
+          "authority": "Adjacent. DPDP Act and commencement notification [C8]",
+          "raw_authority": "Adjacent. DPDP Act and commencement notification [C8]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-318"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 23,
+          "section_title": "C4. Rights, Regulators & Current-Law Crossovers",
+          "prompt": "NALSA vs free legal aid",
+          "distinction": "Art. 39A gives the constitutional directive. Legal Services Authorities Act creates the institutions and lists categories for legal services. Do not infer identical income tests across categories.",
+          "authority": "Adjacent. Art. 39A, LSAA ss. 3–12 [S7]",
+          "raw_authority": "Adjacent. Art. 39A, LSAA ss. 3–12 [S7]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-319"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 23,
+          "section_title": "C4. Rights, Regulators & Current-Law Crossovers",
+          "prompt": "DPDP Board vs CIC",
+          "distinction": "The Data Protection Board is provided by the DPDP Act. CIC is established under RTI. Institution, matters it decides and commencement of specific provisions all require distinct checks.",
+          "authority": "Adjacent. RTI Act s. 12, DPDP Act ss. 18, 27, commencement notification [S7, C8]",
+          "raw_authority": "Adjacent. RTI Act s. 12, DPDP Act ss. 18, 27, commencement notification [S7, C8]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-320"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 23,
+          "section_title": "C4. Rights, Regulators & Current-Law Crossovers",
+          "prompt": "Census vs civil registration",
+          "distinction": "Census is a Union List subject under Entry 69 and organised under the Census Act. Registration of births and deaths follows a different statute and administrative purpose. Demographic questions may link a census to delimitation or reservations through separate Articles.",
+          "authority": "Adjacent. Union List Entry 69, Census Act 1948, RBD Act 1969, Arts. 82, 170, 334A",
+          "raw_authority": "Adjacent. Union List Entry 69, Census Act 1948, RBD Act 1969, Arts. 82, 170, 334A",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-321"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 23,
+          "section_title": "C4. Rights, Regulators & Current-Law Crossovers",
+          "prompt": "Citizenship vs OCI registration",
+          "distinction": "Citizenship Act governs acquisition and loss. An OCI cardholder is not thereby an Indian citizen and has no right to vote under that registration. Distinguish a statutory status from an electoral entitlement.",
+          "authority": "Adjacent. Citizenship Act ss. 7A–7B [C8]",
+          "raw_authority": "Adjacent. Citizenship Act ss. 7A–7B [C8]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-322"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 23,
+          "section_title": "C4. Rights, Regulators & Current-Law Crossovers",
+          "prompt": "Women's seat reservation vs today's seat map",
+          "distinction": "The 106th Amendment Act commenced on **16 April 2026**. Art. 334A links implementation of seat reservation to publication of relevant figures of the first census after commencement and a subsequent delimitation exercise for the purpose. The 131st Amendment Bill did not pass in April 2026.",
+          "authority": "Adjacent. Amendment, notification and parliamentary record [C8]",
+          "raw_authority": "Adjacent. Amendment, notification and parliamentary record [C8]",
+          "is_pyq": false,
+          "pyq_years": [],
+          "id": "polity-trap-323"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 24,
+          "section_title": "D. UPSC Examiner Blueprint — What Past Questions Changed (2012–2026)",
+          "prompt": "2012 · CAG",
+          "distinction": "Swapped audit and legislative scrutiny for exchequer control and prosecution. [P4]",
+          "authority": "UPSC Examiner Trap Construction Pattern",
+          "raw_authority": "UPSC Examiner Trap Construction Pattern",
+          "is_pyq": true,
+          "pyq_years": [
+            "2012"
+          ],
+          "id": "polity-trap-324"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 24,
+          "section_title": "D. UPSC Examiner Blueprint — What Past Questions Changed (2012–2026)",
+          "prompt": "2014 · No confidence",
+          "distinction": "Changed the **source** from Lok Sabha procedure to the Constitution and tested **which House** can move it. [P1]",
+          "authority": "UPSC Examiner Trap Construction Pattern",
+          "raw_authority": "UPSC Examiner Trap Construction Pattern",
+          "is_pyq": true,
+          "pyq_years": [
+            "2014"
+          ],
+          "id": "polity-trap-325"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 24,
+          "section_title": "D. UPSC Examiner Blueprint — What Past Questions Changed (2012–2026)",
+          "prompt": "2017 and 2022 · Deputy Speaker",
+          "distinction": "Turned party practice into a constitutional or mandatory rule. The date under Rule 8 and capacity when presiding had different answers. [P1, P2]",
+          "authority": "UPSC Examiner Trap Construction Pattern",
+          "raw_authority": "UPSC Examiner Trap Construction Pattern",
+          "is_pyq": true,
+          "pyq_years": [
+            "2017",
+            "2022"
+          ],
+          "id": "polity-trap-326"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 24,
+          "section_title": "D. UPSC Examiner Blueprint — What Past Questions Changed (2012–2026)",
+          "prompt": "2018 · Aadhaar",
+          "distinction": "Mistook identity for proof of citizenship or domicile. [P4]",
+          "authority": "UPSC Examiner Trap Construction Pattern",
+          "raw_authority": "UPSC Examiner Trap Construction Pattern",
+          "is_pyq": true,
+          "pyq_years": [
+            "2018"
+          ],
+          "id": "polity-trap-327"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 24,
+          "section_title": "D. UPSC Examiner Blueprint — What Past Questions Changed (2012–2026)",
+          "prompt": "2019 · Office of profit",
+          "distinction": "Changed the constitutional expression **mentioned** into **defined**. [P1]",
+          "authority": "UPSC Examiner Trap Construction Pattern",
+          "raw_authority": "UPSC Examiner Trap Construction Pattern",
+          "is_pyq": true,
+          "pyq_years": [
+            "2019"
+          ],
+          "id": "polity-trap-328"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 24,
+          "section_title": "D. UPSC Examiner Blueprint — What Past Questions Changed (2012–2026)",
+          "prompt": "2020 · Sessions",
+          "distinction": "Treated the usual three sessions as a constitutional mandate. [P1]",
+          "authority": "UPSC Examiner Trap Construction Pattern",
+          "raw_authority": "UPSC Examiner Trap Construction Pattern",
+          "is_pyq": true,
+          "pyq_years": [
+            "2020"
+          ],
+          "id": "polity-trap-329"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 24,
+          "section_title": "D. UPSC Examiner Blueprint — What Past Questions Changed (2012–2026)",
+          "prompt": "2022 · Attorney-General, ministers and defection",
+          "distinction": "Turned pleasure tenure into automatic resignation, practice into four prescribed ministerial ranks and the nominated member's six-month window into a prohibition. [P2]",
+          "authority": "UPSC Examiner Trap Construction Pattern",
+          "raw_authority": "UPSC Examiner Trap Construction Pattern",
+          "is_pyq": true,
+          "pyq_years": [
+            "2022"
+          ],
+          "id": "polity-trap-330"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 24,
+          "section_title": "D. UPSC Examiner Blueprint — What Past Questions Changed (2012–2026)",
+          "prompt": "2023 · Constitutional bodies",
+          "distinction": "Mixed a constitutional commission with statutory and executive institutions whose names were equally plausible. [P4]",
+          "authority": "UPSC Examiner Trap Construction Pattern",
+          "raw_authority": "UPSC Examiner Trap Construction Pattern",
+          "is_pyq": true,
+          "pyq_years": [
+            "2023"
+          ],
+          "id": "polity-trap-331"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 24,
+          "section_title": "D. UPSC Examiner Blueprint — What Past Questions Changed (2012–2026)",
+          "prompt": "2023 · Home Guards and laws",
+          "distinction": "Swapped state and Union authority. In a separate question, swapped the legal instruments attached to specified acts. [P4]",
+          "authority": "UPSC Examiner Trap Construction Pattern",
+          "raw_authority": "UPSC Examiner Trap Construction Pattern",
+          "is_pyq": true,
+          "pyq_years": [
+            "2023"
+          ],
+          "id": "polity-trap-332"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 24,
+          "section_title": "D. UPSC Examiner Blueprint — What Past Questions Changed (2012–2026)",
+          "prompt": "2023 · Presidential election",
+          "distinction": "Swapped elected and nominated members, and tested vote-value comparisons. [P3]",
+          "authority": "UPSC Examiner Trap Construction Pattern",
+          "raw_authority": "UPSC Examiner Trap Construction Pattern",
+          "is_pyq": true,
+          "pyq_years": [
+            "2023"
+          ],
+          "id": "polity-trap-333"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 24,
+          "section_title": "D. UPSC Examiner Blueprint — What Past Questions Changed (2012–2026)",
+          "prompt": "2024 · Speaker and prorogation",
+          "distinction": "Changed the normal casting-vote rule by putting the Speaker's **own removal under consideration**. Also reversed the ordinary sequence of prorogation and sine-die adjournment. [P1]",
+          "authority": "UPSC Examiner Trap Construction Pattern",
+          "raw_authority": "UPSC Examiner Trap Construction Pattern",
+          "is_pyq": true,
+          "pyq_years": [
+            "2024"
+          ],
+          "id": "polity-trap-334"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 24,
+          "section_title": "D. UPSC Examiner Blueprint — What Past Questions Changed (2012–2026)",
+          "prompt": "2024 · NEC and CDS",
+          "distinction": "Asked for the exact composition of a statutory body and distinguished chairing or advising from operational command. [P4, P7]",
+          "authority": "UPSC Examiner Trap Construction Pattern",
+          "raw_authority": "UPSC Examiner Trap Construction Pattern",
+          "is_pyq": true,
+          "pyq_years": [
+            "2024"
+          ],
+          "id": "polity-trap-335"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 24,
+          "section_title": "D. UPSC Examiner Blueprint — What Past Questions Changed (2012–2026)",
+          "prompt": "2025 · Lokpal",
+          "distinction": "Turned “eligible” into “only,” excluded a sitting PM altogether, and used an overseas posting as a supposed jurisdiction bar. [P4]",
+          "authority": "UPSC Examiner Trap Construction Pattern",
+          "raw_authority": "UPSC Examiner Trap Construction Pattern",
+          "is_pyq": true,
+          "pyq_years": [
+            "2025"
+          ],
+          "id": "polity-trap-336"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 24,
+          "section_title": "D. UPSC Examiner Blueprint — What Past Questions Changed (2012–2026)",
+          "prompt": "2025 · Governor and panchayats",
+          "distinction": "Tested court and criminal-process language for immunity, and the threshold and appointing authority for local government. [P5]",
+          "authority": "UPSC Examiner Trap Construction Pattern",
+          "raw_authority": "UPSC Examiner Trap Construction Pattern",
+          "is_pyq": true,
+          "pyq_years": [
+            "2025"
+          ],
+          "id": "polity-trap-337"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 24,
+          "section_title": "D. UPSC Examiner Blueprint — What Past Questions Changed (2012–2026)",
+          "prompt": "2025–26 · Agency matching",
+          "distinction": "Paired a real function with the wrong ministry. Examples included ED, CEIB, SFIO and CBI. [P4]",
+          "authority": "UPSC Examiner Trap Construction Pattern",
+          "raw_authority": "UPSC Examiner Trap Construction Pattern",
+          "is_pyq": true,
+          "pyq_years": [
+            "2025"
+          ],
+          "id": "polity-trap-338"
+        },
+        {
+          "subject": "Polity",
+          "section_num": 24,
+          "section_title": "D. UPSC Examiner Blueprint — What Past Questions Changed (2012–2026)",
+          "prompt": "2026 · Zero FIR and parliamentary questions",
+          "distinction": "Added non-cognizable offences and made the electronic route compulsory. Elsewhere, swapped starred and unstarred response modes. [P6]",
+          "authority": "UPSC Examiner Trap Construction Pattern",
+          "raw_authority": "UPSC Examiner Trap Construction Pattern",
+          "is_pyq": true,
+          "pyq_years": [
+            "2026"
+          ],
+          "id": "polity-trap-339"
         }
       ]
     },

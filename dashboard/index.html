@@ -2239,14 +2239,14 @@ button, input, select, textarea, .nav-tab, .filter-pill-btn, .mcq-option-item, .
         </div>
         <div style="text-align:right;">
           <span id="traps-total-count-badge" style="font-size:12px; font-weight:800; background:#0f172a; color:#fff; padding:5px 12px; border-radius:6px; display:inline-block;">
-            115 Distinctions Loaded
+            339 Distinctions Loaded
           </span>
         </div>
       </div>
 
       <!-- SUBJECT PILLS -->
       <div class="traps-subject-pills" id="traps-subject-selector">
-        <button class="traps-subj-btn active" onclick="switchTrapsSubject('Polity', this)">Polity & Governance (115)</button>
+        <button class="traps-subj-btn active" onclick="switchTrapsSubject('Polity', this)">Polity & Governance (339)</button>
         <button class="traps-subj-btn disabled" title="Add your revision facts to unlock" onclick="switchTrapsSubject('Economy', this)">Economy (Ready for Notes)</button>
         <button class="traps-subj-btn disabled" title="Add your revision facts to unlock" onclick="switchTrapsSubject('Environment', this)">Environment (Ready for Notes)</button>
         <button class="traps-subj-btn disabled" title="Add your revision facts to unlock" onclick="switchTrapsSubject('SciTech', this)">Science & Tech</button>
@@ -2266,23 +2266,15 @@ button, input, select, textarea, .nav-tab, .filter-pill-btn, .mcq-option-item, .
         </button>
 
         <div class="filter-pills-bar" style="margin:0;">
-          <button class="filter-pill-btn active" id="traps-filter-all" onclick="filterTrapsType('all', this)">All (115)</button>
-          <button class="filter-pill-btn" id="traps-filter-pyq" onclick="filterTrapsType('pyq', this)">PYQ Tested Only (29)</button>
-          <button class="filter-pill-btn" id="traps-filter-adjacent" onclick="filterTrapsType('adjacent', this)">Revision Facts (86)</button>
+          <button class="filter-pill-btn active" id="traps-filter-all" onclick="filterTrapsType('all', this)">All (339)</button>
+          <button class="filter-pill-btn" id="traps-filter-pyq" onclick="filterTrapsType('pyq', this)">PYQ Tested Only (94)</button>
+          <button class="filter-pill-btn" id="traps-filter-adjacent" onclick="filterTrapsType('adjacent', this)">Revision Facts (245)</button>
         </div>
       </div>
 
       <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
-        <select id="traps-section-filter" onchange="onTrapsSectionChange(this.value)" style="padding:8px 12px; font-size:13px; font-weight:700; border:1px solid var(--border); border-radius:6px; background:#fff; color:var(--text-main);">
-          <option value="all">All 8 Thematic Modules</option>
-          <option value="1">1. Parliamentary Rules & Conventions (20)</option>
-          <option value="2">2. Bodies with Similar Names (14)</option>
-          <option value="3">3. Parliament & State Legislatures (15)</option>
-          <option value="4">4. Executive, Elections & Disqualification (17)</option>
-          <option value="5">5. Federal Powers & Emergencies (14)</option>
-          <option value="6">6. Rights, Duties & Courts (16)</option>
-          <option value="7">7. Local Government & Schedules (13)</option>
-          <option value="8">8. Constitutional History (6)</option>
+        <select id="traps-section-filter" onchange="onTrapsSectionChange(this.value)" style="padding:8px 12px; font-size:13px; font-weight:700; border:1px solid var(--border); border-radius:6px; background:#fff; color:var(--text-main); max-width:320px;">
+          <option value="all">All 24 Thematic Modules (339)</option>
         </select>
 
         <input type="text" id="traps-search-input" placeholder="Search traps, articles, rules..." oninput="onTrapsSearchChange(this.value)" style="padding:8px 14px; font-size:13px; border:1px solid var(--border); border-radius:6px; width:220px; background:#fff; color:var(--text-main);">
@@ -4367,10 +4359,62 @@ async function loadTrapsData() {
     const res = await fetch(`/api/traps?subject=${encodeURIComponent(activeTrapsSubject)}`);
     if (res.ok) {
       trapsVaultData = await res.json();
+      updateTrapsUIStats();
+      populateTrapsSectionFilter();
       renderTrapsVault();
     }
   } catch (err) {
     console.error('Error loading traps vault:', err);
+  }
+}
+
+function updateTrapsUIStats() {
+  if (!trapsVaultData || !trapsVaultData.items) return;
+  const allItems = trapsVaultData.items || [];
+  const pyqCount = allItems.filter(it => it.is_pyq).length;
+  const adjCount = allItems.length - pyqCount;
+
+  const subjBtn = document.querySelector('#traps-subject-selector .traps-subj-btn.active');
+  if (subjBtn && activeTrapsSubject === 'Polity') {
+    subjBtn.textContent = `Polity & Governance (${allItems.length})`;
+  }
+
+  const btnAll = document.getElementById('traps-filter-all');
+  const btnPyq = document.getElementById('traps-filter-pyq');
+  const btnAdj = document.getElementById('traps-filter-adjacent');
+  if (btnAll) btnAll.textContent = `All (${allItems.length})`;
+  if (btnPyq) btnPyq.textContent = `PYQ Tested Only (${pyqCount})`;
+  if (btnAdj) btnAdj.textContent = `Revision Facts (${adjCount})`;
+
+  const badge = document.getElementById('traps-total-count-badge');
+  if (badge) {
+    badge.textContent = `${allItems.length} Distinctions Loaded`;
+  }
+}
+
+function populateTrapsSectionFilter() {
+  const select = document.getElementById('traps-section-filter');
+  if (!select || !trapsVaultData) return;
+  const sections = trapsVaultData.sections || [];
+  const items = trapsVaultData.items || [];
+
+  const countMap = {};
+  items.forEach(it => {
+    countMap[it.section_num] = (countMap[it.section_num] || 0) + 1;
+  });
+
+  const prevVal = activeTrapsSection || 'all';
+  let opts = `<option value="all">All ${sections.length} Thematic Modules (${items.length})</option>`;
+  sections.forEach(s => {
+    const c = countMap[s.section_num] || 0;
+    opts += `<option value="${s.section_num}">${s.section_num}. ${escapeHtml(s.title)} (${c})</option>`;
+  });
+  select.innerHTML = opts;
+  if ([...select.options].some(o => o.value === prevVal)) {
+    select.value = prevVal;
+  } else {
+    select.value = 'all';
+    activeTrapsSection = 'all';
   }
 }
 
@@ -4491,13 +4535,14 @@ function renderTrapsVault() {
   Object.keys(grouped).forEach(secTitle => {
     const secItems = grouped[secTitle];
     const pyqInSec = secItems.filter(i => i.is_pyq).length;
+    const isBlueprint = secTitle.includes('Examiner Blueprint');
 
     html += `
-      <div class="trap-section-card">
-        <div class="trap-section-header">
+      <div class="trap-section-card" style="${isBlueprint ? 'border-color:#0284c7; background:#fafcff;' : ''}">
+        <div class="trap-section-header" style="${isBlueprint ? 'background:#f0f9ff; border-bottom:1px solid #bae6fd;' : ''}">
           <div class="trap-section-title">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
-            <span>${escapeHtml(secTitle)}</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="${isBlueprint ? '#0284c7' : 'currentColor'}" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+            <span style="${isBlueprint ? 'color:#0369a1; font-weight:800;' : ''}">${escapeHtml(secTitle)}</span>
           </div>
           <div style="display:flex; align-items:center; gap:8px;">
             ${pyqInSec > 0 ? `<span class="pyq-tag-pill">${pyqInSec} PYQs</span>` : ''}
@@ -4509,9 +4554,9 @@ function renderTrapsVault() {
           <table class="trap-table">
             <thead>
               <tr>
-                <th style="width:25%;">Recall Prompt / Concept</th>
-                <th style="width:50%;">Exact Distinction & Boundary Condition</th>
-                <th style="width:25%;">Authority & Precedent</th>
+                <th style="width:25%;">${isBlueprint ? 'Past Question & Context' : 'Recall Prompt / Concept'}</th>
+                <th style="width:50%;">${isBlueprint ? 'How UPSC Examiner Constructed the Trap' : 'Exact Distinction & Boundary Condition'}</th>
+                <th style="width:25%;">${isBlueprint ? 'Examiner Strategy' : 'Authority & Precedent'}</th>
               </tr>
             </thead>
             <tbody>
@@ -4520,12 +4565,13 @@ function renderTrapsVault() {
     secItems.forEach(it => {
       const isRevealed = !!revealedTraps[it.id];
       const maskClass = isActiveRecallMaskOn ? (isRevealed ? 'masked-active revealed' : 'masked-active') : '';
+      const pyqLabel = it.pyq_years && it.pyq_years.length > 0 ? `UPSC PYQ ${it.pyq_years.join(', ')}` : 'UPSC PYQ';
 
       html += `
         <tr id="trap-row-${it.id}">
           <td class="trap-prompt-cell">
-            <div>${escapeHtml(it.prompt)}</div>
-            ${it.is_pyq ? `<div><span class="pyq-tag-pill">UPSC PYQ</span></div>` : ''}
+            <div style="font-weight:700; color:#0f172a;">${escapeHtml(it.prompt)}</div>
+            ${it.is_pyq ? `<div><span class="pyq-tag-pill">${escapeHtml(pyqLabel)}</span></div>` : ''}
           </td>
           <td>
             <div class="trap-distinction-cell ${maskClass}" id="dist-${it.id}" onclick="toggleRevealTrap('${it.id}', this)" title="${isActiveRecallMaskOn ? 'Click to reveal distinction' : ''}">
@@ -4552,22 +4598,26 @@ function renderTrapsVault() {
     <div style="background:#ffffff; border:1px solid var(--border); border-radius:var(--radius); padding:18px 22px; margin-top:24px; box-shadow:var(--shadow-sm);">
       <div style="font-size:13.5px; font-weight:800; color:#0f172a; margin-bottom:8px; display:flex; align-items:center; gap:8px;">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
-        Primary Reading, Statutory Rules & Constitutional Verification Index
+        Primary Statutory Rules, Enactments & Constitutional Verification Index
       </div>
       <p style="font-size:12.5px; color:var(--text-muted); line-height:1.55; margin:0 0 10px 0;">
-        All 115 distinctions cross-verified against official controlling provisions: Constitution of India (Legislative Department May 2026 ed.), Lok Sabha & Rajya Sabha Rules of Procedure, RPA 1950 & 1951, PESA 1996, Delimitation Act 2002, 106th Constitutional Amendment, and landmark Constitution Bench rulings (Minerva Mills, Kihoto Hollohan, L. Chandra Kumar, Keisham Meghachandra, 2025 Governor Assent Opinion).
+        All 339 distinctions cross-verified against official controlling provisions: Constitution of India (Legislative Department May 2026 ed.), Bharatiya Nyaya Sanhita (BNS 2023), Bharatiya Nagarik Suraksha Sanhita (BNSS 2023), Bharatiya Sakshya Adhiniyam (BSA 2023), Lok Sabha & Rajya Sabha Rules of Procedure, Representation of the People Act 1950 & 1951, Lokpal and Lokayuktas Act 2013, Protection of Human Rights Act 1993, RTI Act 2005, DPDP Act 2023, PESA 1996, Delimitation Act 2002, 106th Constitutional Amendment, and landmark Constitution Bench rulings (Bommai, Kesavananda Bharati, Minerva Mills, Kihoto Hollohan, L. Chandra Kumar, Keisham Meghachandra, Mohit Minerals, 2025 Governor Assent Advisory Opinion 2025 INSC 1333).
       </p>
       <div style="display:flex; flex-wrap:wrap; gap:8px;">
-        <span style="font-size:11.5px; font-weight:700; background:var(--surface-alt); padding:3px 8px; border-radius:4px; border:1px solid var(--border);">LS Rules 32-54, 56-63, 198</span>
-        <span style="font-size:11.5px; font-weight:700; background:var(--surface-alt); padding:3px 8px; border-radius:4px; border:1px solid var(--border);">Articles 75(3), 85, 93, 108, 110, 117</span>
-        <span style="font-size:11.5px; font-weight:700; background:var(--surface-alt); padding:3px 8px; border-radius:4px; border:1px solid var(--border);">Tenth Schedule (52nd & 91st Amendments)</span>
-        <span style="font-size:11.5px; font-weight:700; background:var(--surface-alt); padding:3px 8px; border-radius:4px; border:1px solid var(--border);">Articles 243-243ZG (73rd & 74th Amendments)</span>
-        <span style="font-size:11.5px; font-weight:700; background:var(--surface-alt); padding:3px 8px; border-radius:4px; border:1px solid var(--border);">Fifth & Sixth Schedules (Art. 244)</span>
+        <span style="font-size:11.5px; font-weight:700; background:var(--surface-alt); padding:3px 8px; border-radius:4px; border:1px solid var(--border);">LS Rules 32-54, 56-63, 184-189, 198</span>
+        <span style="font-size:11.5px; font-weight:700; background:var(--surface-alt); padding:3px 8px; border-radius:4px; border:1px solid var(--border);">Arts. 54-55, 61, 72, 75(3), 85, 93, 105, 108, 110, 111, 123, 148, 161, 163, 200, 213, 226, 280, 324</span>
+        <span style="font-size:11.5px; font-weight:700; background:var(--surface-alt); padding:3px 8px; border-radius:4px; border:1px solid var(--border);">BNSS ss. 163, 173 (Zero FIR), 187, 479 · BSA ss. 23, 61-63</span>
+        <span style="font-size:11.5px; font-weight:700; background:var(--surface-alt); padding:3px 8px; border-radius:4px; border:1px solid var(--border);">Tenth Schedule (52nd & 91st Amendments, Paras 2, 4, 6)</span>
+        <span style="font-size:11.5px; font-weight:700; background:var(--surface-alt); padding:3px 8px; border-radius:4px; border:1px solid var(--border);">Articles 243-243ZG (73rd & 74th Amendments) · PESA 1996</span>
+        <span style="font-size:11.5px; font-weight:700; background:var(--surface-alt); padding:3px 8px; border-radius:4px; border:1px solid var(--border);">Fifth & Sixth Schedules (Arts. 244, 244A)</span>
+        <span style="font-size:11.5px; font-weight:700; background:var(--surface-alt); padding:3px 8px; border-radius:4px; border:1px solid var(--border);">ED, DRI, CEIB (Ministry of Finance) · SFIO (MCA) · CBI (DoPT) · NIA (MHA)</span>
       </div>
     </div>
   `;
 
   container.innerHTML = html;
+  renderMath(container);
+}
   renderMath(container);
 }
 
