@@ -5,8 +5,9 @@ const PORT = 8080;
 const SUBDOMAIN = 'officerpass-vashishta';
 const HOST = 'https://loca.lt';
 const EXPECTED_URL = `https://${SUBDOMAIN}.loca.lt`;
-const HEALTH_CHECK_INTERVAL_MS = 60000;
-const HEALTH_CHECK_TIMEOUT_MS = 15000;
+const HEALTH_CHECK_INTERVAL_MS = 30000;
+const HEALTH_CHECK_TIMEOUT_MS = 10000;
+const CONNECT_TIMEOUT_MS = 12000;
 
 process.on('uncaughtException', (err) => {
   console.warn('[PERMA-TUNNEL] Caught uncaughtException:', err.message || err);
@@ -15,6 +16,15 @@ process.on('uncaughtException', (err) => {
 process.on('unhandledRejection', (reason) => {
   console.warn('[PERMA-TUNNEL] Caught unhandledRejection:', reason);
 });
+
+function connectWithTimeout(opts, timeoutMs) {
+  return Promise.race([
+    localtunnel(opts),
+    new Promise((_, reject) =>
+      setTimeout(() => reject(new Error(`localtunnel connect timed out after ${timeoutMs}ms`)), timeoutMs)
+    )
+  ]);
+}
 
 function checkTunnelHealth() {
   return new Promise((resolve) => {
@@ -57,11 +67,14 @@ async function main() {
 
     try {
       console.log(`[PERMA-TUNNEL] Requesting tunnel at ${new Date().toISOString()}...`);
-      tunnel = await localtunnel({
-        port: PORT,
-        subdomain: SUBDOMAIN,
-        host: HOST
-      });
+      tunnel = await connectWithTimeout(
+        {
+          port: PORT,
+          subdomain: SUBDOMAIN,
+          host: HOST
+        },
+        CONNECT_TIMEOUT_MS
+      );
 
       console.log(`[PERMA-TUNNEL] Granted URL: ${tunnel.url}`);
 
@@ -87,7 +100,6 @@ async function main() {
         tunnel.on('close', () => triggerReconnect('tunnel close event'));
         tunnel.on('error', (err) => triggerReconnect(`socket error: ${err.message || err}`));
 
-        // Active health checks with failure tolerance (2 consecutive failures)
         healthInterval = setInterval(async () => {
           if (isDone) return;
           const healthy = await checkTunnelHealth();
@@ -111,8 +123,8 @@ async function main() {
       }
     }
 
-    console.log('[PERMA-TUNNEL] Backing off 3s before auto-reconnect...');
-    await new Promise((r) => setTimeout(r, 3000));
+    console.log('[PERMA-TUNNEL] Backing off 5s before retrying...');
+    await new Promise((r) => setTimeout(r, 5000));
   }
 }
 
