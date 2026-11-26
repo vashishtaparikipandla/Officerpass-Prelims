@@ -3,7 +3,12 @@
   "sub_checks": {
     "pol-01__d1_s0": true,
     "pol-01__d1_s1": true,
-    "pol-01__d1_s2": true
+    "pol-01__d1_s2": true,
+    "pol-01__d1_s3": false,
+    "pol-02__d2_s0": true,
+    "pol-02__d2_s1": true,
+    "pol-02__d2_s2": true,
+    "pol-02__d2_s3": false
   },
   "notes": {},
   "read_articles": {},
@@ -14,5 +19,5 @@
     "d1_q2": "c"
   },
   "ca_memory_calendar": {},
-  "updatedAt": "2026-11-25T01:59:58Z"
+  "updatedAt": "2026-11-26T14:22:59.413Z"
 }
